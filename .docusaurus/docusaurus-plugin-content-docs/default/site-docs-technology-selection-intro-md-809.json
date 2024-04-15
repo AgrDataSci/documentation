@@ -1,0 +1,27 @@
+{
+  "id": "Technology selection/intro",
+  "title": "Technology selection Introduction",
+  "description": "Technology selection Introduction babla",
+  "source": "@site/docs/Technology selection/intro.md",
+  "sourceDirName": "Technology selection",
+  "slug": "/Technology selection/intro",
+  "permalink": "/documentation/docs/Technology selection/intro",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/${organizationName}/${projectName}/tree/main/docs/Technology selection/intro.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Technology selection",
+    "permalink": "/documentation/docs/category/technology-selection"
+  },
+  "next": {
+    "title": "Trials protocols",
+    "permalink": "/documentation/docs/category/trials-protocols"
+  }
+}

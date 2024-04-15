@@ -1,0 +1,174 @@
+{
+  "pluginId": "default",
+  "version": "current",
+  "label": "Next",
+  "banner": null,
+  "badge": false,
+  "noIndex": false,
+  "className": "docs-version-current",
+  "isLast": true,
+  "docsSidebars": {
+    "tutorialSidebar": [
+      {
+        "type": "link",
+        "label": "Product Use Testing Intro",
+        "href": "/documentation/docs/intro",
+        "docId": "intro",
+        "unlisted": false
+      },
+      {
+        "type": "category",
+        "label": "Tricot",
+        "collapsible": true,
+        "collapsed": true,
+        "items": [
+          {
+            "type": "link",
+            "label": "Tricot Introduction",
+            "href": "/documentation/docs/Tricot/introduction",
+            "docId": "Tricot/introduction",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "The 10 steps of a Tricot project",
+            "href": "/documentation/docs/Tricot/steps",
+            "docId": "Tricot/steps",
+            "unlisted": false
+          }
+        ],
+        "href": "/documentation/docs/category/tricot"
+      },
+      {
+        "type": "category",
+        "label": "Participant recruitment",
+        "collapsible": true,
+        "collapsed": true,
+        "items": [
+          {
+            "type": "link",
+            "label": "Participant recruitment",
+            "href": "/documentation/docs/Participant Recruitment/intro",
+            "docId": "Participant Recruitment/intro",
+            "unlisted": false
+          }
+        ],
+        "href": "/documentation/docs/category/participant-recruitment"
+      },
+      {
+        "type": "category",
+        "label": "Technology selection",
+        "collapsible": true,
+        "collapsed": true,
+        "items": [
+          {
+            "type": "link",
+            "label": "Technology selection Introduction",
+            "href": "/documentation/docs/Technology selection/intro",
+            "docId": "Technology selection/intro",
+            "unlisted": false
+          }
+        ],
+        "href": "/documentation/docs/category/technology-selection"
+      },
+      {
+        "type": "category",
+        "label": "Trials protocols",
+        "collapsible": true,
+        "collapsed": true,
+        "items": [
+          {
+            "type": "link",
+            "label": "Bean Trial Protocol",
+            "href": "/documentation/docs/Protocols/bean_protocol",
+            "docId": "Protocols/bean_protocol",
+            "unlisted": false
+          }
+        ],
+        "href": "/documentation/docs/category/trials-protocols"
+      },
+      {
+        "type": "category",
+        "label": "ClimMob suite",
+        "collapsible": true,
+        "collapsed": true,
+        "items": [
+          {
+            "type": "link",
+            "label": "ClimMob Suite intro",
+            "href": "/documentation/docs/ClimMob suite/intro",
+            "docId": "ClimMob suite/intro",
+            "unlisted": false
+          }
+        ],
+        "href": "/documentation/docs/category/climmob-suite"
+      },
+      {
+        "type": "category",
+        "label": "Data analysis with use cases",
+        "collapsible": true,
+        "collapsed": true,
+        "items": [
+          {
+            "type": "link",
+            "label": "Data Analysis use case",
+            "href": "/documentation/docs/Data analysis with use cases/intro",
+            "docId": "Data analysis with use cases/intro",
+            "unlisted": false
+          }
+        ],
+        "href": "/documentation/docs/category/data-analysis-with-use-cases"
+      }
+    ]
+  },
+  "docs": {
+    "ClimMob suite/intro": {
+      "id": "ClimMob suite/intro",
+      "title": "ClimMob Suite intro",
+      "description": "ClimMob Suite intro blabla",
+      "sidebar": "tutorialSidebar"
+    },
+    "Data analysis with use cases/intro": {
+      "id": "Data analysis with use cases/intro",
+      "title": "Data Analysis use case",
+      "description": "Data Analysis use case babla",
+      "sidebar": "tutorialSidebar"
+    },
+    "intro": {
+      "id": "intro",
+      "title": "Product Use Testing Intro",
+      "description": "This can be used by a generic page for introducing the whole set of documentation",
+      "sidebar": "tutorialSidebar"
+    },
+    "Participant Recruitment/intro": {
+      "id": "Participant Recruitment/intro",
+      "title": "Participant recruitment",
+      "description": "Participant recruitment babla",
+      "sidebar": "tutorialSidebar"
+    },
+    "Protocols/bean_protocol": {
+      "id": "Protocols/bean_protocol",
+      "title": "Bean Trial Protocol",
+      "description": "Authors",
+      "sidebar": "tutorialSidebar"
+    },
+    "Technology selection/intro": {
+      "id": "Technology selection/intro",
+      "title": "Technology selection Introduction",
+      "description": "Technology selection Introduction babla",
+      "sidebar": "tutorialSidebar"
+    },
+    "Tricot/introduction": {
+      "id": "Tricot/introduction",
+      "title": "Tricot Introduction",
+      "description": "Speeding up agricultural innovation through large-scale participatory experiments",
+      "sidebar": "tutorialSidebar"
+    },
+    "Tricot/steps": {
+      "id": "Tricot/steps",
+      "title": "The 10 steps of a Tricot project",
+      "description": "This guide provides a short overview of each of the 10 steps needed to develop and implement a tricot project.",
+      "sidebar": "tutorialSidebar"
+    }
+  }
+}

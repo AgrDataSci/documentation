@@ -1,0 +1,16 @@
+{
+  "title": "Technology selection",
+  "description": "Learn how to effectively recruit partipants.",
+  "slug": "/category/technology-selection",
+  "permalink": "/documentation/docs/category/technology-selection",
+  "navigation": {
+    "previous": {
+      "title": "Participant recruitment",
+      "permalink": "/documentation/docs/Participant Recruitment/intro"
+    },
+    "next": {
+      "title": "Technology selection Introduction",
+      "permalink": "/documentation/docs/Technology selection/intro"
+    }
+  }
+}

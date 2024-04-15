@@ -1,0 +1,16 @@
+{
+  "title": "Tricot",
+  "description": "Learn everything about Tricot",
+  "slug": "/category/tricot",
+  "permalink": "/${projectName}/docs/category/tricot",
+  "navigation": {
+    "previous": {
+      "title": "Product Use Testing Intro",
+      "permalink": "/${projectName}/docs/intro"
+    },
+    "next": {
+      "title": "Tricot Introduction",
+      "permalink": "/${projectName}/docs/Tricot/introduction"
+    }
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "id": "intro",
+  "title": "Product Use Testing Intro",
+  "description": "This can be used by a generic page for introducing the whole set of documentation",
+  "source": "@site/docs/intro.md",
+  "sourceDirName": ".",
+  "slug": "/intro",
+  "permalink": "/documentation/docs/intro",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/${organizationName}/${projectName}/tree/main/docs/intro.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1
+  },
+  "sidebar": "tutorialSidebar",
+  "next": {
+    "title": "Tricot",
+    "permalink": "/documentation/docs/category/tricot"
+  }
+}

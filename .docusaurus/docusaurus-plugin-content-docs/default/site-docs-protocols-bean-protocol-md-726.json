@@ -1,0 +1,24 @@
+{
+  "id": "Protocols/bean_protocol",
+  "title": "Bean Trial Protocol",
+  "description": "Authors",
+  "source": "@site/docs/Protocols/bean_protocol.md",
+  "sourceDirName": "Protocols",
+  "slug": "/Protocols/bean_protocol",
+  "permalink": "/documentation/docs/Protocols/bean_protocol",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/${organizationName}/${projectName}/tree/main/docs/Protocols/bean_protocol.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Trials protocols",
+    "permalink": "/documentation/docs/category/trials-protocols"
+  },
+  "next": {
+    "title": "ClimMob suite",
+    "permalink": "/documentation/docs/category/climmob-suite"
+  }
+}

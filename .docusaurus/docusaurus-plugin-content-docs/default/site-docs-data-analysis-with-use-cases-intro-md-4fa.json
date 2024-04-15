@@ -1,0 +1,23 @@
+{
+  "id": "Data analysis with use cases/intro",
+  "title": "Data Analysis use case",
+  "description": "Data Analysis use case babla",
+  "source": "@site/docs/Data analysis with use cases/intro.md",
+  "sourceDirName": "Data analysis with use cases",
+  "slug": "/Data analysis with use cases/intro",
+  "permalink": "/documentation/docs/Data analysis with use cases/intro",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/${organizationName}/${projectName}/tree/main/docs/Data analysis with use cases/intro.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Data analysis with use cases",
+    "permalink": "/documentation/docs/category/data-analysis-with-use-cases"
+  }
+}

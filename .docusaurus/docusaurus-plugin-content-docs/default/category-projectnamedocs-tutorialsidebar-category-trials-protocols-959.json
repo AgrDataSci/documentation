@@ -1,0 +1,16 @@
+{
+  "title": "Trials protocols",
+  "description": "Find the crop protocols.",
+  "slug": "/category/trials-protocols",
+  "permalink": "/${projectName}/docs/category/trials-protocols",
+  "navigation": {
+    "previous": {
+      "title": "Technology selection Introduction",
+      "permalink": "/${projectName}/docs/Technology selection/intro"
+    },
+    "next": {
+      "title": "Bean Trial Protocol",
+      "permalink": "/${projectName}/docs/Protocols/bean_protocol"
+    }
+  }
+}

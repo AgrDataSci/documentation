@@ -1,0 +1,27 @@
+{
+  "id": "Tricot/introduction",
+  "title": "Tricot Introduction",
+  "description": "Speeding up agricultural innovation through large-scale participatory experiments",
+  "source": "@site/docs/Tricot/introduction.md",
+  "sourceDirName": "Tricot",
+  "slug": "/Tricot/introduction",
+  "permalink": "/documentation/docs/Tricot/introduction",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/${organizationName}/${projectName}/tree/main/docs/Tricot/introduction.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Tricot",
+    "permalink": "/documentation/docs/category/tricot"
+  },
+  "next": {
+    "title": "The 10 steps of a Tricot project",
+    "permalink": "/documentation/docs/Tricot/steps"
+  }
+}

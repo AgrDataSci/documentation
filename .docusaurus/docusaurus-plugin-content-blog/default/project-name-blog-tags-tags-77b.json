@@ -1,0 +1,22 @@
+[
+  {
+    "label": "facebook",
+    "permalink": "/${projectName}/blog/tags/facebook",
+    "count": 1
+  },
+  {
+    "label": "hello",
+    "permalink": "/${projectName}/blog/tags/hello",
+    "count": 2
+  },
+  {
+    "label": "docusaurus",
+    "permalink": "/${projectName}/blog/tags/docusaurus",
+    "count": 4
+  },
+  {
+    "label": "hola",
+    "permalink": "/${projectName}/blog/tags/hola",
+    "count": 1
+  }
+]

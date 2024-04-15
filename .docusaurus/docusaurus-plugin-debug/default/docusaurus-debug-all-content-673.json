@@ -1,0 +1,728 @@
+{
+  "docusaurus-plugin-content-docs": {
+    "default": {
+      "loadedVersions": [
+        {
+          "versionName": "current",
+          "label": "Next",
+          "banner": null,
+          "badge": false,
+          "noIndex": false,
+          "className": "docs-version-current",
+          "path": "/documentation/docs",
+          "tagsPath": "/documentation/docs/tags",
+          "editUrl": "https://github.com/${organizationName}/${projectName}/tree/main/docs",
+          "editUrlLocalized": "https://github.com/${organizationName}/${projectName}/tree/main/i18n/en/docusaurus-plugin-content-docs/current",
+          "isLast": true,
+          "routePriority": -1,
+          "sidebarFilePath": "/Users/marie-angeliquelaporte/Documents/GitHub/documentation/sidebars.js",
+          "contentPath": "/Users/marie-angeliquelaporte/Documents/GitHub/documentation/docs",
+          "contentPathLocalized": "/Users/marie-angeliquelaporte/Documents/GitHub/documentation/i18n/en/docusaurus-plugin-content-docs/current",
+          "docs": [
+            {
+              "id": "ClimMob suite/intro",
+              "title": "ClimMob Suite intro",
+              "description": "ClimMob Suite intro blabla",
+              "source": "@site/docs/ClimMob suite/intro.md",
+              "sourceDirName": "ClimMob suite",
+              "slug": "/ClimMob suite/intro",
+              "permalink": "/documentation/docs/ClimMob suite/intro",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/${organizationName}/${projectName}/tree/main/docs/ClimMob suite/intro.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 1,
+              "frontMatter": {
+                "sidebar_position": 1
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "ClimMob suite",
+                "permalink": "/documentation/docs/category/climmob-suite"
+              },
+              "next": {
+                "title": "Data analysis with use cases",
+                "permalink": "/documentation/docs/category/data-analysis-with-use-cases"
+              }
+            },
+            {
+              "id": "Data analysis with use cases/intro",
+              "title": "Data Analysis use case",
+              "description": "Data Analysis use case babla",
+              "source": "@site/docs/Data analysis with use cases/intro.md",
+              "sourceDirName": "Data analysis with use cases",
+              "slug": "/Data analysis with use cases/intro",
+              "permalink": "/documentation/docs/Data analysis with use cases/intro",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/${organizationName}/${projectName}/tree/main/docs/Data analysis with use cases/intro.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 1,
+              "frontMatter": {
+                "sidebar_position": 1
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Data analysis with use cases",
+                "permalink": "/documentation/docs/category/data-analysis-with-use-cases"
+              }
+            },
+            {
+              "id": "intro",
+              "title": "Product Use Testing Intro",
+              "description": "This can be used by a generic page for introducing the whole set of documentation",
+              "source": "@site/docs/intro.md",
+              "sourceDirName": ".",
+              "slug": "/intro",
+              "permalink": "/documentation/docs/intro",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/${organizationName}/${projectName}/tree/main/docs/intro.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 1,
+              "frontMatter": {
+                "sidebar_position": 1
+              },
+              "sidebar": "tutorialSidebar",
+              "next": {
+                "title": "Tricot",
+                "permalink": "/documentation/docs/category/tricot"
+              }
+            },
+            {
+              "id": "Participant Recruitment/intro",
+              "title": "Participant recruitment",
+              "description": "Participant recruitment babla",
+              "source": "@site/docs/Participant Recruitment/intro.md",
+              "sourceDirName": "Participant Recruitment",
+              "slug": "/Participant Recruitment/intro",
+              "permalink": "/documentation/docs/Participant Recruitment/intro",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/${organizationName}/${projectName}/tree/main/docs/Participant Recruitment/intro.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 1,
+              "frontMatter": {
+                "sidebar_position": 1
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Participant recruitment",
+                "permalink": "/documentation/docs/category/participant-recruitment"
+              },
+              "next": {
+                "title": "Technology selection",
+                "permalink": "/documentation/docs/category/technology-selection"
+              }
+            },
+            {
+              "id": "Protocols/bean_protocol",
+              "title": "Bean Trial Protocol",
+              "description": "Authors",
+              "source": "@site/docs/Protocols/bean_protocol.md",
+              "sourceDirName": "Protocols",
+              "slug": "/Protocols/bean_protocol",
+              "permalink": "/documentation/docs/Protocols/bean_protocol",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/${organizationName}/${projectName}/tree/main/docs/Protocols/bean_protocol.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Trials protocols",
+                "permalink": "/documentation/docs/category/trials-protocols"
+              },
+              "next": {
+                "title": "ClimMob suite",
+                "permalink": "/documentation/docs/category/climmob-suite"
+              }
+            },
+            {
+              "id": "Technology selection/intro",
+              "title": "Technology selection Introduction",
+              "description": "Technology selection Introduction babla",
+              "source": "@site/docs/Technology selection/intro.md",
+              "sourceDirName": "Technology selection",
+              "slug": "/Technology selection/intro",
+              "permalink": "/documentation/docs/Technology selection/intro",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/${organizationName}/${projectName}/tree/main/docs/Technology selection/intro.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 1,
+              "frontMatter": {
+                "sidebar_position": 1
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Technology selection",
+                "permalink": "/documentation/docs/category/technology-selection"
+              },
+              "next": {
+                "title": "Trials protocols",
+                "permalink": "/documentation/docs/category/trials-protocols"
+              }
+            },
+            {
+              "id": "Tricot/introduction",
+              "title": "Tricot Introduction",
+              "description": "Speeding up agricultural innovation through large-scale participatory experiments",
+              "source": "@site/docs/Tricot/introduction.md",
+              "sourceDirName": "Tricot",
+              "slug": "/Tricot/introduction",
+              "permalink": "/documentation/docs/Tricot/introduction",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/${organizationName}/${projectName}/tree/main/docs/Tricot/introduction.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 1,
+              "frontMatter": {
+                "sidebar_position": 1
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Tricot",
+                "permalink": "/documentation/docs/category/tricot"
+              },
+              "next": {
+                "title": "The 10 steps of a Tricot project",
+                "permalink": "/documentation/docs/Tricot/steps"
+              }
+            },
+            {
+              "id": "Tricot/steps",
+              "title": "The 10 steps of a Tricot project",
+              "description": "This guide provides a short overview of each of the 10 steps needed to develop and implement a tricot project.",
+              "source": "@site/docs/Tricot/steps.md",
+              "sourceDirName": "Tricot",
+              "slug": "/Tricot/steps",
+              "permalink": "/documentation/docs/Tricot/steps",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/${organizationName}/${projectName}/tree/main/docs/Tricot/steps.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 2,
+              "frontMatter": {
+                "sidebar_position": 2
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Tricot Introduction",
+                "permalink": "/documentation/docs/Tricot/introduction"
+              },
+              "next": {
+                "title": "Participant recruitment",
+                "permalink": "/documentation/docs/category/participant-recruitment"
+              }
+            }
+          ],
+          "drafts": [],
+          "sidebars": {
+            "tutorialSidebar": [
+              {
+                "type": "doc",
+                "id": "intro"
+              },
+              {
+                "type": "category",
+                "label": "Tricot",
+                "collapsible": true,
+                "collapsed": true,
+                "items": [
+                  {
+                    "type": "doc",
+                    "id": "Tricot/introduction"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "Tricot/steps"
+                  }
+                ],
+                "link": {
+                  "type": "generated-index",
+                  "description": "Learn everything about Tricot",
+                  "slug": "/category/tricot",
+                  "permalink": "/documentation/docs/category/tricot"
+                }
+              },
+              {
+                "type": "category",
+                "label": "Participant recruitment",
+                "collapsible": true,
+                "collapsed": true,
+                "items": [
+                  {
+                    "type": "doc",
+                    "id": "Participant Recruitment/intro"
+                  }
+                ],
+                "link": {
+                  "type": "generated-index",
+                  "description": "Learn how to effectively recruit partipants.",
+                  "slug": "/category/participant-recruitment",
+                  "permalink": "/documentation/docs/category/participant-recruitment"
+                }
+              },
+              {
+                "type": "category",
+                "label": "Technology selection",
+                "collapsible": true,
+                "collapsed": true,
+                "items": [
+                  {
+                    "type": "doc",
+                    "id": "Technology selection/intro"
+                  }
+                ],
+                "link": {
+                  "type": "generated-index",
+                  "description": "Learn how to effectively recruit partipants.",
+                  "slug": "/category/technology-selection",
+                  "permalink": "/documentation/docs/category/technology-selection"
+                }
+              },
+              {
+                "type": "category",
+                "label": "Trials protocols",
+                "collapsible": true,
+                "collapsed": true,
+                "items": [
+                  {
+                    "type": "doc",
+                    "id": "Protocols/bean_protocol"
+                  }
+                ],
+                "link": {
+                  "type": "generated-index",
+                  "description": "Find the crop protocols.",
+                  "slug": "/category/trials-protocols",
+                  "permalink": "/documentation/docs/category/trials-protocols"
+                }
+              },
+              {
+                "type": "category",
+                "label": "ClimMob suite",
+                "collapsible": true,
+                "collapsed": true,
+                "items": [
+                  {
+                    "type": "doc",
+                    "id": "ClimMob suite/intro"
+                  }
+                ],
+                "link": {
+                  "type": "generated-index",
+                  "description": "Learn more about what ClimMob has to offer",
+                  "slug": "/category/climmob-suite",
+                  "permalink": "/documentation/docs/category/climmob-suite"
+                }
+              },
+              {
+                "type": "category",
+                "label": "Data analysis with use cases",
+                "collapsible": true,
+                "collapsed": true,
+                "items": [
+                  {
+                    "type": "doc",
+                    "id": "Data analysis with use cases/intro"
+                  }
+                ],
+                "link": {
+                  "type": "generated-index",
+                  "description": "Learn how to analyse the data you collected with ClimMob through several use cases.",
+                  "slug": "/category/data-analysis-with-use-cases",
+                  "permalink": "/documentation/docs/category/data-analysis-with-use-cases"
+                }
+              }
+            ]
+          }
+        }
+      ]
+    }
+  },
+  "docusaurus-plugin-content-blog": {
+    "default": {
+      "blogSidebarTitle": "Recent posts",
+      "blogPosts": [
+        {
+          "id": "welcome",
+          "metadata": {
+            "permalink": "/documentation/blog/welcome",
+            "editUrl": "https://github.com/${organizationName}/${projectName}/tree/main/blog/2021-08-26-welcome/index.md",
+            "source": "@site/blog/2021-08-26-welcome/index.md",
+            "title": "Welcome",
+            "description": "Docusaurus blogging features are powered by the blog plugin.",
+            "date": "2021-08-26T00:00:00.000Z",
+            "formattedDate": "August 26, 2021",
+            "tags": [
+              {
+                "label": "facebook",
+                "permalink": "/documentation/blog/tags/facebook"
+              },
+              {
+                "label": "hello",
+                "permalink": "/documentation/blog/tags/hello"
+              },
+              {
+                "label": "docusaurus",
+                "permalink": "/documentation/blog/tags/docusaurus"
+              }
+            ],
+            "readingTime": 0.405,
+            "hasTruncateMarker": false,
+            "authors": [
+              {
+                "name": "Sébastien Lorber",
+                "title": "Docusaurus maintainer",
+                "url": "https://sebastienlorber.com",
+                "imageURL": "https://github.com/slorber.png",
+                "key": "slorber"
+              },
+              {
+                "name": "Yangshun Tay",
+                "title": "Front End Engineer @ Facebook",
+                "url": "https://github.com/yangshun",
+                "imageURL": "https://github.com/yangshun.png",
+                "key": "yangshun"
+              }
+            ],
+            "frontMatter": {
+              "slug": "welcome",
+              "title": "Welcome",
+              "authors": [
+                "slorber",
+                "yangshun"
+              ],
+              "tags": [
+                "facebook",
+                "hello",
+                "docusaurus"
+              ]
+            },
+            "unlisted": false,
+            "nextItem": {
+              "title": "MDX Blog Post",
+              "permalink": "/documentation/blog/mdx-blog-post"
+            }
+          },
+          "content": "[Docusaurus blogging features](https://docusaurus.io/docs/blog) are powered by the [blog plugin](https://docusaurus.io/docs/api/plugins/@docusaurus/plugin-content-blog).\n\nSimply add Markdown files (or folders) to the `blog` directory.\n\nRegular blog authors can be added to `authors.yml`.\n\nThe blog post date can be extracted from filenames, such as:\n\n- `2019-05-30-welcome.md`\n- `2019-05-30-welcome/index.md`\n\nA blog post folder can be convenient to co-locate blog post images:\n\n![Docusaurus Plushie](./docusaurus-plushie-banner.jpeg)\n\nThe blog supports tags as well!\n\n**And if you don't want a blog**: just delete this directory, and use `blog: false` in your Docusaurus config."
+        },
+        {
+          "id": "mdx-blog-post",
+          "metadata": {
+            "permalink": "/documentation/blog/mdx-blog-post",
+            "editUrl": "https://github.com/${organizationName}/${projectName}/tree/main/blog/2021-08-01-mdx-blog-post.mdx",
+            "source": "@site/blog/2021-08-01-mdx-blog-post.mdx",
+            "title": "MDX Blog Post",
+            "description": "Blog posts support Docusaurus Markdown features, such as MDX.",
+            "date": "2021-08-01T00:00:00.000Z",
+            "formattedDate": "August 1, 2021",
+            "tags": [
+              {
+                "label": "docusaurus",
+                "permalink": "/documentation/blog/tags/docusaurus"
+              }
+            ],
+            "readingTime": 0.175,
+            "hasTruncateMarker": false,
+            "authors": [
+              {
+                "name": "Sébastien Lorber",
+                "title": "Docusaurus maintainer",
+                "url": "https://sebastienlorber.com",
+                "imageURL": "https://github.com/slorber.png",
+                "key": "slorber"
+              }
+            ],
+            "frontMatter": {
+              "slug": "mdx-blog-post",
+              "title": "MDX Blog Post",
+              "authors": [
+                "slorber"
+              ],
+              "tags": [
+                "docusaurus"
+              ]
+            },
+            "unlisted": false,
+            "prevItem": {
+              "title": "Welcome",
+              "permalink": "/documentation/blog/welcome"
+            },
+            "nextItem": {
+              "title": "Long Blog Post",
+              "permalink": "/documentation/blog/long-blog-post"
+            }
+          },
+          "content": "Blog posts support [Docusaurus Markdown features](https://docusaurus.io/docs/markdown-features), such as [MDX](https://mdxjs.com/).\n\n:::tip\n\nUse the power of React to create interactive blog posts.\n\n```js\n<button onClick={() => alert('button clicked!')}>Click me!</button>\n```\n\n<button onClick={() => alert('button clicked!')}>Click me!</button>\n\n:::"
+        },
+        {
+          "id": "long-blog-post",
+          "metadata": {
+            "permalink": "/documentation/blog/long-blog-post",
+            "editUrl": "https://github.com/${organizationName}/${projectName}/tree/main/blog/2019-05-29-long-blog-post.md",
+            "source": "@site/blog/2019-05-29-long-blog-post.md",
+            "title": "Long Blog Post",
+            "description": "This is the summary of a very long blog post,",
+            "date": "2019-05-29T00:00:00.000Z",
+            "formattedDate": "May 29, 2019",
+            "tags": [
+              {
+                "label": "hello",
+                "permalink": "/documentation/blog/tags/hello"
+              },
+              {
+                "label": "docusaurus",
+                "permalink": "/documentation/blog/tags/docusaurus"
+              }
+            ],
+            "readingTime": 2.05,
+            "hasTruncateMarker": true,
+            "authors": [
+              {
+                "name": "Endilie Yacop Sucipto",
+                "title": "Maintainer of Docusaurus",
+                "url": "https://github.com/endiliey",
+                "imageURL": "https://github.com/endiliey.png",
+                "key": "endi"
+              }
+            ],
+            "frontMatter": {
+              "slug": "long-blog-post",
+              "title": "Long Blog Post",
+              "authors": "endi",
+              "tags": [
+                "hello",
+                "docusaurus"
+              ]
+            },
+            "unlisted": false,
+            "prevItem": {
+              "title": "MDX Blog Post",
+              "permalink": "/documentation/blog/mdx-blog-post"
+            },
+            "nextItem": {
+              "title": "First Blog Post",
+              "permalink": "/documentation/blog/first-blog-post"
+            }
+          },
+          "content": "This is the summary of a very long blog post,\n\nUse a `<!--` `truncate` `-->` comment to limit blog post size in the list view.\n\n<!--truncate-->\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet"
+        },
+        {
+          "id": "first-blog-post",
+          "metadata": {
+            "permalink": "/documentation/blog/first-blog-post",
+            "editUrl": "https://github.com/${organizationName}/${projectName}/tree/main/blog/2019-05-28-first-blog-post.md",
+            "source": "@site/blog/2019-05-28-first-blog-post.md",
+            "title": "First Blog Post",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet",
+            "date": "2019-05-28T00:00:00.000Z",
+            "formattedDate": "May 28, 2019",
+            "tags": [
+              {
+                "label": "hola",
+                "permalink": "/documentation/blog/tags/hola"
+              },
+              {
+                "label": "docusaurus",
+                "permalink": "/documentation/blog/tags/docusaurus"
+              }
+            ],
+            "readingTime": 0.12,
+            "hasTruncateMarker": false,
+            "authors": [
+              {
+                "name": "Gao Wei",
+                "title": "Docusaurus Core Team",
+                "url": "https://github.com/wgao19",
+                "image_url": "https://github.com/wgao19.png",
+                "imageURL": "https://github.com/wgao19.png"
+              }
+            ],
+            "frontMatter": {
+              "slug": "first-blog-post",
+              "title": "First Blog Post",
+              "authors": {
+                "name": "Gao Wei",
+                "title": "Docusaurus Core Team",
+                "url": "https://github.com/wgao19",
+                "image_url": "https://github.com/wgao19.png",
+                "imageURL": "https://github.com/wgao19.png"
+              },
+              "tags": [
+                "hola",
+                "docusaurus"
+              ]
+            },
+            "unlisted": false,
+            "prevItem": {
+              "title": "Long Blog Post",
+              "permalink": "/documentation/blog/long-blog-post"
+            }
+          },
+          "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet"
+        }
+      ],
+      "blogListPaginated": [
+        {
+          "items": [
+            "welcome",
+            "mdx-blog-post",
+            "long-blog-post",
+            "first-blog-post"
+          ],
+          "metadata": {
+            "permalink": "/documentation/blog",
+            "page": 1,
+            "postsPerPage": 10,
+            "totalPages": 1,
+            "totalCount": 4,
+            "blogDescription": "Blog",
+            "blogTitle": "Blog"
+          }
+        }
+      ],
+      "blogTags": {
+        "/documentation/blog/tags/facebook": {
+          "label": "facebook",
+          "items": [
+            "welcome"
+          ],
+          "permalink": "/documentation/blog/tags/facebook",
+          "pages": [
+            {
+              "items": [
+                "welcome"
+              ],
+              "metadata": {
+                "permalink": "/documentation/blog/tags/facebook",
+                "page": 1,
+                "postsPerPage": 10,
+                "totalPages": 1,
+                "totalCount": 1,
+                "blogDescription": "Blog",
+                "blogTitle": "Blog"
+              }
+            }
+          ],
+          "unlisted": false
+        },
+        "/documentation/blog/tags/hello": {
+          "label": "hello",
+          "items": [
+            "welcome",
+            "long-blog-post"
+          ],
+          "permalink": "/documentation/blog/tags/hello",
+          "pages": [
+            {
+              "items": [
+                "welcome",
+                "long-blog-post"
+              ],
+              "metadata": {
+                "permalink": "/documentation/blog/tags/hello",
+                "page": 1,
+                "postsPerPage": 10,
+                "totalPages": 1,
+                "totalCount": 2,
+                "blogDescription": "Blog",
+                "blogTitle": "Blog"
+              }
+            }
+          ],
+          "unlisted": false
+        },
+        "/documentation/blog/tags/docusaurus": {
+          "label": "docusaurus",
+          "items": [
+            "welcome",
+            "mdx-blog-post",
+            "long-blog-post",
+            "first-blog-post"
+          ],
+          "permalink": "/documentation/blog/tags/docusaurus",
+          "pages": [
+            {
+              "items": [
+                "welcome",
+                "mdx-blog-post",
+                "long-blog-post",
+                "first-blog-post"
+              ],
+              "metadata": {
+                "permalink": "/documentation/blog/tags/docusaurus",
+                "page": 1,
+                "postsPerPage": 10,
+                "totalPages": 1,
+                "totalCount": 4,
+                "blogDescription": "Blog",
+                "blogTitle": "Blog"
+              }
+            }
+          ],
+          "unlisted": false
+        },
+        "/documentation/blog/tags/hola": {
+          "label": "hola",
+          "items": [
+            "first-blog-post"
+          ],
+          "permalink": "/documentation/blog/tags/hola",
+          "pages": [
+            {
+              "items": [
+                "first-blog-post"
+              ],
+              "metadata": {
+                "permalink": "/documentation/blog/tags/hola",
+                "page": 1,
+                "postsPerPage": 10,
+                "totalPages": 1,
+                "totalCount": 1,
+                "blogDescription": "Blog",
+                "blogTitle": "Blog"
+              }
+            }
+          ],
+          "unlisted": false
+        }
+      },
+      "blogTagsListPath": "/documentation/blog/tags"
+    }
+  },
+  "docusaurus-plugin-content-pages": {
+    "default": [
+      {
+        "type": "jsx",
+        "permalink": "/documentation/",
+        "source": "@site/src/pages/index.js"
+      },
+      {
+        "type": "mdx",
+        "permalink": "/documentation/markdown-page",
+        "source": "@site/src/pages/markdown-page.md",
+        "title": "Markdown page example",
+        "description": "You don't need React to write simple standalone pages.",
+        "frontMatter": {
+          "title": "Markdown page example"
+        },
+        "unlisted": false
+      }
+    ]
+  },
+  "docusaurus-plugin-debug": {},
+  "docusaurus-theme-classic": {},
+  "docusaurus-bootstrap-plugin": {},
+  "docusaurus-mdx-fallback-plugin": {}
+}

@@ -1,0 +1,16 @@
+{
+  "title": "ClimMob suite",
+  "description": "Learn more about what ClimMob has to offer",
+  "slug": "/category/climmob-suite",
+  "permalink": "/documentation/docs/category/climmob-suite",
+  "navigation": {
+    "previous": {
+      "title": "Bean Trial Protocol",
+      "permalink": "/documentation/docs/Protocols/bean_protocol"
+    },
+    "next": {
+      "title": "ClimMob Suite intro",
+      "permalink": "/documentation/docs/ClimMob suite/intro"
+    }
+  }
+}

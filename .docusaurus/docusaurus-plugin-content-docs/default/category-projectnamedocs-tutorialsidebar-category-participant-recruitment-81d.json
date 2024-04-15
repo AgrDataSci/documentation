@@ -1,0 +1,16 @@
+{
+  "title": "Participant recruitment",
+  "description": "Learn how to effectively recruit partipants.",
+  "slug": "/category/participant-recruitment",
+  "permalink": "/${projectName}/docs/category/participant-recruitment",
+  "navigation": {
+    "previous": {
+      "title": "The 10 steps of a Tricot project",
+      "permalink": "/${projectName}/docs/Tricot/steps"
+    },
+    "next": {
+      "title": "Participant recruitment",
+      "permalink": "/${projectName}/docs/Participant Recruitment/intro"
+    }
+  }
+}

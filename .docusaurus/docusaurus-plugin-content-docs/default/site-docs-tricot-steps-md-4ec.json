@@ -1,0 +1,27 @@
+{
+  "id": "Tricot/steps",
+  "title": "The 10 steps of a Tricot project",
+  "description": "This guide provides a short overview of each of the 10 steps needed to develop and implement a tricot project.",
+  "source": "@site/docs/Tricot/steps.md",
+  "sourceDirName": "Tricot",
+  "slug": "/Tricot/steps",
+  "permalink": "/documentation/docs/Tricot/steps",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/${organizationName}/${projectName}/tree/main/docs/Tricot/steps.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "sidebar_position": 2
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Tricot Introduction",
+    "permalink": "/documentation/docs/Tricot/introduction"
+  },
+  "next": {
+    "title": "Participant recruitment",
+    "permalink": "/documentation/docs/category/participant-recruitment"
+  }
+}

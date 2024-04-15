@@ -1,0 +1,98 @@
+{
+  "docusaurus-plugin-content-docs": {
+    "default": {
+      "path": "/documentation/docs",
+      "versions": [
+        {
+          "name": "current",
+          "label": "Next",
+          "isLast": true,
+          "path": "/documentation/docs",
+          "mainDocId": "intro",
+          "docs": [
+            {
+              "id": "ClimMob suite/intro",
+              "path": "/documentation/docs/ClimMob suite/intro",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Data analysis with use cases/intro",
+              "path": "/documentation/docs/Data analysis with use cases/intro",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "intro",
+              "path": "/documentation/docs/intro",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Participant Recruitment/intro",
+              "path": "/documentation/docs/Participant Recruitment/intro",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Protocols/bean_protocol",
+              "path": "/documentation/docs/Protocols/bean_protocol",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Technology selection/intro",
+              "path": "/documentation/docs/Technology selection/intro",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Tricot/introduction",
+              "path": "/documentation/docs/Tricot/introduction",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Tricot/steps",
+              "path": "/documentation/docs/Tricot/steps",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "/category/tricot",
+              "path": "/documentation/docs/category/tricot",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "/category/participant-recruitment",
+              "path": "/documentation/docs/category/participant-recruitment",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "/category/technology-selection",
+              "path": "/documentation/docs/category/technology-selection",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "/category/trials-protocols",
+              "path": "/documentation/docs/category/trials-protocols",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "/category/climmob-suite",
+              "path": "/documentation/docs/category/climmob-suite",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "/category/data-analysis-with-use-cases",
+              "path": "/documentation/docs/category/data-analysis-with-use-cases",
+              "sidebar": "tutorialSidebar"
+            }
+          ],
+          "draftIds": [],
+          "sidebars": {
+            "tutorialSidebar": {
+              "link": {
+                "path": "/documentation/docs/intro",
+                "label": "intro"
+              }
+            }
+          }
+        }
+      ],
+      "breadcrumbs": true
+    }
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "title": "Data analysis with use cases",
+  "description": "Learn how to analyse the data you collected with ClimMob through several use cases.",
+  "slug": "/category/data-analysis-with-use-cases",
+  "permalink": "/${projectName}/docs/category/data-analysis-with-use-cases",
+  "navigation": {
+    "previous": {
+      "title": "ClimMob Suite intro",
+      "permalink": "/${projectName}/docs/ClimMob suite/intro"
+    },
+    "next": {
+      "title": "Data Analysis use case",
+      "permalink": "/${projectName}/docs/Data analysis with use cases/intro"
+    }
+  }
+}
