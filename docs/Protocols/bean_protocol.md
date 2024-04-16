@@ -47,483 +47,102 @@ Table 1. Data collection moments and traits
 
 ## Household and trial characterisation questions
 
-Table 2 contains questions that will be asked on household and trial
-characteristics to complement tricot questions
+Table 2 contains questions that will be asked on household and trial characteristics to complement tricot questions
 
 Table 2. Household/ trial characterisation
+| Variable                          | Question                                                                                                                                                  | Type                              | Options                                                                                                                                                                                                                                                              |
+|-----------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Informed consent                  | Do you willingly   accept to host tricot trial and provide required information from the trial   that can be used for research and publication purposes?  |  yes/no                           |                                                                                                                                                                                                                                                                      |
+| Farmer name                       | What is the   farmer’s name?                                                                                                                              | Text                              |                                                                                                                                                                                                                                                                      |
+| Package code                      |                                                                                                                                                           | QR Code                           |                                                                                                                                                                                                                                                                      |
+| Point of delivery                 | Take the GPS   coordinates of the point of delivery                                                                                                       | GPS                               |                                                                                                                                                                                                                                                                      |
+| Age                               | What is the age   of the owner and manager of the trial?                                                                                                  | Integer                           |                                                                                                                                                                                                                                                                      |
+| Sex                               | Gender of the owner and manager   of the trial                                                                                                            | Select one                        | Male <br/>Female<br/>Rather not say                                                                                                                                                                                                                                    |
+| Education level                   | What is the education level of   the manager of the trial?                                                                                                | Select one                        | No formal education<br/>Primary<br/>Secondary<br/>University                                                                                                                                                                                                            |
+| Civil status                      | What is the marital status of   the manager of the trial?                                                                                                 | Select one                        | Single<br/>Married/living with a partner<br/>Widowed<br/>Other specify                                                                                                                                                                                                  |
+| ADM 1                             | What is the   administrative level 1 location of the trial?                                                                                               | Select one                        | List of   participating administrative level 1 units.                                                                                                                                                                                                                |
+| ADM 2                             | What is the   administrative level 2 location of the trial?                                                                                               | Select one                        | List of   participating administrative level 2 units.                                                                                                                                                                                                                |
+| ADM 3                             | What is the   administrative level 3 location of the trial?                                                                                               | Select one                        | List of   participating administrative level 3 units.                                                                                                                                                                                                                |
+| Telephone primary                 | What is the   farmer’s primary telephone number?                                                                                                          | Integer                           |                                                                                                                                                                                                                                                                      |
+| Telephone   secondary             | What is the   farmer’s secondary telephone number?                                                                                                        | Integer                           |                                                                                                                                                                                                                                                                      |
+| Experience with the crop          | Have you   cultivated this crop before?                                                                                                                   | Yes/No                            |                                                                                                                                                                                                                                                                      |
+|  Experience with the crop   years | If yes, for how   many years have you been cultivating it?                                                                                                | Integer                           |                                                                                                                                                                                                                                                                      |
+| Experience with tricot            |  Have you participated in a tricot trial   before?                                                                                                        | Yes/No                            |                                                                                                                                                                                                                                                                      |
+| Experience with   tricot times    | If yes, how many   times? Zero if first time.                                                                                                             | Integer                           |                                                                                                                                                                                                                                                                      |
+| Assessment date                   | On which date did   you do the assessment of your trial plot?                                                                                             | Date                              |                                                                                                                                                                                                                                                                      |
+| On time                           | Was your trial package delivered   on time?                                                                                                               | Choose one                        | Too early –   package delivered early 1-3 days<br/>Early enough for timely planting<br/>Too late - planting delayed 1-3 days<br/>Too late - planting delayed 4-9 days<br/>Too late - planting delayed 10-20 days<br/>Too late - planting delayed 21 days or more<br/>Other |
+| Planting date                     | On which date did   you plant the tubers?                                                                                                                 | Date                              |                                                                                                                                                                                                                                                                      |
+| Trial GPS                         | Take GPS using   ODK                                                                                                                                      | GPS                               |                                                                                                                                                                                                                                                                      |
+| Trial site Vs   main              | Are any of these options   different between your trial plot and your main field?                                                                         | Choose multiple                   | Soil<br/>Slope<br/>Shading effect<br/>Other<br/>none                                                                                                                                                                                                                     |
+| Previous land use                 | What was the   previous land use of the on-farm plot site?                                                                                                | Text                              |                                                                                                                                                                                                                                                                      |
+| Mode of land   preparation        | How did you prepare the land of   the trial plot?                                                                                                         | Choose one                        | Tractor<br/>Hand hoes<br/>Animals<br/>No land preparation<br/>Other                                                                                                                                                                                                      |
+| Slope                             | What is the slope of the area   you established your tricot trial?                                                                                        | Select one                        | Flat<br/>Slight<br/>Strong                                                                                                                                                                                                                                             |
+| Shade                             | Is the area you have established   your tricot trial affected by shade?                                                                                   | Select one                        | No<br/>Yes, partial<br/>Yes, total                                                                                                                                                                                                                                     |
+| Planting density   main           | Is the planting density of the   trial plots the same as on your main plot?                                                                               | Select one                        | Higher<br/>About the same<br/>Lower                                                                                                                                                                                                                                    |
+| Planting method                   | How were the plants   planted?                                                                                                                            | Choose one                        | Broadcast<br/>Rows<br/>Other (text)                                                                                                                                                                                                                                    |
+| Plant population                  | How many plants survived for   each variety?                                                                                                              | Integer (tricot-complex)          | Count A<br/>Count B<br/>Count C                                                                                                                                                                                                                                        |
+| Plant distance                    | How much space   did you leave between plants?                                                                                                            | Integer                           |                                                                                                                                                                                                                                                                      |
+| Plant distance   unit             | Please select the unit of   measure                                                                                                                       | Select one                        | Centimeters<br/>Meters<br/>Feet<br/>Inches<br/>Other                                                                                                                                                                                                                     |
+| Row distance                      | How much space did you leave   between rows?                                                                                                              | Integer                           |                                                                                                                                                                                                                                                                      |
+| Row distance unit                 | Please select the unit of   measure                                                                                                                       | Select one                        | Centimeters<br/>Meters<br/>Feet<br/>Inches<br/>Other                                                                                                                                                                                                                     |
+| Number of rows                    | How many rows did you plant for   each variety?                                                                                                           | Integer (detailed)                | Count A<br/>Count B<br/>Count C                                                                                                                                                                                                                                        |
+| Local variety                     | What is the name   of your best local variety you usually grow?                                                                                           | Text                              |                                                                                                                                                                                                                                                                      |
+| Intercropping                     | Have you intercropped in your   trial?                                                                                                                    | Choose one                        | Yes<br/>No                                                                                                                                                                                                                                                            |
+| Intercropped with                 | If yes, with   which crop did you intercrop?                                                                                                              | Text                              |                                                                                                                                                                                                                                                                      |
+| Basal   fertilizer                | Type of basal fertilizer used in   the trial plot?                                                                                                        | Choose multiple                   | NPK<br/>DAP<br/>Other, specify (text)<br/>None                                                                                                                                                                                                                          |
+| Basal fertilizer quantity         | If any basal   fertilizer was used, how much did you use in the trial plot in   kilograms?                                                                | Integer                           |                                                                                                                                                                                                                                                                      |
+| Plot loss                         | Did you lose any of your trial   plots? If yes, which one?                                                                                                | Choose multiple                   | A<br/>B<br/>C<br/>None                                                                                                                                                                                                                                                  |
+| Plot loss reason                  | What was the   reason for you losing variety \{\$Plot loss\}?                                                                                                | Text                              |                                                                                                                                                                                                                                                                      |
+| Diseases any                      | Did you find any disease in the   trial?                                                                                                                  | Choose one                        | Yes<br/>No                                                                                                                                                                                                                                                            |
+| Diseases   severity               | How severe was the impact?                                                                                                                                | Select one expanded (per   plot)  | Very severe   (\>75% of plot affected)<br/>Moderate (25%-75% of plot affected)<br/>Minor (\<25% of plot affected)                                                                                                                                                        |
+| Irrigation                        | Did you use an irrigation system   on your plots?                                                                                                         | Select one                        | Yes<br/>No                                                                                                                                                                                                                                                            |
+| Top dressing                      | Which type of top dressing was   used in the trial?                                                                                                       | Choose multiple                   | Urea<br/>Manure<br/>NPK<br/>CAN<br/>Other                                                                                                                                                                                                                                |
+| Top dressing quantity             | If any top   dressing was used, how much did you use in the trial (kg)?                                                                                   | Integer                           |                                                                                                                                                                                                                                                                      |
+| Pesticide use                     | Did you use pesticides on your   plots?                                                                                                                   | Select one                        | Yes<br/>No                                                                                                                                                                                                                                                            |
+| Pesticide frequency               | If yes, how many   times did you apply pesticide?                                                                                                         | Integer                           |                                                                                                                                                                                                                                                                      |
+| Herbicide use                     | Did you use herbicides on your   plots?                                                                                                                   | Select one                        | Yes<br/>No                                                                                                                                                                                                                                                            |
+| Herbicide frequency               | If yes, how many   times did you apply herbicide?                                                                                                         | Integer                           |                                                                                                                                                                                                                                                                      |
+| Harvesting date                   | When did you   harvest your trial?                                                                                                                        | Date                              |                                                                                                                                                                                                                                                                      |
+| Management                        | Were any of these management   practices different between your trial plot and the main field?                                                            | Choose multiple                   | None<br/>Fertilizer<br/>Pesticide<br/>Irrigation<br/>Planting date<br/>Other                                                                                                                                                                                              |
+| Management   prioritized          | If different management   strategies were used, which one did you prioritize?                                                                             | Choose one                        | Main field<br/>Trial plot<br/>Treated equally                                                                                                                                                                                                                          |
+| Management why                    | If different   management strategies were used, why did you treat the main field and your   trial plot differently?                                       | Text                              |                                                                                                                                                                                                                                                                      |
+| Yield quantitative                | What was the yield for each   variety?                                                                                                                    | Integer (tricot complex)          | Measure for A<br/>Measure for B<br/>Measure for C                                                                                                                                                                                                                      |
+| Yield quantitative   unit         | What was the unit of measure for   yield?                                                                                                                 | Select one                        | Kilograms<br/>Grams<br/>Standard unit of measure (jug, bowl)<br/>Other                                                                                                                                                                                                  |
+| Best why                          | Why did you rank   this variety as the best?                                                                                                              | Text                              |                                                                                                                                                                                                                                                                      |
+| Worst why                         | Why did you rank   this variety as the worst?                                                                                                             | Text                              |                                                                                                                                                                                                                                                                      |
+| Grow again                        | If planting material were   available for all three varieties, which variety(ies) would you like to grow   in the next season?                            | Multiple                          | A<br/>B<br/>C<br/>None                                                                                                                                                                                                                                                  |
+| Storage problems   specification  | Did you experience any of the   following problems during storage?                                                                                        | Choose multiple                   | Rodents<br/>Mold<br/>Insects<br/>None                                                                                                                                                                                                                                   |
+| Type of   storage                 | How did you store your   grains?                                                                                                                          | Select one                        | Sacks<br/>Iron drum<br/>Traditional setup<br/>Other                                                                                                                                                                                                                     |
+| Storage duration                  | For how many days   after harvest did you store?                                                                                                          | Integer                           |                                                                                                                                                                                                                                                                      |
+| Sales                             | Do you plan to sell any grains   from the trial?                                                                                                          | Select one                        | Yes<br/>No                                                                                                                                                                                                                                                            |
+| Crop drying                       | How did you dry your crop?                                                                                                                                | Select one                        | Under the sun<br/>Individual drier<br/>Communal drier<br/>Didn’t dry<br/>Other                                                                                                                                                                                           |
+| Crop drying duration              | For how long did you dry your crop (in days)?                                                                                                             | Integer                           |                                                                                                                                                                                                                                                                      |
+| Leaves used                       | Are the leaves of the crop used   for anything?                                                                                                           | Select multiple                   | Human consumption<br/>Fodder for animals<br/>Left on the ground for mulch<br/>Not used                                                                                                                                                                                  |
 
-+-----------+-----------------------+---------+-----------------------+
-| **V       | **Question**          | *       | **Options**           |
-| ariable** |                       | *Type** |                       |
-+===========+=======================+=========+=======================+
-| Informed  | Do you willingly      | yes/no  |                       |
-| consent   | accept to host tricot |         |                       |
-|           | trial and provide     |         |                       |
-|           | required information  |         |                       |
-|           | from the trial that   |         |                       |
-|           | can be used for       |         |                       |
-|           | research and          |         |                       |
-|           | publication purposes? |         |                       |
-+-----------+-----------------------+---------+-----------------------+
-| Farmer    | What is the farmer's  | Text    |                       |
-| name      | name?                 |         |                       |
-+-----------+-----------------------+---------+-----------------------+
-| Package   | Scan the QR code      | QR Code |                       |
-| code      |                       |         |                       |
-+-----------+-----------------------+---------+-----------------------+
-| Point of  | Take the GPS          | GPS     |                       |
-| delivery  | coordinates of the    |         |                       |
-|           | point of delivery     |         |                       |
-+-----------+-----------------------+---------+-----------------------+
-| Age       | What is the age of    | Integer |                       |
-|           | the owner and manager |         |                       |
-|           | of the trial?         |         |                       |
-+-----------+-----------------------+---------+-----------------------+
-| Sex       | Gender of the owner   | Select  | Male                  |
-|           | and manager of the    | one     |                       |
-|           | trial                 |         | Female                |
-|           |                       |         |                       |
-|           |                       |         | Rather not say        |
-+-----------+-----------------------+---------+-----------------------+
-| Education | What is the education | Select  | No formal education   |
-| level     | level of the manager  | one     |                       |
-|           | of the trial?         |         | Primary               |
-|           |                       |         |                       |
-|           |                       |         | Secondary             |
-|           |                       |         |                       |
-|           |                       |         | University            |
-+-----------+-----------------------+---------+-----------------------+
-| Civil     | What is the marital   | Select  | Single                |
-| status    | status of the manager | one     |                       |
-|           | of the trial?         |         | Married/living with a |
-|           |                       |         | partner               |
-|           |                       |         |                       |
-|           |                       |         | Widowed               |
-|           |                       |         |                       |
-|           |                       |         | Other specify         |
-+-----------+-----------------------+---------+-----------------------+
-| ADM 1     | What is the           | Select  | List of participating |
-|           | administrative level  | one     | administrative level  |
-|           | 1 location of the     |         | 1 units.              |
-|           | trial?                |         |                       |
-+-----------+-----------------------+---------+-----------------------+
-| ADM 2     | What is the           | Select  | List of participating |
-|           | administrative level  | one     | administrative level  |
-|           | 2 location of the     |         | 2 units.              |
-|           | trial?                |         |                       |
-+-----------+-----------------------+---------+-----------------------+
-| ADM 3     | What is the           | Select  | List of participating |
-|           | administrative level  | one     | administrative level  |
-|           | 3 location of the     |         | 3 units.              |
-|           | trial?                |         |                       |
-+-----------+-----------------------+---------+-----------------------+
-| Telephone | What is the farmer's  | Integer |                       |
-| primary   | primary telephone     |         |                       |
-|           | number?               |         |                       |
-+-----------+-----------------------+---------+-----------------------+
-| Telephone | What is the farmer's  | Integer |                       |
-| secondary | secondary telephone   |         |                       |
-|           | number?               |         |                       |
-+-----------+-----------------------+---------+-----------------------+
-| E         | Have you cultivated   | Yes/No  |                       |
-| xperience | this crop before?     |         |                       |
-| with the  |                       |         |                       |
-| crop      |                       |         |                       |
-+-----------+-----------------------+---------+-----------------------+
-| E         | If yes, for how many  | Integer |                       |
-| xperience | years have you been   |         |                       |
-| with the  | cultivating it?       |         |                       |
-| crop      |                       |         |                       |
-| years     |                       |         |                       |
-+-----------+-----------------------+---------+-----------------------+
-| E         | Have you participated | Yes/No  |                       |
-| xperience | in a tricot trial     |         |                       |
-| with      | before?               |         |                       |
-| tricot    |                       |         |                       |
-+-----------+-----------------------+---------+-----------------------+
-| E         | If yes, how many      | Integer |                       |
-| xperience | times? Zero if first  |         |                       |
-| with      | time.                 |         |                       |
-| tricot    |                       |         |                       |
-| times     |                       |         |                       |
-+-----------+-----------------------+---------+-----------------------+
-| A         | On which date did you | Date    |                       |
-| ssessment | do the assessment of  |         |                       |
-| date      | your trial plot?      |         |                       |
-+-----------+-----------------------+---------+-----------------------+
-| On time   | Was your trial        | Choose  | Too early -- package  |
-|           | package delivered on  | one     | delivered early 1-3   |
-|           | time?                 |         | days                  |
-|           |                       |         |                       |
-|           |                       |         | Early enough for      |
-|           |                       |         | timely planting       |
-|           |                       |         |                       |
-|           |                       |         | Too late - planting   |
-|           |                       |         | delayed 1-3 days      |
-|           |                       |         |                       |
-|           |                       |         | Too late - planting   |
-|           |                       |         | delayed 4-9 days      |
-|           |                       |         |                       |
-|           |                       |         | Too late - planting   |
-|           |                       |         | delayed 10-20 days    |
-|           |                       |         |                       |
-|           |                       |         | Too late - planting   |
-|           |                       |         | delayed 21 days or    |
-|           |                       |         | more                  |
-|           |                       |         |                       |
-|           |                       |         | Other                 |
-+-----------+-----------------------+---------+-----------------------+
-| Planting  | On which date did you | Date    |                       |
-| date      | plant the tubers?     |         |                       |
-+-----------+-----------------------+---------+-----------------------+
-| Trial GPS | Take GPS using ODK    | GPS     |                       |
-+-----------+-----------------------+---------+-----------------------+
-| Trial     | Are any of these      | Choose  | Soil                  |
-| site Vs   | options different     | m       |                       |
-| main      | between your trial    | ultiple | Slope                 |
-|           | plot and your main    |         |                       |
-|           | field?                |         | Shading effect        |
-|           |                       |         |                       |
-|           |                       |         | Other                 |
-|           |                       |         |                       |
-|           |                       |         | none                  |
-+-----------+-----------------------+---------+-----------------------+
-| Previous  | What was the previous | Text    |                       |
-| land use  | land use of the       |         |                       |
-|           | on-farm plot site?    |         |                       |
-+-----------+-----------------------+---------+-----------------------+
-| Mode of   | How did you prepare   | Choose  | Tractor               |
-| land      | the land of the trial | one     |                       |
-| pr        | plot?                 |         | Hand hoes             |
-| eparation |                       |         |                       |
-|           |                       |         | Animals               |
-|           |                       |         |                       |
-|           |                       |         | No land preparation   |
-|           |                       |         |                       |
-|           |                       |         | Other                 |
-+-----------+-----------------------+---------+-----------------------+
-| Slope     | What is the slope of  | Select  | Flat\                 |
-|           | the area you          | one     | Slight\               |
-|           | established your      |         | Strong                |
-|           | tricot trial?         |         |                       |
-+-----------+-----------------------+---------+-----------------------+
-| Shade     | Is the area you have  | Select  | No                    |
-|           | established your      | one     |                       |
-|           | tricot trial affected |         | Yes, partial          |
-|           | by shade?             |         |                       |
-|           |                       |         | Yes, total            |
-+-----------+-----------------------+---------+-----------------------+
-| Planting  | Is the planting       | Select  | Higher                |
-| density   | density of the trial  | one     |                       |
-| main      | plots the same as on  |         | About the same        |
-|           | your main plot?       |         |                       |
-|           |                       |         | Lower                 |
-+-----------+-----------------------+---------+-----------------------+
-| Planting  | How were the plants   | Choose  | Broadcast             |
-| method    | planted?              | one     |                       |
-|           |                       |         | Rows                  |
-|           |                       |         |                       |
-|           |                       |         | Other (text)          |
-+-----------+-----------------------+---------+-----------------------+
-| Plant     | How many plants       | Integer | Count A               |
-| p         | survived for each     | (t      |                       |
-| opulation | variety?              | ricot-c | Count B               |
-|           |                       | omplex) |                       |
-|           |                       |         | Count C               |
-+-----------+-----------------------+---------+-----------------------+
-| Plant     | How much space did    | Integer |                       |
-| distance  | you leave between     |         |                       |
-|           | plants?               |         |                       |
-+-----------+-----------------------+---------+-----------------------+
-| Plant     | Please select the     | Select  | Centimeters           |
-| distance  | unit of measure       | one     |                       |
-| unit      |                       |         | Meters                |
-|           |                       |         |                       |
-|           |                       |         | Feet                  |
-|           |                       |         |                       |
-|           |                       |         | Inches                |
-|           |                       |         |                       |
-|           |                       |         | Other                 |
-+-----------+-----------------------+---------+-----------------------+
-| Row       | How much space did    | Integer |                       |
-| distance  | you leave between     |         |                       |
-|           | rows?                 |         |                       |
-+-----------+-----------------------+---------+-----------------------+
-| Row       | Please select the     | Select  | Centimeters           |
-| distance  | unit of measure       | one     |                       |
-| unit      |                       |         | Meters                |
-|           |                       |         |                       |
-|           |                       |         | Feet                  |
-|           |                       |         |                       |
-|           |                       |         | Inches                |
-|           |                       |         |                       |
-|           |                       |         | Other                 |
-+-----------+-----------------------+---------+-----------------------+
-| Number of | How many rows did you | Integer | Count A               |
-| rows      | plant for each        | (de     |                       |
-|           | variety?              | tailed) | Count B               |
-|           |                       |         |                       |
-|           |                       |         | Count C               |
-+-----------+-----------------------+---------+-----------------------+
-| Local     | What is the name of   | Text    |                       |
-| variety   | your best local       |         |                       |
-|           | variety you usually   |         |                       |
-|           | grow?                 |         |                       |
-+-----------+-----------------------+---------+-----------------------+
-| Inte      | Have you intercropped | Choose  | Yes                   |
-| rcropping | in your trial?        | one     |                       |
-|           |                       |         | No                    |
-+-----------+-----------------------+---------+-----------------------+
-| Int       | If yes, with which    | Text    |                       |
-| ercropped | crop did you          |         |                       |
-| with      | intercrop?            |         |                       |
-+-----------+-----------------------+---------+-----------------------+
-| Basal     | Type of basal         | Choose  | NPK                   |
-| f         | fertilizer used in    | m       |                       |
-| ertilizer | the trial plot?       | ultiple | DAP                   |
-|           |                       |         |                       |
-|           |                       |         | Other, specify (text) |
-|           |                       |         |                       |
-|           |                       |         | None                  |
-+-----------+-----------------------+---------+-----------------------+
-| Basal     | If any basal          | Integer |                       |
-| f         | fertilizer was used,  |         |                       |
-| ertilizer | how much did you use  |         |                       |
-| quantity  | in the trial plot in  |         |                       |
-|           | kilograms?            |         |                       |
-+-----------+-----------------------+---------+-----------------------+
-| Plot loss | Did you lose any of   | Choose  | A                     |
-|           | your trial plots? If  | m       |                       |
-|           | yes, which one?       | ultiple | B                     |
-|           |                       |         |                       |
-|           |                       |         | C                     |
-|           |                       |         |                       |
-|           |                       |         | None                  |
-+-----------+-----------------------+---------+-----------------------+
-| Plot loss | What was the reason   | Text    |                       |
-| reason    | for you losing        |         |                       |
-|           | variety \{\$Plot       |         |                       |
-|           | loss\}?                |         |                       |
-+-----------+-----------------------+---------+-----------------------+
-| Diseases  | Did you find any      | Choose  | Yes                   |
-| any       | disease in the trial? | one     |                       |
-|           |                       |         | No                    |
-+-----------+-----------------------+---------+-----------------------+
-| Diseases  | How severe was the    | Select  | Very severe (\>75% of |
-| severity  | impact?               | one     | plot affected)        |
-|           |                       | e       |                       |
-|           |                       | xpanded | Moderate (25%-75% of  |
-|           |                       | (per    | plot affected)        |
-|           |                       | plot)   |                       |
-|           |                       |         | Minor (\<25% of plot  |
-|           |                       |         | affected)             |
-+-----------+-----------------------+---------+-----------------------+
-| I         | Did you use an        | Select  | Yes                   |
-| rrigation | irrigation system on  | one     |                       |
-|           | your plots?           |         | No                    |
-+-----------+-----------------------+---------+-----------------------+
-| Top       | Which type of top     | Choose  |   ------------------  |
-| dressing  | dressing was used in  | m       |   Urea                |
-|           | the trial?            | ultiple |   ------------------  |
-|           |                       |         |   Manure              |
-|           |                       |         |                       |
-|           |                       |         |   NPK                 |
-|           |                       |         |                       |
-|           |                       |         |   CAN                 |
-|           |                       |         |                       |
-|           |                       |         |   Other               |
-|           |                       |         |   ------------------  |
-+-----------+-----------------------+---------+-----------------------+
-| Top       | If any top dressing   | Integer |                       |
-| dressing  | was used, how much    |         |                       |
-| quantity  | did you use in the    |         |                       |
-|           | trial (kg)?           |         |                       |
-+-----------+-----------------------+---------+-----------------------+
-| Pesticide | Did you use           | Select  | Yes                   |
-| use       | pesticides on your    | one     |                       |
-|           | plots?                |         | No                    |
-+-----------+-----------------------+---------+-----------------------+
-| Pesticide | If yes, how many      | Integer |                       |
-| frequency | times did you apply   |         |                       |
-|           | pesticide?            |         |                       |
-+-----------+-----------------------+---------+-----------------------+
-| Herbicide | Did you use           | Select  | Yes                   |
-| use       | herbicides on your    | one     |                       |
-|           | plots?                |         | No                    |
-+-----------+-----------------------+---------+-----------------------+
-| Herbicide | If yes, how many      | Integer |                       |
-| frequency | times did you apply   |         |                       |
-|           | herbicide?            |         |                       |
-+-----------+-----------------------+---------+-----------------------+
-| H         | When did you harvest  | Date    |                       |
-| arvesting | your trial?           |         |                       |
-| date      |                       |         |                       |
-+-----------+-----------------------+---------+-----------------------+
-| M         | Were any of these     | Choose  | None                  |
-| anagement | management practices  | m       |                       |
-|           | different between     | ultiple | Fertilizer            |
-|           | your trial plot and   |         |                       |
-|           | the main field?       |         | Pesticide             |
-|           |                       |         |                       |
-|           |                       |         | Irrigation            |
-|           |                       |         |                       |
-|           |                       |         | Planting date         |
-|           |                       |         |                       |
-|           |                       |         | Other                 |
-+-----------+-----------------------+---------+-----------------------+
-| M         | If different          | Choose  | Main field            |
-| anagement | management strategies | one     |                       |
-| pr        | were used, which one  |         | Trial plot            |
-| ioritized | did you prioritize?   |         |                       |
-|           |                       |         | Treated equally       |
-+-----------+-----------------------+---------+-----------------------+
-| M         | If different          | Text    |                       |
-| anagement | management strategies |         |                       |
-| why       | were used, why did    |         |                       |
-|           | you treat the main    |         |                       |
-|           | field and your trial  |         |                       |
-|           | plot differently?     |         |                       |
-+-----------+-----------------------+---------+-----------------------+
-| Yield     | What was the yield    | Integer | Measure for A         |
-| qua       | for each variety?     | (tricot |                       |
-| ntitative |                       | c       | Measure for B         |
-|           |                       | omplex) |                       |
-|           |                       |         | Measure for C         |
-+-----------+-----------------------+---------+-----------------------+
-| Yield     | What was the unit of  | Select  | Kilograms             |
-| qua       | measure for yield?    | one     |                       |
-| ntitative |                       |         | Grams                 |
-| unit      |                       |         |                       |
-|           |                       |         | Standard unit of      |
-|           |                       |         | measure (jug, bowl)   |
-|           |                       |         |                       |
-|           |                       |         | Other                 |
-+-----------+-----------------------+---------+-----------------------+
-| Best why  | Why did you rank this | Text    |                       |
-|           | variety as the best?  |         |                       |
-+-----------+-----------------------+---------+-----------------------+
-| Worst why | Why did you rank this | Text    |                       |
-|           | variety as the worst? |         |                       |
-+-----------+-----------------------+---------+-----------------------+
-| Grow      | If planting material  | M       | A                     |
-| again     | were available for    | ultiple |                       |
-|           | all three varieties,  |         | B                     |
-|           | which variety(ies)    |         |                       |
-|           | would you like to     |         | C                     |
-|           | grow in the next      |         |                       |
-|           | season?               |         | None                  |
-+-----------+-----------------------+---------+-----------------------+
-| Storage   | Did you experience    | Choose  | Rodents               |
-| problems  | any of the following  | m       |                       |
-| spec      | problems during       | ultiple | Mold                  |
-| ification | storage?              |         |                       |
-|           |                       |         | Insects               |
-|           |                       |         |                       |
-|           |                       |         | None                  |
-+-----------+-----------------------+---------+-----------------------+
-| Type of   | How did you store     | Select  | Sacks                 |
-| storage   | your grains?          | one     |                       |
-|           |                       |         | Iron drum             |
-|           |                       |         |                       |
-|           |                       |         | Traditional setup     |
-|           |                       |         |                       |
-|           |                       |         | Other                 |
-+-----------+-----------------------+---------+-----------------------+
-| Storage   | For how many days     | Integer |                       |
-| duration  | after harvest did you |         |                       |
-|           | store?                |         |                       |
-+-----------+-----------------------+---------+-----------------------+
-| Sales     | Do you plan to sell   | Select  | Yes                   |
-|           | any grains from the   | one     |                       |
-|           | trial?                |         | No                    |
-+-----------+-----------------------+---------+-----------------------+
-| Crop      | How did you dry your  | Select  | Under the sun         |
-| drying    | crop?                 | one     |                       |
-|           |                       |         | Individual drier      |
-|           |                       |         |                       |
-|           |                       |         | Communal drier        |
-|           |                       |         |                       |
-|           |                       |         | Didn't dry            |
-|           |                       |         |                       |
-|           |                       |         | Other                 |
-+-----------+-----------------------+---------+-----------------------+
-| Crop      | For how long did you  | Integer |                       |
-| drying    | dry your crop (in     |         |                       |
-| duration  | days)?                |         |                       |
-+-----------+-----------------------+---------+-----------------------+
-| Leaves    | Are the leaves of the | Select  | Human consumption     |
-| used      | crop used for         | m       |                       |
-|           | anything?             | ultiple | Fodder for animals    |
-|           |                       |         |                       |
-|           |                       |         | Left on the ground    |
-|           |                       |         | for mulch             |
-|           |                       |         |                       |
-|           |                       |         | Not used              |
-+-----------+-----------------------+---------+-----------------------+
 
-## Tricot questions to assess crop genotypes  
 
-Table 3 outlines tricot questions that are asked to the experimenting
-farmer to capture comparative rankings of crop genotypes. 
+## Tricot questions to assess crop genotypes
 
-Table 3: Tricot questions for variety ranking
+Table 3 outlines tricot questions that are asked to the experimenting farmer to capture comparative rankings of crop genotypes.
 
-  -----------------------------------------------------------------------
-  **Trait**         **Statement                **Statement
-                    (positive/best)**          (negative/worst)**
-  ----------------- -------------------------- --------------------------
-  Germination Time  Which variety has the      Which variety has the
-                    earliest germination?      latest germination?
+Table 3: Tricot questions for variety ranking
 
-  Germination Rate  Which variety germinated   Which variety germinated
-                    the most plants?           the fewest plants?
+| Trait                                   | Statement   (positive/best)                                                               | Statement   (negative/worst)                                                         |
+|-----------------------------------------|-------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------|
+| Germination Time                        | Which variety has the earliest germination?                                             | Which variety has the latest germination?                                          |
+| Germination Rate                        | Which variety germinated the most plants?                                               | Which variety germinated the fewest plants?                                        |
+| Disease tolerance                       | Which variety is most tolerant to diseases?                                             | Which variety is least tolerant to diseases?                                       |
+| Pest tolerance                          | Which variety is most tolerant to pests?                                                | Which variety is least tolerant to pests?                                          |
+| Abiotic stress tolerance                | Which variety is most tolerant to abiotic stress (drought, flooding, salty soil, etc.)? | Which variety is least tolerant to abiotic stress (drought, flooding, salty soil)? |
+| Leaf quality at harvest for consumption | Which variety has better quality leaves for human consumption?                          | Which variety has worst quality leaves for human consumption?                      |
+| Maturity                                | Which variety matures earliest?                                                         | Which variety   matures latest?                                                      |
+| Yield tricot                            | Which variety has the highest yield?                                                    | Which variety has the lowest yield?                                                |
+| Seed size                               | Which variety has the largest seeds?                                                    | Which variety has the smallest seeds?                                              |
+| Seed size for target use                | Which variety has the best seed size for the target use/market?                         | Which variety has the worst seed size for the target use/market?                   |
+| Taste                                   | Which variety has the best taste?                                                       | Which variety has the worst taste?                                                 |
+| Marketability                           | Which variety is the most marketable?                                                   | Which variety is least marketable?                                                 |
+| Overall preference                      | Overall, which variety has the best performance?                                        | Overall, which   variety has the worst performance?                                  |
+| Comparison with local                   | Which variety is better than the best variety that you usually grow?                    | Which variety is worse than the best variety that you usually grow?                |
+| Storage problems                        | Which variety is more tolerant to storage problems?                                     | Which variety is more susceptible to storage problems?                             |
+| Storability                             | Which variety stores the best/stays best after storage?                                 | Which variety   stores the worst/spoils most after storage?                          |
 
-  Disease tolerance Which variety is most      Which variety is least
-                    tolerant to diseases?      tolerant to diseases?
-
-  Pest tolerance    Which variety is most      Which variety is least
-                    tolerant to pests?         tolerant to pests?
-
-  Abiotic stress    Which variety is most      Which variety is least
-  tolerance         tolerant to abiotic stress tolerant to abiotic stress
-                    (drought, flooding, salty  (drought, flooding, salty
-                    soil, etc.)?               soil)?
-
-  Leaf quality at   Which variety has better   Which variety has worst
-  harvest for       quality leaves for human   quality leaves for human
-  consumption       consumption?               consumption?
-
-  Maturity          Which variety matures      Which variety matures
-                    earliest?                  latest?
-
-  Yield tricot      Which variety has the      Which variety has the
-                    highest yield?             lowest yield?
-
-  Seed size         Which variety has the      Which variety has the
-                    largest seeds?             smallest seeds?
-
-  Seed size for     Which variety has the best Which variety has the
-  target use        seed size for the target   worst seed size for the
-                    use/market?                target use/market?
-
-  Taste             Which variety has the best Which variety has the
-                    taste?                     worst taste?
-
-  Marketability     Which variety is the most  Which variety is least
-                    marketable?                marketable?
-
-  Overall           Overall, which variety has Overall, which variety has
-  preference        the best performance?      the worst performance?
-
-  Comparison with   Which variety is better    Which variety is worse
-  local             than the best variety that than the best variety that
-                    you usually grow?          you usually grow?
-
-  Storage problems  Which variety is more      Which variety is more
-                    tolerant to storage        susceptible to storage
-                    problems?                  problems?
-
-  Storability       Which variety stores the   Which variety stores the
-                    best/stays best after      worst/spoils most after
-                    storage?                   storage?
-  -----------------------------------------------------------------------

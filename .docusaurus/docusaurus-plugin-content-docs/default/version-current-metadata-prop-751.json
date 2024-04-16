@@ -11,7 +11,7 @@
     "tutorialSidebar": [
       {
         "type": "link",
-        "label": "Product Use Testing Intro",
+        "label": "Guidebook for Product Use Testing in agriculture Intro",
         "href": "/documentation/docs/intro",
         "docId": "intro",
         "unlisted": false
@@ -136,7 +136,7 @@
     },
     "intro": {
       "id": "intro",
-      "title": "Product Use Testing Intro",
+      "title": "Guidebook for Product Use Testing in agriculture Intro",
       "description": "This can be used by a generic page for introducing the whole set of documentation",
       "sidebar": "tutorialSidebar"
     },
