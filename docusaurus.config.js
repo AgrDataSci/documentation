@@ -10,7 +10,7 @@ import {themes as prismThemes} from 'prism-react-renderer';
 const config = {
   title: '1000FARMS Docs',
   tagline: 'Guidebook for product use testing in agriculture',
-  favicon: 'img/favicon.ico',
+  favicon: 'img/1000FARMS.jpg',
 
   // Set the production url of your site here
   url: 'https://AgrDataSci.github.io',
@@ -64,7 +64,7 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       // Replace with your project's social card
-      image: 'img/docusaurus-social-card.jpg',
+      image: 'img/1000FARMS.jpg',
       navbar: {
         title: '1000FARMS Docs',
         logo: {
@@ -80,7 +80,7 @@ const config = {
           },
           {to: '/blog', label: 'Blog', position: 'left'},
           {
-            href: 'https://github.com/facebook/docusaurus',
+            href: 'https://github.com/AgrDataSci/documentation',
             label: 'GitHub',
             position: 'right',
           },
@@ -127,12 +127,12 @@ const config = {
               },
               {
                 label: 'GitHub',
-                href: 'https://github.com/facebook/docusaurus',
+                href: 'https://github.com/AgrDataSci/documentation',
               },
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} 1000FARMS. Built with Docusaurus.`,
       },
       prism: {
         theme: prismThemes.github,

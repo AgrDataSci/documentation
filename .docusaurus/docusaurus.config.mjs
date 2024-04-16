@@ -6,7 +6,7 @@
 export default {
   "title": "1000FARMS Docs",
   "tagline": "Guidebook for product use testing in agriculture",
-  "favicon": "img/favicon.ico",
+  "favicon": "img/1000FARMS.jpg",
   "url": "https://AgrDataSci.github.io",
   "baseUrl": "/documentation/",
   "organizationName": "AgrDataSci",
@@ -40,7 +40,7 @@ export default {
     ]
   ],
   "themeConfig": {
-    "image": "img/docusaurus-social-card.jpg",
+    "image": "img/1000FARMS.jpg",
     "navbar": {
       "title": "1000FARMS Docs",
       "logo": {
@@ -60,7 +60,7 @@ export default {
           "position": "left"
         },
         {
-          "href": "https://github.com/facebook/docusaurus",
+          "href": "https://github.com/AgrDataSci/documentation",
           "label": "GitHub",
           "position": "right"
         }
@@ -105,12 +105,12 @@ export default {
             },
             {
               "label": "GitHub",
-              "href": "https://github.com/facebook/docusaurus"
+              "href": "https://github.com/AgrDataSci/documentation"
             }
           ]
         }
       ],
-      "copyright": "Copyright © 2024 My Project, Inc. Built with Docusaurus."
+      "copyright": "Copyright © 2024 1000FARMS. Built with Docusaurus."
     },
     "prism": {
       "theme": {
