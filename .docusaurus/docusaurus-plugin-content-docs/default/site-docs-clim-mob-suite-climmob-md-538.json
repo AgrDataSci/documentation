@@ -1,0 +1,27 @@
+{
+  "id": "ClimMob suite/climmob",
+  "title": "ClimMob platform",
+  "description": "ClimMob platform blabla",
+  "source": "@site/docs/ClimMob suite/climmob.md",
+  "sourceDirName": "ClimMob suite",
+  "slug": "/ClimMob suite/climmob",
+  "permalink": "/documentation/docs/ClimMob suite/climmob",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/${organizationName}/${projectName}/tree/main/docs/ClimMob suite/climmob.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "sidebar_position": 2
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "ODK",
+    "permalink": "/documentation/docs/ClimMob suite/ODK"
+  },
+  "next": {
+    "title": "Data Submission",
+    "permalink": "/documentation/docs/ClimMob suite/data_submission"
+  }
+}

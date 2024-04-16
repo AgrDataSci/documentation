@@ -5,12 +5,12 @@
   "permalink": "/documentation/docs/category/data-analysis-with-use-cases",
   "navigation": {
     "previous": {
-      "title": "ClimMob Suite intro",
-      "permalink": "/documentation/docs/ClimMob suite/intro"
+      "title": "Data Submission",
+      "permalink": "/documentation/docs/ClimMob suite/data_submission"
     },
     "next": {
-      "title": "Data Analysis use case",
-      "permalink": "/documentation/docs/Data analysis with use cases/intro"
+      "title": "Use Case 1",
+      "permalink": "/documentation/docs/Data analysis with use cases/uc1"
     }
   }
 }

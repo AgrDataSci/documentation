@@ -20,16 +20,70 @@
           "contentPathLocalized": "/Users/marie-angeliquelaporte/Documents/GitHub/documentation/i18n/en/docusaurus-plugin-content-docs/current",
           "docs": [
             {
-              "id": "ClimMob suite/intro",
-              "title": "ClimMob Suite intro",
-              "description": "ClimMob Suite intro blabla",
-              "source": "@site/docs/ClimMob suite/intro.md",
+              "id": "ClimMob suite/climmob",
+              "title": "ClimMob platform",
+              "description": "ClimMob platform blabla",
+              "source": "@site/docs/ClimMob suite/climmob.md",
               "sourceDirName": "ClimMob suite",
-              "slug": "/ClimMob suite/intro",
-              "permalink": "/documentation/docs/ClimMob suite/intro",
+              "slug": "/ClimMob suite/climmob",
+              "permalink": "/documentation/docs/ClimMob suite/climmob",
               "draft": false,
               "unlisted": false,
-              "editUrl": "https://github.com/${organizationName}/${projectName}/tree/main/docs/ClimMob suite/intro.md",
+              "editUrl": "https://github.com/${organizationName}/${projectName}/tree/main/docs/ClimMob suite/climmob.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 2,
+              "frontMatter": {
+                "sidebar_position": 2
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "ODK",
+                "permalink": "/documentation/docs/ClimMob suite/ODK"
+              },
+              "next": {
+                "title": "Data Submission",
+                "permalink": "/documentation/docs/ClimMob suite/data_submission"
+              }
+            },
+            {
+              "id": "ClimMob suite/data_submission",
+              "title": "Data Submission",
+              "description": "Data Submission blabla",
+              "source": "@site/docs/ClimMob suite/data_submission.md",
+              "sourceDirName": "ClimMob suite",
+              "slug": "/ClimMob suite/data_submission",
+              "permalink": "/documentation/docs/ClimMob suite/data_submission",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/${organizationName}/${projectName}/tree/main/docs/ClimMob suite/data_submission.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 3,
+              "frontMatter": {
+                "sidebar_position": 3
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "ClimMob platform",
+                "permalink": "/documentation/docs/ClimMob suite/climmob"
+              },
+              "next": {
+                "title": "Data analysis with use cases",
+                "permalink": "/documentation/docs/category/data-analysis-with-use-cases"
+              }
+            },
+            {
+              "id": "ClimMob suite/ODK",
+              "title": "ODK",
+              "description": "ODK intro blabla",
+              "source": "@site/docs/ClimMob suite/ODK.md",
+              "sourceDirName": "ClimMob suite",
+              "slug": "/ClimMob suite/ODK",
+              "permalink": "/documentation/docs/ClimMob suite/ODK",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/${organizationName}/${projectName}/tree/main/docs/ClimMob suite/ODK.md",
               "tags": [],
               "version": "current",
               "sidebarPosition": 1,
@@ -42,21 +96,21 @@
                 "permalink": "/documentation/docs/category/climmob-suite"
               },
               "next": {
-                "title": "Data analysis with use cases",
-                "permalink": "/documentation/docs/category/data-analysis-with-use-cases"
+                "title": "ClimMob platform",
+                "permalink": "/documentation/docs/ClimMob suite/climmob"
               }
             },
             {
-              "id": "Data analysis with use cases/intro",
-              "title": "Data Analysis use case",
-              "description": "Data Analysis use case babla",
-              "source": "@site/docs/Data analysis with use cases/intro.md",
+              "id": "Data analysis with use cases/uc1",
+              "title": "Use Case 1",
+              "description": "Presentation of Use case 1",
+              "source": "@site/docs/Data analysis with use cases/uc1.md",
               "sourceDirName": "Data analysis with use cases",
-              "slug": "/Data analysis with use cases/intro",
-              "permalink": "/documentation/docs/Data analysis with use cases/intro",
+              "slug": "/Data analysis with use cases/uc1",
+              "permalink": "/documentation/docs/Data analysis with use cases/uc1",
               "draft": false,
               "unlisted": false,
-              "editUrl": "https://github.com/${organizationName}/${projectName}/tree/main/docs/Data analysis with use cases/intro.md",
+              "editUrl": "https://github.com/${organizationName}/${projectName}/tree/main/docs/Data analysis with use cases/uc1.md",
               "tags": [],
               "version": "current",
               "sidebarPosition": 1,
@@ -67,6 +121,33 @@
               "previous": {
                 "title": "Data analysis with use cases",
                 "permalink": "/documentation/docs/category/data-analysis-with-use-cases"
+              },
+              "next": {
+                "title": "Use case 2",
+                "permalink": "/documentation/docs/Data analysis with use cases/uc2"
+              }
+            },
+            {
+              "id": "Data analysis with use cases/uc2",
+              "title": "Use case 2",
+              "description": "Presentation of use case 2",
+              "source": "@site/docs/Data analysis with use cases/uc2.md",
+              "sourceDirName": "Data analysis with use cases",
+              "slug": "/Data analysis with use cases/uc2",
+              "permalink": "/documentation/docs/Data analysis with use cases/uc2",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/${organizationName}/${projectName}/tree/main/docs/Data analysis with use cases/uc2.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 2,
+              "frontMatter": {
+                "sidebar_position": 2
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Use Case 1",
+                "permalink": "/documentation/docs/Data analysis with use cases/uc1"
               }
             },
             {
@@ -93,16 +174,43 @@
               }
             },
             {
-              "id": "Participant Recruitment/intro",
-              "title": "Participant recruitment",
-              "description": "Participant recruitment babla",
-              "source": "@site/docs/Participant Recruitment/intro.md",
+              "id": "Participant Recruitment/geographic_sampling",
+              "title": "Geographic sampling",
+              "description": "Geographic sampling babla",
+              "source": "@site/docs/Participant Recruitment/geographic_sampling.md",
               "sourceDirName": "Participant Recruitment",
-              "slug": "/Participant Recruitment/intro",
-              "permalink": "/documentation/docs/Participant Recruitment/intro",
+              "slug": "/Participant Recruitment/geographic_sampling",
+              "permalink": "/documentation/docs/Participant Recruitment/geographic_sampling",
               "draft": false,
               "unlisted": false,
-              "editUrl": "https://github.com/${organizationName}/${projectName}/tree/main/docs/Participant Recruitment/intro.md",
+              "editUrl": "https://github.com/${organizationName}/${projectName}/tree/main/docs/Participant Recruitment/geographic_sampling.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 2,
+              "frontMatter": {
+                "sidebar_position": 2
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Socioeconomic sampling",
+                "permalink": "/documentation/docs/Participant Recruitment/socioeconomic_sampling"
+              },
+              "next": {
+                "title": "Technology selection",
+                "permalink": "/documentation/docs/category/technology-selection"
+              }
+            },
+            {
+              "id": "Participant Recruitment/socioeconomic_sampling",
+              "title": "Socioeconomic sampling",
+              "description": "Socioeconomic sampling babla",
+              "source": "@site/docs/Participant Recruitment/socioeconomic_sampling.md",
+              "sourceDirName": "Participant Recruitment",
+              "slug": "/Participant Recruitment/socioeconomic_sampling",
+              "permalink": "/documentation/docs/Participant Recruitment/socioeconomic_sampling",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/${organizationName}/${projectName}/tree/main/docs/Participant Recruitment/socioeconomic_sampling.md",
               "tags": [],
               "version": "current",
               "sidebarPosition": 1,
@@ -115,8 +223,8 @@
                 "permalink": "/documentation/docs/category/participant-recruitment"
               },
               "next": {
-                "title": "Technology selection",
-                "permalink": "/documentation/docs/category/technology-selection"
+                "title": "Geographic sampling",
+                "permalink": "/documentation/docs/Participant Recruitment/geographic_sampling"
               }
             },
             {
@@ -144,16 +252,16 @@
               }
             },
             {
-              "id": "Technology selection/intro",
-              "title": "Technology selection Introduction",
-              "description": "Technology selection Introduction babla",
-              "source": "@site/docs/Technology selection/intro.md",
+              "id": "Technology selection/tpp",
+              "title": "TPP",
+              "description": "TPP babla",
+              "source": "@site/docs/Technology selection/tpp.md",
               "sourceDirName": "Technology selection",
-              "slug": "/Technology selection/intro",
-              "permalink": "/documentation/docs/Technology selection/intro",
+              "slug": "/Technology selection/tpp",
+              "permalink": "/documentation/docs/Technology selection/tpp",
               "draft": false,
               "unlisted": false,
-              "editUrl": "https://github.com/${organizationName}/${projectName}/tree/main/docs/Technology selection/intro.md",
+              "editUrl": "https://github.com/${organizationName}/${projectName}/tree/main/docs/Technology selection/tpp.md",
               "tags": [],
               "version": "current",
               "sidebarPosition": 1,
@@ -262,7 +370,11 @@
                 "items": [
                   {
                     "type": "doc",
-                    "id": "Participant Recruitment/intro"
+                    "id": "Participant Recruitment/socioeconomic_sampling"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "Participant Recruitment/geographic_sampling"
                   }
                 ],
                 "link": {
@@ -280,7 +392,7 @@
                 "items": [
                   {
                     "type": "doc",
-                    "id": "Technology selection/intro"
+                    "id": "Technology selection/tpp"
                   }
                 ],
                 "link": {
@@ -316,7 +428,15 @@
                 "items": [
                   {
                     "type": "doc",
-                    "id": "ClimMob suite/intro"
+                    "id": "ClimMob suite/ODK"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "ClimMob suite/climmob"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "ClimMob suite/data_submission"
                   }
                 ],
                 "link": {
@@ -334,7 +454,11 @@
                 "items": [
                   {
                     "type": "doc",
-                    "id": "Data analysis with use cases/intro"
+                    "id": "Data analysis with use cases/uc1"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "Data analysis with use cases/uc2"
                   }
                 ],
                 "link": {

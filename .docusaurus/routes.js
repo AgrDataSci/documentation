@@ -99,15 +99,15 @@ export default [
   },
   {
     path: '/documentation/docs',
-    component: ComponentCreator('/documentation/docs', '20f'),
+    component: ComponentCreator('/documentation/docs', 'f93'),
     routes: [
       {
         path: '/documentation/docs',
-        component: ComponentCreator('/documentation/docs', '831'),
+        component: ComponentCreator('/documentation/docs', '42d'),
         routes: [
           {
             path: '/documentation/docs',
-            component: ComponentCreator('/documentation/docs', 'a69'),
+            component: ComponentCreator('/documentation/docs', '3ab'),
             routes: [
               {
                 path: '/documentation/docs/category/climmob-suite',
@@ -146,14 +146,32 @@ export default [
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/documentation/docs/ClimMob suite/intro',
-                component: ComponentCreator('/documentation/docs/ClimMob suite/intro', '131'),
+                path: '/documentation/docs/ClimMob suite/climmob',
+                component: ComponentCreator('/documentation/docs/ClimMob suite/climmob', '9bc'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/documentation/docs/Data analysis with use cases/intro',
-                component: ComponentCreator('/documentation/docs/Data analysis with use cases/intro', '49f'),
+                path: '/documentation/docs/ClimMob suite/data_submission',
+                component: ComponentCreator('/documentation/docs/ClimMob suite/data_submission', '23d'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/documentation/docs/ClimMob suite/ODK',
+                component: ComponentCreator('/documentation/docs/ClimMob suite/ODK', 'ac2'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/documentation/docs/Data analysis with use cases/uc1',
+                component: ComponentCreator('/documentation/docs/Data analysis with use cases/uc1', '666'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/documentation/docs/Data analysis with use cases/uc2',
+                component: ComponentCreator('/documentation/docs/Data analysis with use cases/uc2', '51a'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
@@ -164,8 +182,14 @@ export default [
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/documentation/docs/Participant Recruitment/intro',
-                component: ComponentCreator('/documentation/docs/Participant Recruitment/intro', 'ee2'),
+                path: '/documentation/docs/Participant Recruitment/geographic_sampling',
+                component: ComponentCreator('/documentation/docs/Participant Recruitment/geographic_sampling', '3af'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/documentation/docs/Participant Recruitment/socioeconomic_sampling',
+                component: ComponentCreator('/documentation/docs/Participant Recruitment/socioeconomic_sampling', '970'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
@@ -176,8 +200,8 @@ export default [
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/documentation/docs/Technology selection/intro',
-                component: ComponentCreator('/documentation/docs/Technology selection/intro', '670'),
+                path: '/documentation/docs/Technology selection/tpp',
+                component: ComponentCreator('/documentation/docs/Technology selection/tpp', '364'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },

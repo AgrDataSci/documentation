@@ -1,0 +1,27 @@
+{
+  "id": "ClimMob suite/data_submission",
+  "title": "Data Submission",
+  "description": "Data Submission blabla",
+  "source": "@site/docs/ClimMob suite/data_submission.md",
+  "sourceDirName": "ClimMob suite",
+  "slug": "/ClimMob suite/data_submission",
+  "permalink": "/documentation/docs/ClimMob suite/data_submission",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/${organizationName}/${projectName}/tree/main/docs/ClimMob suite/data_submission.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "sidebar_position": 3
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "ClimMob platform",
+    "permalink": "/documentation/docs/ClimMob suite/climmob"
+  },
+  "next": {
+    "title": "Data analysis with use cases",
+    "permalink": "/documentation/docs/category/data-analysis-with-use-cases"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "id": "Participant Recruitment/geographic_sampling",
+  "title": "Geographic sampling",
+  "description": "Geographic sampling babla",
+  "source": "@site/docs/Participant Recruitment/geographic_sampling.md",
+  "sourceDirName": "Participant Recruitment",
+  "slug": "/Participant Recruitment/geographic_sampling",
+  "permalink": "/documentation/docs/Participant Recruitment/geographic_sampling",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/${organizationName}/${projectName}/tree/main/docs/Participant Recruitment/geographic_sampling.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "sidebar_position": 2
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Socioeconomic sampling",
+    "permalink": "/documentation/docs/Participant Recruitment/socioeconomic_sampling"
+  },
+  "next": {
+    "title": "Technology selection",
+    "permalink": "/documentation/docs/category/technology-selection"
+  }
+}

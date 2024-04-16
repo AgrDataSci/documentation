@@ -1,0 +1,27 @@
+{
+  "id": "Data analysis with use cases/uc1 copie",
+  "title": "Data Analysis use case",
+  "description": "Data Analysis use case babla",
+  "source": "@site/docs/Data analysis with use cases/uc1 copie.md",
+  "sourceDirName": "Data analysis with use cases",
+  "slug": "/Data analysis with use cases/uc1 copie",
+  "permalink": "/documentation/docs/Data analysis with use cases/uc1 copie",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/${organizationName}/${projectName}/tree/main/docs/Data analysis with use cases/uc1 copie.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Data analysis with use cases",
+    "permalink": "/documentation/docs/category/data-analysis-with-use-cases"
+  },
+  "next": {
+    "title": "Data Analysis use case",
+    "permalink": "/documentation/docs/Data analysis with use cases/uc1"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "id": "Data analysis with use cases/uc2",
+  "title": "Use case 2",
+  "description": "Presentation of use case 2",
+  "source": "@site/docs/Data analysis with use cases/uc2.md",
+  "sourceDirName": "Data analysis with use cases",
+  "slug": "/Data analysis with use cases/uc2",
+  "permalink": "/documentation/docs/Data analysis with use cases/uc2",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/${organizationName}/${projectName}/tree/main/docs/Data analysis with use cases/uc2.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "sidebar_position": 2
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Use Case 1",
+    "permalink": "/documentation/docs/Data analysis with use cases/uc1"
+  }
+}

@@ -1,7 +1,7 @@
 {
   "id": "ClimMob suite/intro",
-  "title": "ClimMob Suite intro",
-  "description": "ClimMob Suite intro blabla",
+  "title": "ODK",
+  "description": "ODK intro blabla",
   "source": "@site/docs/ClimMob suite/intro.md",
   "sourceDirName": "ClimMob suite",
   "slug": "/ClimMob suite/intro",

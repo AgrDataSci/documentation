@@ -5,12 +5,12 @@
   "permalink": "/documentation/docs/category/technology-selection",
   "navigation": {
     "previous": {
-      "title": "Participant recruitment",
-      "permalink": "/documentation/docs/Participant Recruitment/intro"
+      "title": "Geographic sampling",
+      "permalink": "/documentation/docs/Participant Recruitment/geographic_sampling"
     },
     "next": {
-      "title": "Technology selection Introduction",
-      "permalink": "/documentation/docs/Technology selection/intro"
+      "title": "TPP",
+      "permalink": "/documentation/docs/Technology selection/tpp"
     }
   }
 }

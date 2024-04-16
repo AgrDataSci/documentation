@@ -1,0 +1,27 @@
+{
+  "id": "ClimMob suite/ODK copie 2",
+  "title": "ODK",
+  "description": "ODK intro blabla",
+  "source": "@site/docs/ClimMob suite/ODK copie 2.md",
+  "sourceDirName": "ClimMob suite",
+  "slug": "/ClimMob suite/ODK copie 2",
+  "permalink": "/documentation/docs/ClimMob suite/ODK copie 2",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/${organizationName}/${projectName}/tree/main/docs/ClimMob suite/ODK copie 2.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "ClimMob suite",
+    "permalink": "/documentation/docs/category/climmob-suite"
+  },
+  "next": {
+    "title": "ODK",
+    "permalink": "/documentation/docs/ClimMob suite/ODK"
+  }
+}

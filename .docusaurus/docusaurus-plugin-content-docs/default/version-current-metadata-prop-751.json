@@ -47,9 +47,16 @@
         "items": [
           {
             "type": "link",
-            "label": "Participant recruitment",
-            "href": "/documentation/docs/Participant Recruitment/intro",
-            "docId": "Participant Recruitment/intro",
+            "label": "Socioeconomic sampling",
+            "href": "/documentation/docs/Participant Recruitment/socioeconomic_sampling",
+            "docId": "Participant Recruitment/socioeconomic_sampling",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "Geographic sampling",
+            "href": "/documentation/docs/Participant Recruitment/geographic_sampling",
+            "docId": "Participant Recruitment/geographic_sampling",
             "unlisted": false
           }
         ],
@@ -63,9 +70,9 @@
         "items": [
           {
             "type": "link",
-            "label": "Technology selection Introduction",
-            "href": "/documentation/docs/Technology selection/intro",
-            "docId": "Technology selection/intro",
+            "label": "TPP",
+            "href": "/documentation/docs/Technology selection/tpp",
+            "docId": "Technology selection/tpp",
             "unlisted": false
           }
         ],
@@ -95,9 +102,23 @@
         "items": [
           {
             "type": "link",
-            "label": "ClimMob Suite intro",
-            "href": "/documentation/docs/ClimMob suite/intro",
-            "docId": "ClimMob suite/intro",
+            "label": "ODK",
+            "href": "/documentation/docs/ClimMob suite/ODK",
+            "docId": "ClimMob suite/ODK",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "ClimMob platform",
+            "href": "/documentation/docs/ClimMob suite/climmob",
+            "docId": "ClimMob suite/climmob",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "Data Submission",
+            "href": "/documentation/docs/ClimMob suite/data_submission",
+            "docId": "ClimMob suite/data_submission",
             "unlisted": false
           }
         ],
@@ -111,9 +132,16 @@
         "items": [
           {
             "type": "link",
-            "label": "Data Analysis use case",
-            "href": "/documentation/docs/Data analysis with use cases/intro",
-            "docId": "Data analysis with use cases/intro",
+            "label": "Use Case 1",
+            "href": "/documentation/docs/Data analysis with use cases/uc1",
+            "docId": "Data analysis with use cases/uc1",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "Use case 2",
+            "href": "/documentation/docs/Data analysis with use cases/uc2",
+            "docId": "Data analysis with use cases/uc2",
             "unlisted": false
           }
         ],
@@ -122,16 +150,34 @@
     ]
   },
   "docs": {
-    "ClimMob suite/intro": {
-      "id": "ClimMob suite/intro",
-      "title": "ClimMob Suite intro",
-      "description": "ClimMob Suite intro blabla",
+    "ClimMob suite/climmob": {
+      "id": "ClimMob suite/climmob",
+      "title": "ClimMob platform",
+      "description": "ClimMob platform blabla",
       "sidebar": "tutorialSidebar"
     },
-    "Data analysis with use cases/intro": {
-      "id": "Data analysis with use cases/intro",
-      "title": "Data Analysis use case",
-      "description": "Data Analysis use case babla",
+    "ClimMob suite/data_submission": {
+      "id": "ClimMob suite/data_submission",
+      "title": "Data Submission",
+      "description": "Data Submission blabla",
+      "sidebar": "tutorialSidebar"
+    },
+    "ClimMob suite/ODK": {
+      "id": "ClimMob suite/ODK",
+      "title": "ODK",
+      "description": "ODK intro blabla",
+      "sidebar": "tutorialSidebar"
+    },
+    "Data analysis with use cases/uc1": {
+      "id": "Data analysis with use cases/uc1",
+      "title": "Use Case 1",
+      "description": "Presentation of Use case 1",
+      "sidebar": "tutorialSidebar"
+    },
+    "Data analysis with use cases/uc2": {
+      "id": "Data analysis with use cases/uc2",
+      "title": "Use case 2",
+      "description": "Presentation of use case 2",
       "sidebar": "tutorialSidebar"
     },
     "intro": {
@@ -140,10 +186,16 @@
       "description": "This can be used by a generic page for introducing the whole set of documentation",
       "sidebar": "tutorialSidebar"
     },
-    "Participant Recruitment/intro": {
-      "id": "Participant Recruitment/intro",
-      "title": "Participant recruitment",
-      "description": "Participant recruitment babla",
+    "Participant Recruitment/geographic_sampling": {
+      "id": "Participant Recruitment/geographic_sampling",
+      "title": "Geographic sampling",
+      "description": "Geographic sampling babla",
+      "sidebar": "tutorialSidebar"
+    },
+    "Participant Recruitment/socioeconomic_sampling": {
+      "id": "Participant Recruitment/socioeconomic_sampling",
+      "title": "Socioeconomic sampling",
+      "description": "Socioeconomic sampling babla",
       "sidebar": "tutorialSidebar"
     },
     "Protocols/bean_protocol": {
@@ -152,10 +204,10 @@
       "description": "Authors",
       "sidebar": "tutorialSidebar"
     },
-    "Technology selection/intro": {
-      "id": "Technology selection/intro",
-      "title": "Technology selection Introduction",
-      "description": "Technology selection Introduction babla",
+    "Technology selection/tpp": {
+      "id": "Technology selection/tpp",
+      "title": "TPP",
+      "description": "TPP babla",
       "sidebar": "tutorialSidebar"
     },
     "Tricot/introduction": {

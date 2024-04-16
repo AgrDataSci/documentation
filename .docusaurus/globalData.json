@@ -11,13 +11,28 @@
           "mainDocId": "intro",
           "docs": [
             {
-              "id": "ClimMob suite/intro",
-              "path": "/documentation/docs/ClimMob suite/intro",
+              "id": "ClimMob suite/climmob",
+              "path": "/documentation/docs/ClimMob suite/climmob",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "Data analysis with use cases/intro",
-              "path": "/documentation/docs/Data analysis with use cases/intro",
+              "id": "ClimMob suite/data_submission",
+              "path": "/documentation/docs/ClimMob suite/data_submission",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "ClimMob suite/ODK",
+              "path": "/documentation/docs/ClimMob suite/ODK",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Data analysis with use cases/uc1",
+              "path": "/documentation/docs/Data analysis with use cases/uc1",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Data analysis with use cases/uc2",
+              "path": "/documentation/docs/Data analysis with use cases/uc2",
               "sidebar": "tutorialSidebar"
             },
             {
@@ -26,8 +41,13 @@
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "Participant Recruitment/intro",
-              "path": "/documentation/docs/Participant Recruitment/intro",
+              "id": "Participant Recruitment/geographic_sampling",
+              "path": "/documentation/docs/Participant Recruitment/geographic_sampling",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Participant Recruitment/socioeconomic_sampling",
+              "path": "/documentation/docs/Participant Recruitment/socioeconomic_sampling",
               "sidebar": "tutorialSidebar"
             },
             {
@@ -36,8 +56,8 @@
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "Technology selection/intro",
-              "path": "/documentation/docs/Technology selection/intro",
+              "id": "Technology selection/tpp",
+              "path": "/documentation/docs/Technology selection/tpp",
               "sidebar": "tutorialSidebar"
             },
             {

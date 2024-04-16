@@ -1,0 +1,27 @@
+{
+  "id": "Participant Recruitment/socioeconomic_sampling",
+  "title": "Socioeconomic sampling",
+  "description": "Socioeconomic sampling babla",
+  "source": "@site/docs/Participant Recruitment/socioeconomic_sampling.md",
+  "sourceDirName": "Participant Recruitment",
+  "slug": "/Participant Recruitment/socioeconomic_sampling",
+  "permalink": "/documentation/docs/Participant Recruitment/socioeconomic_sampling",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/${organizationName}/${projectName}/tree/main/docs/Participant Recruitment/socioeconomic_sampling.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Participant recruitment",
+    "permalink": "/documentation/docs/category/participant-recruitment"
+  },
+  "next": {
+    "title": "Geographic sampling",
+    "permalink": "/documentation/docs/Participant Recruitment/geographic_sampling"
+  }
+}

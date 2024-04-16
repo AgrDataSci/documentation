@@ -1,0 +1,27 @@
+{
+  "id": "Technology selection/tpp",
+  "title": "TPP",
+  "description": "TPP babla",
+  "source": "@site/docs/Technology selection/tpp.md",
+  "sourceDirName": "Technology selection",
+  "slug": "/Technology selection/tpp",
+  "permalink": "/documentation/docs/Technology selection/tpp",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/${organizationName}/${projectName}/tree/main/docs/Technology selection/tpp.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Technology selection",
+    "permalink": "/documentation/docs/category/technology-selection"
+  },
+  "next": {
+    "title": "Trials protocols",
+    "permalink": "/documentation/docs/category/trials-protocols"
+  }
+}
