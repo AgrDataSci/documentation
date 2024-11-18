@@ -1,4 +1,6 @@
-# Expertise and social inclusiveness. A guide to choose participants for on-farm testing with the tricot approach.  
+# Socioeconomic sampling
+
+> Expertise and social inclusiveness. A guide to choose participants for on-farm testing with the tricot approach.  
 
 > Béla Teeken (IITA)
 
