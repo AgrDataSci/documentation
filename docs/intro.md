@@ -2,12 +2,9 @@
 sidebar_position: 1
 ---
 
-# Guidebook for Product Use Testing in agriculture Intro
+# The on-line guide for decentralized testing with the tricot approach
 
 This can be used by a generic page for introducing the whole set of documentation
-## Getting Started
 
 
-
-### What you'll need
 
