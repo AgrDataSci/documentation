@@ -6,6 +6,8 @@ sidebar_position: 1
 
 https://climmob.net/blog/wiki/?post_type=st_faq
 
+https://climmob.net/blog/wiki/climmob-and-tricot-resources/
+
 ## What is the incentive for growers to participate?
 
 Through participation in a tricot experiment, growers are exposed to new technologies: For example, they may try out new crop varieties directly under the conditions of their own farm. This way, participating growers can learn about new options to improve their farming and might discover useful innovation under realistic conditions. Many growers are also motivated by being part of a research project, interacting with researchers and contributing to knowledge generation.
