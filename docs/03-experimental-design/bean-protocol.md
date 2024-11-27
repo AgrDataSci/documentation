@@ -1,12 +1,5 @@
 # Bean Trial Protocol
 
-**Authors**
-
-Abel Moges, Kidane Tumsa, Julius Mbiu, OneAcre Fund, Michael Kilango,
-Nestory Shida, Stanley Nkalubo, Wilber Ssekandi, Sylvia Kalemera,
-Fadhili Kasubiri, Teshale Mamo, Clare Mukankusi, Jean Claude Rubyogo,
-Edith Kadege, Kaue de Souza, Rhys Manner
-
 ## Introduction
 
 This document provides a standardised overview of the basic information
