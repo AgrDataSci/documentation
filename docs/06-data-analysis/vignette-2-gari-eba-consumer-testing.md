@@ -1,4 +1,5 @@
 ---
+sidebar_position: 3
 title: "Consumer preference of cassava gari-eba"
 ---
 

@@ -2,7 +2,9 @@
 sidebar_position: 2
 ---
 
-# The 10 steps of a Tricot project
+# The 10 steps of a tricot experiment
+
+> Rachel Chase
 
 This guide provides a short overview of each of the 10 steps needed to develop and implement a tricot project.
 

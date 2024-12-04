@@ -1,4 +1,5 @@
 ---
+sidebar_position: 2
 title: "Integrating farmer-generated data and agro-climatic data for crop variety selection"
 ---
 

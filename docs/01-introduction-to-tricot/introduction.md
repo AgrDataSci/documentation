@@ -2,7 +2,9 @@
 sidebar_position: 1
 ---
 
-# Tricot Introduction
+# Introduction to the tricot approach 
+
+> Jacob van Etten, Jonathan Steinke, Kauê de Sousa, Rachel Chase
 
 **Speeding up agricultural innovation through large-scale participatory experiments**
 

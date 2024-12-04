@@ -2,9 +2,9 @@
 sidebar_position: 1
 ---
 
-# The on-line guide for decentralized testing with the tricot approach
+# Product Use Testing in Agriculture
 
-This can be used by a generic page for introducing the whole set of documentation
+The *tricot* approach (triadic comparison of technology options) is a participatory [@vanetten_tricot], decentralized method where participants test three randomly assigned options on their use context. Using citizen science, it integrates participatory insights and site-specific data to guide breeding and agricultural innovation. Scalable and cost-effective, tricot empowers farmers and enhances crop diversity and resilience.
 
 
 

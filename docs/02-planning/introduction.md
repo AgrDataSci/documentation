@@ -4,6 +4,8 @@ sidebar_position: 1
 
 # Planning a tricot experiment
 
+> Béla Teeken, Gospel Edughaen, Kauê de Sousa, Rachel Chase
+
 ## Problem Identification
 - Defining research questions and objectives.
 - Understanding the target farming system.
