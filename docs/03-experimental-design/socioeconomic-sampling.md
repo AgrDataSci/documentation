@@ -1,8 +1,8 @@
 # Socioeconomic sampling
 
-Expertise and social inclusiveness. A guide to choose participants for on-farm testing with the tricot approach.  
-
 > Béla Teeken, Jill Cairns, Mainassara Abdou Zaman-Allah
+
+Expertise and social inclusiveness. A guide to choose participants for on-farm testing with the tricot approach.  
 
 ## Assuring experienced participants
 
