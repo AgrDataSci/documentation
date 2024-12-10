@@ -1,0 +1,86 @@
+{
+  "version.label": {
+    "message": "Next",
+    "description": "The label for version current"
+  },
+  "sidebar.tutorialSidebar.category.Tricot": {
+    "message": "Tricot",
+    "description": "The label for category Tricot in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Tricot.link.generated-index.description": {
+    "message": "Learn everything about tricot",
+    "description": "The generated-index page description for category Tricot in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Planning a tricot experiment": {
+    "message": "Planning a tricot experiment",
+    "description": "The label for category Planning a tricot experiment in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Planning a tricot experiment.link.generated-index.description": {
+    "message": "Problem Identification. Defining research questions and objectives. Understanding the target farming system. Stakeholder Engagement. Roles of researchers, extension agents, local facilitators, and farmers. Building partnerships (e.g., with NGOs, genebanks, seed companies). Resources and Budgeting. Required materials (e.g., seeds, observation tools, digital platforms). Time and financial planning.",
+    "description": "The generated-index page description for category Planning a tricot experiment in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Experimental design": {
+    "message": "Experimental design",
+    "description": "The label for category Experimental design in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Experimental design.link.generated-index.description": {
+    "message": "Find the testing protocols you need. Learn about target product profiles and how to choose the technologies to test. Target population of environments for site selection. And participant recruitment.",
+    "description": "The generated-index page description for category Experimental design in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.ClimMob suite": {
+    "message": "ClimMob suite",
+    "description": "The label for category ClimMob suite in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.ClimMob suite.link.generated-index.description": {
+    "message": "Design your trial on ClimMob. Filling the experiment metadata. Technologies metadata. Data collection (ODK, Enketo, Excel, etc.), dealing with data submission conflicts. The full ClimMob manual. Data validation. Data sharing. Ethics and privacy.",
+    "description": "The generated-index page description for category ClimMob suite in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Implementation": {
+    "message": "Implementation",
+    "description": "The label for category Implementation in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Implementation.link.generated-index.description": {
+    "message": "Setting up experiments. For OFT, best practices in planting and maintaining the plots. For consumer testing, best practices in handling the samples. Preparing the packages for distribution.",
+    "description": "The generated-index page description for category Implementation in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Data analysis": {
+    "message": "Data analysis",
+    "description": "The label for category Data analysis in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Data analysis.link.generated-index.description": {
+    "message": "Analytical framework. Overview of statistical models (e.g., Plackett-Luce, Bradley-Terry). Tools for analyzing ranking data. Visualization. Integration with other datasets (agroclimatic, soil, and socio-economic data). Case studies.",
+    "description": "The generated-index page description for category Data analysis in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Feedback and dissemination": {
+    "message": "Feedback and dissemination",
+    "description": "The label for category Feedback and dissemination in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Feedback and dissemination.link.generated-index.description": {
+    "message": "Feedback session to participants. Follow up and reporting.",
+    "description": "The generated-index page description for category Feedback and dissemination in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Good, Bad and Ugly": {
+    "message": "Good, Bad and Ugly",
+    "description": "The label for category Good, Bad and Ugly in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Good, Bad and Ugly.link.generated-index.description": {
+    "message": "Case stories on tricot",
+    "description": "The generated-index page description for category Good, Bad and Ugly in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.FAQs and other resources": {
+    "message": "FAQs and other resources",
+    "description": "The label for category FAQs and other resources in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.FAQs and other resources.link.generated-index.description": {
+    "message": "Frequently asked questions",
+    "description": "The generated-index page description for category FAQs and other resources in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Appendices": {
+    "message": "Appendices",
+    "description": "The label for category Appendices in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Appendices.link.generated-index.description": {
+    "message": "Additional docs",
+    "description": "The generated-index page description for category Appendices in sidebar tutorialSidebar"
+  }
+}
