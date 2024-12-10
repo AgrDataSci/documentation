@@ -76,7 +76,7 @@ jobs:
         run: npm ci
 
       - name: Build PDF
-        run: npx docusaurus-prince-pdf -u https://agrdatasci.github.io/documentation/
+        run: npx docusaurus-prince-pdf -u https://agrdatasci.github.io/documentation/ --output pdf/tricot-documentation-book.pdf
 
       - name: Upload PDF artifact
         uses: actions/upload-artifact@v3
