@@ -16,7 +16,7 @@ Tricot can be used to evaluate broader concepts, such as innovative farming prac
 
 4. Farmer-Centric Data and Decision Support
 
-By empowering farmers as co-researchers, tricot generates farmer-driven data, enriching breeding programs and product development pipelines. Insights into environmental interactions and user preferences guide demand-driven breeding and agricultural innovation. The ClimMob[https://climmob.net/] Platform enable real-time data collection, analysis, and visualization to inform decision-making.
+By empowering farmers as co-researchers, tricot generates farmer-driven data, enriching breeding programs and product development pipelines. Insights into environmental interactions and user preferences guide demand-driven breeding and agricultural innovation. The [ClimMob](https://climmob.net/) Platform enable real-time data collection, analysis, and visualization to inform decision-making.
 
 5. Scaling and Adaptation
 
