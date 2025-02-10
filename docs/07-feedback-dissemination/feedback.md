@@ -1,0 +1,78 @@
+---
+sidebar_position: 1
+---
+
+# Feedback and dissemination of results to stakeholders
+
+> Anna Müller, Charlotte Schumann, Juan Manuel Londoño
+
+Feedback session to participants. Follow up and reporting.
+
+##Feedback
+
+From Feedback page 25 in the short guide
+
+You have run the analysis using the ClimMob online software. Now the farmer-researchers are eager to know the results of their trials. All farmers are invited to a final workshop to receive and discuss the results.
+
+Soon after all the data are collected and the analysis is completed, participating farmers are invited to a feedback workshop. Here, they receive information sheets about their trials and will have a chance to discuss the results. The farmers have had different experiences with their trials, so reciprocal sharing of these experiences with other farmers is an important part of the learning process. Plan at least half a day for each feedback workshop.
+
+The workshop consists of three parts:
+
+1. The project implementers or the local field agents present the overall results of the technology evaluation. Farmers learn which technology options performed best under which conditions.
+
+2. The farmers receive their personal infosheets about which technology they have preferred and are given time to discuss 
+the results with other farmers and implementers. It is recommended to form small groups for this activity (of about 5-7 persons), including a facilitator (a field agent or experienced farmer). Groups can present their conclusions in a plenary session. 
+
+3. Farmers then receive a practical agronomic lesson as another incentive for participation. For example, field agents may use this opportunity to disseminate knowledge about seed storage or seed selection.
+
+These points should be considered by the field agents:
+• Discussion among the farmers is important: everyone can learn from each other. 
+• It is crucial to make it clear that there is no single best technology option. In fact, optimal technology options can differ across farms and farmers.
+• Field agents should also annotate feedback provided by the farmers on their experience with the trials and the project in general.
+
+Preparations for the final workshops: 
+• As with the training and distribution workshop, in most cases farmers should be limited to around 20-25 per event, in a central location accessible to all.
+• Have the infosheets for all farmers ready for distribution during the workshop.
+
+##Evaluation
+
+From Evaluation page 27 of the short guide
+
+The first tricot cycle has finished. What can be improved?
+
+Countries, crops, farming systems, and people are diverse, so every tricot project is different. This booklet can only be a guide to assist you 
+in designing your own local experiment. Tricot is an iterative process and the last step in a project cycle is the evaluation of the project for 
+further improvement.
+
+Listening to the farmers’ experiences is most important. It is crucial that the farmers perceive tricot as both simple and beneficial. You should try to identify possible improvements in managing and executing the trials. At the feedback workshop, farmers can express their experiences, recommendations and complaints about the process. Moreover, the local field agents can provide project implementers with many valuable comments and recommendations, since they have constantly been in touch with the farmers and in some cases have followed the trials in person on site.
+
+After every project cycle, the project implementers, researchers, and local field agents should discuss how to improve the process. Including more farmers with every project cycle should be a constant objective in tricot, so that more households can benefit from the investigation.
+
+Also, with the results of every cycle, you may identify one or two technology options that were not well accepted by the farmers, or that did not work well in your region. For the next cycle, you can discard those technology options ranked lowest by farmers and replace them with new ones. This way, there is ‘refreshed’ input to the research system, and the farmers’ chances of discovering a suitable technology option for the conditions of their farm remain high.
+
+Indicators of success 
+
+The success of your tricot project can be measured. You can evaluate five indicators, which will give you an idea about the individual trials’ 
+impact, and the project’s overall success.
+
+1. The rate of completed trials 
+Count the trials that were fully completed, as well as the trials where data was missing. You can evaluate whether the loss of information is due to natural causes (e.g. drought that made it impossible to evaluate certain criteria on farm) or to the farmer’s management of the trial (e.g. a mistake with the package code (QR code), lack of interest in finishing the observations). This way, important knowledge about the specific difficulties can be generated, which will help you find strategies to avoid them being repeated. 
+
+2. Farmers’ gender ratio 
+Women tend to have less access to the profits of agricultural production and other resources generated by such work. Participation in a tricot experiment can open doors for the empowerment of women. It is recommended that every tricot project strives to achieve a balanced gender ratio among
+farmers by specially encouraging the participation of women. 
+
+3. The percentage of farmers who participate again, after the first cycle
+Returning farmers are a clear indicator of the farmers’ motivation. If many of the farmers do not want to participate a second time, something about the tricot process design may need to be changed. 
+
+4. Changes in the technology choice 
+On the observation card, the farmers write whether they will continue using any of the new technology options from their tricot trial. If they choose to use at least one of the three technology options, this shows the impact of the trials. If no or very few farmers want to continue using the newly introduced technology options, then the initial pool of technology options may need to be reconsidered. 
+
+5. Dissemination of technology into the communities and information exchange  
+Because of their joint experience in the tricot trial, farmers may become more active in experimenting with technologies and exchanging information within their communities. This can be checked by estimating the scale of diffusion of technologies into communities a year after the tricot experiment, by talking to the farmers, as well as to other farmers in the communities. 
+
+DOCUMENTING TRIALS AND PUBLISHING DATA (RTB)
+
+Open access publication of the data should be a goal of the trial. Tricot has already published a number of sizable datasets from on-farm trials (van Etten et al., 2018; Moyo et al., 2020; de Sousa et al., 2020). These datasets could become important for other research that repurposes these datasets (see section 11 below). Kool et al. (2020) have provided an incisive critique of on-farm testing in agronomy, especially the limited replicability of many trials as authors fail to report contextual factors (crop management) and sampling of locations and participating farmers. Similarly, a study on PVS in RTB crops reveals that on-farm trials are often documented in a very deficient way and that data are hardly published at all (Jose Valle et al., forthcoming). Data publication could become more attractive if it is easy to do and has rewards (citations of datasets repurposed by others). Publishing all data from trials could prevent the so-called file-drawer problem, which means that only certain datasets (for example, novel analyses, striking results) are published, which then lead to biased statistics in meta-analyses. 
+
+The tricot approach should address this issue by facilitating and standardizing the way in which on-farm trials are documented and published. Standardization should be done using the insights of the studies cited above. Specifically, meta-data on the trials could be standardized and some elements on the trial context could become recommended elements that are easily available from within the software. For example, it is becoming more and more clear that plot use histories and fertilization in preceding seasons of plots are highly influential on yields (Njoroge et al., 2019; Zingore et al., 2007). For this, an existing metadata schema for phenotypic experiments could be adapted (Papoutsoglou et al., 2020). Also, the data publication process should be automatized, including the anonymization procedure (removing personal identifiable information such as names, addresses and telephone numbers as well as aggregating geographic data to a sufficient level to prevent identification). 

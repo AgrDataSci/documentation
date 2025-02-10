@@ -65,7 +65,7 @@ At www.climmob.net you will find examples and illustrations to help you generate
 • Informative leaflet or poster, as an aid to explain the tricot process to the farmers.
 • Observation card, for the farmers to collect their observations on the field. It is designed to enable participation with a minimal level of literacy. 
 
-insert observation sheet image from page 2
+![Observation sheet for crop variety evaluation](./img/observation_sheet.png)
 
 SCALING: COST REDUCTION AND NEW BUSINESS MODELS (RTB) - not sure if this goes on this page?
 

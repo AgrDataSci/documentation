@@ -88,4 +88,4 @@ Tricot experiments address the challenge of diversity in regions where environme
 • Meaningful data 
 Tricot uses a data-driven approach that can combine farmer-generated experimental and preference data with data about cropping systems and farming households, thus it enables a rich analysis. Without tricot, this could only be achieved by very complex methods (such as crop modelling). The tricot data can be analyzed with existing maps of temperature, rainfall, altitude, and other environmental variables. These analyses can provide recommendations for different environments or strategies to deal with climatic risk. Tricot makes it possible to combine several seasons of data to do in-depth analyses of this kind.
 
-insert figure from page 3
+![Tricot stakeholders](./img/stakeholders.png)
