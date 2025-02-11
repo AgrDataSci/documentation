@@ -2,6 +2,8 @@
 sidebar_position: 1
 ---
 
+Rachel and Kaue to send 10 questions to each of the below:
+
 # Banana on-farm testing Guadalupe
 
 > Charlotte Guichard, Lucile Tonuitti

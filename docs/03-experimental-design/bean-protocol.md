@@ -1,4 +1,8 @@
-# Bean Trial Protocol
+---
+sidebar_position: 2
+---
+
+# Example of Experimental Design - Bean Trial Protocol
 
 ## Introduction
 
@@ -7,7 +11,7 @@ that will be collected during a bean tricot trial. Further traits and
 variables can be added, but this will need to be done by the project
 manager in ClimMob.
 
-The protocol provides an overview of the data collection moments during
+The protocol indicates the data collection moments during
 the trials and the variables and traits collected at each data
 collection moment. Farmers evaluate varieties in their on-farm trials
 and provide comparative observations by ranking the varieties based on

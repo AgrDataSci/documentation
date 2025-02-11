@@ -6,4 +6,4 @@ sidebar_position: 2
 
 > Joost van Heerwaarden, Jacob van Etten
 
-Geographic sampling babla
+Text to come from Joost (Feb 2025)
