@@ -6,7 +6,7 @@ sidebar_position: 2
 
 > Rachel Chase
 
-**This guide provides a short overview of each of the 10 steps needed to develop and implement a tricot project.**
+**This section provides a short overview of each of the 10 steps needed to develop and implement a tricot project.**
 
 ![Tricot 10 steps](./img/10StepsTricot.png)
 

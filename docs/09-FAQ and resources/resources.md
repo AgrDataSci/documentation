@@ -1,17 +1,16 @@
 ---
 sidebar_position: 2
 ---
+# Tricot resources
 
 https://climmob.net/blog/wiki/climmob-and-tricot-resources/
 
-Guide
+## Guide
 
 Jacob van Etten, Rhys Manners, Jonathan Steinke, Elsa Matthus, Kauê de Sousa. 2020. The tricot approach. Guide for large-scale participatory experiments. Rome (Italy): Alliance of Bioversity International and CIAT. https://hdl.handle.net/10568/109942
 
 This is a short, full-colour guide intended for practitioners who are not yet familiar with tricot. It explains the rationale of tricot and gives an overview of the experimental cycle.
 
-
-Main publications
 
 All publications about the tricot approach are free and open access.
 
@@ -63,7 +62,7 @@ Introduces the ClimMob software.
 
 This paper brings a perspective on opportunities and challenges of data-driven approaches for crop diversity management (genebanks and breeding) in the context of agricultural research for sustainable development in the Global South.
 
-ClimMob YouTube channel
+## ClimMob YouTube channel
 
 All videos about ClimMob and tricot are here.
 https://www.youtube.com/channel/UCmqo4KCZwX8R-H4SNkXfuSA/playlists
