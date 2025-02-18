@@ -11,6 +11,7 @@ Jacob van Etten, Rhys Manners, Jonathan Steinke, Elsa Matthus, Kauê de Sousa. 2
 
 This is a short, full-colour guide intended for practitioners who are not yet familiar with tricot. It explains the rationale of tricot and gives an overview of the experimental cycle.
 
+## Main publications
 
 All publications about the tricot approach are free and open access.
 
@@ -61,6 +62,9 @@ Introduces the ClimMob software.
 12. Jacob van Etten, Kauê de Sousa, […] Hale Ann Tufan. 2023. Data-driven approaches can harness crop diversity to address heterogeneous needs for breeding products. PNAS 120 (14). https://doi.org/10.1073/pnas.2205771120
 
 This paper brings a perspective on opportunities and challenges of data-driven approaches for crop diversity management (genebanks and breeding) in the context of agricultural research for sustainable development in the Global South.
+
+Add papers from 2024.
+
 
 ## ClimMob YouTube channel
 
