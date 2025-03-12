@@ -20,10 +20,6 @@ Rachel and Kaue to send 10 questions to each of the below:
 
 > Thiago Mendes, OneAcre Fund
 
-# Seed systems in Rwanda 
-
-> OneAcre Fund
-
 # Seed system in Ethiopia
 
 > Gareth Borman and team 
