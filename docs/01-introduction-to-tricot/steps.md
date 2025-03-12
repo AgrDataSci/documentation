@@ -8,9 +8,6 @@ sidebar_position: 2
 
 **This section provides a short overview of each of the 10 steps needed to develop and implement a tricot project.**
 
-![Tricot 10 steps](./img/10StepsTricot.png)
-
-
 ## Step 1: Preparation
 Researchers define a set of comparable technology options to test. For example, they decide to compare crop varieties with each other, or different fertilizer types, or irrigation technologies. They will provide the necessary materials (inputs or other) to project implementers (organizations that will reach farmers). Typically, about 8-12 technology options (comparable items) are included in the trial to be tested.
 
@@ -48,3 +45,4 @@ The implementers provide feedback to every participating farmer: the names of th
 Tricot is an iterative process: after every project cycle, researchers, implementers and farmers collaboratively evaluate how the process may be improved in the next cycle.
 
 
+![Tricot 10 steps](./img/10StepsTricot.png)
