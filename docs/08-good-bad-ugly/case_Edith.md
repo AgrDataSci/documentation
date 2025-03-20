@@ -1,6 +1,6 @@
 ---
 sidebar_position: 1
---
+---
 
 # Tricot evaluation of common bean in Tanzania – Edith Kadege, Tanzania Research Institute
 
