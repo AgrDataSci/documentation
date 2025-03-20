@@ -81,7 +81,7 @@ jobs:
         run: npx docusaurus-prince-pdf -u https://agrdatasci.github.io/documentation/ --output pdf/tricot-documentation-book.pdf
 
       - name: Upload PDF artifact
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4
         with:
           name: documentation-pdf
           path: pdf/tricot-documentation-book.pdf
