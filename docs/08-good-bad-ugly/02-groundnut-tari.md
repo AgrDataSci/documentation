@@ -1,8 +1,7 @@
 ---
 sidebar_position: 2
 ---
-
-# Tricot evaluation of groundnut in Kenya and Tanzania
+# Groundnut in Kenya and Tanzania
 > Happy Daudi, CIMMYT, Kenya
 
 1.	Why did you use tricot? 
