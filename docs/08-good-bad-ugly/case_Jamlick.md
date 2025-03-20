@@ -1,10 +1,11 @@
 ---
-sidebar_position: 1
+sidebar_position: 4
 ---
 
-# Tricot evaluation of maize in Kenya – Jamlick Mwathi, Bayer Crop Science, Kenya
+# Tricot evaluation of maize in Kenya
+> Jamlick Mwathi, Bayer Crop Science, Kenya
 
-1.	Why did you use Tricot? 
+1.	Why did you use tricot? 
 
 We use tricot because of the benefits you get from understanding your customer (farmer) that we use to develop breeding strategies and to identify the gaps that need to be taken care of.
 

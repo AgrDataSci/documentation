@@ -1,8 +1,9 @@
 ---
-sidebar_position: 1
---
+sidebar_position: 2
+---
 
-# Tricot evaluation of maize in Rwanda – Elyse Tuyishime, One Acre Fund, Rwanda
+# Tricot evaluation of maize in Rwanda
+> Elyse Tuyishime, One Acre Fund, Rwanda
 
 1.	What was the goal of the project? 
 
