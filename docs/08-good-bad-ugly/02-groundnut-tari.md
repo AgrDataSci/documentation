@@ -1,10 +1,10 @@
 ---
-sidebar_position: 1
---
+sidebar_position: 2
+---
+# Groundnut in Kenya and Tanzania
+> Happy Daudi, CIMMYT, Kenya
 
-# Tricot evaluation of groundnut in Kenya and Tanzania – Happy Daudi, CIMMYT, Kenya
-
-1.	Why did you use Tricot? 
+1.	Why did you use tricot? 
 
 Tricot gives us quality and robust data and is more cost effective than other methods for on farm testing. Tricot also involves more farmers for better results. 
 
@@ -31,3 +31,5 @@ Yes, it is especially useful for breeders. They can get more preference informat
 7.	What challenges need to be addressed? 
 
 The software needs to be better at harmonizing quantitative data. Currently the methodology is more focused on qualitative data (ranking) but breeders need quantitative data a well (e.g. for yield).
+
+

@@ -1,8 +1,9 @@
 ---
-sidebar_position: 1
---
+sidebar_position: 5
+---
 
-# Tricot evaluation of maize in Rwanda – Elyse Tuyishime, One Acre Fund, Rwanda
+# Maize in Rwanda
+> Elyse Tuyishime, One Acre Fund, Rwanda
 
 1.	What was the goal of the project? 
 
@@ -31,4 +32,3 @@ Yes it is, because tricot consolidates the perspectives of many farmers that wou
 7.	What challenges need to be addressed? 
 
 The challenge with tricot is that it involves a series of sequential steps that cannot be skipped, which can sometimes be complicated. It also requires a field based team to engage with farmers.
-

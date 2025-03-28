@@ -1,8 +1,8 @@
 ---
-sidebar_position: 1
---
-
-# Tricot evaluation of cowpea in Nigeria – Patrick Ongom, IITA, Nigeria
+sidebar_position: 8
+---
+# Cowpea in Nigeria
+> Patrick Ongom, IITA
 
 1.	Why did you use Tricot? 
 

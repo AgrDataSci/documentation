@@ -1,8 +1,8 @@
 ---
-sidebar_position: 1
+sidebar_position: 6
 ---
-
-# Tricot evaluation of sweet potato – Reuben Ssali, CIP, Uganda
+# Sweet potato in Uganda
+> Reuben Ssali, CIP
 
 1.	Why did you use Tricot? 
 
@@ -27,4 +27,3 @@ Yes it is appropriate because first it is able to tell you the best and worst va
 6.	What are the challenges that need to be addressed? 
 
 Only challenges is not being able to quickly distinguish the trade-offs of good vs bad traits. We would like to know why did farmers appreciate varieties despite some bad traits.
-

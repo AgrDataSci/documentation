@@ -1,10 +1,11 @@
 ---
-sidebar_position: 1
---
+sidebar_position: 3
+---
 
-# Tricot evaluation of common bean in Tanzania – Edith Kadege, Tanzania Research Institute
+# Common bean in Tanzania
+> Edith Kadege, Tanzania Research Institute (TARI)
 
-1.	Why did you use Tricot? 
+1.	Why did you use tricot? 
 
 I used tricot for my PhD to understand farmers preference traits of common bean varieties in Tanzania. There are other methods available, like participatory varietal selection, but tricot offers several advantages over other methods. Tricot is simple for farmers to use and can involve many farmers across diverse environments. This leads to more accurate and diverse assessments. The ranking of data makes it easier to get meaningful insights from relatively few trials. Tricot is a less intensive approach, requiring less time and effort by farmers, leading to higher farmer participation and lower farmer dropout rates. It also requires fewer resources including time, materials and personnel, making it a very cost-effective method for evaluating agricultural varieties and technologies. It also reduces errors created with other methods when the farmers and researchers came together to evaluate the material. In those cases, some traits are not considered and there can be bias when farmers are influenced by the view of other farmers. 
 

@@ -1,8 +1,8 @@
 ---
-sidebar_position: 1
+sidebar_position: 7
 ---
-
-# Tricot evaluation of groundnut in Ghana – Richard Oteng-Frimpong, Savanah Agricultural Research Institute, Ghana
+# Groundnut in Ghana
+>Richard Oteng-Frimpong, Savanah Agricultural Research Institute
 
 1.	Why did you use Tricot? 
 

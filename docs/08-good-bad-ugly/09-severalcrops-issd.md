@@ -1,8 +1,8 @@
 ---
-sidebar_position: 1
+sidebar_position: 9
 ---
-
-# Tricot evaluation in Ethiopia - Mohammed Hassena, Integrated Seed Sector Development, Ethiopia
+# Seed systems in Ethiopia
+> Mohammed Hassena, Integrated Seed Sector Development
 
 1.	Why did you use Tricot? 
 
