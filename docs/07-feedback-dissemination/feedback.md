@@ -2,7 +2,7 @@
 sidebar_position: 1
 ---
 
-# Trial evaluation and feedback
+# Trial feedback and evaluation
 
 
 ## Feedback to farmers
@@ -36,13 +36,14 @@ This sheet available here was designed to present individual and group trial res
 The farmer diploma – an acknowledgement of the farmers’ contribution
 This diploma was designed to stress the importance of the farmers' contribution to the tricot trial. It is an acknowledgement of their role in the process. You can add the logo of your organization to the certificate. Print this for every farmer and sign. 
 
-![Farmer certificate](./img/farmer_certificate.png)
+![Farmer infosheet](./img/farmer_certifcate.png)
+
 ### How to prepare feedback sessions
 •	Budget : Plan resources (team time and money) for this final workshop from the start. Plan your team’s time to visit all communities or regions holding trial result workshops. Plan for your team’s time to debrief after the workshops  and document learnings to integrate them in the planning of next trials.
 •	Group sizes: As with the training and distribution workshop, in most cases farmers should be limited to around 20-25 per event, in a central location accessible to all.
 •	Materials – depends highly on implementation of the sheet & diploma. We recommend :
 
-##Trial evaluation 
+## Trial evaluation 
 
 The first tricot cycle has finished. What can be improved?
 
@@ -54,7 +55,7 @@ After every project cycle, the project implementers, researchers, and local fiel
 
 Also, with the results of every cycle, you may identify one or two technology options that were not well accepted by the farmers, or that did not work well in your region. For the next cycle, you can discard those technology options ranked lowest by farmers and replace them with new ones. This way, there is ‘refreshed’ input to the research system, and the farmers’ chances of discovering a suitable technology option for the conditions of their farm remain high.
 
-###Indicators of success 
+### Indicators of success 
 
 The success of your tricot trial can be measured. You can evaluate four indicators in ClimMob, which will give you an idea about the individual trials’ impact, and the project’s overall success.
 
