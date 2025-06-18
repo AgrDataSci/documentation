@@ -2,7 +2,7 @@
 sidebar_position: 4
 ---
 
-# Trial dimensions (RTB)
+# Trial dimensions 
 
 A recurrent issue is deciding about trial dimensions: plot size and the number of plots (replications). In the literature about crop trials, there are several methods to guide decision making. At the same time, this is not just a question of statistics, but also biological considerations are important. For tricot trials, there are a number of additional considerations related to farmers’ capacities.  
 ## Plot size 
