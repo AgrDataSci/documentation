@@ -26,7 +26,7 @@ experienced farmer-colleagues when they have doubts, and the farmers get the cha
 B. Local groups can carry out a joint trial
 Carrying out a group or joint trial makes the learning process easier and participation more fun. Any existing group, like farmers’ committees, credit cooperatives, or a religious group can receive a trial package and participate together. In this case, a ‘host’ farm is needed, where the technology options can be tested. The host farmer will be the contact person for the local field agent, while all activities – such as planting and making the trial observations – can be performed jointly by the group. In the following season, individual group members may want to plant a trial for themselves, building on the experiences they gained in the group trial. To enhance the participation of women farmers, it can be useful to establish ‘women’s research groups’, who would be in charge of a number of tricot plots.
 
-## Package distribution (page 17 of short guide)
+## Package distribution (page 17 of short Guide)
 
 The tricot process starts with a training and distribution workshop. Here, the farmers receive their trial packages and learn about the tricot methodology and data collection process.
 
