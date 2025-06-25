@@ -6,6 +6,98 @@ sidebar_position: 2
 
 > MrBot Software Solutions 
 
+## ClimMob suite
+ClimMob: A software platform for experimental citizen science in agriculture
+
+Experimental citizen science in agriculture
+
+Experimental citizen science offers new ways to organize on-farm testing of crop varieties and other agronomic options. Unlike traditional trials managed solely by researchers, experimental citizen science involves farmers directly in testing and evaluating technologies.
+
+Scaling up this model requires tools that can handle experimental design, data collection, and data analysis—in a way that is simple, decentralized and collaborative.
+
+## ClimMob software 
+
+ClimMob was developed as a dedicated platform to support experimental citizen science using the tricot approach.
+
+ClimMob is a free, open-source software and online platform for the design and management of participatory testing projects. It guides users through their own tricot projects by helping them manage data and perform statistical analyses.
+
+●	Current version: ClimMob 3.
+●	Data collection: via the Android app ODK Collect. 
+●	Analysis: uses the R package ClimMobTools.
+
+Note: An Android smartphone or tablet is required for data collection.
+
+## Why ClimMob?
+
+Participatory tests can be complex. They involve multiple actors—such as project implementers, field agents, and farmers—often across different regions or countries. These tests also generate large volumes of data that must be organized, validated and analyzed.
+
+ClimMob was custom-built to streamline this complexity by supporting:
+●	Project design and planning 
+●	Generation of randomized test packages
+●	Efficient data collection and storage
+●	Automated data analysis and reporting
+
+By simplifying all stages of the workflow, ClimMob makes tricot projects more manageable, scalable and successful.
+
+##The tricot approach: core methodology
+
+ClimMob is designed around the triadic comparison of technologies (tricot) approach. In this method, each farmer receives three randomly selected options (e.g. crop varieties) and ranks them based on their performance for different criteria.
+
+This approach is:
+●	Easy for farmers to understand and apply
+●	Scientifically rigorous
+●	Scalable across regions
+
+Tricot empowers farmers to generate and interpret agronomic evidence based on their own experiences.
+
+## Software architecture and design principles
+
+a.	Design philosophy
+ClimMob’s architecture was shaped by the need for a feasible and farmer-relevant workflow, while also meeting the needs of breeders, researchers, and policymakers. The software and workflow were designed in parallel to ensure technical coherence and usability.
+
+b.	Component-based engineering
+ClimMob is built using Component-Based Software Engineering (CBSE). This allows for a flexible and modular platform that is easy to update and maintain.
+
+c.	Open-source foundation
+ClimMob is based on robust, widely adopted open-source components, including:
+●	Open Data Kit (ODK)
+●	ODK Tools
+●	PyUtilib Component Architecture
+
+All data analyses are conducted through R packages, particularly the ClimMobTools package, ensuring reproducibility and transparency.
+
+## User-centered development
+
+From the beginning, ClimMob has followed an iterative and user-centered development process, marked by:
+●	Ongoing feedback from users
+●	Short communication loops between developers and field teams
+●	Continuous improvements based on real-world use
+
+This has resulted in a platform that adapts to the evolving needs of agricultural innovation projects.
+
+## Who uses ClimMob—and how?
+
+ClimMob was built to support a range of users within participatory testing projects:
+
+a.	Implementers (project leaders)
+Implementers benefit from tools for project setup, assigning field agents, and managing test packages. ClimMob also offers automatic statistical reports, enabling data-informed decision-making.
+
+b.	Field Agents
+Field agents register participants and collect data using the ODK Collect app. This ensures data entry is quick, efficient and synchronized with ClimMob.
+
+c.	Testers (farmers or participants)
+Testers receive their test results soon after data submission. This rapid feedback helps them learn from peers and adopt the most promising technologies.
+
+## What’s next for ClimMob?
+
+Ongoing development of ClimMob focuses on:
+●	Improving user experience (UI/UX).
+●	Expanding data types and media (e.g. audio, photos, sensor data).
+●	Enhancing integration with other platforms.
+●	Strengthening support for data-driven agricultural decision-making.
+
+old
+
 Experimental citizen science offers new ways to organize on-farm testing of crop varieties and other agronomic options. Its implementation at scale requires software that streamlines the process of experimental design, data collection and analysis, so that different organizations can support trials. This article considers ClimMob software developed to facilitate implementing experimental citizen science in agriculture. We describe the software design process, including our initial design choices, the architecture and functionality of ClimMob, and the methodology used for incorporating user feedback. Initial design choices were guided by the need to shape a workflow that is feasible for farmers and relevant for farmers, breeders and other decision-makers. Workflow and software concepts were developed concurrently. The resulting approach supported by ClimMob is triadic comparisons of technology options (tricot), which allows farmers to make simple comparisons between crop varieties or other agricultural technologies tested on farms. The software was built using Component-Based Software Engineering (CBSE), to allow for a flexible, modular design of software that is easy to maintain. Source is open-source and built on existing components that generally have a broad user community, to ensure their continuity in the future. Key components include Open Data Kit, ODK Tools, PyUtilib Component Architecture. The design of experiments and data analysis is done through R packages, which are all available on CRAN. Constant user feedback and short communication lines between the development teams and users was crucial in the development process. Development will continue to further improve user experience, expand data collection methods and media channels, ensure integration with other systems, and to further improve the support for data-driven decision-making.
 
 ## Creating a new project
