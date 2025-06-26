@@ -4,9 +4,7 @@ sidebar_position: 3
 
 # Geographic sampling
 
-## Considerations related to sample size and geographic sampling
-
-Sample size
+## Sample size
 
 As for any experiment, deciding on appropriate sample size is important when designing tricot trials. Since determining genotypic differences in performance is the aim of variety trials, the number of replicates per genotype (n) determines statistical power. As can be seen in figure 1., statistical power increases with n, and a quite substantial number of replicates may be required when differences between varieties are small, or residual (i.e. random) variation is large. 
 For example, detecting a difference in average (measured) yield equal to the residual standard deviation (i.e. a so-called Cohen’s D of 1) with 80% probability would require approximately 20 replicates per genotype. It is important to note that tricot ranking data contains less information than direct measurements and, consequently, about twice as many replicates are needed to achieve equivalent power (i.e. an n of 40 for a power of 80% in the mentioned case). Also, rank-based estimates of genotypic performance may be unreliable when n is too small and a minimum of 20 replicates should be aimed for.
