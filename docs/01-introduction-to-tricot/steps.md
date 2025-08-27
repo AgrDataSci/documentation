@@ -4,15 +4,13 @@ sidebar_position: 2
 
 # The 10 steps of a tricot experiment
 
-> Rachel Chase
-
 This section provides a short overview of each of the 10 steps needed to develop and implement a tricot project.
 
 ## Step 1: Preparation
 Researchers define a set of comparable technology options to test. For example, they decide to compare crop varieties with each other, or different fertilizer types, or irrigation technologies. They will provide the necessary materials (inputs or other) to project implementers (organizations that will reach farmers). Typically, about 8-12 technology options (comparable items) are included in the trial to be tested.
 
 ## Step 2: Design
-The implementing organization uses the ClimMob [(climmob.net)](https://climmob.net/) free online software to design the project. This digital platform has been specifically created to manage tricot projects, from designing the experiment to data collection and analysis. The use of the digital platform streamlines the process. ClimMob offers the following benefits:
+The implementing organization uses the ClimMob [(www.climmob.net)](https://climmob.net/) free online software to design the project. This digital platform has been specifically created to manage tricot projects, from designing the experiment to data collection and analysis. The use of the digital platform streamlines the process. ClimMob offers the following benefits:
 1. ClimMob helps to avoid mistakes by introducing QR codes and electronic forms;
 2. ClimMob provides a dashboard to monitor progress;
 3. ClimMob reduces or eliminates the effort spent on digitalizing data collected on paper;

@@ -16,24 +16,29 @@ The method was first implemented and tested in the period between 2013 and 2016 
 
 # Description of the tricot approach 
 
-The tricot approach has been described in several publications (van Etten et al., 2019; van Etten, 2011; van Etten et al., 2020; Steinke et al., 2017; van Etten et al., 2019; Fadda et al., 2020; Beza et al., 2017). Here, a short synthesis will be provided.  
+The tricot approach has been described in several publications [@vanEtten2016;@vanEtten2011; @vanEtten2019; @vanEtten2020; @Steinke2017; @Fadda2020; @Beza2017]. Here, a short synthesis will be provided.  
 
 The word ‘tricot’ is derived from triadic comparisons of technology options. ‘Triadic’ refers to the sets of three technology options that are compared by each participant. Tricot enables many citizen scientists doing a small experiment while contributing to answering a larger question. Researchers and citizen science participants are supported throughout the experiment cycle by digital tools to design, execute, monitor and analyze the trials. As many citizen scientists contribute and do experiments in their typical use environments using their usual practices, it becomes possible to start to understand how variation in environments and practices affects the results. 
 
 The particular way in which tricot works makes these steps possible. The following aspects are key to tricot:  
-1. the use of incomplete blocks of three items – to make the threshold of participation low in terms of farm size, and reduce resource needs and training required; 
-2. the use of ranking as the main way to report observations -- to facilitate digital data collection and to make it possible to evaluate a tricot plot with very little training (in contrast, scoring requires calibration and absolute yield measurements require training);  
-3. the limited control of experimental conditions – following common local technology use practices to maximize external validity; 
+
+1. the use of incomplete blocks of three items – to make the threshold of participation low in terms of farm size, and reduce resource needs and training required;
+
+2. the use of ranking as the main way to report observations -- to facilitate digital data collection and to make it possible to evaluate a tricot plot with very little training (in contrast, scoring requires calibration and absolute yield measurements require training); 
+
+3. the limited control of experimental conditions – following common local technology use practices to maximize external validity;
+
 4. the use of a streamlined digital process from trial design to analysis – to make it manageable, executable with many participants, to reduce errors, to reduce costs, and to quickly deliver feedback to achieve high motivation and impact on subsequent decisions; 
+
 5. early feedback of the results to the participants -- to provide ownership to and stimulate engagement of participating “citizen scientists” and to validate results. 
 
-Tricot builds on existing participatory research formats that have been used in the past, as documented by (Van Etten et al., 2019). The novelty of the format is the combination of the different elements in a standardized, widely used approach supported by a corresponding digital platform, ClimMob (https://climmob.net). 
+Tricot builds on existing participatory research formats that have been used in the past, as documented by [@vanEtten2019]. The novelty of the format is the combination of the different elements in a standardized, widely used approach supported by a corresponding digital platform, ClimMob (https://climmob.net). 
 
-Another innovation behind the tricot approach is the use of the Plackett-Luce model (Luce, 1959; Plackett, 1975). This statistical model is also not new, but an appropriate software implementation was not available. In previous analyses of on-farm data, data were converted to pairwise comparisons, after which the Bradley-Terry model was used (Coe, 2002; van Etten et al., 2019; Steinke et al., 2019; Dittrich et al., 2000). However, this leads to anti-conservative statistical error estimates and the conversion from rankings to pairwise comparisons implies information loss. This was the reason to implement the Plackett-Luce model in R (Turner et al., 2020). Also, a number of other R packages were created to support data management and analysis. These are described in section 12 below. 
+Another innovation behind the tricot approach is the use of the Plackett-Luce model [@luce1959; @plackett1975]. This statistical model is also not new, but an appropriate software implementation was not available. In previous analyses of on-farm data, data were converted to pairwise comparisons, after which the Bradley-Terry model was used [@Coe2002;@vanEtten2019; @Steinke2019; @Dittrich2000]. However, this leads to anti-conservative statistical error estimates and the conversion from rankings to pairwise comparisons implies information loss. This was the reason to implement the Plackett-Luce model in R [@Turner2020]. Also, a number of other R packages were created to support data management and analysis. These are described in section 12 below. 
 
-The approach is supported by the ClimMob digital platform (https://ClimMob.net). The platform will be described in detail in a forthcoming paper (Quirós et al., forthcoming). It supports the user in designing a trial, randomizing the entries, creating electronic questionnaires, collecting the data, monitoring trial progress, and generating reports. 
+The approach is supported by the ClimMob digital platform (https://climmob.net). The platform is described in detail in Quirós et al., 2024 [@Quirs2024]. ClimMob supports the user in designing a trial, randomizing the entries, creating electronic questionnaires, collecting the data, monitoring trial progress, and generating reports. 
 
-There are several other elements that support the users. The different steps of the tricot approach are described in a manual (van Etten et al., 2020). Also, there are online guides and videos available from https://climMob.net.
+There are several other elements that support the users. The different steps of the tricot approach are described in a manual [@vanEtten2020]. Also, there are online guides and videos available from https://climmob.net.
 
 # How is the tricot approach is used?
 
@@ -65,9 +70,7 @@ Enhances crop diversity and resilience by tailoring recommendations to local nee
 
 # How the tricot approach works 
 
-With the tricot method, large numbers of farmers carry out many small, simple trials on their own farms instead of a few big, complex trials conducted at research stations. A research center provides the participating farmers with material for the on-farm trials. The farmers 
-provide observations from their trials to the ag-ricultural research center, where the data from all mini-trials is aggregated and analyzed. The 
-research center then feeds back the findings to the farmers.
+With the tricot method, large numbers of farmers carry out many small, simple trials on their own farms instead of a few big, complex trials conducted at research stations. A research center provides the participating farmers with material for the on-farm trials. The farmers provide observations from their trials to the ag-ricultural research center, where the data from all mini-trials is aggregated and analyzed. The research center then feeds back the findings to the farmers.
 
 With tricot, research centers can validate and disseminate new agricultural technologies in a participatory way, collaborating with a large number of farmers under diverse conditions. Large-scale tricot experiments, involving many farmers, generate excellent/reliable results about the performance of different technology options (such as different crop varieties or different fertilizer types) in different environments. Farmers evaluate the new technology options on their own farms and under real conditions. 
 
@@ -77,17 +80,21 @@ a range to be tested. This makes it possible to engage many farmers without expe
 Tricot is a valid strategy to overcome the ‘bottleneck’ of technology dissemination to users,often faced by research institutes, because it 
 presents the following advantages:
 
-• Farmer-led innovation 
+• Farmer-led innovation
+
 Being fully executed by farmers on their farm, tricot experiments account for important adoption criteria that could easily not 
 occur in researcher-managed trials.  
 
 • Specific solutions 
+
 Rural households benefit directly and firsthand from discovering new technology options that fit their environmental and socio-economic conditions, with a high probability of improving their farm production.  
 
-• Capturing diversity 
+• Capturing diversity
+
 Tricot experiments address the challenge of diversity in regions where environmental conditions or socio-cultural preferences vary strongly across the landscape. The tricot approach helps research centers to collaborate with farmer organizations, development organizations or input providers in the organization of large trials with many farmers.  
 
 • Meaningful data 
+
 Tricot uses a data-driven approach that can combine farmer-generated experimental and preference data with data about cropping systems and farming households, thus it enables a rich analysis. Without tricot, this could only be achieved by very complex methods (such as crop modelling). The tricot data can be analyzed with existing maps of temperature, rainfall, altitude, and other environmental variables. These analyses can provide recommendations for different environments or strategies to deal with climatic risk. Tricot makes it possible to combine several seasons of data to do in-depth analyses of this kind.
 
 ![Tricot stakeholders](./img/stakeholders.png)
