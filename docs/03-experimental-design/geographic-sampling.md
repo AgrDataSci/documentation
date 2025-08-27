@@ -4,6 +4,8 @@ sidebar_position: 3
 
 # Geographic sampling
 
+Joost
+
 ## Sample size
 
 As for any experiment, deciding on appropriate sample size is important when designing tricot trials. Since determining genotypic differences in performance is the aim of variety trials, the number of replicates per genotype (n) determines statistical power. As can be seen in figure 1., statistical power increases with n, and a quite substantial number of replicates may be required when differences between varieties are small, or residual (i.e. random) variation is large. 
