@@ -1,13 +1,12 @@
 ---
-sidebar_position: 3
+sidebar_position: 4
 ---
+
+# Example workflow: Consumer preference of cassava gari-eba
 
 ```{r setup, include=FALSE} 
 knitr::opts_chunk$set(warning = FALSE, message = FALSE) 
 ```
-
-# Example workflow - Consumer preference of cassava gari-eba
-
 Here, I present a workflow to analyze data from a consumer preference trial executed in Nigeria and Cameroon by the International Institute of Tropical Agriculture (IITA) under the RTBFoods project (https://rtbfoods.cirad.fr). Consumer testing was carried out with 1,000 participants in 2022 in Cameroon and Nigeria using the tricot approach [@deSousa2024]. Diverse consumers in villages, towns, and cities evaluated the overall acceptability of gari-eba made from 13 cassava (*Manihot esculenta* Crantz) genotypes. Apart from the overall preference of the samples, the following traits were evaluated for eba based on triangulated insights obtained through earlier surveys and participatory work in the three areas: Nigeria (Osun and Benue States): color, smoothness, moldability, stretchability, and taste. Cameroon (Littoral zone): color, odor, taste, firmness, and stretchability.
 
 Traits in common are color, taste, and stretchability. The results of this study were published by Olaosebikan et al. (2023)[@Olaosebikan2023], and a deeper analysis for the Nigerian subset, linking the consumer data to laboratory instrumental metrics, was published by Alamu et al. (2023)[@EmmanuelAlamu2023]. The present vignette does not intend to replicate the results of these studies. Instead, it presents an alternative workflow to what was developed in the study. For the replication data on Olaosebikan et al. (2023), please visit https://github.com/AgrDataSci/rtbfoods-consumer-testing.
