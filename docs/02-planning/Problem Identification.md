@@ -2,7 +2,7 @@
 sidebar_position: 1
 ---
 
-## Problem Identification
+## Problem identification
 
 ### Defining research questions and objectives.
 

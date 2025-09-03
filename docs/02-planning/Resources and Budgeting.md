@@ -2,7 +2,7 @@
 sidebar_position: 3
 ---
 
-## Resources and Budgeting
+## Resources and budgeting
 
 ### Costing a tricot trial
 
