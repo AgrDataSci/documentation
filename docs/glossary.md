@@ -7,14 +7,14 @@ sidebar_position: 2
 **Administrator** is the person or organization who coordinates the tricot project. It’s the project manager. The administrator could be a scientist working at a research institute, or at an NGO, governmental extension service, etc.
 If the administrator is not a scientist, she or he might collaborate with scientists or a research institute to develop the tricot project, and obtain the tested technologies, such as seeds or fertilizer.
 The tasks of the administrator include:
-●	Designing the tricot project using ClimMob software
-●	Recruiting field agents and participants
-●	Training field agents
-●	Preparing trial packages
-●	Organizing initial workshops
-●	Keeping track of growers’ data collection
-●	Analyzing data using the ClimMob software
-●	Communicating final results to participants in final workshops (together with field agents)
+*	Designing the tricot project using ClimMob software
+*	Recruiting field agents and participants
+*	Training field agents
+*	Preparing trial packages
+*	Organizing initial workshops
+*	Keeping track of growers’ data collection
+*	Analyzing data using the ClimMob software
+* Communicating final results to participants in final workshops (together with field agents)
 
 **Balancing a trial**
 ‘Balancing’ the trial means that all technology options are spread across all the participating villages. Each village will receive packages with 
