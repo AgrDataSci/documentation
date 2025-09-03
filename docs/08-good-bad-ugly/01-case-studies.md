@@ -2,7 +2,7 @@
 sidebar_position: 1
 ---
 
-# Case studies  
+# Interviews  
 
 > Rachel Chase
 
