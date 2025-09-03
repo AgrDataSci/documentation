@@ -4,7 +4,7 @@ sidebar_position: 3
 
 # Geographic sampling
 
-Joost
+> Joost van Heerwaarden
 
 ## Sample size
 

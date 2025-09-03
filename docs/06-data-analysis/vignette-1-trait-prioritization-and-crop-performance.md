@@ -1,9 +1,9 @@
 ---
-sidebar_position: 2
+sidebar_position: 3
 
 ---
 
-# Example workflow - Integrating farmer-generated data and agro-climatic data for crop variety selection
+# Example workflow: Integrating farmer-generated data and agro-climatic data for crop variety selection
 
 In this example, we demonstrate a possible workflow to assess crop variety performance using decentralized on-farm testing data generated with the tricot approach [@deSousa2024]. We use the `nicabean` dataset, which was generated with decentralized on-farm trials of common bean (*Phaseolus vulgaris* L.) varieties in Nicaragua over five seasons (between 2015 and 2016). Following the tricot approach, farmers tested three randomly assigned varieties of common bean on their farms as incomplete blocks of size three (from a set of 10 varieties). Farmers assessed which of the three varieties had the best and worst performance in eight traits (vigor, architecture, resistance to pests, resistance to diseases, tolerance to drought, yield, marketability, and taste). Additionally, farmers provided their overall appreciation of the varieties, i.e., which variety had the best and worst performance overall, considering all the traits.
 

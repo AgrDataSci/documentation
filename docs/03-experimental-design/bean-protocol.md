@@ -2,7 +2,7 @@
 sidebar_position: 6
 ---
 
-# Example of Experimental Design - Bean Trial Protocol
+# Example of Experimental Design: Bean Trial Protocol
 
 ## Introduction
 

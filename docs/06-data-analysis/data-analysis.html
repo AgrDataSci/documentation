@@ -355,60 +355,16 @@ display: none;
 <div id="analysis-of-tricot-data" class="section level1">
 <h1>Analysis of tricot data</h1>
 <blockquote>
-<p>Kauê de Sousa, Joost van Heerwaarden</p>
+<p>Kauê de Sousa, Joost van Heerwaarden, Hugo</p>
 </blockquote>
-<p>Analytical framework. Overview of statistical models (e.g.,
-Plackett-Luce, Bradley-Terry). Tools for analyzing ranking data.
-Visualization. Integration with other datasets (agroclimatic, soil, and
-socio-economic data). Case studies.”</p>
-<p>When all the data is uploaded to your ClimMob database, analysis can
-start.</p>
-<p>The analysis will give you an automated report with useful results,
-such as:</p>
-<p>• Description of the methodological approach applied</p>
-<p>• A rating of how well each technology performed for each pre-defined
-criterion</p>
-<p>• Information on differing performances (if any) depending on
-explanatory variables (e.g. the highest yielding crop variety with or
-without irrigation; or the variety preferred by women, variety preferred
-by men)</p>
-<p>• A rating of how all pre-defined characteristics were correlated
-with the overall performance. This is useful to assess which
-characteristic influenced the overall appreciation of the technologies
-tested.</p>
-<p>The analysis is conducted in six simple steps:</p>
-<ol style="list-style-type: decimal">
-<li><p>Select the project you will analyze.</p></li>
-<li><p>Press the button ‘Select variables to analyze’ in the main menu
-of ClimMob.</p></li>
-<li><p>Select the explanatory variables you want to include. Explanatory
-variables can lead to a better understanding of different observations
-about the tested technologies, and to more useful results. For example,
-one crop variety may perform best under irrigation, but in drought
-conditions, a different variety may give best results.</p></li>
-<li><p>Select the documents you want to generate.</p></li>
-</ol>
-<p>Two types of outputs are possible:</p>
-<p>• Analysis report This is for the implementing organization and the
-researchers. It is a report presenting all results: it tells you which
-technologies performed best for every tested criterion, and whether
-there are any differences due to explanatory variables, for example
-gender, age, irrigation.</p>
-<p>• Infosheets This is a document that contains a personal information
-sheet for each participating farmer. These infosheets contain:</p>
-<p>• The names of their three specific tested technology options</p>
-<p>• The farmer´s own answers</p>
-<p>• The most recommended technology options for the farmer’s own
-farm.</p>
-<ol start="5" style="list-style-type: decimal">
-<li>Press OK.</li>
-</ol>
-<p>Depending on the number of farmers, the analysis can take a long
-time. In some cases, it may take up to half an hour to generate all of
-the infosheets. You can obtain the infosheets and reports from the
-Downloads section.</p>
-<div id="tricot-r-packages-rtb" class="section level2">
-<h2>Tricot R packages (RTB)</h2>
+<div id="analytical-framework" class="section level2">
+<h2>Analytical framework</h2>
+</div>
+<div id="overview-of-statistical-models" class="section level2">
+<h2>Overview of statistical models</h2>
+</div>
+<div id="tools-for-analyzing-ranking-data" class="section level2">
+<h2>Tools for analyzing ranking data</h2>
 <p>Tricot data consist of rankings, an unusual data type in the
 agricultural sciences, in spite of some experience with it in
 participatory research (Coe, 2002). As indicated in section 2, the
@@ -455,6 +411,59 @@ listed in Table 2.</p>
 <div class="figcaption">R packages created to support the tricot
 approach</div>
 </div>
+</div>
+<div id="visualization" class="section level2">
+<h2>Visualization</h2>
+</div>
+<div id="integration-with-other-datasets-agroclimatic-soil-and-socio-economic-data" class="section level2">
+<h2>Integration with other datasets (agroclimatic, soil, and
+socio-economic data)</h2>
+</div>
+<div id="integration-of-on-farm-and-station-data" class="section level2">
+<h2>Integration of on farm and station data</h2>
+<p>One of the goals of on-farm testing is to get insights into genetic
+gain achieved by breeding programmes. Some aspects of genetic gain are
+related to traits that are highly heritable so that on-farm performance
+is not different from on-station performance. For example, the color of
+the product may not be affected by genotype by environment interactions.
+An aspect of genetic gain that is important as a goal shared by most
+breeding programmes is the yield. As tricot is based mainly on rankings,
+generally yield estimations have been provided in that form. This
+provides an insight into the yield-based reliability, the probability
+that a new variety will outperform the current market leader, an
+important indicator for breeders and product managers to make decisions
+(Eskridge and Mumm, 1992). The CGIAR Excellence in Breeding strategy
+focuses on product profiles that emphasize cumulative gains towards
+product replacement, taking over market share from existing varieties
+(Cobb et al., 2019). Tricot is well suited to address the challenge of
+providing early indicators of the probability that product replacement
+happens.</p>
+<p>In many cases, however, breeders need to have absolute estimates of
+yield levels, for example because this is a requirement for a variety
+release procedure. In one case, a subset of the fields has been visited
+to obtain yield estimates (NextGen Cassava), in other cases, all fields
+were visited for yield measurements (de Sousa et al., 2020). This
+‘undermines’ the tricot approach to some degree in the sense that the
+field visits become an important cost driver. This leads to the question
+whether farmers themselves can provide reliable yield estimates.</p>
+<p>Ochieng, Ojime, and Otieno (2019) have addressed this question by
+comparing yield estimates by researchers (taking into account grain
+moisture) and by farmers (volumetric, using 250 ml tins). They set up an
+experiment with common bean (<em>P. vulgaris</em>) in Kenya. They
+obtained a high correlation between the two types of measurements when
+all seasons and locations were aggregated (r = 0.98). When differences
+were smaller than 0.5 t/ha, the match between values provided by farmers
+and researchers decreased. We aim to replicate these studies in other
+contexts with other crops in order to get a better grip on the accuracy
+of farmers’ measurements and to use these accuracy estimates in
+statistical analyses. On the other hand, these studies will provide
+insights in how to maximize farmers’ accuracy.</p>
+<p>It would be ideal to be able to combine yield ranking data and yield
+measurement data when the measurement data is only available for a part
+of the trial. It is possible to feed absolute measurements and ordinal
+(ranking) data into the same statistical model, directly (Böckenholt
+2004) or through a Bayesian approach. This has not been implemented in
+software yet; this is a pending task.</p>
 </div>
 </div>
 
