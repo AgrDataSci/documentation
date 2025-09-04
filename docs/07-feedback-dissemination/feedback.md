@@ -4,6 +4,7 @@ sidebar_position: 1
 
 # Trial feedback and evaluation
 
+> Anna Muller, Juan Manual Londono
 
 ## Feedback to farmers
 

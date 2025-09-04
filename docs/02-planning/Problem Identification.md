@@ -2,8 +2,6 @@
 sidebar_position: 1
 ---
 
-## Problem identification
-
 ### Defining research questions and objectives.
 
 Whether or not the tricot method is suitable for your project should be based on knowledge of local farming. Tricot is a methodology for introducing agronomic innovation. It is most useful in situations where farmers are experiencing agronomic challenges or where they are dissatisfied with product quality of their harvests. Tricot should only be used when it is believed that agronomic innovation can be part of the solution.

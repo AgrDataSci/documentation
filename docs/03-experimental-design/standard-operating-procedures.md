@@ -2,13 +2,13 @@
 sidebar_position: 5
 ---
 
-# Standard operating procedure
+# Standard operating procedures
 
 > Marie-Angélique Laporte, Almendra Cremaschi
 
 A crop protocol provides a standardised overview of the basic information that will be collected during a crop tricot trial. The protocol provides an overview of the data collection moments during the trials and the variables and traits collected at each data collection moment. Farmers evaluate varieties in their on-farm trials and provide comparative observations by ranking the varieties based on their performance throughout their growth and post-harvest qualities including taste and consumption preferences.
 
-Data Standardization and Ontologies (RTB)
+## Data Standardization and Ontologies 
 
 ClimMob will connect with relevant ontologies for agriculture, thus securing its compliance with the Breeding API (BrAPI), for enabling the interoperability of the tricot data with breeding data. This way, ClimMob will extract defined traits and variables for the creation of project-specific questionnaires and storage in the database. 
 

@@ -2,7 +2,7 @@
 sidebar_position: 2
 ---
 
-## Stakeholder engagement - Roles of researchers, extension agents, local facilitators, and farmers.
+## Roles of researchers, extension agents, local facilitators, and farmers.
 
 ### Who should participate?
 
