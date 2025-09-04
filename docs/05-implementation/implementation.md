@@ -8,16 +8,16 @@ sidebar_position: 1
 
 Setting up experiments. For On-farm testing, best practices in planting and maintaining the plots. For consumer testing, best practices in handling the samples. Preparing the packages for distribution.
 
-## Farmer recruitment (page 15 of short guide)
+## Farmer recruitment
 
 Any farmer who wishes to participate can get involved in a tricot experiment. Recruiting as many motivated farmers as possible is key to the success of the project. The local field agents should help to identify and recruit farmers in their communities. 
 
 Hanging posters in agricultural shops, village halls or corner shops may also help to attract attention. You do not need to know the farmers before they participate. 
 
 However, farmers should be:
-• volunteers who are ready to commit time and effort to participation;
-• farmers who enjoy experimenting and trying out new methods;
-• both women and men, preferably at an even ratio.
+* volunteers who are ready to commit time and effort to participation;
+* farmers who enjoy experimenting and trying out new methods;
+* both women and men, preferably at an even ratio.
 
 A. Tricot is an iterative process 
 This means that farmers ideally participate more than once in different experiments and across different seasons. When a tricot project starts and farmers participate for the first time, upfront project investments are required. The local field agents must be trained. Also, setting up and implementing the training workshops for participating farmers takes time. During their first cycle, farmers may have many questions and need assistance from local field agents. As the farmers will learn many things during each iteration of the process, and as they get to know only three randomly chosen technology options per cycle, we would encourage farmers to participate repeatedly. This way, first-time farmers can ask their more 

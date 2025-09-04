@@ -6,8 +6,6 @@ sidebar_position: 2
 
 > Béla Teeken, Jill Cairns, Mainassara Abdou Zaman-Allah
 
-Expertise and social inclusiveness. A guide to choose participants for on-farm testing with the tricot approach.  
-
 ## Assuring experienced participants
 
 A common weakness in standard participatory variety selections is that farmers are chosen without eye for their experience and the specific work they are doing and to which local social category they belong. Where this is considered usually very broad general categories are used such as age and sex., occupation, leve of education, farm size. Furthermore, when gender is brought in focus, the practice is mainly on having both men and women farmers in equal numbers evaluating the trials, disregarding their specific expertise or experience in farming. Another problem is that often farmers get chosen who feel comfortable talking and interacting within the sphere of a scientific evaluation, which emphasizes experience in reasoning and talking. This often excludes very skilled persons that however are not able or are normally not allowed to communicate these skills and knowledge through language. But even if the respondent is good at talking it still does not include the tacit knowledge, the embodied skill and knowledge that people have. Breeders are however interested in detailed concrete hands-on information if they want to align with a demand led breeding approach such as the stage gate breeding approach that is now introduced in the CGIAR public sector breeding. Within the current reform to a stage gate breeding approach it is also crucial to get feedback from not only farmers but also processors/prepares and marketers who turn the RTB crop into an edible quality food product.

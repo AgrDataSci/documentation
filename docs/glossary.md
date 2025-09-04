@@ -41,17 +41,17 @@ Women and men who participate in a tricot experiment by managing their own trico
 **Field agent** is the extension worker, linking the implementer and the participants. A tricot project might employ 20 to 30 field agents. Each field agent can cover a different geographical region and can coordinate 10 to 20 participants. Field agents are vital to a tricot project, as they allow many small trials to take place in different regions at the same time.
 Field agents get trained by the implementer, and in turn pass their knowledge on to the participants. The implementer can also be a field agent. Likewise, a field agent can also participate in the tricot project as an observer.
 *The tasks of field agents include:
-●	Staying in personal contact with participants
-●	Assisting participants with trial cultivation and data collection
-●	Collecting participants’ observations at the end of the trial through personal visits or telephone calls
-●	Passing on participant data to the implementer, using the ODK Collect app
+*	Staying in personal contact with participants
+*	Assisting participants with trial cultivation and data collection
+*	Collecting participants’ observations at the end of the trial through personal visits or telephone calls
+*	Passing on participant data to the implementer, using the ODK Collect app
 
 **Implementing organization/ project implementers**
 The organization that is in charge of carrying out and monitoring the project. It can be an NGO, a government service, or a research program, among other options. Implementers have the major responsibilities in the project, for example:
-• Training the field agents and farmers
-• Distributing the trial packages
-• Carrying out the data analysis once all data is collected and compiled
-• Feeding back the information to the farmers via the field agents.
+* Training the field agents and farmers
+* Distributing the trial packages
+* Carrying out the data analysis once all data is collected and compiled
+* Feeding back the information to the farmers via the field agents.
 
 **Infosheet**
 Personalized information output for every farmer. It is generated automatically using ClimMob and includes:

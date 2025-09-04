@@ -2,8 +2,6 @@
 sidebar_position: 3
 ---
 
-## Resources and budgeting
-
 ### Costing a tricot trial
 
 A costing tool has been developed to help users plan the budget of implementing a tricot trial for a specific crop. It ensures cost transparency and consistency across projects, allowing for cross-country comparisons. It also helps in distributing resources, identifying high-cost centers, and noting unnecessary additional expenses. Breeding programs will employ the tool for calculating the cost of implementing tricot trials for specific crops, thereby providing estimates that enhance the planning and efficiency of future tricot trials. 
