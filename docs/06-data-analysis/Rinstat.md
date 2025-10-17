@@ -1,8 +1,8 @@
 ---
-sidebar_position: 2
+sidebar_position: 4
 ---
 
-> Lily Clements, Rachel Chase, Kaue de Sousa
+> Lily Clements, Roger Stern, Rachel Chase, Kaue de Sousa
 
 # R-Instat for Tricot On-Farm Testing Analysis
 

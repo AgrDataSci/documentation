@@ -5,25 +5,55 @@ sidebar_position: 4
 # Trial dimensions 
 
 A recurrent issue is deciding about trial dimensions: plot size and the number of plots (replications). In the literature about crop trials, there are several methods to guide decision making. At the same time, this is not just a question of statistics, but also biological considerations are important. For tricot trials, there are a number of additional considerations related to farmers’ capacities.  
-## Plot size 
 
-Having larger plots and more replications reduces the variance within entries and increases the accuracy of the value estimates for each entry, while it increases the costs. The tricot approach is driven by external validity, the ability to replicate the findings in target environments. For external validity of on-farm trials, it is important to represent the diverse growing conditions in the target environment in the trial as well as the gender and social heterogeneity of end users. This can be done best by having a large number of farms, and to generate data about the conditions of the use environment and the users that can be entered into the analysis as covariates. Small plots can be easily accommodated on both small and large farms, avoiding a bias towards the latter. Also, small plots help to reduce the quantities of planting materials that are needed for the trial, which is often a limiting factor. 
+## Plot size
 
-In training courses on tricot, we have repeatedly noticed that agricultural scientists have strong views about trial plot size. Course participants argued that results from small plots are not reproducible on large plots, which tend to give lower yields in all cases, and concluded that large plots are needed for on-farm work. This perception is perhaps at least partly due to the regression fallacy, the mistaken expectation that selecting entries with a high mean performance in a trial will reproduce the same mean performance in a subsequent season. In reality a ‘regression to the mean’ effect is what is to be expected, as not all the entries with a high yield in the first trial are truly superior; an important part of the differences in yield between entries are due to non-genetic factors (error) (Galton, 1886). So systematically lower yields on larger plots is not a valid concern. 
+Plot sizes should generally be small, for the following reasons.
 
-A valid concern is that plot size biases performance results via neighbor effects, and edge or border effects. When the plots are so small that the borders become more important, the results can be biased by the competition between varieties or the resource advantage (or sometimes disadvantage) of border rows. Much depends on the differences in competitive ability between the varieties and their ability to take advantage of the extra resources and light on the border. Rebetzke et al. (2014) provide a review on plot size, focusing mainly on wheat in Australia. Differences in height between cultivars caused neighbor effects. Plots with four rows of wheat showed a 10% bias in one example, reversing the ranking of varieties. They discuss how under drought more competitive varieties outyielded more drought-tolerant varieties. They recommend plots with at least 6 rows for accurate yield assessment in the case of wheat. Omitting border rows can further help to reduce biases 
-arising from border effects. Border effects due to plant height are less accentuated at lower latitudes as shadowing is less important. Also, competition is less important in areas where resources for water or nutrients are not the main yield limitation, but heat or cold stress, or pests and diseases. Omitting border rows is often a standard practice in on-farm trials.  
+* With the same amount of seeds, more farmers can participate. Tricot is about external validity, so capturing the diversity in use contexts is important.
 
-Biological understanding of differences between varieties is needed to make judicious decisions about plot size. This may generally be based on the experience of breeders and the literature. For example, for potato competition effects between plots consisting of single ridges seems unimportant for yield, as stolons rarely extend beyond ridges (Connolly et al., 1993). For cassava, interplot competition effects have been found to extend beyond the first row (Elias et al., 2018). For sweetpotato, interplot interaction is thought to be substantial due to above-ground competition (Grüneberg et al., 2019). For sweetpotato trials, 30 m2 plots with 100 vine cuttings have been recommended for on-farm trials (Grüneberg et al., 2019). For a tricot trial in Ghana, however, much smaller 6 m2 plots with 20 vine cuttings were used, which is two thirds of the recommended plot size of preliminary (on-station) trials.  
+* Small plots sizes allow farmers with small farms to participate. This makes tricot trials more inclusive and representative.
 
-Statistically, the neighboring effect can be partially dealt with by considering the ranking order effect (the middle position in each incomplete block has two neighbors, whereas the first and third position have one neighbor only). The order effect is not yet available in the PlackettLuce R package yet (Turner et al., 2020). This enhancement is planned for 2021. 
+* Small plot sizes increase the variation between farms, but do not systematically bias results upwards or downwards (unless edge/border effects play a strong role, see below).
 
-Plot size is closely related to the number of seeds that is provided to farmers. In grain crops, breeders often provide seeds based on the average weight needed for a unit of land. However, this can be problematic when there are seed size differences between varieties. As was pointed out to us by bean breeder Juan Carlos Hernandez (INTA Costa Rica, personal communication), this means that a small-seeded variety would be represented by more seeds. Consequently, the farmer may decide to increase the plant density of a small-seeded variety or add more planting positions. This could bias yield estimates to favor small-seeded varieties. It is therefore recommendable not to provide the same weight of seed for each variety, but the same number of seeds.  
+Tricot plots should not be too small, however.
 
-For clonally propagated crops, weight biases may be less of a concern as usually seed quantities are determined in terms of the number of units (cuttings, seedlings, etc.), rather than weight. However, clonal crops have another set of issues, especially related to the perishability of planting materials, which are often also bulky. In our experience, it is important to account for possible losses of planting materials during transport and distribution. Food products provide another set of constraints. For a tricot evaluation in which processing and culinary aspects are evaluated at the same time as agronomic aspects, the plot size would also need to be sufficient to produce the minimum quantity of product necessary for food processing. For example, cassava is elaborated into many food products using batch processing techniques that require fair amounts of product (e.g., 50 kg of product in Nigeria). The minimal quantity needed that can be processed by participants using local customs, expertise and processing equipment should be considered to determine the plot size (Teeken et al., 2020).  
+* Strong edge or border effects should be avoided. This can be avoided by not harvesting border rows.
 
-## Number of blocks 
+* If varieties are also tested for processing or culinary characteristics, plots should produce sufficient volume to allow this.
+Some remarks on specific crops:
 
-Another decision that needs to be taken is the number of incomplete blocks, which is equal to the number of farmers in tricot for on-farm evaluation. The numbers that are needed depend on farmers’ accuracy in observing differences between varieties, as well as the expected size of the differences. Often, the numbers to do power calculations are lacking as no previous trials have been done. (Steinke et al., 2017) estimated the accuracy of farmers for a bean trial in Central America and provided some calculations to guide trial size decisions. The results suggest that for a trial with around 12 entries (varieties, lines, etc.) typically 100-200 farms would provide solid results to make recommendations. This is the same order of magnitude that was found in previous on-farm trial work with cereals (Atlin, personal communication, 2020). If the trial covers more agro-ecological environments (to which the set of varieties is expected to respond in different ways), the number of farmers 
-should be proportionally higher. Future studies should provide better guidance regarding optimal trial dimensions. 
+* For potato, competition effects between plots consisting of single ridges seems unimportant for yield, as stolons rarely extend beyond ridges (Connolly et al. 1993).
 
+* For cassava, interplot competition effects have been found to extend beyond the first row (Elias et al. 2018).
+
+* For sweetpotato, interplot interaction is thought to be substantial due to above-ground competition (Grüneberg et al. 2019). For sweetpotato trials, 30 m2 plots with 100 vine cuttings have been recommended for on-farm trials (Grüneberg et al. 2019). For a tricot trial in Ghana, however, much smaller 6 m2 plots with 20 vine cuttings were used, which is two thirds of the recommended plot size of preliminary (on-station) trials.
+
+Plot size is closely related to the number of seeds that is provided to farmers. In grain crops, breeders often provide seeds based on the average weight needed for a unit of land. However, this can be problematic when there are seed size differences between varieties. A small-seeded variety would be represented by more seeds. Consequently, the farmer may decide to increase the plant density of a small-seeded variety or add more planting positions. This could bias yield estimates to favour small-seeded varieties. It is therefore recommendable not to provide the same weight of seed for each variety, but the same number of seeds.
+
+## Number of plots (or farms)
+
+For a trial with around 12 entries (varieties, lines, etc.) typically 100-200 farms would provide solid results to make recommendations. This means that the trial has a 95% probability of identifying differences (effect sizes) between 0.7 and 1 standard deviations (Cohen’s d).  Since trials are done over several seasons,  this number will diminish over time. See the interactive sample size calculator below.
+
+This is the same order of magnitude that was found in previous on-farm trial work with cereals.
+
+If the trial covers more agro-ecological environments (to which the set of varieties is expected to respond in different ways), the number of farmers should be proportionally higher. Future studies should provide better guidance regarding optimal trial dimensions.
+
+## More information
+
+van Etten et al. (2021). The tricot citizen science approach applied to on-farm variety evaluation: methodological progress and perspectives. RTB Working Paper.
+
+## Interactive sample size calculator
+
+This calculator assumes that the tricot format is being used (blocks of size 3). It is based on Talsma, P., 2018. How much sensory panel data do we need? Food Quality and Preference, 67, pp. 3-9.
+
+It calculates how many samples are needed to achieve a certain Cohen’s d (effect size relative to the standard deviation of the technology options tested) with 95% probability. It does not take into account the data return rate. For a single season, a Cohen’s d of between 0.7 and 1.0 is reasonable. For a consumer preference test, a Cohen’s d between 0.2 and 0.5 is recommended.
+
+insert sample size calculator
+
+## Interactive seed needs calculator
+
+The calculator assumes that the tricot format is being used (blocks of size 3).
+The units of the “Seed quantity per plot” are the same as results (for example, kilograms but also number of plants can be used).
+
+insert seed needs calculator

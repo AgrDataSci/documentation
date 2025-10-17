@@ -127,31 +127,3 @@ Any agricultural technology that can be compared in sets of three—e.g., crop v
 
 Yes, ClimMob is open-source and free for anyone to use.
 
-Local languages:
-
-### How many languages can I add to the local languages section?
-
-You can add as many languages as you need.
-
-### How many languages can I add to a project?
-
-You can add up to four languages. 
-
-### How works the new local languages' functionality for projects already created?
-
-You can add extra languages to an existing project only if you have not completed the registration process.
-
-### How can I report translation errors?
-
-You can send a message through the chat button and write which question or part of the platform has problems with the translation. 
-  
-### Can I translate questions that I didn't create?
-
-No, only the original creator or authorized users can translate those questions. However, there are two options available if you need a translation:
-●	Self-service translation: You provide translations for the questions. The ClimMob team will validate them to ensure consistency and accuracy.
-●	ClimMob team translation. Our team handles the translation, and you review the translations.
-
-### What happens if I delete a language for my profile? 
-
-If you try to delete a language that is associated with a project, the platform will not allow you to remove it. You must first disassociate the language from any projects before you can delete it from your profile.
-
