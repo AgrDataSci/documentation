@@ -2,8 +2,6 @@
 sidebar_position: 2
 ---
 
-## *Getting Started*
-
 ### Create an account
 
 Create your personal account on ClimMob. If you have already registered an account, you can log in straight away.

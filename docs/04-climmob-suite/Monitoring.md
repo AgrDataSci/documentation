@@ -2,8 +2,6 @@
 sidebar_position: 5
 ---
 
-## **Monitoring**
-
 ### 14. Project overview
 
 The Project overview is the starting point of any ClimMob project. It guides you through the essential steps required to set up, manage, and share your research trial. Each section builds on the previous one, ensuring that your project is well-structured and ready for implementation.

@@ -2,8 +2,6 @@
 sidebar_position: 3
 ---
 
-## *Design*
-
 ### 1. Create a new project
 
 To start working with ClimMob, your first step is to create a new project. You can do this in two ways: either by going to the Project overview section and clicking Create a new project, or by navigating to All projects and selecting Add new project. In both cases, you will be asked to complete a short form with the main project details. Once created, you can always return later to update or adjust the project settings.
