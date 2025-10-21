@@ -34,7 +34,7 @@ How-to:
 
 Set up the randomization for the ClimMob project
 
-[Project setup - Registration form and Technology randomization](https://www.youtube.com/watch?v=NcZ1pRWoO-0&feature=youtu.be)
+[Project setup - Registration form and Technology randomization](https://youtu.be/NcZ1pRWoO-0?si=017G7i3Wgq6p9ZIF)
 
 Explanation of the generated documents after the randomization (downloads)
 

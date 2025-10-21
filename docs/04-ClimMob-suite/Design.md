@@ -73,7 +73,7 @@ Add field agents to your library
 
 Assigning field agents to your ClimMob project
 
-[Project Setup - Field agents and Technology options](youtube.com/watch?v=6MLeqrixHmA&feature=youtu.be)
+[Project Setup - Field agents and Technology options](https://youtu.be/6MLeqrixHmA?si=ovy491pPN0DJv_CD)
 
 ### 3. Select technology options
 
@@ -99,7 +99,7 @@ Assigning technology options to your ClimMob project
 
 Filling the ClimMob library with new technologies (e.g. varieties) to test in the tricot trials:
 
-[Library - Technology options](https://www.youtube.com/watch?v=FTAAH_QZpsA&feature=youtu.be)
+[Library - Technology options](https://youtu.be/FTAAH_QZpsA?si=b6zqiyiVevCnkHuq)
 
 ### 4. Prepare participant registration form
 
@@ -128,7 +128,7 @@ Learn in the following video how to prepare the participant registration form an
 
 Learn how to add new questions to the library
 
-[Library - Add Project Questions](https://www.youtube.com/watch?v=P8kUk-fW-zw&feature=youtu.be)
+[Library - Add Project Questions](https://youtu.be/P8kUk-fW-zw?si=GNQsoYEmtu4MD7Yx)
 
 ### 5. Prepare data collection form
 
@@ -154,6 +154,6 @@ How-to:
 
 Learn more in detail about the process  of preparing data collection in the following video:
 
-[Project setup - Data collection survey, part 1](https://www.youtube.com/watch?v=7_aJafAbSto&feature=youtu.be)
+[Project setup - Data collection survey, part 1](https://youtu.be/7_aJafAbSto?si=6TNVHuWnWwZSq9IY)
 
-[Project setup - Data collection survey, part 2](https://www.youtube.com/watch?v=gnmuzMKYboc&feature=youtu.be)
+[Project setup - Data collection survey, part 2](https://youtu.be/gnmuzMKYboc?si=Eun0HWPc8DXcTcxh)
