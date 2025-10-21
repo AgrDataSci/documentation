@@ -108,7 +108,7 @@ How-to:
 
 Assigning technology options to your ClimMob project
 
-[Project Setup - Field agents and Technology options](yhttps://youtu.be/6MLeqrixHmA?si=WhpxwrNJyF9-lQCq)
+[Project Setup - Field agents and Technology options](https://youtu.be/6MLeqrixHmA?si=WhpxwrNJyF9-lQCq)
 
 Filling the ClimMob library with new technologies (e.g. varieties) to test in the tricot trials:
 
