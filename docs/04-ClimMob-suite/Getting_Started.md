@@ -33,7 +33,7 @@ If you don't have an account, click on Create an account (white button) which yo
 
 Video tutorial of the explanation on how to create your ClimMob account.
 
-[ClimMob - Create an account](https://www.youtube.com/watch?v=YgE-I37xMzg&feature=youtu.be)
+[ClimMob - Create an account](https://youtu.be/YgE-I37xMzg?si=bMOnvu_xdHfFx3jD)
 
 ### Get familiar with ClimMob 
 

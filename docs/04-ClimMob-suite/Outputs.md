@@ -54,4 +54,4 @@ An overview of the report produced by ClimMob, part 1 and part 2.
 
 [Analysis, read the report, part 1](https://www.youtube.com/watch?v=l_2kZLiGbbg) 
 
-[Analysis, read the report, part 2](youtube.com/watch?v=eGjjz22j36Q&feature=youtu.be)
+[Analysis, read the report, part 2](https://youtu.be/eGjjz22j36Q?si=AZcjx78WtKqrmwHt)
