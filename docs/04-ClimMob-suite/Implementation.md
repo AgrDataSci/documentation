@@ -2,8 +2,6 @@
 sidebar_position: 4
 ---
 
-## **Implementation**
-
 ### 6. Technology randomization
 
 After setting up your data collection moments and their corresponding questions, the next step is to create test packages through technology randomization. This process ensures that each participant receives a balanced set of technology options for evaluation.

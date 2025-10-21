@@ -6,6 +6,8 @@ sidebar_position: 4
 
 The following table can be used as a checklist while planning a tricot experiment.
 
+[Download the PDF](/files/checklist.pdf)
+
 
 | ✔ | Step            | Task             | Key Actions                                                                                           | Responsible             |
 |---|------------------|-----------------|-----------------------------------------------------------------------------------------------------|-------------------------|

@@ -2,8 +2,6 @@
 sidebar_position: 7
 ---
 
-## **Share your project**
-
 ClimMob allows you to collaborate by sharing your project with other users. When you invite someone, you must assign a role that defines what level of access they will have:
 
 ●	**Owner** – Automatically assigned to the person who created the project. Owners cannot be changed.

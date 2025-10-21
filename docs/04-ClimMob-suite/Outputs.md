@@ -2,8 +2,6 @@
 sidebar_position: 6
 ---
 
-## **Outputs**
-
 ### 15. Data analysis
 
 Once all participant data has been collected, it is time to analyze the results. ClimMob provides built-in tools to process your tricot data and generate reports automatically.
