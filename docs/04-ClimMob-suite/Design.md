@@ -51,19 +51,6 @@ Fields to fill:
 
    ●	Finally, you can select up to four languages in which the participant forms will be provided, allowing multilingual data collection as needed.
    
-   
-   
-<div style="border:1px solid #999; padding:12px 16px; margin:16px 0; border-radius:6px; background:#fff; text-align:justify;">
-
-<p>Examples:</p>
-
-<p>On a farm, the unit of analysis might be an agricultural input (e.g., fertilizer) with objectives such as adaptation trials or demonstration trials. If the unit of analysis is a genotype (e.g., crop variety), objectives may include on-farm verification, variety introduction, or variety release.</p>
-
-<p>At home, if the unit of analysis is a food product, objectives could include validation trials or variety recommendation. For product concepts, the focus may be concept evaluation or piloting/training.</p>
-
-<p>In a public space such as a market, food products can be tested for objectives like variety recommendation or validation trials, while product concepts are usually linked to concept evaluation.</p>
-
-</div>
 
 
 ### 2. Assign field agents
@@ -108,7 +95,7 @@ How-to:
 
 Assigning technology options to your ClimMob project
 
-[Project Setup - Field agents and Technology options](https://youtu.be/6MLeqrixHmA?si=WhpxwrNJyF9-lQCq)
+[Project Setup - Field agents and Technology options](https://youtu.be/6MLeqrixHmA?si=9zAkLS7CnG8Btkim)
 
 Filling the ClimMob library with new technologies (e.g. varieties) to test in the tricot trials:
 
