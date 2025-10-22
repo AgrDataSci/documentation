@@ -300,8 +300,7 @@ In the main menu, visit the form you wish to fill out using the browser and clic
 
 Now the form will be displayed and request the field agent credentials that were registered in the Library.
 
-![](./img/credentials.jpg)
- 
+
 
 ---
 
