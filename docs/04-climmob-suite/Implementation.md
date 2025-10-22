@@ -246,22 +246,21 @@ To fill out forms online supported by Enketo, the field agents (enumerators) nee
 
 Visit the Field Agents section in the main menu:
 
-![](./img/menu.jpg)
-
+![- ](./img/menu.jpg)
 ---
 
 
 
 Fill in the form with the credentials of the field agent.
  
-![](./img/field_credentials.jpg)
+![ ](./img/field_credentials.jpg)
 
 ---
 
 
 Verify that the field agent has been successfully created in the list of registered field agents:
 
-![](./img/registered_field.jpg)
+![ ](./img/registered_field.jpg)
  
 
 ---
@@ -269,7 +268,7 @@ Verify that the field agent has been successfully created in the list of registe
 
 In the project definition, select “Assign field agents”:
 
-![](./img/assign_menu.jpg)
+![ ](./img/assign_menu.jpg)
  
 ---
 
