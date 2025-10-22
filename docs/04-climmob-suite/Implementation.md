@@ -246,21 +246,21 @@ To fill out forms online supported by Enketo, the field agents (enumerators) nee
 
 Visit the Field Agents section in the main menu:
 
-![- ](./img/menu.jpg)
+![- ](./img/menu.JPG)
 ---
 
 
 
 Fill in the form with the credentials of the field agent.
  
-![ ](./img/field_credentials.jpg)
+![ ](./img/field_credentials.JPG)
 
 ---
 
 
 Verify that the field agent has been successfully created in the list of registered field agents:
 
-![ ](./img/registered_field.jpg)
+![ ](./img/registered_field.JPG)
  
 
 ---
@@ -268,14 +268,14 @@ Verify that the field agent has been successfully created in the list of registe
 
 In the project definition, select “Assign field agents”:
 
-![ ](./img/assign_menu.jpg)
+![ ](./img/assign_menu.JPG)
  
 ---
 
 
 Select the field agent(s):
 
-![](./img/assign.jpg)
+![](./img/assign.JPG)
  
 
 ---
@@ -283,7 +283,7 @@ Select the field agent(s):
 
 Click on the “Add field agents” button and verify that the user has been assigned to the project.
 
-![](./img/field_project.jpg)
+![](./img/field_project.JPG)
  
 ---
 
@@ -291,7 +291,7 @@ Click on the “Add field agents” button and verify that the user has been ass
 
 In the main menu, visit the form you wish to fill out using the browser and click on the “Submit data from a browser” button to display the form:
 
-![](./img/submit.jpg)
+![](./img/submit.JPG)
  
 ---
 
@@ -299,14 +299,14 @@ In the main menu, visit the form you wish to fill out using the browser and clic
 
 Now the form will be displayed and request the field agent credentials that were registered in the Library.
 
-![](./img/credentials.jpg)
+![](./img/credentials.JPG)
 
 ---
 
 
 Once the credentials are provided, the form to be filled in will be displayed:
 
-![](./img/form.jpg)
+![](./img/form.JPG)
  
 ---
 
