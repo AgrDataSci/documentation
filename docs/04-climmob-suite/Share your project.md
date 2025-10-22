@@ -22,4 +22,4 @@ How-to:
 
 4.	Confirm to share the project. The invited user will now have access according to the role you assigned.
 
-![](./img/10. Share the project.jpg)
+![](./img/share the project.jpg)

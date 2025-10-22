@@ -246,7 +246,7 @@ To fill out forms online supported by Enketo, the field agents (enumerators) nee
 
 Visit the Field Agents section in the main menu:
 
-![](./img/1. field agents menu.jpg)
+![](./img/field agents menu.jpg)
 
 ---
 
@@ -254,14 +254,14 @@ Visit the Field Agents section in the main menu:
 
 Fill in the form with the credentials of the field agent.
  
-![](./img/2. field agent credentials.jpg)
+![](./img/field agent credentials.jpg)
 
 ---
 
 
 Verify that the field agent has been successfully created in the list of registered field agents:
 
-![](./img/3. registered field agents.jpg)
+![](./img/registered field agents.jpg)
  
 
 ---
@@ -269,14 +269,14 @@ Verify that the field agent has been successfully created in the list of registe
 
 In the project definition, select “Assign field agents”:
 
-![](./img/4. assign field agents menu.jpg)
+![](./img/assign field agents menu.jpg)
  
 ---
 
 
 Select the field agent(s):
 
-![](./img/5. assign field agent to a project.jpg)
+![](./img/assign field agent to a project.jpg)
  
 
 ---
@@ -284,7 +284,7 @@ Select the field agent(s):
 
 Click on the “Add field agents” button and verify that the user has been assigned to the project.
 
-![](./img/6. field agent assign to a project.jpg)
+![](./img/field agent assign to a project.jpg)
  
 ---
 
@@ -292,7 +292,7 @@ Click on the “Add field agents” button and verify that the user has been ass
 
 In the main menu, visit the form you wish to fill out using the browser and click on the “Submit data from a browser” button to display the form:
 
-![](./img/7. submit data or upload data.jpg)
+![](./img/submit data or upload data.jpg)
  
 ---
 
@@ -300,7 +300,7 @@ In the main menu, visit the form you wish to fill out using the browser and clic
 
 Now the form will be displayed and request the field agent credentials that were registered in the Library.
 
-![](./img/8. credentials.jpg)
+![](./img/credentials.jpg)
  
 
 ---
@@ -308,7 +308,7 @@ Now the form will be displayed and request the field agent credentials that were
 
 Once the credentials are provided, the form to be filled in will be displayed:
 
-![](./img/9. form to be filled.jpg)
+![](./img/form to be filled.jpg)
  
 ---
 
@@ -328,18 +328,18 @@ You can start filling out these forms at any moment during the project, beginnin
 
 The Trial documentation section includes the following eight forms:
 
-1.	**Contributors:**
+1.	Contributors:
 
 Document the organizations, researchers, or institutions involved in the project, including their roles and responsibilities. This helps acknowledge contributions and ensures transparency.
 
-2.	**Project design**
+2.	Project design
 
 Describe the structure of the trial: experimental design, partners who contribute with the trial, describe any special features of the trial and select the target environment of the trial. Environmental options come from the agroecological zones utilized on Global Market Intelligents Platform (GloMip) https://glomip.cgiar.org/market-segments.
 
-3.	**Market segment**
+3.	Market segment
 Identify the market segment to which the project is associated. For consistency, the classification should follow the categories defined in the GloMip platform. https://glomip.cgiar.org/market-segments.
 
-4.	**Participants**
+4.	Participants
 Record how the sample size was calculated and how participants were selected.
 
 When describing selection criteria, consider aspects such as:
@@ -374,7 +374,7 @@ Finally, detail how informed consent was obtained. This could include:
 
 In all cases, the option “Other” is always available, allowing you to enter a description when the predefined choices do not fit.
 
-5.	**Tricot training**
+5.	Tricot training
 
 Capture details of the training sessions provided to participants. Indicate who facilitated the sessions and how tricot methodology was explained.
 
@@ -406,14 +406,14 @@ Also specify any additional inputs provided to participants, for example:
 
 ●	Other – any other input provided that does not fit the listed categories.
 
-6.	**Data collection**
+6.	Data collection
 
 Describe the methods used for data collection, such as phone calls, farm visits, or lead farmer interviews. Indicate the tools applied in the process, including ODK Collect, Enketo, or Excel sheets.
 
-7.	**Results communication**
+7.	Results communication
 
 Document how trial results were shared with participants. Options may include group meetings, information sheets, individual visits, or other relevant formats.
 
-8.	**Varieties**
+8.	Varieties
 
 Provide details about the varieties or technologies tested in the trial. This includes the genotype name, the type of entry (historical check, farmer check, commercial check, comparative check, evaluation entry, release candidate, or replacement candidate), and the target traits under evaluation (e.g., drought tolerance, pest or disease resistance, product quality, yield, or other traits as specified).
