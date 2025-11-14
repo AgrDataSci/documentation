@@ -246,14 +246,14 @@ To fill out forms online supported by Enketo, the field agents (enumerators) nee
 
 Visit the Field Agents section in the main menu:
 
-![- ](./img/menu.JPG)
+![](./img/menu.JPG)
 ---
 
 
 
 Fill in the form with the credentials of the field agent.
  
-![ ](./img/field_credentials.JPG)
+![](./img/field_credentials.JPG)
 
 ---
 

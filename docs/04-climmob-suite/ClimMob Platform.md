@@ -2,8 +2,6 @@
 sidebar_position: 1
 ---
 
-## ClimMob platform
-
 ### A software platform for experimental citizen science in agriculture.
 
 ClimMob supports tricot trial implementers in evaluating technology options across diverse contexts with a one-platform solution to design, manage, and share experiments. It helps implementers plan and monitor processes while ensuring that relevant outputs reach researchers, field agents, and trial participants at the right time. This enables effective trial operations and agile, data-based decisions, underpinned by an excellent user experience.
