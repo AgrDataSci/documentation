@@ -1,6 +1,7 @@
 ---
 sidebar_position: 1
 bibliography: ref.bib
+output: pdf_document
 ---
 
 
