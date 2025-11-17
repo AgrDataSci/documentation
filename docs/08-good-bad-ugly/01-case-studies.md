@@ -2,7 +2,7 @@
 sidebar_position: 1
 ---
 
-# Interviews  
+# Trioct Case Studies  
 
 > Rachel Chase
 

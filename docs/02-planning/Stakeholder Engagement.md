@@ -2,7 +2,7 @@
 sidebar_position: 2
 ---
 
-## Roles of researchers, extension agents, local facilitators, and farmers.
+## Roles of researchers, extension agents, local facilitators, and farmers
 
 ### Who should participate?
 
@@ -11,8 +11,7 @@ the case of crop varieties, it can be relevant to include processors and consume
 
 ### How many farmers will participate?
 
-It advisable to involve as many farmers as possible. The larger the number of trials evaluated, the more useful the information about the technology options becomes. Bear in mind that involving more farmers will also take more work to assist farmers in completing the process. Avoid including more farmers than the local field agents can assist. Each field agent may be responsible for up to 25 farmers. When starting a project and gaining experience with the methodology, it is advisable to include around 100 to 200 farmers, which is enough to obtain good results in most situations. In
-future iterations, the tricot experiment can be scaled up to involve more farmers.
+It advisable to involve as many farmers as possible. The larger the number of trials evaluated, the more useful the information about the technology options becomes. Bear in mind that involving more farmers will also take more work to assist farmers in completing the process. Avoid including more farmers than the local field agents can assist. Each field agent may be responsible for up to 25 farmers. When starting a project and gaining experience with the methodology, it is advisable to include around 100 to 200 farmers, which is enough to obtain good results in most situations. In future iterations, the tricot experiment can be scaled up to involve more farmers.
 
 ### What do you need to know about the participating farmers?
 
@@ -20,6 +19,5 @@ Tricot research can be used to evaluate how farmers’ adoption preferences for 
 
 ### Should farmer participation be rewarded?
 
-This question requires careful thought. Providing a reward to motivate farmers could increase participation. But some types of rewards can undermine enthusiasm, curiosity, and the desire to learn, which are often the most important reasons for participation. In several tricot projects, farmers received extra seed of the variety they preferred. This kind of reward is closely tied to the goal of the project and motivates farmers not only to contribute, but also to pay attention to the process, andto be sure to pick a good technology option for their farm.
+This question requires careful thought. Providing a reward to motivate farmers could increase participation. But some types of rewards can undermine enthusiasm, curiosity, and the desire to learn, which are often the most important reasons for participation. In several tricot projects, farmers received extra seed of the variety they preferred. This kind of reward is closely tied to the goal of the project and motivates farmers not only to contribute, but also to pay attention to the process, and to be sure to pick a good technology option for their farm.
 
-- Building partnerships (e.g., with NGOs, genebanks, seed companies).
