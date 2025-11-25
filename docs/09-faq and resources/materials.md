@@ -1,6 +1,5 @@
 ---
 sidebar_position: 3
 ---
-# Support Materials
+# Supporting Materials
 
-## Crop
