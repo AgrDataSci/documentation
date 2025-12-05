@@ -1,15 +1,29 @@
 ---
 sidebar_position: 2
 ---
-# Tricot resources
+# Tricot Resources
 
-## Guide
+## [Publications](#publications)
+
+## [Training Videos](#videos)
+
+## [Costing Templates](#costing)
+
+## [Supporting Material](#support_material)
+
+
+
+
+
+## Publications {#publicatons}
+
+### Guide
 
 Jacob van Etten, Rhys Manners, Jonathan Steinke, Elsa Matthus, Kauê de Sousa. 2020. The tricot approach. Guide for large-scale participatory experiments. Rome (Italy): Alliance of Bioversity International and CIAT. https://hdl.handle.net/10568/109942
 
 This is a short, full-colour guide intended for practitioners who are not yet familiar with tricot. It explains the rationale of tricot and gives an overview of the experimental cycle.
 
-## Main publications
+### Main publications
 
 All publications about the tricot approach are free and open access.
 
@@ -95,7 +109,7 @@ This paper found through tricot trials in Rwanda that farmers favored older pota
 This paper applied video-based product concept testing with 2,400 farmers in Kenya and Uganda, finding that “Resilience,” “Drought escape,” and “Intercropping” seed concepts were most preferred, highlighting opportunities for future maize breeding beyond yield-focused traits.
 
 
-## ClimMob YouTube channel
+### ClimMob YouTube channel {#videos}
 
 All videos about ClimMob and tricot are here.
 https://www.youtube.com/channel/UCmqo4KCZwX8R-H4SNkXfuSA/playlists
@@ -112,3 +126,31 @@ https://www.youtube.com/watch?v=tkOwXG_Jyy4&list=PLpT37wNlyZlQNIrLdW7G91Xqaz_S3x
 3. YouTube videos – data analysis with R
 The ClimMob platform provides trial-level analysis. For advanced analyses, R packages are available. These videos explain how to use them.
 https://www.youtube.com/watch?v=pKYGjtwjagc&list=PLpT37wNlyZlS2QL67Qn-eLI8oETBr5sKm
+
+### Costing Templates {#costing}
+
+### Supporting Materials {#support_material}
+
+#### Beans
+
+|   |   |
+|---|---|
+| [![Cooking time for beans](./img/beans/Beans---Cooking-Time.jpg)](./img/beans/Beans---Cooking-Time.jpg)<br>Cooking time for beans<br><br>[![Drought tolerance of beans](./img/beans/Beans---Drought-Tolerance.jpg)](./img/beans/Beans---Drought-Tolerance.jpg)<br>Drought tolerance of beans<br><br>[![Marketability of beans (bills)](./img/beans/Beans---Marketability-bills.jpg)](./img/beans/Beans---Marketability-bills.jpg)<br>Marketability of beans (bills)<br><br>[![Marketability of beans (coins)](./img/beans/Beans---Marketability-coins.jpg)](./img/beans/Beans---Marketability-coins.jpg)<br>Marketability of beans (coins)<br><br>[![Maturity of beans](./img/beans/Beans---Maturity.jpg)](./img/beans/Beans---Maturity.jpg)<br>Maturity of beans<br><br>[![Pest resistance of beans](./img/beans/Beans---Pest-Resistance.jpg)](./img/beans/Beans---Pest-Resistance.jpg)<br>Pest resistance of beans | [![Germination of beans](./img/beans/Beans---Germination.jpg)](./img/beans/Beans---Germination.jpg)<br>Germination of beans<br><br>[![Grain yield of beans](./img/beans/Beans---Grain-Yield.jpg)](./img/beans/Beans---Grain-Yield.jpg)<br>Grain yield of beans<br><br>[![Plant survival of beans](./img/beans/Beans---Plant-Survival.jpg)](./img/beans/Beans---Plant-Survival.jpg)<br>Plant survival of beans<br><br>[![Seed size of beans](./img/beans/Beans---Seed-Size.jpg)](./img/beans/Beans---Seed-Size.jpg)<br>Seed size of beans<br><br>[![Taste of beans](./img/beans/Beans---Taste.jpg)](./img/beans/Beans---Taste.jpg)<br>Taste of beans<br><br>[![Vigor of beans](./img/beans/Beans---Vigor.jpg)](./img/beans/Beans---Vigor.jpg)<br>Vigor of beans |
+
+
+#### Cassava
+
+#### Cocoa
+
+#### Cowpea
+
+#### Millet
+
+#### Potato
+
+#### Sorghum
+
+#### Soybean
+
+#### Other tricot materials
+

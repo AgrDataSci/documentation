@@ -32,8 +32,7 @@ The 5 to 10 criteria that will be evaluated within the tricot experiment. These 
 For example: Plant height, disease resistance, yield, and others.
 
 **Explanatory variables**
-Information about meteorology and agronomic management of the trials, serves to improve the analysis. The explanatory variables refine the results and help to identify the most suitable variety for the local conditions of every farmer. Examples: Use of irrigation, use of fertilization, 
-season was rainier or drier than usual, etc.
+For on farm trials, information about meteorology and agronomic management of the trials serves to improve the analysis. The explanatory variables refine the results and help to identify the most suitable variety for the local conditions of every farm. Examples: Use of irrigation, use of fertilization, season was rainier or drier than usual, etc.
 
 **Farmers / participating farmers**
 Women and men who participate in a tricot experiment by managing their own tricot trial and carrying out the observations, marking the observations on the observation card at the appropriate dates, and eventually reporting the observations to the local field agents. Their recruitment should involve considerations of gender, age and other demographic factors, as well as their task related to the technology under evaluation. In some tricot trials, non-farmers participate, based on their role in food processing, trading, retailing or consumption.
@@ -48,10 +47,10 @@ Field agents get trained by the implementer, and in turn pass their knowledge on
 
 **Implementing organization/ project implementers**
 The organization that is in charge of carrying out and monitoring the project. It can be an NGO, a government service, or a research program, among other options. Implementers have the major responsibilities in the project, for example:
-* Training the field agents and farmers
+* Training the field agents and participants
 * Distributing the trial packages
 * Carrying out the data analysis once all data is collected and compiled
-* Feeding back the information to the farmers via the field agents.
+* Feeding back the information to the participants via the field agents.
 
 **Incomplete block design**
 Incomplete block design refers to an experimental setup in which not all treatments occur in one block. In the case of tricot, this means that not all technology options (= treatments) occur in each individual trial (=block). Instead, each participant cultivates or tests just three technology options in her/his trial (for example, three randomly assigned bean varieties), instead of cultivating all technology options included in the tricot project (which could be up to 20 bean varieties). Because many participants each cultivate a trial with a subset of three different technology options, all these individual trials – taken together – cover the testing of all technology options.
@@ -59,10 +58,10 @@ Incomplete block design refers to an experimental setup in which not all treatme
 ![](./img/incomplete block.png)
 
 **Infosheet**
-Personalized information output for every farmer. It is generated automatically using ClimMob and includes:
-• Names of the three technology options that the farmer received and tested
-• Names of the most recommended option for their farm
-• Information about where to obtain more material of the preferred technology option (if applicable).
+Personalized information output for every participant. It is generated automatically using ClimMob and includes:
+* Names of the three technology options that the participant received and tested
+* Names of the most recommended option for their farm (in the case of on-farm trials)
+* Information about where to obtain more material of the preferred technology option (if applicable).
 
 **ODK Collect**
 ODK stands for ‘Open Data Kit’. ODK Collect is a free app for Android devices that is used to collect and compile data. It completely replaces the need for paper forms, for example during a survey.
@@ -83,9 +82,9 @@ Observation cards get designed by the project administrator, adapting a template
 **Plackett-Luce model**
 In a tricot project, ranking data is collected on all participants (either farmers or consumers) with each one of them contributing one ‘partial ranking’. The ClimMob software uses the statistical Plackett-Luce model to combine all these partial rankings into a full picture.
 
-The image below visualizes an example. Here, three growers each rank their individual set of three technology options (for example, crop varieties). Participant 1, for example, reported that var 1 was the best technology option, while var4 was the worst, and var3 took a middle position.
+The image below visualizes an example. Here, three growers each rank their individual set of three technology options (for example, crop varieties). Participant 1, for example, reported that var1 was the best technology option, while var4 was the worst, and var3 took a middle position.
 
-The partial rankings from all participants are then combined, giving the overall ranking. When there are disagreements (for example, some farmers find that var3 > var4, but others report that var4 > var3), the Plackett-Luce model determines the most likely overall 
+The partial rankings from all participants are then combined, giving the overall ranking. When there are disagreements (for example, some participants find that var3 > var4, but others report that var4 > var3), the Plackett-Luce model determines the most likely overall 
 
 ![](./img/Plackett-Luce.png)
 
@@ -121,17 +120,16 @@ Each tricot experiment focuses on one agricultural technology (for example, ‘f
 (fertilizer composition X, fertilizer composition Y, etc.). These technology options should in principle be suitable to local conditions and have the potential to be adopted by some of the farmers.  The researchers select the technology options, and they are recommended to begin a first experiment made up of between 8 to 12 options.
 
 **Trial package**
-A bag given to every farmer at the initial workshop. The large bag is marked with a number and a QR code. It contains: (i) three small bags containing material of the different technology options ( marked with ‘A’, ‘B’, and ‘C’); (ii) an observation card; and (iii) an explanatory brochure about the tricot process.
+A bag given to every participant at the initial workshop. The large bag is marked with a number and a QR code. It contains: (i) three small bags containing material of the different technology options ( marked with ‘A’, ‘B’, and ‘C’); (ii) an observation card; and (iii) an explanatory brochure about the tricot process.
 
 **Trial plot**
-A small area within or at the margin of the farmer’s production plot, with representative soil conditions. It is divided into three equal parts, for the testing of the three technology options assigned to the farmer.
+For on-farm trials, a small area within or at the margin of the farmer’s production plot, with representative soil conditions. It is divided into three equal parts, for the testing of the three technology options assigned to the farmer.
 
 **Tricot**
 The word ‘tricot’ is derived from three words: Triadic comparison of technology options. ‘Triadic’ refers to the sets of three technology options that are compared in each trial. In technical jargon, three things define tricot: (1) the use of incomplete blocks of three items (to make the threshold of participation low in terms of farm size and to make it cognitively manageable), (2) the use of ranking as the main way to report observations (to facilitate digital data collection and to make it possible to cultivate a tricot plot with very little training), and (3) the limited control of experimental conditions (following usual technology use practice to maximize external validity).
 
 **Tricot trial**
-Field test of different technological options, in sets of three, each grown and observed by a farmer in a small designated area of her/his 
-own farm.
+Test of different technological options, in sets of three, each observed and ranked by a participant. For an on-farm trial, the options are grown and observed in a small designated area of her/his own farm.
 
 **Tricot Experiment**
 A tricot experiment (or tricot project) refers to the whole process of putting the tricot approach into action. That is, engaging a large number of participants in testing a range of technology options in random sub-sets of three technology option per participant.
