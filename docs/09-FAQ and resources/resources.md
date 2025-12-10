@@ -144,111 +144,111 @@ https://www.youtube.com/watch?v=pKYGjtwjagc&list=PLpT37wNlyZlS2QL67Qn-eLI8oETBr5
 </a>
 
 
-<a href="./img/beans/Beans---Drought-Tolerance.jpg"
+<a href="./img/beans/Beans---Drought-Tolerance.JPG"
    target="_blank"
    rel="noopener noreferrer"
    style="display: inline-flex; align-items: center; gap: 8px;">
-  <img src="./img/beans/Beans---Drought-Tolerance.jpg"
+  <img src="./img/beans/Beans---Drought-Tolerance.JPG"
        alt="Beans - Drought Tolerance"
        width="200">
   <span>Beans - Drought Tolerance</span>
 </a>
 
-<a href="./img/beans/Beans---Germination.jpg"
+<a href="./img/beans/Beans---Germination.JPG"
    target="_blank"
    rel="noopener noreferrer"
    style="display: inline-flex; align-items: center; gap: 8px;">
-  <img src="./img/beans/Beans---Germination.jpg"
+  <img src="./img/beans/Beans---Germination.JPG"
        alt="Beans - Germination"
        width="200">
   <span>Beans - Germination</span>
 </a>
 
-<a href="./img/beans/Beans---Grain-Yield.jpg"
+<a href="./img/beans/Beans---Grain-Yield.JPG"
    target="_blank"
    rel="noopener noreferrer"
    style="display: inline-flex; align-items: center; gap: 8px;">
-  <img src="./img/beans/Beans---Grain-Yield.jpg"
+  <img src="./img/beans/Beans---Grain-Yield.JPG"
        alt="Beans - Grain Yield"
        width="200">
   <span>Beans - Grain Yield</span>
 </a>
 
-<a href="./img/beans/Beans---Marketability-bills.jpg"
+<a href="./img/beans/Beans---Marketability-bills.JPG"
    target="_blank"
    rel="noopener noreferrer"
    style="display: inline-flex; align-items: center; gap: 8px;">
-  <img src="./img/beans/Beans---Marketability-bills.jpg"
+  <img src="./img/beans/Beans---Marketability-bills.JPG"
        alt="Beans - Marketability (bills)"
        width="200">
   <span>Beans - Marketability (bills)</span>
 </a>
 
-<a href="./img/beans/Beans---Marketability-coins.jpg"
+<a href="./img/beans/Beans---Marketability-coins.JPG"
    target="_blank"
    rel="noopener noreferrer"
    style="display: inline-flex; align-items: center; gap: 8px;">
-  <img src="./img/beans/Beans---Marketability-coins.jpg"
+  <img src="./img/beans/Beans---Marketability-coins.JPG"
        alt="Beans - Marketability (coins)"
        width="200">
   <span>Beans - Marketability (coins)</span>
 </a>
 
-<a href="./img/beans/Beans---Maturity.jpg"
+<a href="./img/beans/Beans---Maturity.JPG"
    target="_blank"
    rel="noopener noreferrer"
    style="display: inline-flex; align-items: center; gap: 8px;">
-  <img src="./img/beans/Beans---Maturity.jpg"
+  <img src="./img/beans/Beans---Maturity.JPG"
        alt="Beans - Maturity"
        width="200">
   <span>Beans - Maturity</span>
 </a>
 
-<a href="./img/beans/Beans---Pest-Resistance.jpg"
+<a href="./img/beans/Beans---Pest-Resistance.JPG"
    target="_blank"
    rel="noopener noreferrer"
    style="display: inline-flex; align-items: center; gap: 8px;">
-  <img src="./img/beans/Beans---Pest-Resistance.jpg"
+  <img src="./img/beans/Beans---Pest-Resistance.JPG"
        alt="Beans - Pest Resistance"
        width="200">
   <span>Beans - Pest Resistance</span>
 </a>
 
-<a href="./img/beans/Beans---Plant-Survival.jpg"
+<a href="./img/beans/Beans---Plant-Survival.JPG"
    target="_blank"
    rel="noopener noreferrer"
    style="display: inline-flex; align-items: center; gap: 8px;">
-  <img src="./img/beans/Beans---Plant-Survival.jpg"
+  <img src="./img/beans/Beans---Plant-Survival.JPG"
        alt="Beans - Plant Survival"
        width="200">
   <span>Beans - Plant Survival</span>
 </a>
 
-<a href="./img/beans/Beans---Seed-Size.jpg"
+<a href="./img/beans/Beans---Seed-Size.JPG"
    target="_blank"
    rel="noopener noreferrer"
    style="display: inline-flex; align-items: center; gap: 8px;">
-  <img src="./img/beans/Beans---Seed-Size.jpg"
+  <img src="./img/beans/Beans---Seed-Size.JPG"
        alt="Beans - Seed Size"
        width="200">
   <span>Beans - Seed Size</span>
 </a>
 
-<a href="./img/beans/Beans---Taste.jpg"
+<a href="./img/beans/Beans---Taste.JPG"
    target="_blank"
    rel="noopener noreferrer"
    style="display: inline-flex; align-items: center; gap: 8px;">
-  <img src="./img/beans/Beans---Taste.jpg"
+  <img src="./img/beans/Beans---Taste.JPG"
        alt="Beans - Taste"
        width="200">
   <span>Beans - Taste</span>
 </a>
 
-<a href="./img/beans/Beans---Vigor.jpg"
+<a href="./img/beans/Beans---Vigor.JPG"
    target="_blank"
    rel="noopener noreferrer"
    style="display: inline-flex; align-items: center; gap: 8px;">
-  <img src="./img/beans/Beans---Vigor.jpg"
+  <img src="./img/beans/Beans---Vigor.JPG"
        alt="Beans - Vigor"
        width="200">
   <span>Beans - Vigor</span>
@@ -258,151 +258,151 @@ https://www.youtube.com/watch?v=pKYGjtwjagc&list=PLpT37wNlyZlS2QL67Qn-eLI8oETBr5
 
 #### Cassava
 
-<a href="./img/cassava/1._Cassava_Establishment.jpg"
+<a href="./img/cassava/1._Cassava_Establishment.JPG"
    target="_blank"
    rel="noopener noreferrer"
    style="display: inline-flex; align-items: center; gap: 8px;">
-  <img src="./img/cassava/1._Cassava_Establishment.jpg"
+  <img src="./img/cassava/1._Cassava_Establishment.JPG"
        alt="Cassava Establishment"
        width="200">
   <span>Cassava Establishment</span>
 </a>
 
-<a href="./img/cassava/3._Cassava_CMD.jpg"
+<a href="./img/cassava/3._Cassava_CMD.JPG"
    target="_blank"
    rel="noopener noreferrer"
    style="display: inline-flex; align-items: center; gap: 8px;">
-  <img src="./img/cassava/3._Cassava_CMD.jpg"
+  <img src="./img/cassava/3._Cassava_CMD.JPG"
        alt="Cassava CMD"
        width="200">
   <span>Cassava CMD</span>
 </a>
 
-<a href="./img/cassava/4._Cassava_CBSD.jpg"
+<a href="./img/cassava/4._Cassava_CBSD.JPG"
    target="_blank"
    rel="noopener noreferrer"
    style="display: inline-flex; align-items: center; gap: 8px;">
-  <img src="./img/cassava/4._Cassava_CBSD.jpg"
+  <img src="./img/cassava/4._Cassava_CBSD.JPG"
        alt="Cassava CBSD"
        width="200">
   <span>Cassava CBSD</span>
 </a>
 
-<a href="./img/cassava/5._Cassava_Amount_of_stems.jpg"
+<a href="./img/cassava/5._Cassava_Amount_of_stems.JPG"
    target="_blank"
    rel="noopener noreferrer"
    style="display: inline-flex; align-items: center; gap: 8px;">
-  <img src="./img/cassava/5._Cassava_Amount_of_stems.jpg"
+  <img src="./img/cassava/5._Cassava_Amount_of_stems.JPG"
        alt="Cassava Amount of stems"
        width="200">
   <span>Cassava Amount of stems</span>
 </a>
 
-<a href="./img/cassava/6._Cassava_Maturity.jpg"
+<a href="./img/cassava/6._Cassava_Maturity.JPG"
    target="_blank"
    rel="noopener noreferrer"
    style="display: inline-flex; align-items: center; gap: 8px;">
-  <img src="./img/cassava/6._Cassava_Maturity.jpg"
+  <img src="./img/cassava/6._Cassava_Maturity.JPG"
        alt="Cassava Maturity"
        width="200">
   <span>Cassava Maturity</span>
 </a>
 
-<a href="./img/cassava/7._Cassava_Root_yield.jpg"
+<a href="./img/cassava/7._Cassava_Root_yield.JPG"
    target="_blank"
    rel="noopener noreferrer"
    style="display: inline-flex; align-items: center; gap: 8px;">
-  <img src="./img/cassava/7._Cassava_Root_yield.jpg"
+  <img src="./img/cassava/7._Cassava_Root_yield.JPG"
        alt="Cassava Root yield"
        width="200">
   <span>Cassava Root yield</span>
 </a>
 
-<a href="./img/cassava/8._Cassava_Root_shape.jpg"
+<a href="./img/cassava/8._Cassava_Root_shape.JPG"
    target="_blank"
    rel="noopener noreferrer"
    style="display: inline-flex; align-items: center; gap: 8px;">
-  <img src="./img/cassava/8._Cassava_Root_shape.jpg"
+  <img src="./img/cassava/8._Cassava_Root_shape.JPG"
        alt="Cassava Root shape"
        width="200">
   <span>Cassava Root shape</span>
 </a>
 
-<a href="./img/cassava/9._Cassava_Root_size.jpg"
+<a href="./img/cassava/9._Cassava_Root_size.JPG"
    target="_blank"
    rel="noopener noreferrer"
    style="display: inline-flex; align-items: center; gap: 8px;">
-  <img src="./img/cassava/9._Cassava_Root_size.jpg"
+  <img src="./img/cassava/9._Cassava_Root_size.JPG"
        alt="Cassava Root size"
        width="200">
   <span>Cassava Root size</span>
 </a>
 
-<a href="./img/cassava/10._Cassava_Flesh_color.jpg"
+<a href="./img/cassava/10._Cassava_Flesh_color.JPG"
    target="_blank"
    rel="noopener noreferrer"
    style="display: inline-flex; align-items: center; gap: 8px;">
-  <img src="./img/cassava/10._Cassava_Flesh_color.jpg"
+  <img src="./img/cassava/10._Cassava_Flesh_color.JPG"
        alt="Cassava Flesh color"
        width="200">
   <span>Cassava Flesh color</span>
 </a>
 
-<a href="./img/cassava/11._Cassava_CBSD_root_necrosis.jpg"
+<a href="./img/cassava/11._Cassava_CBSD_root_necrosis.JPG"
    target="_blank"
    rel="noopener noreferrer"
    style="display: inline-flex; align-items: center; gap: 8px;">
-  <img src="./img/cassava/11._Cassava_CBSD_root_necrosis.jpg"
+  <img src="./img/cassava/11._Cassava_CBSD_root_necrosis.JPG"
        alt="Cassava CBSD root necrosis"
        width="200">
   <span>Cassava CBSD root necrosis</span>
 </a>
 
-<a href="./img/cassava/12._Cassava_Taste.jpg"
+<a href="./img/cassava/12._Cassava_Taste.JPG"
    target="_blank"
    rel="noopener noreferrer"
    style="display: inline-flex; align-items: center; gap: 8px;">
-  <img src="./img/cassava/12._Cassava_Taste.jpg"
+  <img src="./img/cassava/12._Cassava_Taste.JPG"
        alt="Cassava Taste"
        width="200">
   <span>Cassava Taste</span>
 </a>
 
-<a href="./img/cassava/13._Cassava_Flour_yield.jpg"
+<a href="./img/cassava/13._Cassava_Flour_yield.JPG"
    target="_blank"
    rel="noopener noreferrer"
    style="display: inline-flex; align-items: center; gap: 8px;">
-  <img src="./img/cassava/13._Cassava_Flour_yield.jpg"
+  <img src="./img/cassava/13._Cassava_Flour_yield.JPG"
        alt="Cassava Flour yield"
        width="200">
   <span>Cassava Flour yield</span>
 </a>
 
-<a href="./img/cassava/14._Cassava_Ugali_color.jpg"
+<a href="./img/cassava/14._Cassava_Ugali_color.JPG"
    target="_blank"
    rel="noopener noreferrer"
    style="display: inline-flex; align-items: center; gap: 8px;">
-  <img src="./img/cassava/14._Cassava_Ugali_color.jpg"
+  <img src="./img/cassava/14._Cassava_Ugali_color.JPG"
        alt="Cassava Ugali color"
        width="200">
   <span>Cassava Ugali color</span>
 </a>
 
-<a href="./img/cassava/15._Cassava_Ugali_taste.jpg"
+<a href="./img/cassava/15._Cassava_Ugali_taste.JPG"
    target="_blank"
    rel="noopener noreferrer"
    style="display: inline-flex; align-items: center; gap: 8px;">
-  <img src="./img/cassava/15._Cassava_Ugali_taste.jpg"
+  <img src="./img/cassava/15._Cassava_Ugali_taste.JPG"
        alt="Cassava Ugali taste"
        width="200">
   <span>Cassava Ugali taste</span>
 </a>
 
-<a href="./img/cassava/16._Cassava_Overral_Acceptance.jpg"
+<a href="./img/cassava/16._Cassava_Overral_Acceptance.JPG"
    target="_blank"
    rel="noopener noreferrer"
    style="display: inline-flex; align-items: center; gap: 8px;">
-  <img src="./img/cassava/16._Cassava_Overral_Acceptance.jpg"
+  <img src="./img/cassava/16._Cassava_Overral_Acceptance.JPG"
        alt="Cassava Overral Acceptance"
        width="200">
   <span>Cassava Overral Acceptance</span>
