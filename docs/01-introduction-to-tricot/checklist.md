@@ -1,10 +1,10 @@
 ---
-sidebar_position: 4
+sidebar_position: 3
 ---
 
 ## Tricot Trial Checklist
 
-The following table can be used as a checklist while planning a tricot experiment.(add pdf link)
+The following table can be used as a checklist while planning a tricot experiment.
 
 
 | ✔ | Step            | Task             | Key Actions                                                                                           | Responsible             |

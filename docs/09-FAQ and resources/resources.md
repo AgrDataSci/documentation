@@ -1,5 +1,8 @@
 ---
 sidebar_position: 2
+output:
+  html_document:
+    df_print: paged
 ---
 # Tricot Resources
 
@@ -17,7 +20,7 @@ sidebar_position: 2
 
 ## Publications {#publicatons}
 
-### Guide
+### The Tricot Guide
 
 Jacob van Etten, Rhys Manners, Jonathan Steinke, Elsa Matthus, Kauê de Sousa. 2020. The tricot approach. Guide for large-scale participatory experiments. Rome (Italy): Alliance of Bioversity International and CIAT. https://hdl.handle.net/10568/109942
 
@@ -109,21 +112,21 @@ This paper found through tricot trials in Rwanda that farmers favored older pota
 This paper applied video-based product concept testing with 2,400 farmers in Kenya and Uganda, finding that “Resilience,” “Drought escape,” and “Intercropping” seed concepts were most preferred, highlighting opportunities for future maize breeding beyond yield-focused traits.
 
 
-### ClimMob YouTube channel {#videos}
+### Training Videos {#videos}
 
-All videos about ClimMob and tricot are here.
+All videos about ClimMob and tricot are on the ClimMob YouTube channel.
 https://www.youtube.com/channel/UCmqo4KCZwX8R-H4SNkXfuSA/playlists
 The videos are subdivided in three playing lists, as shown below.
 
-1. YouTube videos – Introduction to tricot
+1. YouTube videos – Introduction to tricot.
 These videos provide a general introduction to tricot as an on-farm testing approach. It explains the rationale and underlying concepts.
 https://www.youtube.com/watch?v=uCZ9Hw5hubU&list=PLpT37wNlyZlRH2_K-sevTeLh2-bhYkY2h
 
-2. YouTube videos – Introduction to ClimMob software
+2. YouTube videos – Introduction to ClimMob software.
 These videos provide a step-by-step explanation of how to set up an experiment on ClimMob.
 https://www.youtube.com/watch?v=tkOwXG_Jyy4&list=PLpT37wNlyZlQNIrLdW7G91Xqaz_S3x_z0
 
-3. YouTube videos – data analysis with R
+3. YouTube videos – data analysis with R.
 The ClimMob platform provides trial-level analysis. For advanced analyses, R packages are available. These videos explain how to use them.
 https://www.youtube.com/watch?v=pKYGjtwjagc&list=PLpT37wNlyZlS2QL67Qn-eLI8oETBr5sKm
 
@@ -132,7 +135,6 @@ https://www.youtube.com/watch?v=pKYGjtwjagc&list=PLpT37wNlyZlS2QL67Qn-eLI8oETBr5
 ### Supporting Materials {#support_material}
 
 #### Beans
-
 
 #### Cassava
 
