@@ -136,14 +136,9 @@ https://www.youtube.com/watch?v=pKYGjtwjagc&list=PLpT37wNlyZlS2QL67Qn-eLI8oETBr5
 
 #### Cassava
 
-<a href="/img/cassava/1._Cassava_Establishment.JPG"
-   target="_blank"
-   rel="noopener noreferrer">
-  <img src="/img/cassava/1._Cassava_Establishment.JPG"
-       alt="Cassava Establishment"
-       width="200" />
-  <span style="margin-left: 8px;">Cassava Establishment</span>
-</a>
+[![Cassava CMD](./img/cassava/3._Cassava_CMD.JPG)](./img/cassava/3._Cassava_CMD.JPG) Cassava CMD  
+
+[![Cassava CBSD](./img/cassava/4._Cassava_CBSD.JPG)](./img/cassava/4._Cassava_CBSD.JPG) Cassava CBSD  
 
 #### Cocoa
 
