@@ -136,10 +136,10 @@ https://www.youtube.com/watch?v=pKYGjtwjagc&list=PLpT37wNlyZlS2QL67Qn-eLI8oETBr5
 
 #### Cassava
 
-<a href="/img/cassava/1._Cassava_Establishment.jpg"
+<a href="./img/cassava/1._Cassava_Establishment.JPG"
    target="_blank"
    rel="noopener noreferrer">
-  <img src="/img/cassava/1._Cassava_Establishment.jpg"
+  <img src="./img/cassava/1._Cassava_Establishment.JPG"
        alt="Cassava Establishment"
        width="200" />
   <span style="margin-left: 8px;">Cassava Establishment</span>
