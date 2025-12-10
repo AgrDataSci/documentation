@@ -136,9 +136,9 @@ https://www.youtube.com/watch?v=pKYGjtwjagc&list=PLpT37wNlyZlS2QL67Qn-eLI8oETBr5
 
 #### Cassava
 
-[![Cassava CMD](./img/cassava/3._Cassava_CMD.jpg)](./img/cassava/3._Cassava_CMD.jpg) Cassava CMD  
+[![Cassava CMD](./img/cassava/3._Cassava_CMD.JPG)](./img/cassava/3._Cassava_CMD.JPG) Cassava CMD  
 
-[![Cassava CBSD](./img/cassava/4._Cassava_CBSD.jpg)](./img/cassava/4._Cassava_CBSD.jpg) Cassava CBSD  
+[![Cassava CBSD](./img/cassava/4._Cassava_CBSD.JPG)](./img/cassava/4._Cassava_CBSD.JPG) Cassava CBSD  
 
 #### Cocoa
 
