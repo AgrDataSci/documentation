@@ -1,9 +1,9 @@
 {
   "pluginId": "default",
   "version": "current",
-  "label": "Next",
+  "label": "2.0",
   "banner": null,
-  "badge": false,
+  "badge": true,
   "noIndex": false,
   "className": "docs-version-current",
   "isLast": true,
@@ -11,215 +11,584 @@
     "tutorialSidebar": [
       {
         "type": "link",
-        "label": "Guidebook for Product Use Testing in agriculture Intro",
-        "href": "/documentation/docs/intro",
+        "label": "Product testing with users in Agriculture and Food:",
+        "href": "/documentation/2.0/",
         "docId": "intro",
         "unlisted": false
       },
       {
+        "type": "link",
+        "label": "Glossary",
+        "href": "/documentation/2.0/glossary",
+        "docId": "glossary",
+        "unlisted": false
+      },
+      {
         "type": "category",
-        "label": "Tricot",
-        "collapsible": true,
-        "collapsed": true,
+        "label": "Introduction to Tricot",
         "items": [
           {
             "type": "link",
-            "label": "Tricot Introduction",
-            "href": "/documentation/docs/Tricot/introduction",
-            "docId": "Tricot/introduction",
+            "label": "Introduction to the tricot approach",
+            "href": "/documentation/2.0/introduction-to-tricot/introduction",
+            "docId": "introduction-to-tricot/introduction",
             "unlisted": false
           },
           {
             "type": "link",
-            "label": "The 10 steps of a Tricot project",
-            "href": "/documentation/docs/Tricot/steps",
-            "docId": "Tricot/steps",
+            "label": "The 10 steps of a tricot experiment",
+            "href": "/documentation/2.0/introduction-to-tricot/steps",
+            "docId": "introduction-to-tricot/steps",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "checklist",
+            "href": "/documentation/2.0/introduction-to-tricot/checklist",
+            "docId": "introduction-to-tricot/checklist",
             "unlisted": false
           }
         ],
-        "href": "/documentation/docs/category/tricot"
+        "collapsed": true,
+        "collapsible": true
       },
       {
         "type": "category",
-        "label": "Participant recruitment",
-        "collapsible": true,
-        "collapsed": true,
+        "label": "Preparation",
         "items": [
           {
             "type": "link",
+            "label": "Problem Identification",
+            "href": "/documentation/2.0/planning/Problem Identification",
+            "docId": "planning/Problem Identification",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "Stakeholder Engagement",
+            "href": "/documentation/2.0/planning/Stakeholder Engagement",
+            "docId": "planning/Stakeholder Engagement",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "Resources and Budgeting",
+            "href": "/documentation/2.0/planning/Resources and Budgeting",
+            "docId": "planning/Resources and Budgeting",
+            "unlisted": false
+          }
+        ],
+        "collapsed": true,
+        "collapsible": true
+      },
+      {
+        "type": "category",
+        "label": "Design",
+        "items": [
+          {
+            "type": "link",
+            "label": "Target Product Profiles in Plant Breeding",
+            "href": "/documentation/2.0/experimental-design/tpp",
+            "docId": "experimental-design/tpp",
+            "unlisted": false
+          },
+          {
+            "type": "link",
             "label": "Socioeconomic sampling",
-            "href": "/documentation/docs/Participant Recruitment/socioeconomic_sampling",
-            "docId": "Participant Recruitment/socioeconomic_sampling",
+            "href": "/documentation/2.0/experimental-design/socioeconomic-sampling",
+            "docId": "experimental-design/socioeconomic-sampling",
             "unlisted": false
           },
           {
             "type": "link",
             "label": "Geographic sampling",
-            "href": "/documentation/docs/Participant Recruitment/geographic_sampling",
-            "docId": "Participant Recruitment/geographic_sampling",
-            "unlisted": false
-          }
-        ],
-        "href": "/documentation/docs/category/participant-recruitment"
-      },
-      {
-        "type": "category",
-        "label": "Technology selection",
-        "collapsible": true,
-        "collapsed": true,
-        "items": [
-          {
-            "type": "link",
-            "label": "TPP",
-            "href": "/documentation/docs/Technology selection/tpp",
-            "docId": "Technology selection/tpp",
-            "unlisted": false
-          }
-        ],
-        "href": "/documentation/docs/category/technology-selection"
-      },
-      {
-        "type": "category",
-        "label": "Trials protocols",
-        "collapsible": true,
-        "collapsed": true,
-        "items": [
-          {
-            "type": "link",
-            "label": "Bean Trial Protocol",
-            "href": "/documentation/docs/Protocols/bean_protocol",
-            "docId": "Protocols/bean_protocol",
-            "unlisted": false
-          }
-        ],
-        "href": "/documentation/docs/category/trials-protocols"
-      },
-      {
-        "type": "category",
-        "label": "ClimMob suite",
-        "collapsible": true,
-        "collapsed": true,
-        "items": [
-          {
-            "type": "link",
-            "label": "ODK",
-            "href": "/documentation/docs/ClimMob suite/ODK",
-            "docId": "ClimMob suite/ODK",
+            "href": "/documentation/2.0/experimental-design/geographic-sampling",
+            "docId": "experimental-design/geographic-sampling",
             "unlisted": false
           },
           {
             "type": "link",
-            "label": "ClimMob platform",
-            "href": "/documentation/docs/ClimMob suite/climmob",
-            "docId": "ClimMob suite/climmob",
+            "label": "Trial dimensions",
+            "href": "/documentation/2.0/experimental-design/trial dimensions",
+            "docId": "experimental-design/trial dimensions",
             "unlisted": false
           },
           {
             "type": "link",
-            "label": "Data Submission",
-            "href": "/documentation/docs/ClimMob suite/data_submission",
-            "docId": "ClimMob suite/data_submission",
+            "label": "Standard operating procedures",
+            "href": "/documentation/2.0/experimental-design/standard-operating-procedures",
+            "docId": "experimental-design/standard-operating-procedures",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "Example of Experimental Design: Bean Trial Protocol",
+            "href": "/documentation/2.0/experimental-design/bean-protocol",
+            "docId": "experimental-design/bean-protocol",
             "unlisted": false
           }
         ],
-        "href": "/documentation/docs/category/climmob-suite"
+        "collapsed": true,
+        "collapsible": true
       },
       {
         "type": "category",
-        "label": "Data analysis with use cases",
-        "collapsible": true,
-        "collapsed": true,
+        "label": "ClimMob Suite",
         "items": [
           {
             "type": "link",
-            "label": "Use Case 1",
-            "href": "/documentation/docs/Data analysis with use cases/uc1",
-            "docId": "Data analysis with use cases/uc1",
+            "label": "ClimMob Platform",
+            "href": "/documentation/2.0/climmob-suite/ClimMob Platform",
+            "docId": "climmob-suite/ClimMob Platform",
             "unlisted": false
           },
           {
             "type": "link",
-            "label": "Use case 2",
-            "href": "/documentation/docs/Data analysis with use cases/uc2",
-            "docId": "Data analysis with use cases/uc2",
+            "label": "Getting Started",
+            "href": "/documentation/2.0/climmob-suite/Getting Started",
+            "docId": "climmob-suite/Getting Started",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "Design",
+            "href": "/documentation/2.0/climmob-suite/Design",
+            "docId": "climmob-suite/Design",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "Implementation",
+            "href": "/documentation/2.0/climmob-suite/Implementation",
+            "docId": "climmob-suite/Implementation",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "Monitoring",
+            "href": "/documentation/2.0/climmob-suite/Monitoring",
+            "docId": "climmob-suite/Monitoring",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "Outputs",
+            "href": "/documentation/2.0/climmob-suite/Outputs",
+            "docId": "climmob-suite/Outputs",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "Share your project",
+            "href": "/documentation/2.0/climmob-suite/Share your project",
+            "docId": "climmob-suite/Share your project",
             "unlisted": false
           }
         ],
-        "href": "/documentation/docs/category/data-analysis-with-use-cases"
+        "collapsed": true,
+        "collapsible": true
+      },
+      {
+        "type": "category",
+        "label": "Implementation",
+        "items": [
+          {
+            "type": "link",
+            "label": "Implementing a tricot experiment",
+            "href": "/documentation/2.0/implementation/implementation",
+            "docId": "implementation/implementation",
+            "unlisted": false
+          }
+        ],
+        "collapsed": true,
+        "collapsible": true
+      },
+      {
+        "type": "category",
+        "label": "Analysis",
+        "items": [
+          {
+            "type": "link",
+            "label": "Analysis of tricot data",
+            "href": "/documentation/2.0/data-analysis/data-analysis",
+            "docId": "data-analysis/data-analysis",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "Example workflow: Integrating farmer-generated data and agro-climatic data for crop variety selection",
+            "href": "/documentation/2.0/data-analysis/vignette-1-trait-prioritization-and-crop-performance",
+            "docId": "data-analysis/vignette-1-trait-prioritization-and-crop-performance",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "Example workflow: Consumer preference of cassava gari-eba",
+            "href": "/documentation/2.0/data-analysis/vignette-2-gari-eba-consumer-testing",
+            "docId": "data-analysis/vignette-2-gari-eba-consumer-testing",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "Rinstat",
+            "href": "/documentation/2.0/data-analysis/Rinstat",
+            "docId": "data-analysis/Rinstat",
+            "unlisted": false
+          }
+        ],
+        "collapsed": true,
+        "collapsible": true
+      },
+      {
+        "type": "category",
+        "label": "Feedback & Dissemination",
+        "items": [
+          {
+            "type": "link",
+            "label": "Trial feedback and evaluation",
+            "href": "/documentation/2.0/feedback-dissemination/feedback",
+            "docId": "feedback-dissemination/feedback",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "Documenting trials and publishing data",
+            "href": "/documentation/2.0/feedback-dissemination/dissemination",
+            "docId": "feedback-dissemination/dissemination",
+            "unlisted": false
+          }
+        ],
+        "collapsed": true,
+        "collapsible": true
+      },
+      {
+        "type": "category",
+        "label": "Tricot Case Studies",
+        "items": [
+          {
+            "type": "link",
+            "label": "Trioct Case Studies",
+            "href": "/documentation/2.0/good-bad-ugly/case-studies",
+            "docId": "good-bad-ugly/case-studies",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "Groundnut in Kenya and Tanzania",
+            "href": "/documentation/2.0/good-bad-ugly/groundnut-tari",
+            "docId": "good-bad-ugly/groundnut-tari",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "Common bean in Tanzania",
+            "href": "/documentation/2.0/good-bad-ugly/bean-tari",
+            "docId": "good-bad-ugly/bean-tari",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "Maize in Kenya",
+            "href": "/documentation/2.0/good-bad-ugly/maize-bayer",
+            "docId": "good-bad-ugly/maize-bayer",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "Maize in Rwanda",
+            "href": "/documentation/2.0/good-bad-ugly/maize-oneacrefund",
+            "docId": "good-bad-ugly/maize-oneacrefund",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "Sweet potato in Uganda",
+            "href": "/documentation/2.0/good-bad-ugly/sweetpotato-cip",
+            "docId": "good-bad-ugly/sweetpotato-cip",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "Groundnut in Ghana",
+            "href": "/documentation/2.0/good-bad-ugly/groundnut-sari",
+            "docId": "good-bad-ugly/groundnut-sari",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "Cowpea in Nigeria",
+            "href": "/documentation/2.0/good-bad-ugly/cowpea-iita",
+            "docId": "good-bad-ugly/cowpea-iita",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "Seed systems in Ethiopia",
+            "href": "/documentation/2.0/good-bad-ugly/severalcrops-issd",
+            "docId": "good-bad-ugly/severalcrops-issd",
+            "unlisted": false
+          }
+        ],
+        "collapsed": true,
+        "collapsible": true
+      },
+      {
+        "type": "category",
+        "label": "FAQ and Resources",
+        "items": [
+          {
+            "type": "link",
+            "label": "Frequently asked questions",
+            "href": "/documentation/2.0/FAQ-and-resources/FAQs",
+            "docId": "FAQ-and-resources/FAQs",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "Tricot Resources",
+            "href": "/documentation/2.0/FAQ-and-resources/tricot-resources",
+            "docId": "FAQ-and-resources/tricot-resources",
+            "unlisted": false
+          }
+        ],
+        "collapsed": true,
+        "collapsible": true
       }
     ]
   },
   "docs": {
-    "ClimMob suite/climmob": {
-      "id": "ClimMob suite/climmob",
-      "title": "ClimMob platform",
-      "description": "ClimMob platform blabla",
+    "climmob-suite/ClimMob Platform": {
+      "id": "climmob-suite/ClimMob Platform",
+      "title": "ClimMob Platform",
+      "description": "A software platform for experimental citizen science in agriculture.",
       "sidebar": "tutorialSidebar"
     },
-    "ClimMob suite/data_submission": {
-      "id": "ClimMob suite/data_submission",
-      "title": "Data Submission",
-      "description": "Data Submission blabla",
+    "climmob-suite/Design": {
+      "id": "climmob-suite/Design",
+      "title": "Design",
+      "description": "1. Create a new project",
       "sidebar": "tutorialSidebar"
     },
-    "ClimMob suite/ODK": {
-      "id": "ClimMob suite/ODK",
-      "title": "ODK",
-      "description": "ODK intro blabla",
+    "climmob-suite/Getting Started": {
+      "id": "climmob-suite/Getting Started",
+      "title": "Getting Started",
+      "description": "Create an account",
       "sidebar": "tutorialSidebar"
     },
-    "Data analysis with use cases/uc1": {
-      "id": "Data analysis with use cases/uc1",
-      "title": "Use Case 1",
-      "description": "Presentation of Use case 1",
+    "climmob-suite/Implementation": {
+      "id": "climmob-suite/Implementation",
+      "title": "Implementation",
+      "description": "6. Technology randomization",
       "sidebar": "tutorialSidebar"
     },
-    "Data analysis with use cases/uc2": {
-      "id": "Data analysis with use cases/uc2",
-      "title": "Use case 2",
-      "description": "Presentation of use case 2",
+    "climmob-suite/Monitoring": {
+      "id": "climmob-suite/Monitoring",
+      "title": "Monitoring",
+      "description": "14. Project overview",
+      "sidebar": "tutorialSidebar"
+    },
+    "climmob-suite/Outputs": {
+      "id": "climmob-suite/Outputs",
+      "title": "Outputs",
+      "description": "15. Data analysis",
+      "sidebar": "tutorialSidebar"
+    },
+    "climmob-suite/Share your project": {
+      "id": "climmob-suite/Share your project",
+      "title": "Share your project",
+      "description": "ClimMob allows you to collaborate by sharing your project with other users. When you invite someone, you must assign a role that defines what level of access they will have:",
+      "sidebar": "tutorialSidebar"
+    },
+    "data-analysis/data-analysis": {
+      "id": "data-analysis/data-analysis",
+      "title": "Analysis of tricot data",
+      "description": "Kauê de Sousa, Joost van Heerwaarden, Hugo Dorado",
+      "sidebar": "tutorialSidebar"
+    },
+    "data-analysis/Rinstat": {
+      "id": "data-analysis/Rinstat",
+      "title": "Rinstat",
+      "description": "Lily Clements, Roger Stern, Rachel Chase, Kaue de Sousa",
+      "sidebar": "tutorialSidebar"
+    },
+    "data-analysis/vignette-1-trait-prioritization-and-crop-performance": {
+      "id": "data-analysis/vignette-1-trait-prioritization-and-crop-performance",
+      "title": "Example workflow: Integrating farmer-generated data and agro-climatic data for crop variety selection",
+      "description": "In this example, we demonstrate a possible workflow to assess crop variety performance using decentralized on-farm testing data generated with the tricot approach [@deSousa2024]. We use the nicabean dataset, which was generated with decentralized on-farm trials of common bean (Phaseolus vulgaris L.) varieties in Nicaragua over five seasons (between 2015 and 2016). Following the tricot approach, farmers tested three randomly assigned varieties of common bean on their farms as incomplete blocks of size three (from a set of 10 varieties). Farmers assessed which of the three varieties had the best and worst performance in eight traits (vigor, architecture, resistance to pests, resistance to diseases, tolerance to drought, yield, marketability, and taste). Additionally, farmers provided their overall appreciation of the varieties, i.e., which variety had the best and worst performance overall, considering all the traits.",
+      "sidebar": "tutorialSidebar"
+    },
+    "data-analysis/vignette-2-gari-eba-consumer-testing": {
+      "id": "data-analysis/vignette-2-gari-eba-consumer-testing",
+      "title": "Example workflow: Consumer preference of cassava gari-eba",
+      "description": "Here, I present a workflow to analyze data from a consumer preference trial executed in Nigeria and Cameroon by the International Institute of Tropical Agriculture (IITA) under the RTBFoods project (https Nigeria (Osun and Benue States) color, odor, taste, firmness, and stretchability.",
+      "sidebar": "tutorialSidebar"
+    },
+    "experimental-design/bean-protocol": {
+      "id": "experimental-design/bean-protocol",
+      "title": "Example of Experimental Design: Bean Trial Protocol",
+      "description": "Introduction",
+      "sidebar": "tutorialSidebar"
+    },
+    "experimental-design/geographic-sampling": {
+      "id": "experimental-design/geographic-sampling",
+      "title": "Geographic sampling",
+      "description": "Joost van Heerwaarden",
+      "sidebar": "tutorialSidebar"
+    },
+    "experimental-design/socioeconomic-sampling": {
+      "id": "experimental-design/socioeconomic-sampling",
+      "title": "Socioeconomic sampling",
+      "description": "Béla Teeken, Jill Cairns, Mainassara Abdou Zaman-Allah",
+      "sidebar": "tutorialSidebar"
+    },
+    "experimental-design/standard-operating-procedures": {
+      "id": "experimental-design/standard-operating-procedures",
+      "title": "Standard operating procedures",
+      "description": "Marie-Angélique Laporte, Almendra Cremaschi",
+      "sidebar": "tutorialSidebar"
+    },
+    "experimental-design/tpp": {
+      "id": "experimental-design/tpp",
+      "title": "Target Product Profiles in Plant Breeding",
+      "description": "Ganga Rao Nadigatla, Harish Gandhi, Agnes Mbugua",
+      "sidebar": "tutorialSidebar"
+    },
+    "experimental-design/trial dimensions": {
+      "id": "experimental-design/trial dimensions",
+      "title": "Trial dimensions",
+      "description": "A recurrent issue is deciding about trial dimensions: plot size and the number of plots (replications). In the literature about crop trials, there are several methods to guide decision making. At the same time, this is not just a question of statistics, but also biological considerations are important. For tricot trials, there are a number of additional considerations related to farmers’ capacities.",
+      "sidebar": "tutorialSidebar"
+    },
+    "FAQ-and-resources/FAQs": {
+      "id": "FAQ-and-resources/FAQs",
+      "title": "Frequently asked questions",
+      "description": "What is the incentive for growers to participate?",
+      "sidebar": "tutorialSidebar"
+    },
+    "FAQ-and-resources/tricot-resources": {
+      "id": "FAQ-and-resources/tricot-resources",
+      "title": "Tricot Resources",
+      "description": "Publications, training videos, costing templates, and supporting materials for the tricot approach.",
+      "sidebar": "tutorialSidebar"
+    },
+    "feedback-dissemination/dissemination": {
+      "id": "feedback-dissemination/dissemination",
+      "title": "Documenting trials and publishing data",
+      "description": "Open access publication of the data should be a goal of the trial. Tricot has already published a number of sizable datasets from on-farm trials (van Etten et al., 2018; Moyo et al., 2020; de Sousa et al., 2020). These datasets could become important for other research that repurposes these datasets. Kool et al. (2020) have provided an incisive critique of on-farm testing in agronomy, especially the limited replicability of many trials as authors fail to report contextual factors (crop management) and sampling of locations and participating farmers. Similarly, a study on PVS in RTB crops reveals that on-farm trials are often documented in a very deficient way and that data are hardly published at all (Jose Valle et al., 2021). Data publication could become more attractive if it is easy to do and has rewards (citations of datasets repurposed by others). Publishing all data from trials could prevent the so-called file-drawer problem, which means that only certain datasets (for example, novel analyses, striking results) are published, which then lead to biased statistics in meta-analyses.",
+      "sidebar": "tutorialSidebar"
+    },
+    "feedback-dissemination/feedback": {
+      "id": "feedback-dissemination/feedback",
+      "title": "Trial feedback and evaluation",
+      "description": "Anna Muller, Juan Manual Londono",
+      "sidebar": "tutorialSidebar"
+    },
+    "glossary": {
+      "id": "glossary",
+      "title": "Glossary",
+      "description": "Administrator is the person or organization who coordinates the tricot project. It’s the project manager. The administrator could be a scientist working at a research institute, or at an NGO, governmental extension service, etc.",
+      "sidebar": "tutorialSidebar"
+    },
+    "good-bad-ugly/bean-tari": {
+      "id": "good-bad-ugly/bean-tari",
+      "title": "Common bean in Tanzania",
+      "description": "Edith Kadege, Tanzania Research Institute (TARI)",
+      "sidebar": "tutorialSidebar"
+    },
+    "good-bad-ugly/case-studies": {
+      "id": "good-bad-ugly/case-studies",
+      "title": "Trioct Case Studies",
+      "description": "Rachel Chase",
+      "sidebar": "tutorialSidebar"
+    },
+    "good-bad-ugly/cowpea-iita": {
+      "id": "good-bad-ugly/cowpea-iita",
+      "title": "Cowpea in Nigeria",
+      "description": "Patrick Ongom, IITA",
+      "sidebar": "tutorialSidebar"
+    },
+    "good-bad-ugly/groundnut-sari": {
+      "id": "good-bad-ugly/groundnut-sari",
+      "title": "Groundnut in Ghana",
+      "description": "Richard Oteng-Frimpong, Savanah Agricultural Research Institute",
+      "sidebar": "tutorialSidebar"
+    },
+    "good-bad-ugly/groundnut-tari": {
+      "id": "good-bad-ugly/groundnut-tari",
+      "title": "Groundnut in Kenya and Tanzania",
+      "description": "Happy Daudi, CIMMYT, Kenya",
+      "sidebar": "tutorialSidebar"
+    },
+    "good-bad-ugly/maize-bayer": {
+      "id": "good-bad-ugly/maize-bayer",
+      "title": "Maize in Kenya",
+      "description": "Jamlick Mwathi, Bayer Crop Science, Kenya",
+      "sidebar": "tutorialSidebar"
+    },
+    "good-bad-ugly/maize-oneacrefund": {
+      "id": "good-bad-ugly/maize-oneacrefund",
+      "title": "Maize in Rwanda",
+      "description": "Elyse Tuyishime, One Acre Fund, Rwanda",
+      "sidebar": "tutorialSidebar"
+    },
+    "good-bad-ugly/severalcrops-issd": {
+      "id": "good-bad-ugly/severalcrops-issd",
+      "title": "Seed systems in Ethiopia",
+      "description": "Mohammed Hassena, Integrated Seed Sector Development",
+      "sidebar": "tutorialSidebar"
+    },
+    "good-bad-ugly/sweetpotato-cip": {
+      "id": "good-bad-ugly/sweetpotato-cip",
+      "title": "Sweet potato in Uganda",
+      "description": "Reuben Ssali, CIP",
+      "sidebar": "tutorialSidebar"
+    },
+    "implementation/implementation": {
+      "id": "implementation/implementation",
+      "title": "Implementing a tricot experiment",
+      "description": "Kauê de Sousa, Rachel Chase",
       "sidebar": "tutorialSidebar"
     },
     "intro": {
       "id": "intro",
-      "title": "Guidebook for Product Use Testing in agriculture Intro",
-      "description": "This can be used by a generic page for introducing the whole set of documentation",
+      "title": "Product testing with users in Agriculture and Food:",
+      "description": "Decentralized on-farm evaluation, breeding product validation, consumer testing and other applications using the tricot approach.",
       "sidebar": "tutorialSidebar"
     },
-    "Participant Recruitment/geographic_sampling": {
-      "id": "Participant Recruitment/geographic_sampling",
-      "title": "Geographic sampling",
-      "description": "Geographic sampling babla",
+    "introduction-to-tricot/checklist": {
+      "id": "introduction-to-tricot/checklist",
+      "title": "checklist",
+      "description": "Tricot Trial Checklist",
       "sidebar": "tutorialSidebar"
     },
-    "Participant Recruitment/socioeconomic_sampling": {
-      "id": "Participant Recruitment/socioeconomic_sampling",
-      "title": "Socioeconomic sampling",
-      "description": "Socioeconomic sampling babla",
+    "introduction-to-tricot/introduction": {
+      "id": "introduction-to-tricot/introduction",
+      "title": "Introduction to the tricot approach",
+      "description": "Jacob van Etten, Jonathan Steinke, Kauê de Sousa",
       "sidebar": "tutorialSidebar"
     },
-    "Protocols/bean_protocol": {
-      "id": "Protocols/bean_protocol",
-      "title": "Bean Trial Protocol",
-      "description": "Authors",
+    "introduction-to-tricot/steps": {
+      "id": "introduction-to-tricot/steps",
+      "title": "The 10 steps of a tricot experiment",
+      "description": "This section provides a short overview of each of the 10 steps needed to develop and implement a tricot project.",
       "sidebar": "tutorialSidebar"
     },
-    "Technology selection/tpp": {
-      "id": "Technology selection/tpp",
-      "title": "TPP",
-      "description": "TPP babla",
+    "planning/Problem Identification": {
+      "id": "planning/Problem Identification",
+      "title": "Problem Identification",
+      "description": "Defining research questions and objectives",
       "sidebar": "tutorialSidebar"
     },
-    "Tricot/introduction": {
-      "id": "Tricot/introduction",
-      "title": "Tricot Introduction",
-      "description": "Speeding up agricultural innovation through large-scale participatory experiments",
+    "planning/Resources and Budgeting": {
+      "id": "planning/Resources and Budgeting",
+      "title": "Resources and Budgeting",
+      "description": "Costing a tricot trial",
       "sidebar": "tutorialSidebar"
     },
-    "Tricot/steps": {
-      "id": "Tricot/steps",
-      "title": "The 10 steps of a Tricot project",
-      "description": "This guide provides a short overview of each of the 10 steps needed to develop and implement a tricot project.",
+    "planning/Stakeholder Engagement": {
+      "id": "planning/Stakeholder Engagement",
+      "title": "Stakeholder Engagement",
+      "description": "Roles of researchers, extension agents, local facilitators, and farmers",
       "sidebar": "tutorialSidebar"
     }
   }

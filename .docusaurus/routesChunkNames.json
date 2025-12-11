@@ -1,281 +1,394 @@
 {
-  "/documentation/__docusaurus/debug-1a9": {
+  "/documentation/__docusaurus/debug-919": {
     "__comp": "__comp---theme-debug-config-23-a-2ff",
     "__context": {
-      "plugin": "plugin---documentation-docusaurus-debug-14-d-2e1"
+      "plugin": "plugin---documentation-docusaurus-debuge-1-e-55c"
     }
   },
-  "/documentation/__docusaurus/debug/config-222": {
+  "/documentation/__docusaurus/debug/config-30d": {
     "__comp": "__comp---theme-debug-config-23-a-2ff",
     "__context": {
-      "plugin": "plugin---documentation-docusaurus-debug-14-d-2e1"
+      "plugin": "plugin---documentation-docusaurus-debuge-1-e-55c"
     }
   },
-  "/documentation/__docusaurus/debug/content-9bb": {
+  "/documentation/__docusaurus/debug/content-ffd": {
     "__comp": "__comp---theme-debug-contentba-8-ce7",
     "__context": {
-      "plugin": "plugin---documentation-docusaurus-debug-14-d-2e1"
+      "plugin": "plugin---documentation-docusaurus-debuge-1-e-55c"
     },
     "allContent": "allContent---documentation-docusaurus-debug-content-246-1fc"
   },
-  "/documentation/__docusaurus/debug/globalData-717": {
+  "/documentation/__docusaurus/debug/globalData-bf7": {
     "__comp": "__comp---theme-debug-global-dataede-0fa",
     "__context": {
-      "plugin": "plugin---documentation-docusaurus-debug-14-d-2e1"
+      "plugin": "plugin---documentation-docusaurus-debuge-1-e-55c"
     }
   },
-  "/documentation/__docusaurus/debug/metadata-0f5": {
+  "/documentation/__docusaurus/debug/metadata-6f8": {
     "__comp": "__comp---theme-debug-site-metadata-68-e-3d4",
     "__context": {
-      "plugin": "plugin---documentation-docusaurus-debug-14-d-2e1"
+      "plugin": "plugin---documentation-docusaurus-debuge-1-e-55c"
     }
   },
-  "/documentation/__docusaurus/debug/registry-8c8": {
+  "/documentation/__docusaurus/debug/registry-dca": {
     "__comp": "__comp---theme-debug-registry-679-501",
     "__context": {
-      "plugin": "plugin---documentation-docusaurus-debug-14-d-2e1"
+      "plugin": "plugin---documentation-docusaurus-debuge-1-e-55c"
     }
   },
-  "/documentation/__docusaurus/debug/routes-049": {
+  "/documentation/__docusaurus/debug/routes-721": {
     "__comp": "__comp---theme-debug-routes-946-699",
     "__context": {
-      "plugin": "plugin---documentation-docusaurus-debug-14-d-2e1"
+      "plugin": "plugin---documentation-docusaurus-debuge-1-e-55c"
     }
   },
-  "/documentation/blog-5fd": {
-    "__comp": "__comp---theme-blog-list-pagea-6-a-7ba",
-    "__context": {
-      "plugin": "plugin---documentation-blog-629-b40"
-    },
-    "sidebar": "sidebar---documentation-blog-814-bc6",
-    "items": [
-      {
-        "content": "content---documentation-blog-766-b7c"
-      },
-      {
-        "content": "content---documentation-blogf-4-f-d91"
-      },
-      {
-        "content": "content---documentation-blog-871-8ad"
-      },
-      {
-        "content": "content---documentation-blog-925-287"
-      }
-    ],
-    "metadata": "metadata---documentation-blog-14-e-a5c"
-  },
-  "/documentation/blog/archive-98f": {
-    "__comp": "__comp---theme-blog-archive-page-9-e-4-1d8",
-    "__context": {
-      "plugin": "plugin---documentation-blog-629-b40"
-    },
-    "archive": "archive---documentation-blog-archiveeda-964"
-  },
-  "/documentation/blog/first-blog-post-e1b": {
-    "__comp": "__comp---theme-blog-post-pageccc-cab",
-    "__context": {
-      "plugin": "plugin---documentation-blog-629-b40"
-    },
-    "sidebar": "sidebar---documentation-blog-814-bc6",
-    "content": "content---documentation-blog-first-blog-poste-27-d09"
-  },
-  "/documentation/blog/long-blog-post-077": {
-    "__comp": "__comp---theme-blog-post-pageccc-cab",
-    "__context": {
-      "plugin": "plugin---documentation-blog-629-b40"
-    },
-    "sidebar": "sidebar---documentation-blog-814-bc6",
-    "content": "content---documentation-blog-long-blog-post-736-0f6"
-  },
-  "/documentation/blog/mdx-blog-post-462": {
-    "__comp": "__comp---theme-blog-post-pageccc-cab",
-    "__context": {
-      "plugin": "plugin---documentation-blog-629-b40"
-    },
-    "sidebar": "sidebar---documentation-blog-814-bc6",
-    "content": "content---documentation-blog-mdx-blog-post-593-1de"
-  },
-  "/documentation/blog/tags-138": {
-    "__comp": "__comp---theme-blog-tags-list-page-01-a-d0b",
-    "__context": {
-      "plugin": "plugin---documentation-blog-629-b40"
-    },
-    "sidebar": "sidebar---documentation-blog-814-bc6",
-    "tags": "tags---documentation-blog-tags-673-362"
-  },
-  "/documentation/blog/tags/docusaurus-bb4": {
-    "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
-    "__context": {
-      "plugin": "plugin---documentation-blog-629-b40"
-    },
-    "sidebar": "sidebar---documentation-blog-814-bc6",
-    "items": [
-      {
-        "content": "content---documentation-blog-766-b7c"
-      },
-      {
-        "content": "content---documentation-blogf-4-f-d91"
-      },
-      {
-        "content": "content---documentation-blog-871-8ad"
-      },
-      {
-        "content": "content---documentation-blog-925-287"
-      }
-    ],
-    "tag": "tag---documentation-blog-tags-docusaurus-911-3a9",
-    "listMetadata": "listMetadata---documentation-blog-tags-docusaurusb-53-274"
-  },
-  "/documentation/blog/tags/facebook-aa3": {
-    "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
-    "__context": {
-      "plugin": "plugin---documentation-blog-629-b40"
-    },
-    "sidebar": "sidebar---documentation-blog-814-bc6",
-    "items": [
-      {
-        "content": "content---documentation-blog-766-b7c"
-      }
-    ],
-    "tag": "tag---documentation-blog-tags-facebookde-8-e67",
-    "listMetadata": "listMetadata---documentation-blog-tags-facebook-84-f-518"
-  },
-  "/documentation/blog/tags/hello-405": {
-    "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
-    "__context": {
-      "plugin": "plugin---documentation-blog-629-b40"
-    },
-    "sidebar": "sidebar---documentation-blog-814-bc6",
-    "items": [
-      {
-        "content": "content---documentation-blog-766-b7c"
-      },
-      {
-        "content": "content---documentation-blog-871-8ad"
-      }
-    ],
-    "tag": "tag---documentation-blog-tags-hello-6-a-7-056",
-    "listMetadata": "listMetadata---documentation-blog-tags-hello-3-c-8-390"
-  },
-  "/documentation/blog/tags/hola-0f5": {
-    "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
-    "__context": {
-      "plugin": "plugin---documentation-blog-629-b40"
-    },
-    "sidebar": "sidebar---documentation-blog-814-bc6",
-    "items": [
-      {
-        "content": "content---documentation-blog-925-287"
-      }
-    ],
-    "tag": "tag---documentation-blog-tags-hola-21-a-013",
-    "listMetadata": "listMetadata---documentation-blog-tags-hola-4-b-4-dfd"
-  },
-  "/documentation/blog/welcome-d6d": {
-    "__comp": "__comp---theme-blog-post-pageccc-cab",
-    "__context": {
-      "plugin": "plugin---documentation-blog-629-b40"
-    },
-    "sidebar": "sidebar---documentation-blog-814-bc6",
-    "content": "content---documentation-blog-welcomed-9-f-7d3"
-  },
-  "/documentation/markdown-page-436": {
+  "/documentation/markdown-page-d86": {
     "__comp": "__comp---theme-mdx-page-1-f-3-b90",
     "__context": {
-      "plugin": "plugin---documentation-markdown-page-37-c-f8d"
+      "plugin": "plugin---documentation-markdown-pageb-3-a-f97"
     },
     "content": "content---documentation-markdown-page-393-bce"
   },
-  "/documentation/docs-f93": {
-    "__comp": "__comp---theme-docs-root-5-e-9-0b6",
+  "/documentation/search-648": {
+    "__comp": "__comp---theme-search-page-1-a-4-d6f",
     "__context": {
-      "plugin": "plugin---documentation-docs-8-de-857"
+      "plugin": "plugin---documentation-searchfdd-347"
     }
   },
-  "/documentation/docs-42d": {
-    "__comp": "__comp---theme-doc-version-roota-7-b-5de",
-    "version": "version---documentation-docs-935-d3e"
+  "/documentation/-35e": {
+    "__comp": "__comp---theme-docs-root-5-e-9-0b6",
+    "__context": {
+      "plugin": "plugin---documentation-c-71-676"
+    }
   },
-  "/documentation/docs-3ab": {
+  "/documentation/1.0-c7a": {
+    "__comp": "__comp---theme-doc-version-roota-7-b-5de",
+    "version": "version---documentation-1-0352-40e"
+  },
+  "/documentation/1.0-e4d": {
     "__comp": "__comp---theme-doc-roota-94-67a"
   },
-  "/documentation/docs/category/climmob-suite-2f4": {
-    "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
-    "categoryGeneratedIndex": "categoryGeneratedIndex---documentation-docs-category-climmob-suite-700-cee"
-  },
-  "/documentation/docs/category/data-analysis-with-use-cases-f24": {
-    "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
-    "categoryGeneratedIndex": "categoryGeneratedIndex---documentation-docs-category-data-analysis-with-use-cases-2-b-4-d3d"
-  },
-  "/documentation/docs/category/participant-recruitment-d85": {
-    "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
-    "categoryGeneratedIndex": "categoryGeneratedIndex---documentation-docs-category-participant-recruitmenteb-6-c9b"
-  },
-  "/documentation/docs/category/technology-selection-18f": {
-    "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
-    "categoryGeneratedIndex": "categoryGeneratedIndex---documentation-docs-category-technology-selection-293-e73"
-  },
-  "/documentation/docs/category/trials-protocols-5b6": {
-    "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
-    "categoryGeneratedIndex": "categoryGeneratedIndex---documentation-docs-category-trials-protocols-7-ab-c8e"
-  },
-  "/documentation/docs/category/tricot-c9f": {
-    "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
-    "categoryGeneratedIndex": "categoryGeneratedIndex---documentation-docs-category-tricot-022-cb6"
-  },
-  "/documentation/docs/ClimMob suite/climmob-9bc": {
+  "/documentation/1.0/-f7c": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---documentation-docs-clim-mob-suite-climmob-538-fbb"
+    "content": "content---documentation-1-0-7-bd-b53"
   },
-  "/documentation/docs/ClimMob suite/data_submission-23d": {
+  "/documentation/1.0/appendices/appendices-297": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---documentation-docs-clim-mob-suite-data-submission-193-223"
+    "content": "content---documentation-1-0-appendices-appendices-1-d-8-890"
   },
-  "/documentation/docs/ClimMob suite/ODK-ac2": {
+  "/documentation/1.0/climmob-suite/climmob_platform-d0b": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---documentation-docs-clim-mob-suite-odk-539-d62"
+    "content": "content---documentation-1-0-climmob-suite-climmob-platform-9-b-2-a12"
   },
-  "/documentation/docs/Data analysis with use cases/uc1-666": {
+  "/documentation/1.0/climmob-suite/Design-74c": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---documentation-docs-data-analysis-with-use-cases-uc-13-f-4-4aa"
+    "content": "content---documentation-1-0-climmob-suite-design-81-a-c8f"
   },
-  "/documentation/docs/Data analysis with use cases/uc2-51a": {
+  "/documentation/1.0/climmob-suite/Getting_Started-d5e": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---documentation-docs-data-analysis-with-use-cases-uc-2-a-09-233"
+    "content": "content---documentation-1-0-climmob-suite-getting-starteda-60-f9f"
   },
-  "/documentation/docs/intro-9e8": {
+  "/documentation/1.0/climmob-suite/Implementation-47b": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---documentation-docs-intro-0-e-3-1d3"
+    "content": "content---documentation-1-0-climmob-suite-implementationae-4-462"
   },
-  "/documentation/docs/Participant Recruitment/geographic_sampling-3af": {
+  "/documentation/1.0/climmob-suite/Monitoring-9c6": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---documentation-docs-participant-recruitment-geographic-samplingf-24-b15"
+    "content": "content---documentation-1-0-climmob-suite-monitoring-10-c-ad5"
   },
-  "/documentation/docs/Participant Recruitment/socioeconomic_sampling-970": {
+  "/documentation/1.0/climmob-suite/Outputs-2f0": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---documentation-docs-participant-recruitment-socioeconomic-sampling-42-c-137"
+    "content": "content---documentation-1-0-climmob-suite-outputs-0-dc-c00"
   },
-  "/documentation/docs/Protocols/bean_protocol-d31": {
+  "/documentation/1.0/climmob-suite/Share_your_project-22c": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---documentation-docs-protocols-bean-protocol-726-b67"
+    "content": "content---documentation-1-0-climmob-suite-share-your-project-699-f99"
   },
-  "/documentation/docs/Technology selection/tpp-364": {
+  "/documentation/1.0/data-analysis/data-analysis-616": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---documentation-docs-technology-selection-tpp-5-db-721"
+    "content": "content---documentation-1-0-data-analysis-data-analysis-87-a-a10"
   },
-  "/documentation/docs/Tricot/introduction-af5": {
+  "/documentation/1.0/data-analysis/Rinstat-7b2": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---documentation-docs-tricot-introduction-19-a-6f9"
+    "content": "content---documentation-1-0-data-analysis-rinstatbfc-653"
   },
-  "/documentation/docs/Tricot/steps-366": {
+  "/documentation/1.0/data-analysis/vignette-1-trait-prioritization-and-crop-performance-28a": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---documentation-docs-tricot-steps-4-ec-a6b"
+    "content": "content---documentation-1-0-data-analysis-vignette-1-trait-prioritization-and-crop-performance-701-c19"
   },
-  "/documentation/-e90": {
-    "__comp": "__comp---site-src-pages-index-jsc-4-f-f99",
-    "__context": {
-      "plugin": "plugin---documentation-markdown-page-37-c-f8d"
-    },
-    "config": "config---documentation-5-e-9-cf4"
+  "/documentation/1.0/data-analysis/vignette-2-gari-eba-consumer-testing-ec4": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---documentation-1-0-data-analysis-vignette-2-gari-eba-consumer-testingf-12-d65"
+  },
+  "/documentation/1.0/experimental-design/bean-protocol-e0e": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---documentation-1-0-experimental-design-bean-protocola-09-845"
+  },
+  "/documentation/1.0/experimental-design/geographic-sampling-a99": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---documentation-1-0-experimental-design-geographic-sampling-6-ab-965"
+  },
+  "/documentation/1.0/experimental-design/socioeconomic-sampling-0b0": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---documentation-1-0-experimental-design-socioeconomic-sampling-172-80b"
+  },
+  "/documentation/1.0/experimental-design/standard-operating-procedures-633": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---documentation-1-0-experimental-design-standard-operating-procedures-6-d-1-182"
+  },
+  "/documentation/1.0/experimental-design/tpp-6e9": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---documentation-1-0-experimental-design-tpp-9-cc-f34"
+  },
+  "/documentation/1.0/experimental-design/trial dimensions-af2": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---documentation-1-0-experimental-design-trial-dimensions-697-7cf"
+  },
+  "/documentation/1.0/FAQ and resources/FAQs-2d3": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---documentation-1-0-faq-and-resources-fa-qsf-50-4d6"
+  },
+  "/documentation/1.0/FAQ and resources/resources-6e5": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---documentation-1-0-faq-and-resources-resourcesc-0-c-a79"
+  },
+  "/documentation/1.0/feedback-dissemination/dissemination-6fc": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---documentation-1-0-feedback-dissemination-dissemination-5-b-7-b85"
+  },
+  "/documentation/1.0/feedback-dissemination/feedback-528": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---documentation-1-0-feedback-dissemination-feedback-1-a-5-411"
+  },
+  "/documentation/1.0/glossary-78e": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---documentation-1-0-glossary-762-cce"
+  },
+  "/documentation/1.0/good-bad-ugly/bean-tari-ea0": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---documentation-1-0-good-bad-ugly-bean-tari-387-202"
+  },
+  "/documentation/1.0/good-bad-ugly/case-studies-f04": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---documentation-1-0-good-bad-ugly-case-studiese-63-ee9"
+  },
+  "/documentation/1.0/good-bad-ugly/cowpea-iita-f7e": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---documentation-1-0-good-bad-ugly-cowpea-iitaa-34-0cc"
+  },
+  "/documentation/1.0/good-bad-ugly/groundnut-sari-b58": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---documentation-1-0-good-bad-ugly-groundnut-sarid-1-c-c43"
+  },
+  "/documentation/1.0/good-bad-ugly/groundnut-tari-4ec": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---documentation-1-0-good-bad-ugly-groundnut-taricc-9-1b4"
+  },
+  "/documentation/1.0/good-bad-ugly/maize-bayer-05b": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---documentation-1-0-good-bad-ugly-maize-bayer-6-cd-698"
+  },
+  "/documentation/1.0/good-bad-ugly/maize-oneacrefund-8a8": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---documentation-1-0-good-bad-ugly-maize-oneacrefunda-85-956"
+  },
+  "/documentation/1.0/good-bad-ugly/severalcrops-issd-bb3": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---documentation-1-0-good-bad-ugly-severalcrops-issdbfd-59c"
+  },
+  "/documentation/1.0/good-bad-ugly/sweetpotato-cip-b6e": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---documentation-1-0-good-bad-ugly-sweetpotato-cip-13-e-d09"
+  },
+  "/documentation/1.0/implementation/implementation-912": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---documentation-1-0-implementation-implementation-9-f-8-07e"
+  },
+  "/documentation/1.0/introduction-to-tricot/introduction-9bc": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---documentation-1-0-introduction-to-tricot-introduction-8-e-5-8e7"
+  },
+  "/documentation/1.0/introduction-to-tricot/steps-ba9": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---documentation-1-0-introduction-to-tricot-stepsf-53-ad1"
+  },
+  "/documentation/1.0/planning/Checklist-89b": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---documentation-1-0-planning-checklist-101-eb4"
+  },
+  "/documentation/1.0/planning/Problem Identification-23e": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---documentation-1-0-planning-problem-identification-5-e-9-271"
+  },
+  "/documentation/1.0/planning/Resources and Budgeting-8d3": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---documentation-1-0-planning-resources-and-budgetingdae-509"
+  },
+  "/documentation/1.0/planning/Stakeholder Engagement-cc5": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---documentation-1-0-planning-stakeholder-engagement-993-1a7"
+  },
+  "/documentation/2.0-832": {
+    "__comp": "__comp---theme-doc-version-roota-7-b-5de",
+    "version": "version---documentation-2-0935-527"
+  },
+  "/documentation/2.0-f37": {
+    "__comp": "__comp---theme-doc-roota-94-67a"
+  },
+  "/documentation/2.0/-e17": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---documentation-2-0-0-e-3-2eb"
+  },
+  "/documentation/2.0/climmob-suite/ClimMob Platform-d05": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---documentation-2-0-climmob-suite-clim-mob-platform-4-fd-140"
+  },
+  "/documentation/2.0/climmob-suite/Design-254": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---documentation-2-0-climmob-suite-design-329-11d"
+  },
+  "/documentation/2.0/climmob-suite/Getting Started-2ca": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---documentation-2-0-climmob-suite-getting-startedbfc-1c2"
+  },
+  "/documentation/2.0/climmob-suite/Implementation-d3f": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---documentation-2-0-climmob-suite-implementation-4-b-6-622"
+  },
+  "/documentation/2.0/climmob-suite/Monitoring-7dd": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---documentation-2-0-climmob-suite-monitoring-8-fe-902"
+  },
+  "/documentation/2.0/climmob-suite/Outputs-34f": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---documentation-2-0-climmob-suite-outputsd-34-793"
+  },
+  "/documentation/2.0/climmob-suite/Share your project-5ad": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---documentation-2-0-climmob-suite-share-your-project-82-a-b0f"
+  },
+  "/documentation/2.0/data-analysis/data-analysis-79f": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---documentation-2-0-data-analysis-data-analysisd-4-c-a96"
+  },
+  "/documentation/2.0/data-analysis/Rinstat-c9f": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---documentation-2-0-data-analysis-rinstat-7-b-8-01a"
+  },
+  "/documentation/2.0/data-analysis/vignette-1-trait-prioritization-and-crop-performance-7ba": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---documentation-2-0-data-analysis-vignette-1-trait-prioritization-and-crop-performance-7-aa-6b6"
+  },
+  "/documentation/2.0/data-analysis/vignette-2-gari-eba-consumer-testing-6e5": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---documentation-2-0-data-analysis-vignette-2-gari-eba-consumer-testinga-53-690"
+  },
+  "/documentation/2.0/experimental-design/bean-protocol-838": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---documentation-2-0-experimental-design-bean-protocol-16-e-751"
+  },
+  "/documentation/2.0/experimental-design/geographic-sampling-32b": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---documentation-2-0-experimental-design-geographic-sampling-3-d-8-83b"
+  },
+  "/documentation/2.0/experimental-design/socioeconomic-sampling-a31": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---documentation-2-0-experimental-design-socioeconomic-sampling-952-b6b"
+  },
+  "/documentation/2.0/experimental-design/standard-operating-procedures-3cf": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---documentation-2-0-experimental-design-standard-operating-proceduresf-69-b24"
+  },
+  "/documentation/2.0/experimental-design/tpp-a8b": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---documentation-2-0-experimental-design-tppbc-3-09d"
+  },
+  "/documentation/2.0/experimental-design/trial dimensions-228": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---documentation-2-0-experimental-design-trial-dimensions-207-7e4"
+  },
+  "/documentation/2.0/FAQ-and-resources/FAQs-a98": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---documentation-2-0-faq-and-resources-fa-qs-0-c-5-c05"
+  },
+  "/documentation/2.0/FAQ-and-resources/tricot-resources-96c": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---documentation-2-0-faq-and-resources-tricot-resources-7-e-0-035"
+  },
+  "/documentation/2.0/feedback-dissemination/dissemination-739": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---documentation-2-0-feedback-dissemination-disseminationa-9-f-e37"
+  },
+  "/documentation/2.0/feedback-dissemination/feedback-aa1": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---documentation-2-0-feedback-dissemination-feedback-69-e-0b0"
+  },
+  "/documentation/2.0/glossary-224": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---documentation-2-0-glossarye-74-3fc"
+  },
+  "/documentation/2.0/good-bad-ugly/bean-tari-bf4": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---documentation-2-0-good-bad-ugly-bean-tarie-2-b-1b6"
+  },
+  "/documentation/2.0/good-bad-ugly/case-studies-89b": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---documentation-2-0-good-bad-ugly-case-studiesfec-331"
+  },
+  "/documentation/2.0/good-bad-ugly/cowpea-iita-28d": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---documentation-2-0-good-bad-ugly-cowpea-iita-555-7c7"
+  },
+  "/documentation/2.0/good-bad-ugly/groundnut-sari-501": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---documentation-2-0-good-bad-ugly-groundnut-sari-056-61b"
+  },
+  "/documentation/2.0/good-bad-ugly/groundnut-tari-f38": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---documentation-2-0-good-bad-ugly-groundnut-tari-74-b-26b"
+  },
+  "/documentation/2.0/good-bad-ugly/maize-bayer-ec3": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---documentation-2-0-good-bad-ugly-maize-bayer-768-59e"
+  },
+  "/documentation/2.0/good-bad-ugly/maize-oneacrefund-175": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---documentation-2-0-good-bad-ugly-maize-oneacrefund-0-e-9-b16"
+  },
+  "/documentation/2.0/good-bad-ugly/severalcrops-issd-b4e": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---documentation-2-0-good-bad-ugly-severalcrops-issd-538-060"
+  },
+  "/documentation/2.0/good-bad-ugly/sweetpotato-cip-2ca": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---documentation-2-0-good-bad-ugly-sweetpotato-cip-44-c-e63"
+  },
+  "/documentation/2.0/implementation/implementation-577": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---documentation-2-0-implementation-implementation-4-d-9-d44"
+  },
+  "/documentation/2.0/introduction-to-tricot/checklist-f29": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---documentation-2-0-introduction-to-tricot-checklist-5-f-9-6d4"
+  },
+  "/documentation/2.0/introduction-to-tricot/introduction-6f9": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---documentation-2-0-introduction-to-tricot-introduction-008-617"
+  },
+  "/documentation/2.0/introduction-to-tricot/steps-3a0": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---documentation-2-0-introduction-to-tricot-stepscf-4-a04"
+  },
+  "/documentation/2.0/planning/Problem Identification-317": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---documentation-2-0-planning-problem-identification-0-c-1-c1f"
+  },
+  "/documentation/2.0/planning/Resources and Budgeting-889": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---documentation-2-0-planning-resources-and-budgeting-1-f-0-378"
+  },
+  "/documentation/2.0/planning/Stakeholder Engagement-3cf": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---documentation-2-0-planning-stakeholder-engagementa-93-503"
   }
 }

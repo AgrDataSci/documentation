@@ -16,7 +16,8 @@ export default {
   "i18n": {
     "defaultLocale": "en",
     "locales": [
-      "en"
+      "en",
+      "fr"
     ],
     "path": "i18n",
     "localeConfigs": {}
@@ -26,13 +27,19 @@ export default {
       "classic",
       {
         "docs": {
+          "routeBasePath": "/",
           "sidebarPath": "./sidebars.js",
-          "editUrl": "https://github.com/${organizationName}/${projectName}/tree/main/"
+          "sidebarCollapsed": true,
+          "editUrl": "https://github.com/AgrDataSci/documentation/tree/main/",
+          "lastVersion": "current",
+          "versions": {
+            "current": {
+              "label": "2.0",
+              "path": "2.0"
+            }
+          }
         },
-        "blog": {
-          "showReadingTime": true,
-          "editUrl": "https://github.com/${organizationName}/${projectName}/tree/main/"
-        },
+        "blog": false,
         "theme": {
           "customCss": "./src/css/custom.css"
         }
@@ -40,6 +47,27 @@ export default {
     ]
   ],
   "themeConfig": {
+    "docs": {
+      "sidebar": {
+        "hideable": true,
+        "autoCollapseCategories": false
+      },
+      "versionPersistence": "localStorage"
+    },
+    "algolia": {
+      "appId": "DN3EGM2WTS",
+      "apiKey": "0eb380fb6f34baa16ed4f32110e7596c",
+      "indexName": "agrdatasciio",
+      "contextualSearch": true,
+      "externalUrlRegex": "external\\.com|domain\\.com",
+      "replaceSearchResultPathname": {
+        "from": "/documentation/",
+        "to": "/"
+      },
+      "searchParameters": {},
+      "searchPagePath": "search",
+      "insights": false
+    },
     "image": "img/1000FARMS.jpg",
     "navbar": {
       "title": "1000FARMS Docs",
@@ -49,20 +77,25 @@ export default {
       },
       "items": [
         {
-          "type": "docSidebar",
-          "sidebarId": "tutorialSidebar",
-          "position": "left",
-          "label": "Documentation"
-        },
-        {
-          "to": "/blog",
-          "label": "Blog",
-          "position": "left"
-        },
-        {
           "href": "https://github.com/AgrDataSci/documentation",
           "label": "GitHub",
           "position": "right"
+        },
+        {
+          "type": "localeDropdown",
+          "position": "left",
+          "dropdownItemsBefore": [],
+          "dropdownItemsAfter": []
+        },
+        {
+          "type": "docsVersionDropdown",
+          "versions": [
+            "current",
+            "1.0"
+          ],
+          "position": "left",
+          "dropdownItemsBefore": [],
+          "dropdownItemsAfter": []
         }
       ],
       "hideOnScroll": false
@@ -75,7 +108,7 @@ export default {
           "items": [
             {
               "label": "Tutorial",
-              "to": "/docs/intro"
+              "to": "/"
             }
           ]
         },
@@ -100,17 +133,13 @@ export default {
           "title": "More",
           "items": [
             {
-              "label": "Blog",
-              "to": "/blog"
-            },
-            {
               "label": "GitHub",
               "href": "https://github.com/AgrDataSci/documentation"
             }
           ]
         }
       ],
-      "copyright": "Copyright © 2024 1000FARMS. Built with Docusaurus."
+      "copyright": "Copyright © 2025 1000FARMS. Built with Docusaurus."
     },
     "prism": {
       "theme": {
@@ -320,13 +349,6 @@ export default {
       "defaultMode": "light",
       "disableSwitch": false,
       "respectPrefersColorScheme": false
-    },
-    "docs": {
-      "versionPersistence": "localStorage",
-      "sidebar": {
-        "hideable": false,
-        "autoCollapseCategories": false
-      }
     },
     "metadata": [],
     "tableOfContents": {

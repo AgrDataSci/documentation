@@ -1,0 +1,8 @@
+{
+  "label": "Data analysis",
+  "position": 6,
+  "link": {
+    "type": "generated-index",
+    "description": "Analytical framework. Overview of statistical models (e.g., Plackett-Luce, Bradley-Terry). Tools for analyzing ranking data. Visualization. Integration with other datasets (agroclimatic, soil, and socio-economic data). Case studies."
+  }
+}
