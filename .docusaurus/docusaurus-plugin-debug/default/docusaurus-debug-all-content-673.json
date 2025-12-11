@@ -4,59 +4,58 @@
       "loadedVersions": [
         {
           "versionName": "current",
-          "label": "Next",
+          "label": "2.0",
           "banner": null,
-          "badge": false,
+          "badge": true,
           "noIndex": false,
           "className": "docs-version-current",
-          "path": "/documentation/docs",
-          "tagsPath": "/documentation/docs/tags",
-          "editUrl": "https://github.com/${organizationName}/${projectName}/tree/main/docs",
-          "editUrlLocalized": "https://github.com/${organizationName}/${projectName}/tree/main/i18n/en/docusaurus-plugin-content-docs/current",
+          "path": "/documentation/2.0",
+          "tagsPath": "/documentation/2.0/tags",
+          "editUrl": "https://github.com/AgrDataSci/documentation/tree/main/docs",
+          "editUrlLocalized": "https://github.com/AgrDataSci/documentation/tree/main/i18n/en/docusaurus-plugin-content-docs/current",
           "isLast": true,
-          "routePriority": -1,
-          "sidebarFilePath": "/Users/marie-angeliquelaporte/Documents/GitHub/documentation/sidebars.js",
-          "contentPath": "/Users/marie-angeliquelaporte/Documents/GitHub/documentation/docs",
-          "contentPathLocalized": "/Users/marie-angeliquelaporte/Documents/GitHub/documentation/i18n/en/docusaurus-plugin-content-docs/current",
+          "sidebarFilePath": "/Users/malaporte/Documents/GitHub/documentation/sidebars.js",
+          "contentPath": "/Users/malaporte/Documents/GitHub/documentation/docs",
+          "contentPathLocalized": "/Users/malaporte/Documents/GitHub/documentation/i18n/en/docusaurus-plugin-content-docs/current",
           "docs": [
             {
-              "id": "ClimMob suite/climmob",
-              "title": "ClimMob platform",
-              "description": "ClimMob platform blabla",
-              "source": "@site/docs/ClimMob suite/climmob.md",
-              "sourceDirName": "ClimMob suite",
-              "slug": "/ClimMob suite/climmob",
-              "permalink": "/documentation/docs/ClimMob suite/climmob",
+              "id": "climmob-suite/ClimMob Platform",
+              "title": "ClimMob Platform",
+              "description": "A software platform for experimental citizen science in agriculture.",
+              "source": "@site/docs/04-climmob-suite/ClimMob Platform.md",
+              "sourceDirName": "04-climmob-suite",
+              "slug": "/climmob-suite/ClimMob Platform",
+              "permalink": "/documentation/2.0/climmob-suite/ClimMob Platform",
               "draft": false,
               "unlisted": false,
-              "editUrl": "https://github.com/${organizationName}/${projectName}/tree/main/docs/ClimMob suite/climmob.md",
+              "editUrl": "https://github.com/AgrDataSci/documentation/tree/main/docs/04-climmob-suite/ClimMob Platform.md",
               "tags": [],
               "version": "current",
-              "sidebarPosition": 2,
+              "sidebarPosition": 1,
               "frontMatter": {
-                "sidebar_position": 2
+                "sidebar_position": 1
               },
               "sidebar": "tutorialSidebar",
               "previous": {
-                "title": "ODK",
-                "permalink": "/documentation/docs/ClimMob suite/ODK"
+                "title": "Example of Experimental Design: Bean Trial Protocol",
+                "permalink": "/documentation/2.0/experimental-design/bean-protocol"
               },
               "next": {
-                "title": "Data Submission",
-                "permalink": "/documentation/docs/ClimMob suite/data_submission"
+                "title": "Getting Started",
+                "permalink": "/documentation/2.0/climmob-suite/Getting Started"
               }
             },
             {
-              "id": "ClimMob suite/data_submission",
-              "title": "Data Submission",
-              "description": "Data Submission blabla",
-              "source": "@site/docs/ClimMob suite/data_submission.md",
-              "sourceDirName": "ClimMob suite",
-              "slug": "/ClimMob suite/data_submission",
-              "permalink": "/documentation/docs/ClimMob suite/data_submission",
+              "id": "climmob-suite/Design",
+              "title": "Design",
+              "description": "1. Create a new project",
+              "source": "@site/docs/04-climmob-suite/Design.md",
+              "sourceDirName": "04-climmob-suite",
+              "slug": "/climmob-suite/Design",
+              "permalink": "/documentation/2.0/climmob-suite/Design",
               "draft": false,
               "unlisted": false,
-              "editUrl": "https://github.com/${organizationName}/${projectName}/tree/main/docs/ClimMob suite/data_submission.md",
+              "editUrl": "https://github.com/AgrDataSci/documentation/tree/main/docs/04-climmob-suite/Design.md",
               "tags": [],
               "version": "current",
               "sidebarPosition": 3,
@@ -65,79 +64,25 @@
               },
               "sidebar": "tutorialSidebar",
               "previous": {
-                "title": "ClimMob platform",
-                "permalink": "/documentation/docs/ClimMob suite/climmob"
+                "title": "Getting Started",
+                "permalink": "/documentation/2.0/climmob-suite/Getting Started"
               },
               "next": {
-                "title": "Data analysis with use cases",
-                "permalink": "/documentation/docs/category/data-analysis-with-use-cases"
+                "title": "Implementation",
+                "permalink": "/documentation/2.0/climmob-suite/Implementation"
               }
             },
             {
-              "id": "ClimMob suite/ODK",
-              "title": "ODK",
-              "description": "ODK intro blabla",
-              "source": "@site/docs/ClimMob suite/ODK.md",
-              "sourceDirName": "ClimMob suite",
-              "slug": "/ClimMob suite/ODK",
-              "permalink": "/documentation/docs/ClimMob suite/ODK",
+              "id": "climmob-suite/Getting Started",
+              "title": "Getting Started",
+              "description": "Create an account",
+              "source": "@site/docs/04-climmob-suite/Getting Started.md",
+              "sourceDirName": "04-climmob-suite",
+              "slug": "/climmob-suite/Getting Started",
+              "permalink": "/documentation/2.0/climmob-suite/Getting Started",
               "draft": false,
               "unlisted": false,
-              "editUrl": "https://github.com/${organizationName}/${projectName}/tree/main/docs/ClimMob suite/ODK.md",
-              "tags": [],
-              "version": "current",
-              "sidebarPosition": 1,
-              "frontMatter": {
-                "sidebar_position": 1
-              },
-              "sidebar": "tutorialSidebar",
-              "previous": {
-                "title": "ClimMob suite",
-                "permalink": "/documentation/docs/category/climmob-suite"
-              },
-              "next": {
-                "title": "ClimMob platform",
-                "permalink": "/documentation/docs/ClimMob suite/climmob"
-              }
-            },
-            {
-              "id": "Data analysis with use cases/uc1",
-              "title": "Use Case 1",
-              "description": "Presentation of Use case 1",
-              "source": "@site/docs/Data analysis with use cases/uc1.md",
-              "sourceDirName": "Data analysis with use cases",
-              "slug": "/Data analysis with use cases/uc1",
-              "permalink": "/documentation/docs/Data analysis with use cases/uc1",
-              "draft": false,
-              "unlisted": false,
-              "editUrl": "https://github.com/${organizationName}/${projectName}/tree/main/docs/Data analysis with use cases/uc1.md",
-              "tags": [],
-              "version": "current",
-              "sidebarPosition": 1,
-              "frontMatter": {
-                "sidebar_position": 1
-              },
-              "sidebar": "tutorialSidebar",
-              "previous": {
-                "title": "Data analysis with use cases",
-                "permalink": "/documentation/docs/category/data-analysis-with-use-cases"
-              },
-              "next": {
-                "title": "Use case 2",
-                "permalink": "/documentation/docs/Data analysis with use cases/uc2"
-              }
-            },
-            {
-              "id": "Data analysis with use cases/uc2",
-              "title": "Use case 2",
-              "description": "Presentation of use case 2",
-              "source": "@site/docs/Data analysis with use cases/uc2.md",
-              "sourceDirName": "Data analysis with use cases",
-              "slug": "/Data analysis with use cases/uc2",
-              "permalink": "/documentation/docs/Data analysis with use cases/uc2",
-              "draft": false,
-              "unlisted": false,
-              "editUrl": "https://github.com/${organizationName}/${projectName}/tree/main/docs/Data analysis with use cases/uc2.md",
+              "editUrl": "https://github.com/AgrDataSci/documentation/tree/main/docs/04-climmob-suite/Getting Started.md",
               "tags": [],
               "version": "current",
               "sidebarPosition": 2,
@@ -146,21 +91,133 @@
               },
               "sidebar": "tutorialSidebar",
               "previous": {
-                "title": "Use Case 1",
-                "permalink": "/documentation/docs/Data analysis with use cases/uc1"
+                "title": "ClimMob Platform",
+                "permalink": "/documentation/2.0/climmob-suite/ClimMob Platform"
+              },
+              "next": {
+                "title": "Design",
+                "permalink": "/documentation/2.0/climmob-suite/Design"
               }
             },
             {
-              "id": "intro",
-              "title": "Guidebook for Product Use Testing in agriculture Intro",
-              "description": "This can be used by a generic page for introducing the whole set of documentation",
-              "source": "@site/docs/intro.md",
-              "sourceDirName": ".",
-              "slug": "/intro",
-              "permalink": "/documentation/docs/intro",
+              "id": "climmob-suite/Implementation",
+              "title": "Implementation",
+              "description": "6. Technology randomization",
+              "source": "@site/docs/04-climmob-suite/Implementation.md",
+              "sourceDirName": "04-climmob-suite",
+              "slug": "/climmob-suite/Implementation",
+              "permalink": "/documentation/2.0/climmob-suite/Implementation",
               "draft": false,
               "unlisted": false,
-              "editUrl": "https://github.com/${organizationName}/${projectName}/tree/main/docs/intro.md",
+              "editUrl": "https://github.com/AgrDataSci/documentation/tree/main/docs/04-climmob-suite/Implementation.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 4,
+              "frontMatter": {
+                "sidebar_position": 4
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Design",
+                "permalink": "/documentation/2.0/climmob-suite/Design"
+              },
+              "next": {
+                "title": "Monitoring",
+                "permalink": "/documentation/2.0/climmob-suite/Monitoring"
+              }
+            },
+            {
+              "id": "climmob-suite/Monitoring",
+              "title": "Monitoring",
+              "description": "14. Project overview",
+              "source": "@site/docs/04-climmob-suite/Monitoring.md",
+              "sourceDirName": "04-climmob-suite",
+              "slug": "/climmob-suite/Monitoring",
+              "permalink": "/documentation/2.0/climmob-suite/Monitoring",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/AgrDataSci/documentation/tree/main/docs/04-climmob-suite/Monitoring.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 5,
+              "frontMatter": {
+                "sidebar_position": 5
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Implementation",
+                "permalink": "/documentation/2.0/climmob-suite/Implementation"
+              },
+              "next": {
+                "title": "Outputs",
+                "permalink": "/documentation/2.0/climmob-suite/Outputs"
+              }
+            },
+            {
+              "id": "climmob-suite/Outputs",
+              "title": "Outputs",
+              "description": "15. Data analysis",
+              "source": "@site/docs/04-climmob-suite/Outputs.md",
+              "sourceDirName": "04-climmob-suite",
+              "slug": "/climmob-suite/Outputs",
+              "permalink": "/documentation/2.0/climmob-suite/Outputs",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/AgrDataSci/documentation/tree/main/docs/04-climmob-suite/Outputs.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 6,
+              "frontMatter": {
+                "sidebar_position": 6
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Monitoring",
+                "permalink": "/documentation/2.0/climmob-suite/Monitoring"
+              },
+              "next": {
+                "title": "Share your project",
+                "permalink": "/documentation/2.0/climmob-suite/Share your project"
+              }
+            },
+            {
+              "id": "climmob-suite/Share your project",
+              "title": "Share your project",
+              "description": "ClimMob allows you to collaborate by sharing your project with other users. When you invite someone, you must assign a role that defines what level of access they will have:",
+              "source": "@site/docs/04-climmob-suite/Share your project.md",
+              "sourceDirName": "04-climmob-suite",
+              "slug": "/climmob-suite/Share your project",
+              "permalink": "/documentation/2.0/climmob-suite/Share your project",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/AgrDataSci/documentation/tree/main/docs/04-climmob-suite/Share your project.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 7,
+              "frontMatter": {
+                "sidebar_position": 7
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Outputs",
+                "permalink": "/documentation/2.0/climmob-suite/Outputs"
+              },
+              "next": {
+                "title": "Implementing a tricot experiment",
+                "permalink": "/documentation/2.0/implementation/implementation"
+              }
+            },
+            {
+              "id": "data-analysis/data-analysis",
+              "title": "Analysis of tricot data",
+              "description": "Kauê de Sousa, Joost van Heerwaarden, Hugo Dorado",
+              "source": "@site/docs/06-data-analysis/data-analysis.md",
+              "sourceDirName": "06-data-analysis",
+              "slug": "/data-analysis/data-analysis",
+              "permalink": "/documentation/2.0/data-analysis/data-analysis",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/AgrDataSci/documentation/tree/main/docs/06-data-analysis/data-analysis.md",
               "tags": [],
               "version": "current",
               "sidebarPosition": 1,
@@ -168,154 +225,161 @@
                 "sidebar_position": 1
               },
               "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Implementing a tricot experiment",
+                "permalink": "/documentation/2.0/implementation/implementation"
+              },
               "next": {
-                "title": "Tricot",
-                "permalink": "/documentation/docs/category/tricot"
+                "title": "Example workflow: Integrating farmer-generated data and agro-climatic data for crop variety selection",
+                "permalink": "/documentation/2.0/data-analysis/vignette-1-trait-prioritization-and-crop-performance"
               }
             },
             {
-              "id": "Participant Recruitment/geographic_sampling",
+              "id": "data-analysis/Rinstat",
+              "title": "Rinstat",
+              "description": "Lily Clements, Roger Stern, Rachel Chase, Kaue de Sousa",
+              "source": "@site/docs/06-data-analysis/Rinstat.md",
+              "sourceDirName": "06-data-analysis",
+              "slug": "/data-analysis/Rinstat",
+              "permalink": "/documentation/2.0/data-analysis/Rinstat",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/AgrDataSci/documentation/tree/main/docs/06-data-analysis/Rinstat.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 4,
+              "frontMatter": {
+                "sidebar_position": 4
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Example workflow: Consumer preference of cassava gari-eba",
+                "permalink": "/documentation/2.0/data-analysis/vignette-2-gari-eba-consumer-testing"
+              },
+              "next": {
+                "title": "Trial feedback and evaluation",
+                "permalink": "/documentation/2.0/feedback-dissemination/feedback"
+              }
+            },
+            {
+              "id": "data-analysis/vignette-1-trait-prioritization-and-crop-performance",
+              "title": "Example workflow: Integrating farmer-generated data and agro-climatic data for crop variety selection",
+              "description": "In this example, we demonstrate a possible workflow to assess crop variety performance using decentralized on-farm testing data generated with the tricot approach [@deSousa2024]. We use the nicabean dataset, which was generated with decentralized on-farm trials of common bean (Phaseolus vulgaris L.) varieties in Nicaragua over five seasons (between 2015 and 2016). Following the tricot approach, farmers tested three randomly assigned varieties of common bean on their farms as incomplete blocks of size three (from a set of 10 varieties). Farmers assessed which of the three varieties had the best and worst performance in eight traits (vigor, architecture, resistance to pests, resistance to diseases, tolerance to drought, yield, marketability, and taste). Additionally, farmers provided their overall appreciation of the varieties, i.e., which variety had the best and worst performance overall, considering all the traits.",
+              "source": "@site/docs/06-data-analysis/vignette-1-trait-prioritization-and-crop-performance.md",
+              "sourceDirName": "06-data-analysis",
+              "slug": "/data-analysis/vignette-1-trait-prioritization-and-crop-performance",
+              "permalink": "/documentation/2.0/data-analysis/vignette-1-trait-prioritization-and-crop-performance",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/AgrDataSci/documentation/tree/main/docs/06-data-analysis/vignette-1-trait-prioritization-and-crop-performance.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 2,
+              "frontMatter": {
+                "sidebar_position": 2
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Analysis of tricot data",
+                "permalink": "/documentation/2.0/data-analysis/data-analysis"
+              },
+              "next": {
+                "title": "Example workflow: Consumer preference of cassava gari-eba",
+                "permalink": "/documentation/2.0/data-analysis/vignette-2-gari-eba-consumer-testing"
+              }
+            },
+            {
+              "id": "data-analysis/vignette-2-gari-eba-consumer-testing",
+              "title": "Example workflow: Consumer preference of cassava gari-eba",
+              "description": "Here, I present a workflow to analyze data from a consumer preference trial executed in Nigeria and Cameroon by the International Institute of Tropical Agriculture (IITA) under the RTBFoods project (https Nigeria (Osun and Benue States) color, odor, taste, firmness, and stretchability.",
+              "source": "@site/docs/06-data-analysis/vignette-2-gari-eba-consumer-testing.md",
+              "sourceDirName": "06-data-analysis",
+              "slug": "/data-analysis/vignette-2-gari-eba-consumer-testing",
+              "permalink": "/documentation/2.0/data-analysis/vignette-2-gari-eba-consumer-testing",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/AgrDataSci/documentation/tree/main/docs/06-data-analysis/vignette-2-gari-eba-consumer-testing.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 3,
+              "frontMatter": {
+                "sidebar_position": 3
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Example workflow: Integrating farmer-generated data and agro-climatic data for crop variety selection",
+                "permalink": "/documentation/2.0/data-analysis/vignette-1-trait-prioritization-and-crop-performance"
+              },
+              "next": {
+                "title": "Rinstat",
+                "permalink": "/documentation/2.0/data-analysis/Rinstat"
+              }
+            },
+            {
+              "id": "experimental-design/bean-protocol",
+              "title": "Example of Experimental Design: Bean Trial Protocol",
+              "description": "Introduction",
+              "source": "@site/docs/03-experimental-design/bean-protocol.md",
+              "sourceDirName": "03-experimental-design",
+              "slug": "/experimental-design/bean-protocol",
+              "permalink": "/documentation/2.0/experimental-design/bean-protocol",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/AgrDataSci/documentation/tree/main/docs/03-experimental-design/bean-protocol.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 6,
+              "frontMatter": {
+                "sidebar_position": 6
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Standard operating procedures",
+                "permalink": "/documentation/2.0/experimental-design/standard-operating-procedures"
+              },
+              "next": {
+                "title": "ClimMob Platform",
+                "permalink": "/documentation/2.0/climmob-suite/ClimMob Platform"
+              }
+            },
+            {
+              "id": "experimental-design/geographic-sampling",
               "title": "Geographic sampling",
-              "description": "Geographic sampling babla",
-              "source": "@site/docs/Participant Recruitment/geographic_sampling.md",
-              "sourceDirName": "Participant Recruitment",
-              "slug": "/Participant Recruitment/geographic_sampling",
-              "permalink": "/documentation/docs/Participant Recruitment/geographic_sampling",
+              "description": "Joost van Heerwaarden",
+              "source": "@site/docs/03-experimental-design/geographic-sampling.md",
+              "sourceDirName": "03-experimental-design",
+              "slug": "/experimental-design/geographic-sampling",
+              "permalink": "/documentation/2.0/experimental-design/geographic-sampling",
               "draft": false,
               "unlisted": false,
-              "editUrl": "https://github.com/${organizationName}/${projectName}/tree/main/docs/Participant Recruitment/geographic_sampling.md",
+              "editUrl": "https://github.com/AgrDataSci/documentation/tree/main/docs/03-experimental-design/geographic-sampling.md",
               "tags": [],
               "version": "current",
-              "sidebarPosition": 2,
+              "sidebarPosition": 3,
               "frontMatter": {
-                "sidebar_position": 2
+                "sidebar_position": 3
               },
               "sidebar": "tutorialSidebar",
               "previous": {
                 "title": "Socioeconomic sampling",
-                "permalink": "/documentation/docs/Participant Recruitment/socioeconomic_sampling"
+                "permalink": "/documentation/2.0/experimental-design/socioeconomic-sampling"
               },
               "next": {
-                "title": "Technology selection",
-                "permalink": "/documentation/docs/category/technology-selection"
+                "title": "Trial dimensions",
+                "permalink": "/documentation/2.0/experimental-design/trial dimensions"
               }
             },
             {
-              "id": "Participant Recruitment/socioeconomic_sampling",
+              "id": "experimental-design/socioeconomic-sampling",
               "title": "Socioeconomic sampling",
-              "description": "Socioeconomic sampling babla",
-              "source": "@site/docs/Participant Recruitment/socioeconomic_sampling.md",
-              "sourceDirName": "Participant Recruitment",
-              "slug": "/Participant Recruitment/socioeconomic_sampling",
-              "permalink": "/documentation/docs/Participant Recruitment/socioeconomic_sampling",
+              "description": "Béla Teeken, Jill Cairns, Mainassara Abdou Zaman-Allah",
+              "source": "@site/docs/03-experimental-design/socioeconomic-sampling.md",
+              "sourceDirName": "03-experimental-design",
+              "slug": "/experimental-design/socioeconomic-sampling",
+              "permalink": "/documentation/2.0/experimental-design/socioeconomic-sampling",
               "draft": false,
               "unlisted": false,
-              "editUrl": "https://github.com/${organizationName}/${projectName}/tree/main/docs/Participant Recruitment/socioeconomic_sampling.md",
-              "tags": [],
-              "version": "current",
-              "sidebarPosition": 1,
-              "frontMatter": {
-                "sidebar_position": 1
-              },
-              "sidebar": "tutorialSidebar",
-              "previous": {
-                "title": "Participant recruitment",
-                "permalink": "/documentation/docs/category/participant-recruitment"
-              },
-              "next": {
-                "title": "Geographic sampling",
-                "permalink": "/documentation/docs/Participant Recruitment/geographic_sampling"
-              }
-            },
-            {
-              "id": "Protocols/bean_protocol",
-              "title": "Bean Trial Protocol",
-              "description": "Authors",
-              "source": "@site/docs/Protocols/bean_protocol.md",
-              "sourceDirName": "Protocols",
-              "slug": "/Protocols/bean_protocol",
-              "permalink": "/documentation/docs/Protocols/bean_protocol",
-              "draft": false,
-              "unlisted": false,
-              "editUrl": "https://github.com/${organizationName}/${projectName}/tree/main/docs/Protocols/bean_protocol.md",
-              "tags": [],
-              "version": "current",
-              "frontMatter": {},
-              "sidebar": "tutorialSidebar",
-              "previous": {
-                "title": "Trials protocols",
-                "permalink": "/documentation/docs/category/trials-protocols"
-              },
-              "next": {
-                "title": "ClimMob suite",
-                "permalink": "/documentation/docs/category/climmob-suite"
-              }
-            },
-            {
-              "id": "Technology selection/tpp",
-              "title": "TPP",
-              "description": "TPP babla",
-              "source": "@site/docs/Technology selection/tpp.md",
-              "sourceDirName": "Technology selection",
-              "slug": "/Technology selection/tpp",
-              "permalink": "/documentation/docs/Technology selection/tpp",
-              "draft": false,
-              "unlisted": false,
-              "editUrl": "https://github.com/${organizationName}/${projectName}/tree/main/docs/Technology selection/tpp.md",
-              "tags": [],
-              "version": "current",
-              "sidebarPosition": 1,
-              "frontMatter": {
-                "sidebar_position": 1
-              },
-              "sidebar": "tutorialSidebar",
-              "previous": {
-                "title": "Technology selection",
-                "permalink": "/documentation/docs/category/technology-selection"
-              },
-              "next": {
-                "title": "Trials protocols",
-                "permalink": "/documentation/docs/category/trials-protocols"
-              }
-            },
-            {
-              "id": "Tricot/introduction",
-              "title": "Tricot Introduction",
-              "description": "Speeding up agricultural innovation through large-scale participatory experiments",
-              "source": "@site/docs/Tricot/introduction.md",
-              "sourceDirName": "Tricot",
-              "slug": "/Tricot/introduction",
-              "permalink": "/documentation/docs/Tricot/introduction",
-              "draft": false,
-              "unlisted": false,
-              "editUrl": "https://github.com/${organizationName}/${projectName}/tree/main/docs/Tricot/introduction.md",
-              "tags": [],
-              "version": "current",
-              "sidebarPosition": 1,
-              "frontMatter": {
-                "sidebar_position": 1
-              },
-              "sidebar": "tutorialSidebar",
-              "previous": {
-                "title": "Tricot",
-                "permalink": "/documentation/docs/category/tricot"
-              },
-              "next": {
-                "title": "The 10 steps of a Tricot project",
-                "permalink": "/documentation/docs/Tricot/steps"
-              }
-            },
-            {
-              "id": "Tricot/steps",
-              "title": "The 10 steps of a Tricot project",
-              "description": "This guide provides a short overview of each of the 10 steps needed to develop and implement a tricot project.",
-              "source": "@site/docs/Tricot/steps.md",
-              "sourceDirName": "Tricot",
-              "slug": "/Tricot/steps",
-              "permalink": "/documentation/docs/Tricot/steps",
-              "draft": false,
-              "unlisted": false,
-              "editUrl": "https://github.com/${organizationName}/${projectName}/tree/main/docs/Tricot/steps.md",
+              "editUrl": "https://github.com/AgrDataSci/documentation/tree/main/docs/03-experimental-design/socioeconomic-sampling.md",
               "tags": [],
               "version": "current",
               "sidebarPosition": 2,
@@ -324,12 +388,689 @@
               },
               "sidebar": "tutorialSidebar",
               "previous": {
-                "title": "Tricot Introduction",
-                "permalink": "/documentation/docs/Tricot/introduction"
+                "title": "Target Product Profiles in Plant Breeding",
+                "permalink": "/documentation/2.0/experimental-design/tpp"
               },
               "next": {
-                "title": "Participant recruitment",
-                "permalink": "/documentation/docs/category/participant-recruitment"
+                "title": "Geographic sampling",
+                "permalink": "/documentation/2.0/experimental-design/geographic-sampling"
+              }
+            },
+            {
+              "id": "experimental-design/standard-operating-procedures",
+              "title": "Standard operating procedures",
+              "description": "Marie-Angélique Laporte, Almendra Cremaschi",
+              "source": "@site/docs/03-experimental-design/standard-operating-procedures.md",
+              "sourceDirName": "03-experimental-design",
+              "slug": "/experimental-design/standard-operating-procedures",
+              "permalink": "/documentation/2.0/experimental-design/standard-operating-procedures",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/AgrDataSci/documentation/tree/main/docs/03-experimental-design/standard-operating-procedures.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 5,
+              "frontMatter": {
+                "sidebar_position": 5
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Trial dimensions",
+                "permalink": "/documentation/2.0/experimental-design/trial dimensions"
+              },
+              "next": {
+                "title": "Example of Experimental Design: Bean Trial Protocol",
+                "permalink": "/documentation/2.0/experimental-design/bean-protocol"
+              }
+            },
+            {
+              "id": "experimental-design/tpp",
+              "title": "Target Product Profiles in Plant Breeding",
+              "description": "Ganga Rao Nadigatla, Harish Gandhi, Agnes Mbugua",
+              "source": "@site/docs/03-experimental-design/tpp.md",
+              "sourceDirName": "03-experimental-design",
+              "slug": "/experimental-design/tpp",
+              "permalink": "/documentation/2.0/experimental-design/tpp",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/AgrDataSci/documentation/tree/main/docs/03-experimental-design/tpp.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 1,
+              "frontMatter": {
+                "sidebar_position": 1
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Resources and Budgeting",
+                "permalink": "/documentation/2.0/planning/Resources and Budgeting"
+              },
+              "next": {
+                "title": "Socioeconomic sampling",
+                "permalink": "/documentation/2.0/experimental-design/socioeconomic-sampling"
+              }
+            },
+            {
+              "id": "experimental-design/trial dimensions",
+              "title": "Trial dimensions",
+              "description": "A recurrent issue is deciding about trial dimensions: plot size and the number of plots (replications). In the literature about crop trials, there are several methods to guide decision making. At the same time, this is not just a question of statistics, but also biological considerations are important. For tricot trials, there are a number of additional considerations related to farmers’ capacities.",
+              "source": "@site/docs/03-experimental-design/trial dimensions.md",
+              "sourceDirName": "03-experimental-design",
+              "slug": "/experimental-design/trial dimensions",
+              "permalink": "/documentation/2.0/experimental-design/trial dimensions",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/AgrDataSci/documentation/tree/main/docs/03-experimental-design/trial dimensions.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 4,
+              "frontMatter": {
+                "sidebar_position": 4
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Geographic sampling",
+                "permalink": "/documentation/2.0/experimental-design/geographic-sampling"
+              },
+              "next": {
+                "title": "Standard operating procedures",
+                "permalink": "/documentation/2.0/experimental-design/standard-operating-procedures"
+              }
+            },
+            {
+              "id": "FAQ-and-resources/FAQs",
+              "title": "Frequently asked questions",
+              "description": "What is the incentive for growers to participate?",
+              "source": "@site/docs/09-FAQ-and-resources/FAQs.md",
+              "sourceDirName": "09-FAQ-and-resources",
+              "slug": "/FAQ-and-resources/FAQs",
+              "permalink": "/documentation/2.0/FAQ-and-resources/FAQs",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/AgrDataSci/documentation/tree/main/docs/09-FAQ-and-resources/FAQs.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 1,
+              "frontMatter": {
+                "sidebar_position": 1
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Seed systems in Ethiopia",
+                "permalink": "/documentation/2.0/good-bad-ugly/severalcrops-issd"
+              },
+              "next": {
+                "title": "Tricot Resources",
+                "permalink": "/documentation/2.0/FAQ-and-resources/tricot-resources"
+              }
+            },
+            {
+              "id": "FAQ-and-resources/tricot-resources",
+              "title": "Tricot Resources",
+              "description": "Publications, training videos, costing templates, and supporting materials for the tricot approach.",
+              "source": "@site/docs/09-FAQ-and-resources/resources.md",
+              "sourceDirName": "09-FAQ-and-resources",
+              "slug": "/FAQ-and-resources/tricot-resources",
+              "permalink": "/documentation/2.0/FAQ-and-resources/tricot-resources",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/AgrDataSci/documentation/tree/main/docs/09-FAQ-and-resources/resources.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 2,
+              "frontMatter": {
+                "id": "tricot-resources",
+                "title": "Tricot Resources",
+                "sidebar_position": 2,
+                "description": "Publications, training videos, costing templates, and supporting materials for the tricot approach."
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Frequently asked questions",
+                "permalink": "/documentation/2.0/FAQ-and-resources/FAQs"
+              }
+            },
+            {
+              "id": "feedback-dissemination/dissemination",
+              "title": "Documenting trials and publishing data",
+              "description": "Open access publication of the data should be a goal of the trial. Tricot has already published a number of sizable datasets from on-farm trials (van Etten et al., 2018; Moyo et al., 2020; de Sousa et al., 2020). These datasets could become important for other research that repurposes these datasets. Kool et al. (2020) have provided an incisive critique of on-farm testing in agronomy, especially the limited replicability of many trials as authors fail to report contextual factors (crop management) and sampling of locations and participating farmers. Similarly, a study on PVS in RTB crops reveals that on-farm trials are often documented in a very deficient way and that data are hardly published at all (Jose Valle et al., 2021). Data publication could become more attractive if it is easy to do and has rewards (citations of datasets repurposed by others). Publishing all data from trials could prevent the so-called file-drawer problem, which means that only certain datasets (for example, novel analyses, striking results) are published, which then lead to biased statistics in meta-analyses.",
+              "source": "@site/docs/07-feedback-dissemination/dissemination.md",
+              "sourceDirName": "07-feedback-dissemination",
+              "slug": "/feedback-dissemination/dissemination",
+              "permalink": "/documentation/2.0/feedback-dissemination/dissemination",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/AgrDataSci/documentation/tree/main/docs/07-feedback-dissemination/dissemination.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 2,
+              "frontMatter": {
+                "sidebar_position": 2
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Trial feedback and evaluation",
+                "permalink": "/documentation/2.0/feedback-dissemination/feedback"
+              },
+              "next": {
+                "title": "Trioct Case Studies",
+                "permalink": "/documentation/2.0/good-bad-ugly/case-studies"
+              }
+            },
+            {
+              "id": "feedback-dissemination/feedback",
+              "title": "Trial feedback and evaluation",
+              "description": "Anna Muller, Juan Manual Londono",
+              "source": "@site/docs/07-feedback-dissemination/feedback.md",
+              "sourceDirName": "07-feedback-dissemination",
+              "slug": "/feedback-dissemination/feedback",
+              "permalink": "/documentation/2.0/feedback-dissemination/feedback",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/AgrDataSci/documentation/tree/main/docs/07-feedback-dissemination/feedback.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 1,
+              "frontMatter": {
+                "sidebar_position": 1
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Rinstat",
+                "permalink": "/documentation/2.0/data-analysis/Rinstat"
+              },
+              "next": {
+                "title": "Documenting trials and publishing data",
+                "permalink": "/documentation/2.0/feedback-dissemination/dissemination"
+              }
+            },
+            {
+              "id": "glossary",
+              "title": "Glossary",
+              "description": "Administrator is the person or organization who coordinates the tricot project. It’s the project manager. The administrator could be a scientist working at a research institute, or at an NGO, governmental extension service, etc.",
+              "source": "@site/docs/glossary.md",
+              "sourceDirName": ".",
+              "slug": "/glossary",
+              "permalink": "/documentation/2.0/glossary",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/AgrDataSci/documentation/tree/main/docs/glossary.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 2,
+              "frontMatter": {
+                "sidebar_position": 2
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Product testing with users in Agriculture and Food:",
+                "permalink": "/documentation/2.0/"
+              },
+              "next": {
+                "title": "Introduction to the tricot approach",
+                "permalink": "/documentation/2.0/introduction-to-tricot/introduction"
+              }
+            },
+            {
+              "id": "good-bad-ugly/bean-tari",
+              "title": "Common bean in Tanzania",
+              "description": "Edith Kadege, Tanzania Research Institute (TARI)",
+              "source": "@site/docs/08-good-bad-ugly/03-bean-tari.md",
+              "sourceDirName": "08-good-bad-ugly",
+              "slug": "/good-bad-ugly/bean-tari",
+              "permalink": "/documentation/2.0/good-bad-ugly/bean-tari",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/AgrDataSci/documentation/tree/main/docs/08-good-bad-ugly/03-bean-tari.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 3,
+              "frontMatter": {
+                "sidebar_position": 3
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Groundnut in Kenya and Tanzania",
+                "permalink": "/documentation/2.0/good-bad-ugly/groundnut-tari"
+              },
+              "next": {
+                "title": "Maize in Kenya",
+                "permalink": "/documentation/2.0/good-bad-ugly/maize-bayer"
+              }
+            },
+            {
+              "id": "good-bad-ugly/case-studies",
+              "title": "Trioct Case Studies",
+              "description": "Rachel Chase",
+              "source": "@site/docs/08-good-bad-ugly/01-case-studies.md",
+              "sourceDirName": "08-good-bad-ugly",
+              "slug": "/good-bad-ugly/case-studies",
+              "permalink": "/documentation/2.0/good-bad-ugly/case-studies",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/AgrDataSci/documentation/tree/main/docs/08-good-bad-ugly/01-case-studies.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 1,
+              "frontMatter": {
+                "sidebar_position": 1
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Documenting trials and publishing data",
+                "permalink": "/documentation/2.0/feedback-dissemination/dissemination"
+              },
+              "next": {
+                "title": "Groundnut in Kenya and Tanzania",
+                "permalink": "/documentation/2.0/good-bad-ugly/groundnut-tari"
+              }
+            },
+            {
+              "id": "good-bad-ugly/cowpea-iita",
+              "title": "Cowpea in Nigeria",
+              "description": "Patrick Ongom, IITA",
+              "source": "@site/docs/08-good-bad-ugly/08-cowpea-iita.md",
+              "sourceDirName": "08-good-bad-ugly",
+              "slug": "/good-bad-ugly/cowpea-iita",
+              "permalink": "/documentation/2.0/good-bad-ugly/cowpea-iita",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/AgrDataSci/documentation/tree/main/docs/08-good-bad-ugly/08-cowpea-iita.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 8,
+              "frontMatter": {
+                "sidebar_position": 8
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Groundnut in Ghana",
+                "permalink": "/documentation/2.0/good-bad-ugly/groundnut-sari"
+              },
+              "next": {
+                "title": "Seed systems in Ethiopia",
+                "permalink": "/documentation/2.0/good-bad-ugly/severalcrops-issd"
+              }
+            },
+            {
+              "id": "good-bad-ugly/groundnut-sari",
+              "title": "Groundnut in Ghana",
+              "description": "Richard Oteng-Frimpong, Savanah Agricultural Research Institute",
+              "source": "@site/docs/08-good-bad-ugly/07-groundnut-sari.md",
+              "sourceDirName": "08-good-bad-ugly",
+              "slug": "/good-bad-ugly/groundnut-sari",
+              "permalink": "/documentation/2.0/good-bad-ugly/groundnut-sari",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/AgrDataSci/documentation/tree/main/docs/08-good-bad-ugly/07-groundnut-sari.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 7,
+              "frontMatter": {
+                "sidebar_position": 7
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Sweet potato in Uganda",
+                "permalink": "/documentation/2.0/good-bad-ugly/sweetpotato-cip"
+              },
+              "next": {
+                "title": "Cowpea in Nigeria",
+                "permalink": "/documentation/2.0/good-bad-ugly/cowpea-iita"
+              }
+            },
+            {
+              "id": "good-bad-ugly/groundnut-tari",
+              "title": "Groundnut in Kenya and Tanzania",
+              "description": "Happy Daudi, CIMMYT, Kenya",
+              "source": "@site/docs/08-good-bad-ugly/02-groundnut-tari.md",
+              "sourceDirName": "08-good-bad-ugly",
+              "slug": "/good-bad-ugly/groundnut-tari",
+              "permalink": "/documentation/2.0/good-bad-ugly/groundnut-tari",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/AgrDataSci/documentation/tree/main/docs/08-good-bad-ugly/02-groundnut-tari.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 2,
+              "frontMatter": {
+                "sidebar_position": 2
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Trioct Case Studies",
+                "permalink": "/documentation/2.0/good-bad-ugly/case-studies"
+              },
+              "next": {
+                "title": "Common bean in Tanzania",
+                "permalink": "/documentation/2.0/good-bad-ugly/bean-tari"
+              }
+            },
+            {
+              "id": "good-bad-ugly/maize-bayer",
+              "title": "Maize in Kenya",
+              "description": "Jamlick Mwathi, Bayer Crop Science, Kenya",
+              "source": "@site/docs/08-good-bad-ugly/04-maize-bayer.md",
+              "sourceDirName": "08-good-bad-ugly",
+              "slug": "/good-bad-ugly/maize-bayer",
+              "permalink": "/documentation/2.0/good-bad-ugly/maize-bayer",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/AgrDataSci/documentation/tree/main/docs/08-good-bad-ugly/04-maize-bayer.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 4,
+              "frontMatter": {
+                "sidebar_position": 4
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Common bean in Tanzania",
+                "permalink": "/documentation/2.0/good-bad-ugly/bean-tari"
+              },
+              "next": {
+                "title": "Maize in Rwanda",
+                "permalink": "/documentation/2.0/good-bad-ugly/maize-oneacrefund"
+              }
+            },
+            {
+              "id": "good-bad-ugly/maize-oneacrefund",
+              "title": "Maize in Rwanda",
+              "description": "Elyse Tuyishime, One Acre Fund, Rwanda",
+              "source": "@site/docs/08-good-bad-ugly/05-maize-oneacrefund.md",
+              "sourceDirName": "08-good-bad-ugly",
+              "slug": "/good-bad-ugly/maize-oneacrefund",
+              "permalink": "/documentation/2.0/good-bad-ugly/maize-oneacrefund",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/AgrDataSci/documentation/tree/main/docs/08-good-bad-ugly/05-maize-oneacrefund.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 5,
+              "frontMatter": {
+                "sidebar_position": 5
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Maize in Kenya",
+                "permalink": "/documentation/2.0/good-bad-ugly/maize-bayer"
+              },
+              "next": {
+                "title": "Sweet potato in Uganda",
+                "permalink": "/documentation/2.0/good-bad-ugly/sweetpotato-cip"
+              }
+            },
+            {
+              "id": "good-bad-ugly/severalcrops-issd",
+              "title": "Seed systems in Ethiopia",
+              "description": "Mohammed Hassena, Integrated Seed Sector Development",
+              "source": "@site/docs/08-good-bad-ugly/09-severalcrops-issd.md",
+              "sourceDirName": "08-good-bad-ugly",
+              "slug": "/good-bad-ugly/severalcrops-issd",
+              "permalink": "/documentation/2.0/good-bad-ugly/severalcrops-issd",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/AgrDataSci/documentation/tree/main/docs/08-good-bad-ugly/09-severalcrops-issd.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 9,
+              "frontMatter": {
+                "sidebar_position": 9
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Cowpea in Nigeria",
+                "permalink": "/documentation/2.0/good-bad-ugly/cowpea-iita"
+              },
+              "next": {
+                "title": "Frequently asked questions",
+                "permalink": "/documentation/2.0/FAQ-and-resources/FAQs"
+              }
+            },
+            {
+              "id": "good-bad-ugly/sweetpotato-cip",
+              "title": "Sweet potato in Uganda",
+              "description": "Reuben Ssali, CIP",
+              "source": "@site/docs/08-good-bad-ugly/06-sweetpotato-cip.md",
+              "sourceDirName": "08-good-bad-ugly",
+              "slug": "/good-bad-ugly/sweetpotato-cip",
+              "permalink": "/documentation/2.0/good-bad-ugly/sweetpotato-cip",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/AgrDataSci/documentation/tree/main/docs/08-good-bad-ugly/06-sweetpotato-cip.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 6,
+              "frontMatter": {
+                "sidebar_position": 6
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Maize in Rwanda",
+                "permalink": "/documentation/2.0/good-bad-ugly/maize-oneacrefund"
+              },
+              "next": {
+                "title": "Groundnut in Ghana",
+                "permalink": "/documentation/2.0/good-bad-ugly/groundnut-sari"
+              }
+            },
+            {
+              "id": "implementation/implementation",
+              "title": "Implementing a tricot experiment",
+              "description": "Kauê de Sousa, Rachel Chase",
+              "source": "@site/docs/05-implementation/implementation.md",
+              "sourceDirName": "05-implementation",
+              "slug": "/implementation/implementation",
+              "permalink": "/documentation/2.0/implementation/implementation",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/AgrDataSci/documentation/tree/main/docs/05-implementation/implementation.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 1,
+              "frontMatter": {
+                "sidebar_position": 1
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Share your project",
+                "permalink": "/documentation/2.0/climmob-suite/Share your project"
+              },
+              "next": {
+                "title": "Analysis of tricot data",
+                "permalink": "/documentation/2.0/data-analysis/data-analysis"
+              }
+            },
+            {
+              "id": "intro",
+              "title": "Product testing with users in Agriculture and Food:",
+              "description": "Decentralized on-farm evaluation, breeding product validation, consumer testing and other applications using the tricot approach.",
+              "source": "@site/docs/intro.md",
+              "sourceDirName": ".",
+              "slug": "/",
+              "permalink": "/documentation/2.0/",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/AgrDataSci/documentation/tree/main/docs/intro.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 1,
+              "frontMatter": {
+                "slug": "/",
+                "sidebar_position": 1
+              },
+              "sidebar": "tutorialSidebar",
+              "next": {
+                "title": "Glossary",
+                "permalink": "/documentation/2.0/glossary"
+              }
+            },
+            {
+              "id": "introduction-to-tricot/checklist",
+              "title": "checklist",
+              "description": "Tricot Trial Checklist",
+              "source": "@site/docs/01-introduction-to-tricot/checklist.md",
+              "sourceDirName": "01-introduction-to-tricot",
+              "slug": "/introduction-to-tricot/checklist",
+              "permalink": "/documentation/2.0/introduction-to-tricot/checklist",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/AgrDataSci/documentation/tree/main/docs/01-introduction-to-tricot/checklist.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 3,
+              "frontMatter": {
+                "sidebar_position": 3
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "The 10 steps of a tricot experiment",
+                "permalink": "/documentation/2.0/introduction-to-tricot/steps"
+              },
+              "next": {
+                "title": "Problem Identification",
+                "permalink": "/documentation/2.0/planning/Problem Identification"
+              }
+            },
+            {
+              "id": "introduction-to-tricot/introduction",
+              "title": "Introduction to the tricot approach",
+              "description": "Jacob van Etten, Jonathan Steinke, Kauê de Sousa",
+              "source": "@site/docs/01-introduction-to-tricot/introduction.md",
+              "sourceDirName": "01-introduction-to-tricot",
+              "slug": "/introduction-to-tricot/introduction",
+              "permalink": "/documentation/2.0/introduction-to-tricot/introduction",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/AgrDataSci/documentation/tree/main/docs/01-introduction-to-tricot/introduction.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 1,
+              "frontMatter": {
+                "sidebar_position": 1,
+                "bibliography": "ref.bib",
+                "output": {
+                  "html_document": {
+                    "df_print": "paged"
+                  }
+                }
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Glossary",
+                "permalink": "/documentation/2.0/glossary"
+              },
+              "next": {
+                "title": "The 10 steps of a tricot experiment",
+                "permalink": "/documentation/2.0/introduction-to-tricot/steps"
+              }
+            },
+            {
+              "id": "introduction-to-tricot/steps",
+              "title": "The 10 steps of a tricot experiment",
+              "description": "This section provides a short overview of each of the 10 steps needed to develop and implement a tricot project.",
+              "source": "@site/docs/01-introduction-to-tricot/steps.md",
+              "sourceDirName": "01-introduction-to-tricot",
+              "slug": "/introduction-to-tricot/steps",
+              "permalink": "/documentation/2.0/introduction-to-tricot/steps",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/AgrDataSci/documentation/tree/main/docs/01-introduction-to-tricot/steps.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 2,
+              "frontMatter": {
+                "sidebar_position": 2
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Introduction to the tricot approach",
+                "permalink": "/documentation/2.0/introduction-to-tricot/introduction"
+              },
+              "next": {
+                "title": "checklist",
+                "permalink": "/documentation/2.0/introduction-to-tricot/checklist"
+              }
+            },
+            {
+              "id": "planning/Problem Identification",
+              "title": "Problem Identification",
+              "description": "Defining research questions and objectives",
+              "source": "@site/docs/02-planning/Problem Identification.md",
+              "sourceDirName": "02-planning",
+              "slug": "/planning/Problem Identification",
+              "permalink": "/documentation/2.0/planning/Problem Identification",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/AgrDataSci/documentation/tree/main/docs/02-planning/Problem Identification.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 1,
+              "frontMatter": {
+                "sidebar_position": 1
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "checklist",
+                "permalink": "/documentation/2.0/introduction-to-tricot/checklist"
+              },
+              "next": {
+                "title": "Stakeholder Engagement",
+                "permalink": "/documentation/2.0/planning/Stakeholder Engagement"
+              }
+            },
+            {
+              "id": "planning/Resources and Budgeting",
+              "title": "Resources and Budgeting",
+              "description": "Costing a tricot trial",
+              "source": "@site/docs/02-planning/Resources and Budgeting.md",
+              "sourceDirName": "02-planning",
+              "slug": "/planning/Resources and Budgeting",
+              "permalink": "/documentation/2.0/planning/Resources and Budgeting",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/AgrDataSci/documentation/tree/main/docs/02-planning/Resources and Budgeting.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 3,
+              "frontMatter": {
+                "sidebar_position": 3
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Stakeholder Engagement",
+                "permalink": "/documentation/2.0/planning/Stakeholder Engagement"
+              },
+              "next": {
+                "title": "Target Product Profiles in Plant Breeding",
+                "permalink": "/documentation/2.0/experimental-design/tpp"
+              }
+            },
+            {
+              "id": "planning/Stakeholder Engagement",
+              "title": "Stakeholder Engagement",
+              "description": "Roles of researchers, extension agents, local facilitators, and farmers",
+              "source": "@site/docs/02-planning/Stakeholder Engagement.md",
+              "sourceDirName": "02-planning",
+              "slug": "/planning/Stakeholder Engagement",
+              "permalink": "/documentation/2.0/planning/Stakeholder Engagement",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/AgrDataSci/documentation/tree/main/docs/02-planning/Stakeholder Engagement.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 2,
+              "frontMatter": {
+                "sidebar_position": 2
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Problem Identification",
+                "permalink": "/documentation/2.0/planning/Problem Identification"
+              },
+              "next": {
+                "title": "Resources and Budgeting",
+                "permalink": "/documentation/2.0/planning/Resources and Budgeting"
               }
             }
           ],
@@ -341,132 +1082,1565 @@
                 "id": "intro"
               },
               {
-                "type": "category",
-                "label": "Tricot",
-                "collapsible": true,
-                "collapsed": true,
-                "items": [
-                  {
-                    "type": "doc",
-                    "id": "Tricot/introduction"
-                  },
-                  {
-                    "type": "doc",
-                    "id": "Tricot/steps"
-                  }
-                ],
-                "link": {
-                  "type": "generated-index",
-                  "description": "Learn everything about Tricot",
-                  "slug": "/category/tricot",
-                  "permalink": "/documentation/docs/category/tricot"
-                }
+                "type": "doc",
+                "id": "glossary"
               },
               {
                 "type": "category",
-                "label": "Participant recruitment",
-                "collapsible": true,
-                "collapsed": true,
+                "label": "Introduction to Tricot",
                 "items": [
                   {
                     "type": "doc",
-                    "id": "Participant Recruitment/socioeconomic_sampling"
+                    "id": "introduction-to-tricot/introduction"
                   },
                   {
                     "type": "doc",
-                    "id": "Participant Recruitment/geographic_sampling"
-                  }
-                ],
-                "link": {
-                  "type": "generated-index",
-                  "description": "Learn how to effectively recruit partipants.",
-                  "slug": "/category/participant-recruitment",
-                  "permalink": "/documentation/docs/category/participant-recruitment"
-                }
-              },
-              {
-                "type": "category",
-                "label": "Technology selection",
-                "collapsible": true,
-                "collapsed": true,
-                "items": [
-                  {
-                    "type": "doc",
-                    "id": "Technology selection/tpp"
-                  }
-                ],
-                "link": {
-                  "type": "generated-index",
-                  "description": "Learn how to effectively recruit partipants.",
-                  "slug": "/category/technology-selection",
-                  "permalink": "/documentation/docs/category/technology-selection"
-                }
-              },
-              {
-                "type": "category",
-                "label": "Trials protocols",
-                "collapsible": true,
-                "collapsed": true,
-                "items": [
-                  {
-                    "type": "doc",
-                    "id": "Protocols/bean_protocol"
-                  }
-                ],
-                "link": {
-                  "type": "generated-index",
-                  "description": "Find the crop protocols you need. A crop protocol provides a standardised overview of the basic information that will be collected during a crop tricot trial. The protocol provides an overview of the data collection moments during the trials and the variables and traits collected at each data collection moment. Farmers evaluate varieties in their on-farm trials and provide comparative observations by ranking the varieties based on their performance throughout their growth and post-harvest qualities including taste and consumption preferences.",
-                  "slug": "/category/trials-protocols",
-                  "permalink": "/documentation/docs/category/trials-protocols"
-                }
-              },
-              {
-                "type": "category",
-                "label": "ClimMob suite",
-                "collapsible": true,
-                "collapsed": true,
-                "items": [
-                  {
-                    "type": "doc",
-                    "id": "ClimMob suite/ODK"
+                    "id": "introduction-to-tricot/steps"
                   },
                   {
                     "type": "doc",
-                    "id": "ClimMob suite/climmob"
-                  },
-                  {
-                    "type": "doc",
-                    "id": "ClimMob suite/data_submission"
+                    "id": "introduction-to-tricot/checklist"
                   }
                 ],
-                "link": {
-                  "type": "generated-index",
-                  "description": "Learn more about what ClimMob has to offer",
-                  "slug": "/category/climmob-suite",
-                  "permalink": "/documentation/docs/category/climmob-suite"
-                }
+                "collapsed": true,
+                "collapsible": true
               },
               {
                 "type": "category",
-                "label": "Data analysis with use cases",
-                "collapsible": true,
-                "collapsed": true,
+                "label": "Preparation",
                 "items": [
                   {
                     "type": "doc",
-                    "id": "Data analysis with use cases/uc1"
+                    "id": "planning/Problem Identification"
                   },
                   {
                     "type": "doc",
-                    "id": "Data analysis with use cases/uc2"
+                    "id": "planning/Stakeholder Engagement"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "planning/Resources and Budgeting"
                   }
                 ],
-                "link": {
-                  "type": "generated-index",
-                  "description": "Learn how to analyse the data you collected with ClimMob through several use cases.",
-                  "slug": "/category/data-analysis-with-use-cases",
-                  "permalink": "/documentation/docs/category/data-analysis-with-use-cases"
-                }
+                "collapsed": true,
+                "collapsible": true
+              },
+              {
+                "type": "category",
+                "label": "Design",
+                "items": [
+                  {
+                    "type": "doc",
+                    "id": "experimental-design/tpp"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "experimental-design/socioeconomic-sampling"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "experimental-design/geographic-sampling"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "experimental-design/trial dimensions"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "experimental-design/standard-operating-procedures"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "experimental-design/bean-protocol"
+                  }
+                ],
+                "collapsed": true,
+                "collapsible": true
+              },
+              {
+                "type": "category",
+                "label": "ClimMob Suite",
+                "items": [
+                  {
+                    "type": "doc",
+                    "id": "climmob-suite/ClimMob Platform"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "climmob-suite/Getting Started"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "climmob-suite/Design"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "climmob-suite/Implementation"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "climmob-suite/Monitoring"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "climmob-suite/Outputs"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "climmob-suite/Share your project"
+                  }
+                ],
+                "collapsed": true,
+                "collapsible": true
+              },
+              {
+                "type": "category",
+                "label": "Implementation",
+                "items": [
+                  {
+                    "type": "doc",
+                    "id": "implementation/implementation"
+                  }
+                ],
+                "collapsed": true,
+                "collapsible": true
+              },
+              {
+                "type": "category",
+                "label": "Analysis",
+                "items": [
+                  {
+                    "type": "doc",
+                    "id": "data-analysis/data-analysis"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "data-analysis/vignette-1-trait-prioritization-and-crop-performance"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "data-analysis/vignette-2-gari-eba-consumer-testing"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "data-analysis/Rinstat"
+                  }
+                ],
+                "collapsed": true,
+                "collapsible": true
+              },
+              {
+                "type": "category",
+                "label": "Feedback & Dissemination",
+                "items": [
+                  {
+                    "type": "doc",
+                    "id": "feedback-dissemination/feedback"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "feedback-dissemination/dissemination"
+                  }
+                ],
+                "collapsed": true,
+                "collapsible": true
+              },
+              {
+                "type": "category",
+                "label": "Tricot Case Studies",
+                "items": [
+                  {
+                    "type": "doc",
+                    "id": "good-bad-ugly/case-studies"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "good-bad-ugly/groundnut-tari"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "good-bad-ugly/bean-tari"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "good-bad-ugly/maize-bayer"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "good-bad-ugly/maize-oneacrefund"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "good-bad-ugly/sweetpotato-cip"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "good-bad-ugly/groundnut-sari"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "good-bad-ugly/cowpea-iita"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "good-bad-ugly/severalcrops-issd"
+                  }
+                ],
+                "collapsed": true,
+                "collapsible": true
+              },
+              {
+                "type": "category",
+                "label": "FAQ and Resources",
+                "items": [
+                  {
+                    "type": "doc",
+                    "id": "FAQ-and-resources/FAQs"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "FAQ-and-resources/tricot-resources"
+                  }
+                ],
+                "collapsed": true,
+                "collapsible": true
+              }
+            ]
+          }
+        },
+        {
+          "versionName": "1.0",
+          "label": "1.0",
+          "banner": "unmaintained",
+          "badge": true,
+          "noIndex": false,
+          "className": "docs-version-1.0",
+          "path": "/documentation/1.0",
+          "tagsPath": "/documentation/1.0/tags",
+          "editUrl": "https://github.com/AgrDataSci/documentation/tree/main/versioned_docs/version-1.0",
+          "editUrlLocalized": "https://github.com/AgrDataSci/documentation/tree/main/i18n/en/docusaurus-plugin-content-docs/version-1.0",
+          "isLast": false,
+          "sidebarFilePath": "/Users/malaporte/Documents/GitHub/documentation/versioned_sidebars/version-1.0-sidebars.json",
+          "contentPath": "/Users/malaporte/Documents/GitHub/documentation/versioned_docs/version-1.0",
+          "contentPathLocalized": "/Users/malaporte/Documents/GitHub/documentation/i18n/en/docusaurus-plugin-content-docs/version-1.0",
+          "docs": [
+            {
+              "id": "appendices/appendices",
+              "title": "Appendices",
+              "description": "",
+              "source": "@site/versioned_docs/version-1.0/10-appendices/appendices.md",
+              "sourceDirName": "10-appendices",
+              "slug": "/appendices/appendices",
+              "permalink": "/documentation/1.0/appendices/appendices",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/AgrDataSci/documentation/tree/main/versioned_docs/version-1.0/10-appendices/appendices.md",
+              "tags": [],
+              "version": "1.0",
+              "sidebarPosition": 1,
+              "frontMatter": {
+                "sidebar_position": 1
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Tricot resources",
+                "permalink": "/documentation/1.0/FAQ and resources/resources"
+              }
+            },
+            {
+              "id": "climmob-suite/climmob_platform",
+              "title": "climmob_platform",
+              "description": "ClimMob platform",
+              "source": "@site/versioned_docs/version-1.0/04-climmob-suite/climmob_platform.md",
+              "sourceDirName": "04-climmob-suite",
+              "slug": "/climmob-suite/climmob_platform",
+              "permalink": "/documentation/1.0/climmob-suite/climmob_platform",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/AgrDataSci/documentation/tree/main/versioned_docs/version-1.0/04-climmob-suite/climmob_platform.md",
+              "tags": [],
+              "version": "1.0",
+              "sidebarPosition": 1,
+              "frontMatter": {
+                "sidebar_position": 1
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Example of Experimental Design: Bean Trial Protocol",
+                "permalink": "/documentation/1.0/experimental-design/bean-protocol"
+              },
+              "next": {
+                "title": "Getting_Started",
+                "permalink": "/documentation/1.0/climmob-suite/Getting_Started"
+              }
+            },
+            {
+              "id": "climmob-suite/Design",
+              "title": "Design",
+              "description": "1. Create a new project",
+              "source": "@site/versioned_docs/version-1.0/04-climmob-suite/Design.md",
+              "sourceDirName": "04-climmob-suite",
+              "slug": "/climmob-suite/Design",
+              "permalink": "/documentation/1.0/climmob-suite/Design",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/AgrDataSci/documentation/tree/main/versioned_docs/version-1.0/04-climmob-suite/Design.md",
+              "tags": [],
+              "version": "1.0",
+              "sidebarPosition": 3,
+              "frontMatter": {
+                "sidebar_position": 3
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Getting_Started",
+                "permalink": "/documentation/1.0/climmob-suite/Getting_Started"
+              },
+              "next": {
+                "title": "Implementation",
+                "permalink": "/documentation/1.0/climmob-suite/Implementation"
+              }
+            },
+            {
+              "id": "climmob-suite/Getting_Started",
+              "title": "Getting_Started",
+              "description": "Create an account",
+              "source": "@site/versioned_docs/version-1.0/04-climmob-suite/Getting_Started.md",
+              "sourceDirName": "04-climmob-suite",
+              "slug": "/climmob-suite/Getting_Started",
+              "permalink": "/documentation/1.0/climmob-suite/Getting_Started",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/AgrDataSci/documentation/tree/main/versioned_docs/version-1.0/04-climmob-suite/Getting_Started.md",
+              "tags": [],
+              "version": "1.0",
+              "sidebarPosition": 2,
+              "frontMatter": {
+                "sidebar_position": 2
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "climmob_platform",
+                "permalink": "/documentation/1.0/climmob-suite/climmob_platform"
+              },
+              "next": {
+                "title": "Design",
+                "permalink": "/documentation/1.0/climmob-suite/Design"
+              }
+            },
+            {
+              "id": "climmob-suite/Implementation",
+              "title": "Implementation",
+              "description": "6. Technology randomization",
+              "source": "@site/versioned_docs/version-1.0/04-climmob-suite/Implementation.md",
+              "sourceDirName": "04-climmob-suite",
+              "slug": "/climmob-suite/Implementation",
+              "permalink": "/documentation/1.0/climmob-suite/Implementation",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/AgrDataSci/documentation/tree/main/versioned_docs/version-1.0/04-climmob-suite/Implementation.md",
+              "tags": [],
+              "version": "1.0",
+              "sidebarPosition": 4,
+              "frontMatter": {
+                "sidebar_position": 4
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Design",
+                "permalink": "/documentation/1.0/climmob-suite/Design"
+              },
+              "next": {
+                "title": "Monitoring",
+                "permalink": "/documentation/1.0/climmob-suite/Monitoring"
+              }
+            },
+            {
+              "id": "climmob-suite/Monitoring",
+              "title": "Monitoring",
+              "description": "14. Project overview",
+              "source": "@site/versioned_docs/version-1.0/04-climmob-suite/Monitoring.md",
+              "sourceDirName": "04-climmob-suite",
+              "slug": "/climmob-suite/Monitoring",
+              "permalink": "/documentation/1.0/climmob-suite/Monitoring",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/AgrDataSci/documentation/tree/main/versioned_docs/version-1.0/04-climmob-suite/Monitoring.md",
+              "tags": [],
+              "version": "1.0",
+              "sidebarPosition": 5,
+              "frontMatter": {
+                "sidebar_position": 5
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Implementation",
+                "permalink": "/documentation/1.0/climmob-suite/Implementation"
+              },
+              "next": {
+                "title": "Outputs",
+                "permalink": "/documentation/1.0/climmob-suite/Outputs"
+              }
+            },
+            {
+              "id": "climmob-suite/Outputs",
+              "title": "Outputs",
+              "description": "15. Data analysis",
+              "source": "@site/versioned_docs/version-1.0/04-climmob-suite/Outputs.md",
+              "sourceDirName": "04-climmob-suite",
+              "slug": "/climmob-suite/Outputs",
+              "permalink": "/documentation/1.0/climmob-suite/Outputs",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/AgrDataSci/documentation/tree/main/versioned_docs/version-1.0/04-climmob-suite/Outputs.md",
+              "tags": [],
+              "version": "1.0",
+              "sidebarPosition": 6,
+              "frontMatter": {
+                "sidebar_position": 6
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Monitoring",
+                "permalink": "/documentation/1.0/climmob-suite/Monitoring"
+              },
+              "next": {
+                "title": "Share_your_project",
+                "permalink": "/documentation/1.0/climmob-suite/Share_your_project"
+              }
+            },
+            {
+              "id": "climmob-suite/Share_your_project",
+              "title": "Share_your_project",
+              "description": "ClimMob allows you to collaborate by sharing your project with other users. When you invite someone, you must assign a role that defines what level of access they will have:",
+              "source": "@site/versioned_docs/version-1.0/04-climmob-suite/Share_your_project.md",
+              "sourceDirName": "04-climmob-suite",
+              "slug": "/climmob-suite/Share_your_project",
+              "permalink": "/documentation/1.0/climmob-suite/Share_your_project",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/AgrDataSci/documentation/tree/main/versioned_docs/version-1.0/04-climmob-suite/Share_your_project.md",
+              "tags": [],
+              "version": "1.0",
+              "sidebarPosition": 7,
+              "frontMatter": {
+                "sidebar_position": 7
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Outputs",
+                "permalink": "/documentation/1.0/climmob-suite/Outputs"
+              },
+              "next": {
+                "title": "Implementing a tricot experiment",
+                "permalink": "/documentation/1.0/implementation/implementation"
+              }
+            },
+            {
+              "id": "data-analysis/data-analysis",
+              "title": "Analysis of tricot data",
+              "description": "Kauê de Sousa, Joost van Heerwaarden, Hugo Dorado",
+              "source": "@site/versioned_docs/version-1.0/06-data-analysis/data-analysis.md",
+              "sourceDirName": "06-data-analysis",
+              "slug": "/data-analysis/data-analysis",
+              "permalink": "/documentation/1.0/data-analysis/data-analysis",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/AgrDataSci/documentation/tree/main/versioned_docs/version-1.0/06-data-analysis/data-analysis.md",
+              "tags": [],
+              "version": "1.0",
+              "sidebarPosition": 1,
+              "frontMatter": {
+                "sidebar_position": 1
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Implementing a tricot experiment",
+                "permalink": "/documentation/1.0/implementation/implementation"
+              },
+              "next": {
+                "title": "Example workflow: Integrating farmer-generated data and agro-climatic data for crop variety selection",
+                "permalink": "/documentation/1.0/data-analysis/vignette-1-trait-prioritization-and-crop-performance"
+              }
+            },
+            {
+              "id": "data-analysis/Rinstat",
+              "title": "Rinstat",
+              "description": "Lily Clements, Roger Stern, Rachel Chase, Kaue de Sousa",
+              "source": "@site/versioned_docs/version-1.0/06-data-analysis/Rinstat.md",
+              "sourceDirName": "06-data-analysis",
+              "slug": "/data-analysis/Rinstat",
+              "permalink": "/documentation/1.0/data-analysis/Rinstat",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/AgrDataSci/documentation/tree/main/versioned_docs/version-1.0/06-data-analysis/Rinstat.md",
+              "tags": [],
+              "version": "1.0",
+              "sidebarPosition": 4,
+              "frontMatter": {
+                "sidebar_position": 4
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Example workflow: Consumer preference of cassava gari-eba",
+                "permalink": "/documentation/1.0/data-analysis/vignette-2-gari-eba-consumer-testing"
+              },
+              "next": {
+                "title": "Trial feedback and evaluation",
+                "permalink": "/documentation/1.0/feedback-dissemination/feedback"
+              }
+            },
+            {
+              "id": "data-analysis/vignette-1-trait-prioritization-and-crop-performance",
+              "title": "Example workflow: Integrating farmer-generated data and agro-climatic data for crop variety selection",
+              "description": "In this example, we demonstrate a possible workflow to assess crop variety performance using decentralized on-farm testing data generated with the tricot approach [@deSousa2024]. We use the nicabean dataset, which was generated with decentralized on-farm trials of common bean (Phaseolus vulgaris L.) varieties in Nicaragua over five seasons (between 2015 and 2016). Following the tricot approach, farmers tested three randomly assigned varieties of common bean on their farms as incomplete blocks of size three (from a set of 10 varieties). Farmers assessed which of the three varieties had the best and worst performance in eight traits (vigor, architecture, resistance to pests, resistance to diseases, tolerance to drought, yield, marketability, and taste). Additionally, farmers provided their overall appreciation of the varieties, i.e., which variety had the best and worst performance overall, considering all the traits.",
+              "source": "@site/versioned_docs/version-1.0/06-data-analysis/vignette-1-trait-prioritization-and-crop-performance.md",
+              "sourceDirName": "06-data-analysis",
+              "slug": "/data-analysis/vignette-1-trait-prioritization-and-crop-performance",
+              "permalink": "/documentation/1.0/data-analysis/vignette-1-trait-prioritization-and-crop-performance",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/AgrDataSci/documentation/tree/main/versioned_docs/version-1.0/06-data-analysis/vignette-1-trait-prioritization-and-crop-performance.md",
+              "tags": [],
+              "version": "1.0",
+              "sidebarPosition": 2,
+              "frontMatter": {
+                "sidebar_position": 2
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Analysis of tricot data",
+                "permalink": "/documentation/1.0/data-analysis/data-analysis"
+              },
+              "next": {
+                "title": "Example workflow: Consumer preference of cassava gari-eba",
+                "permalink": "/documentation/1.0/data-analysis/vignette-2-gari-eba-consumer-testing"
+              }
+            },
+            {
+              "id": "data-analysis/vignette-2-gari-eba-consumer-testing",
+              "title": "Example workflow: Consumer preference of cassava gari-eba",
+              "description": "Here, I present a workflow to analyze data from a consumer preference trial executed in Nigeria and Cameroon by the International Institute of Tropical Agriculture (IITA) under the RTBFoods project (https Nigeria (Osun and Benue States) color, odor, taste, firmness, and stretchability.",
+              "source": "@site/versioned_docs/version-1.0/06-data-analysis/vignette-2-gari-eba-consumer-testing.md",
+              "sourceDirName": "06-data-analysis",
+              "slug": "/data-analysis/vignette-2-gari-eba-consumer-testing",
+              "permalink": "/documentation/1.0/data-analysis/vignette-2-gari-eba-consumer-testing",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/AgrDataSci/documentation/tree/main/versioned_docs/version-1.0/06-data-analysis/vignette-2-gari-eba-consumer-testing.md",
+              "tags": [],
+              "version": "1.0",
+              "sidebarPosition": 3,
+              "frontMatter": {
+                "sidebar_position": 3
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Example workflow: Integrating farmer-generated data and agro-climatic data for crop variety selection",
+                "permalink": "/documentation/1.0/data-analysis/vignette-1-trait-prioritization-and-crop-performance"
+              },
+              "next": {
+                "title": "Rinstat",
+                "permalink": "/documentation/1.0/data-analysis/Rinstat"
+              }
+            },
+            {
+              "id": "experimental-design/bean-protocol",
+              "title": "Example of Experimental Design: Bean Trial Protocol",
+              "description": "Introduction",
+              "source": "@site/versioned_docs/version-1.0/03-experimental-design/bean-protocol.md",
+              "sourceDirName": "03-experimental-design",
+              "slug": "/experimental-design/bean-protocol",
+              "permalink": "/documentation/1.0/experimental-design/bean-protocol",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/AgrDataSci/documentation/tree/main/versioned_docs/version-1.0/03-experimental-design/bean-protocol.md",
+              "tags": [],
+              "version": "1.0",
+              "sidebarPosition": 6,
+              "frontMatter": {
+                "sidebar_position": 6
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Standard operating procedures",
+                "permalink": "/documentation/1.0/experimental-design/standard-operating-procedures"
+              },
+              "next": {
+                "title": "climmob_platform",
+                "permalink": "/documentation/1.0/climmob-suite/climmob_platform"
+              }
+            },
+            {
+              "id": "experimental-design/geographic-sampling",
+              "title": "Geographic sampling",
+              "description": "Joost van Heerwaarden",
+              "source": "@site/versioned_docs/version-1.0/03-experimental-design/geographic-sampling.md",
+              "sourceDirName": "03-experimental-design",
+              "slug": "/experimental-design/geographic-sampling",
+              "permalink": "/documentation/1.0/experimental-design/geographic-sampling",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/AgrDataSci/documentation/tree/main/versioned_docs/version-1.0/03-experimental-design/geographic-sampling.md",
+              "tags": [],
+              "version": "1.0",
+              "sidebarPosition": 3,
+              "frontMatter": {
+                "sidebar_position": 3
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Socioeconomic sampling",
+                "permalink": "/documentation/1.0/experimental-design/socioeconomic-sampling"
+              },
+              "next": {
+                "title": "Trial dimensions",
+                "permalink": "/documentation/1.0/experimental-design/trial dimensions"
+              }
+            },
+            {
+              "id": "experimental-design/socioeconomic-sampling",
+              "title": "Socioeconomic sampling",
+              "description": "Béla Teeken, Jill Cairns, Mainassara Abdou Zaman-Allah",
+              "source": "@site/versioned_docs/version-1.0/03-experimental-design/socioeconomic-sampling.md",
+              "sourceDirName": "03-experimental-design",
+              "slug": "/experimental-design/socioeconomic-sampling",
+              "permalink": "/documentation/1.0/experimental-design/socioeconomic-sampling",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/AgrDataSci/documentation/tree/main/versioned_docs/version-1.0/03-experimental-design/socioeconomic-sampling.md",
+              "tags": [],
+              "version": "1.0",
+              "sidebarPosition": 2,
+              "frontMatter": {
+                "sidebar_position": 2
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Target Product Profiles in Plant Breeding",
+                "permalink": "/documentation/1.0/experimental-design/tpp"
+              },
+              "next": {
+                "title": "Geographic sampling",
+                "permalink": "/documentation/1.0/experimental-design/geographic-sampling"
+              }
+            },
+            {
+              "id": "experimental-design/standard-operating-procedures",
+              "title": "Standard operating procedures",
+              "description": "Marie-Angélique Laporte, Almendra Cremaschi",
+              "source": "@site/versioned_docs/version-1.0/03-experimental-design/standard-operating-procedures.md",
+              "sourceDirName": "03-experimental-design",
+              "slug": "/experimental-design/standard-operating-procedures",
+              "permalink": "/documentation/1.0/experimental-design/standard-operating-procedures",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/AgrDataSci/documentation/tree/main/versioned_docs/version-1.0/03-experimental-design/standard-operating-procedures.md",
+              "tags": [],
+              "version": "1.0",
+              "sidebarPosition": 5,
+              "frontMatter": {
+                "sidebar_position": 5
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Trial dimensions",
+                "permalink": "/documentation/1.0/experimental-design/trial dimensions"
+              },
+              "next": {
+                "title": "Example of Experimental Design: Bean Trial Protocol",
+                "permalink": "/documentation/1.0/experimental-design/bean-protocol"
+              }
+            },
+            {
+              "id": "experimental-design/tpp",
+              "title": "Target Product Profiles in Plant Breeding",
+              "description": "Ganga Rao Nadigatla, Harish Gandhi, Agnes Mbugua",
+              "source": "@site/versioned_docs/version-1.0/03-experimental-design/tpp.md",
+              "sourceDirName": "03-experimental-design",
+              "slug": "/experimental-design/tpp",
+              "permalink": "/documentation/1.0/experimental-design/tpp",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/AgrDataSci/documentation/tree/main/versioned_docs/version-1.0/03-experimental-design/tpp.md",
+              "tags": [],
+              "version": "1.0",
+              "sidebarPosition": 1,
+              "frontMatter": {
+                "sidebar_position": 1
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Checklist",
+                "permalink": "/documentation/1.0/planning/Checklist"
+              },
+              "next": {
+                "title": "Socioeconomic sampling",
+                "permalink": "/documentation/1.0/experimental-design/socioeconomic-sampling"
+              }
+            },
+            {
+              "id": "experimental-design/trial dimensions",
+              "title": "Trial dimensions",
+              "description": "A recurrent issue is deciding about trial dimensions: plot size and the number of plots (replications). In the literature about crop trials, there are several methods to guide decision making. At the same time, this is not just a question of statistics, but also biological considerations are important. For tricot trials, there are a number of additional considerations related to farmers’ capacities.",
+              "source": "@site/versioned_docs/version-1.0/03-experimental-design/trial dimensions.md",
+              "sourceDirName": "03-experimental-design",
+              "slug": "/experimental-design/trial dimensions",
+              "permalink": "/documentation/1.0/experimental-design/trial dimensions",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/AgrDataSci/documentation/tree/main/versioned_docs/version-1.0/03-experimental-design/trial dimensions.md",
+              "tags": [],
+              "version": "1.0",
+              "sidebarPosition": 4,
+              "frontMatter": {
+                "sidebar_position": 4
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Geographic sampling",
+                "permalink": "/documentation/1.0/experimental-design/geographic-sampling"
+              },
+              "next": {
+                "title": "Standard operating procedures",
+                "permalink": "/documentation/1.0/experimental-design/standard-operating-procedures"
+              }
+            },
+            {
+              "id": "FAQ and resources/FAQs",
+              "title": "Frequently asked questions",
+              "description": "What is the incentive for growers to participate?",
+              "source": "@site/versioned_docs/version-1.0/09-FAQ and resources/FAQs.md",
+              "sourceDirName": "09-FAQ and resources",
+              "slug": "/FAQ and resources/FAQs",
+              "permalink": "/documentation/1.0/FAQ and resources/FAQs",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/AgrDataSci/documentation/tree/main/versioned_docs/version-1.0/09-FAQ and resources/FAQs.md",
+              "tags": [],
+              "version": "1.0",
+              "sidebarPosition": 1,
+              "frontMatter": {
+                "sidebar_position": 1
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Seed systems in Ethiopia",
+                "permalink": "/documentation/1.0/good-bad-ugly/severalcrops-issd"
+              },
+              "next": {
+                "title": "Tricot resources",
+                "permalink": "/documentation/1.0/FAQ and resources/resources"
+              }
+            },
+            {
+              "id": "FAQ and resources/resources",
+              "title": "Tricot resources",
+              "description": "Guide",
+              "source": "@site/versioned_docs/version-1.0/09-FAQ and resources/resources.md",
+              "sourceDirName": "09-FAQ and resources",
+              "slug": "/FAQ and resources/resources",
+              "permalink": "/documentation/1.0/FAQ and resources/resources",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/AgrDataSci/documentation/tree/main/versioned_docs/version-1.0/09-FAQ and resources/resources.md",
+              "tags": [],
+              "version": "1.0",
+              "sidebarPosition": 2,
+              "frontMatter": {
+                "sidebar_position": 2
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Frequently asked questions",
+                "permalink": "/documentation/1.0/FAQ and resources/FAQs"
+              },
+              "next": {
+                "title": "Appendices",
+                "permalink": "/documentation/1.0/appendices/appendices"
+              }
+            },
+            {
+              "id": "feedback-dissemination/dissemination",
+              "title": "Documenting trials and publishing data",
+              "description": "Open access publication of the data should be a goal of the trial. Tricot has already published a number of sizable datasets from on-farm trials (van Etten et al., 2018; Moyo et al., 2020; de Sousa et al., 2020). These datasets could become important for other research that repurposes these datasets. Kool et al. (2020) have provided an incisive critique of on-farm testing in agronomy, especially the limited replicability of many trials as authors fail to report contextual factors (crop management) and sampling of locations and participating farmers. Similarly, a study on PVS in RTB crops reveals that on-farm trials are often documented in a very deficient way and that data are hardly published at all (Jose Valle et al., 2021). Data publication could become more attractive if it is easy to do and has rewards (citations of datasets repurposed by others). Publishing all data from trials could prevent the so-called file-drawer problem, which means that only certain datasets (for example, novel analyses, striking results) are published, which then lead to biased statistics in meta-analyses.",
+              "source": "@site/versioned_docs/version-1.0/07-feedback-dissemination/dissemination.md",
+              "sourceDirName": "07-feedback-dissemination",
+              "slug": "/feedback-dissemination/dissemination",
+              "permalink": "/documentation/1.0/feedback-dissemination/dissemination",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/AgrDataSci/documentation/tree/main/versioned_docs/version-1.0/07-feedback-dissemination/dissemination.md",
+              "tags": [],
+              "version": "1.0",
+              "sidebarPosition": 2,
+              "frontMatter": {
+                "sidebar_position": 2
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Trial feedback and evaluation",
+                "permalink": "/documentation/1.0/feedback-dissemination/feedback"
+              },
+              "next": {
+                "title": "Interviews",
+                "permalink": "/documentation/1.0/good-bad-ugly/case-studies"
+              }
+            },
+            {
+              "id": "feedback-dissemination/feedback",
+              "title": "Trial feedback and evaluation",
+              "description": "Anna Muller, Juan Manual Londono",
+              "source": "@site/versioned_docs/version-1.0/07-feedback-dissemination/feedback.md",
+              "sourceDirName": "07-feedback-dissemination",
+              "slug": "/feedback-dissemination/feedback",
+              "permalink": "/documentation/1.0/feedback-dissemination/feedback",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/AgrDataSci/documentation/tree/main/versioned_docs/version-1.0/07-feedback-dissemination/feedback.md",
+              "tags": [],
+              "version": "1.0",
+              "sidebarPosition": 1,
+              "frontMatter": {
+                "sidebar_position": 1
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Rinstat",
+                "permalink": "/documentation/1.0/data-analysis/Rinstat"
+              },
+              "next": {
+                "title": "Documenting trials and publishing data",
+                "permalink": "/documentation/1.0/feedback-dissemination/dissemination"
+              }
+            },
+            {
+              "id": "glossary",
+              "title": "Glossary",
+              "description": "Administrator is the person or organization who coordinates the tricot project. It’s the project manager. The administrator could be a scientist working at a research institute, or at an NGO, governmental extension service, etc.",
+              "source": "@site/versioned_docs/version-1.0/glossary.md",
+              "sourceDirName": ".",
+              "slug": "/glossary",
+              "permalink": "/documentation/1.0/glossary",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/AgrDataSci/documentation/tree/main/versioned_docs/version-1.0/glossary.md",
+              "tags": [],
+              "version": "1.0",
+              "sidebarPosition": 2,
+              "frontMatter": {
+                "sidebar_position": 2
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Product Use Testing in Agriculture",
+                "permalink": "/documentation/1.0/"
+              },
+              "next": {
+                "title": "Introduction to the tricot approach",
+                "permalink": "/documentation/1.0/introduction-to-tricot/introduction"
+              }
+            },
+            {
+              "id": "good-bad-ugly/bean-tari",
+              "title": "Common bean in Tanzania",
+              "description": "Edith Kadege, Tanzania Research Institute (TARI)",
+              "source": "@site/versioned_docs/version-1.0/08-good-bad-ugly/03-bean-tari.md",
+              "sourceDirName": "08-good-bad-ugly",
+              "slug": "/good-bad-ugly/bean-tari",
+              "permalink": "/documentation/1.0/good-bad-ugly/bean-tari",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/AgrDataSci/documentation/tree/main/versioned_docs/version-1.0/08-good-bad-ugly/03-bean-tari.md",
+              "tags": [],
+              "version": "1.0",
+              "sidebarPosition": 3,
+              "frontMatter": {
+                "sidebar_position": 3
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Groundnut in Kenya and Tanzania",
+                "permalink": "/documentation/1.0/good-bad-ugly/groundnut-tari"
+              },
+              "next": {
+                "title": "Maize in Kenya",
+                "permalink": "/documentation/1.0/good-bad-ugly/maize-bayer"
+              }
+            },
+            {
+              "id": "good-bad-ugly/case-studies",
+              "title": "Interviews",
+              "description": "Rachel Chase",
+              "source": "@site/versioned_docs/version-1.0/08-good-bad-ugly/01-case-studies.md",
+              "sourceDirName": "08-good-bad-ugly",
+              "slug": "/good-bad-ugly/case-studies",
+              "permalink": "/documentation/1.0/good-bad-ugly/case-studies",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/AgrDataSci/documentation/tree/main/versioned_docs/version-1.0/08-good-bad-ugly/01-case-studies.md",
+              "tags": [],
+              "version": "1.0",
+              "sidebarPosition": 1,
+              "frontMatter": {
+                "sidebar_position": 1
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Documenting trials and publishing data",
+                "permalink": "/documentation/1.0/feedback-dissemination/dissemination"
+              },
+              "next": {
+                "title": "Groundnut in Kenya and Tanzania",
+                "permalink": "/documentation/1.0/good-bad-ugly/groundnut-tari"
+              }
+            },
+            {
+              "id": "good-bad-ugly/cowpea-iita",
+              "title": "Cowpea in Nigeria",
+              "description": "Patrick Ongom, IITA",
+              "source": "@site/versioned_docs/version-1.0/08-good-bad-ugly/08-cowpea-iita.md",
+              "sourceDirName": "08-good-bad-ugly",
+              "slug": "/good-bad-ugly/cowpea-iita",
+              "permalink": "/documentation/1.0/good-bad-ugly/cowpea-iita",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/AgrDataSci/documentation/tree/main/versioned_docs/version-1.0/08-good-bad-ugly/08-cowpea-iita.md",
+              "tags": [],
+              "version": "1.0",
+              "sidebarPosition": 8,
+              "frontMatter": {
+                "sidebar_position": 8
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Groundnut in Ghana",
+                "permalink": "/documentation/1.0/good-bad-ugly/groundnut-sari"
+              },
+              "next": {
+                "title": "Seed systems in Ethiopia",
+                "permalink": "/documentation/1.0/good-bad-ugly/severalcrops-issd"
+              }
+            },
+            {
+              "id": "good-bad-ugly/groundnut-sari",
+              "title": "Groundnut in Ghana",
+              "description": "Richard Oteng-Frimpong, Savanah Agricultural Research Institute",
+              "source": "@site/versioned_docs/version-1.0/08-good-bad-ugly/07-groundnut-sari.md",
+              "sourceDirName": "08-good-bad-ugly",
+              "slug": "/good-bad-ugly/groundnut-sari",
+              "permalink": "/documentation/1.0/good-bad-ugly/groundnut-sari",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/AgrDataSci/documentation/tree/main/versioned_docs/version-1.0/08-good-bad-ugly/07-groundnut-sari.md",
+              "tags": [],
+              "version": "1.0",
+              "sidebarPosition": 7,
+              "frontMatter": {
+                "sidebar_position": 7
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Sweet potato in Uganda",
+                "permalink": "/documentation/1.0/good-bad-ugly/sweetpotato-cip"
+              },
+              "next": {
+                "title": "Cowpea in Nigeria",
+                "permalink": "/documentation/1.0/good-bad-ugly/cowpea-iita"
+              }
+            },
+            {
+              "id": "good-bad-ugly/groundnut-tari",
+              "title": "Groundnut in Kenya and Tanzania",
+              "description": "Happy Daudi, CIMMYT, Kenya",
+              "source": "@site/versioned_docs/version-1.0/08-good-bad-ugly/02-groundnut-tari.md",
+              "sourceDirName": "08-good-bad-ugly",
+              "slug": "/good-bad-ugly/groundnut-tari",
+              "permalink": "/documentation/1.0/good-bad-ugly/groundnut-tari",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/AgrDataSci/documentation/tree/main/versioned_docs/version-1.0/08-good-bad-ugly/02-groundnut-tari.md",
+              "tags": [],
+              "version": "1.0",
+              "sidebarPosition": 2,
+              "frontMatter": {
+                "sidebar_position": 2
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Interviews",
+                "permalink": "/documentation/1.0/good-bad-ugly/case-studies"
+              },
+              "next": {
+                "title": "Common bean in Tanzania",
+                "permalink": "/documentation/1.0/good-bad-ugly/bean-tari"
+              }
+            },
+            {
+              "id": "good-bad-ugly/maize-bayer",
+              "title": "Maize in Kenya",
+              "description": "Jamlick Mwathi, Bayer Crop Science, Kenya",
+              "source": "@site/versioned_docs/version-1.0/08-good-bad-ugly/04-maize-bayer.md",
+              "sourceDirName": "08-good-bad-ugly",
+              "slug": "/good-bad-ugly/maize-bayer",
+              "permalink": "/documentation/1.0/good-bad-ugly/maize-bayer",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/AgrDataSci/documentation/tree/main/versioned_docs/version-1.0/08-good-bad-ugly/04-maize-bayer.md",
+              "tags": [],
+              "version": "1.0",
+              "sidebarPosition": 4,
+              "frontMatter": {
+                "sidebar_position": 4
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Common bean in Tanzania",
+                "permalink": "/documentation/1.0/good-bad-ugly/bean-tari"
+              },
+              "next": {
+                "title": "Maize in Rwanda",
+                "permalink": "/documentation/1.0/good-bad-ugly/maize-oneacrefund"
+              }
+            },
+            {
+              "id": "good-bad-ugly/maize-oneacrefund",
+              "title": "Maize in Rwanda",
+              "description": "Elyse Tuyishime, One Acre Fund, Rwanda",
+              "source": "@site/versioned_docs/version-1.0/08-good-bad-ugly/05-maize-oneacrefund.md",
+              "sourceDirName": "08-good-bad-ugly",
+              "slug": "/good-bad-ugly/maize-oneacrefund",
+              "permalink": "/documentation/1.0/good-bad-ugly/maize-oneacrefund",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/AgrDataSci/documentation/tree/main/versioned_docs/version-1.0/08-good-bad-ugly/05-maize-oneacrefund.md",
+              "tags": [],
+              "version": "1.0",
+              "sidebarPosition": 5,
+              "frontMatter": {
+                "sidebar_position": 5
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Maize in Kenya",
+                "permalink": "/documentation/1.0/good-bad-ugly/maize-bayer"
+              },
+              "next": {
+                "title": "Sweet potato in Uganda",
+                "permalink": "/documentation/1.0/good-bad-ugly/sweetpotato-cip"
+              }
+            },
+            {
+              "id": "good-bad-ugly/severalcrops-issd",
+              "title": "Seed systems in Ethiopia",
+              "description": "Mohammed Hassena, Integrated Seed Sector Development",
+              "source": "@site/versioned_docs/version-1.0/08-good-bad-ugly/09-severalcrops-issd.md",
+              "sourceDirName": "08-good-bad-ugly",
+              "slug": "/good-bad-ugly/severalcrops-issd",
+              "permalink": "/documentation/1.0/good-bad-ugly/severalcrops-issd",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/AgrDataSci/documentation/tree/main/versioned_docs/version-1.0/08-good-bad-ugly/09-severalcrops-issd.md",
+              "tags": [],
+              "version": "1.0",
+              "sidebarPosition": 9,
+              "frontMatter": {
+                "sidebar_position": 9
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Cowpea in Nigeria",
+                "permalink": "/documentation/1.0/good-bad-ugly/cowpea-iita"
+              },
+              "next": {
+                "title": "Frequently asked questions",
+                "permalink": "/documentation/1.0/FAQ and resources/FAQs"
+              }
+            },
+            {
+              "id": "good-bad-ugly/sweetpotato-cip",
+              "title": "Sweet potato in Uganda",
+              "description": "Reuben Ssali, CIP",
+              "source": "@site/versioned_docs/version-1.0/08-good-bad-ugly/06-sweetpotato-cip.md",
+              "sourceDirName": "08-good-bad-ugly",
+              "slug": "/good-bad-ugly/sweetpotato-cip",
+              "permalink": "/documentation/1.0/good-bad-ugly/sweetpotato-cip",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/AgrDataSci/documentation/tree/main/versioned_docs/version-1.0/08-good-bad-ugly/06-sweetpotato-cip.md",
+              "tags": [],
+              "version": "1.0",
+              "sidebarPosition": 6,
+              "frontMatter": {
+                "sidebar_position": 6
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Maize in Rwanda",
+                "permalink": "/documentation/1.0/good-bad-ugly/maize-oneacrefund"
+              },
+              "next": {
+                "title": "Groundnut in Ghana",
+                "permalink": "/documentation/1.0/good-bad-ugly/groundnut-sari"
+              }
+            },
+            {
+              "id": "implementation/implementation",
+              "title": "Implementing a tricot experiment",
+              "description": "Kauê de Sousa, Rachel Chase",
+              "source": "@site/versioned_docs/version-1.0/05-implementation/implementation.md",
+              "sourceDirName": "05-implementation",
+              "slug": "/implementation/implementation",
+              "permalink": "/documentation/1.0/implementation/implementation",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/AgrDataSci/documentation/tree/main/versioned_docs/version-1.0/05-implementation/implementation.md",
+              "tags": [],
+              "version": "1.0",
+              "sidebarPosition": 1,
+              "frontMatter": {
+                "sidebar_position": 1
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Share_your_project",
+                "permalink": "/documentation/1.0/climmob-suite/Share_your_project"
+              },
+              "next": {
+                "title": "Analysis of tricot data",
+                "permalink": "/documentation/1.0/data-analysis/data-analysis"
+              }
+            },
+            {
+              "id": "intro",
+              "title": "Product Use Testing in Agriculture",
+              "description": "This is an online reference on everything dealing with on farm testing (OFT) using tricot. The tricot approach (triadic comparison of technology options) is a participatory, decentralized method where participants test three randomly assigned options on their use context. Using citizen science, it integrates participatory insights and site-specific data to guide breeding and agricultural innovation. Scalable and cost-effective, tricot empowers farmers and enhances crop diversity and resilience.",
+              "source": "@site/versioned_docs/version-1.0/intro.md",
+              "sourceDirName": ".",
+              "slug": "/",
+              "permalink": "/documentation/1.0/",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/AgrDataSci/documentation/tree/main/versioned_docs/version-1.0/intro.md",
+              "tags": [],
+              "version": "1.0",
+              "sidebarPosition": 1,
+              "frontMatter": {
+                "slug": "/",
+                "sidebar_position": 1
+              },
+              "sidebar": "tutorialSidebar",
+              "next": {
+                "title": "Glossary",
+                "permalink": "/documentation/1.0/glossary"
+              }
+            },
+            {
+              "id": "introduction-to-tricot/introduction",
+              "title": "Introduction to the tricot approach",
+              "description": "Jacob van Etten, Jonathan Steinke, Kauê de Sousa",
+              "source": "@site/versioned_docs/version-1.0/01-introduction-to-tricot/introduction.md",
+              "sourceDirName": "01-introduction-to-tricot",
+              "slug": "/introduction-to-tricot/introduction",
+              "permalink": "/documentation/1.0/introduction-to-tricot/introduction",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/AgrDataSci/documentation/tree/main/versioned_docs/version-1.0/01-introduction-to-tricot/introduction.md",
+              "tags": [],
+              "version": "1.0",
+              "sidebarPosition": 1,
+              "frontMatter": {
+                "sidebar_position": 1,
+                "bibliography": "ref.bib"
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Glossary",
+                "permalink": "/documentation/1.0/glossary"
+              },
+              "next": {
+                "title": "The 10 steps of a tricot experiment",
+                "permalink": "/documentation/1.0/introduction-to-tricot/steps"
+              }
+            },
+            {
+              "id": "introduction-to-tricot/steps",
+              "title": "The 10 steps of a tricot experiment",
+              "description": "This section provides a short overview of each of the 10 steps needed to develop and implement a tricot project.",
+              "source": "@site/versioned_docs/version-1.0/01-introduction-to-tricot/steps.md",
+              "sourceDirName": "01-introduction-to-tricot",
+              "slug": "/introduction-to-tricot/steps",
+              "permalink": "/documentation/1.0/introduction-to-tricot/steps",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/AgrDataSci/documentation/tree/main/versioned_docs/version-1.0/01-introduction-to-tricot/steps.md",
+              "tags": [],
+              "version": "1.0",
+              "sidebarPosition": 2,
+              "frontMatter": {
+                "sidebar_position": 2
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Introduction to the tricot approach",
+                "permalink": "/documentation/1.0/introduction-to-tricot/introduction"
+              },
+              "next": {
+                "title": "Problem Identification",
+                "permalink": "/documentation/1.0/planning/Problem Identification"
+              }
+            },
+            {
+              "id": "planning/Checklist",
+              "title": "Checklist",
+              "description": "Tricot Trial Checklist",
+              "source": "@site/versioned_docs/version-1.0/02-planning/Checklist.md",
+              "sourceDirName": "02-planning",
+              "slug": "/planning/Checklist",
+              "permalink": "/documentation/1.0/planning/Checklist",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/AgrDataSci/documentation/tree/main/versioned_docs/version-1.0/02-planning/Checklist.md",
+              "tags": [],
+              "version": "1.0",
+              "sidebarPosition": 4,
+              "frontMatter": {
+                "sidebar_position": 4
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Resources and Budgeting",
+                "permalink": "/documentation/1.0/planning/Resources and Budgeting"
+              },
+              "next": {
+                "title": "Target Product Profiles in Plant Breeding",
+                "permalink": "/documentation/1.0/experimental-design/tpp"
+              }
+            },
+            {
+              "id": "planning/Problem Identification",
+              "title": "Problem Identification",
+              "description": "Defining research questions and objectives.",
+              "source": "@site/versioned_docs/version-1.0/02-planning/Problem Identification.md",
+              "sourceDirName": "02-planning",
+              "slug": "/planning/Problem Identification",
+              "permalink": "/documentation/1.0/planning/Problem Identification",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/AgrDataSci/documentation/tree/main/versioned_docs/version-1.0/02-planning/Problem Identification.md",
+              "tags": [],
+              "version": "1.0",
+              "sidebarPosition": 1,
+              "frontMatter": {
+                "sidebar_position": 1
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "The 10 steps of a tricot experiment",
+                "permalink": "/documentation/1.0/introduction-to-tricot/steps"
+              },
+              "next": {
+                "title": "Stakeholder Engagement",
+                "permalink": "/documentation/1.0/planning/Stakeholder Engagement"
+              }
+            },
+            {
+              "id": "planning/Resources and Budgeting",
+              "title": "Resources and Budgeting",
+              "description": "Costing a tricot trial",
+              "source": "@site/versioned_docs/version-1.0/02-planning/Resources and Budgeting.md",
+              "sourceDirName": "02-planning",
+              "slug": "/planning/Resources and Budgeting",
+              "permalink": "/documentation/1.0/planning/Resources and Budgeting",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/AgrDataSci/documentation/tree/main/versioned_docs/version-1.0/02-planning/Resources and Budgeting.md",
+              "tags": [],
+              "version": "1.0",
+              "sidebarPosition": 3,
+              "frontMatter": {
+                "sidebar_position": 3
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Stakeholder Engagement",
+                "permalink": "/documentation/1.0/planning/Stakeholder Engagement"
+              },
+              "next": {
+                "title": "Checklist",
+                "permalink": "/documentation/1.0/planning/Checklist"
+              }
+            },
+            {
+              "id": "planning/Stakeholder Engagement",
+              "title": "Stakeholder Engagement",
+              "description": "Roles of researchers, extension agents, local facilitators, and farmers.",
+              "source": "@site/versioned_docs/version-1.0/02-planning/Stakeholder Engagement.md",
+              "sourceDirName": "02-planning",
+              "slug": "/planning/Stakeholder Engagement",
+              "permalink": "/documentation/1.0/planning/Stakeholder Engagement",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/AgrDataSci/documentation/tree/main/versioned_docs/version-1.0/02-planning/Stakeholder Engagement.md",
+              "tags": [],
+              "version": "1.0",
+              "sidebarPosition": 2,
+              "frontMatter": {
+                "sidebar_position": 2
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Problem Identification",
+                "permalink": "/documentation/1.0/planning/Problem Identification"
+              },
+              "next": {
+                "title": "Resources and Budgeting",
+                "permalink": "/documentation/1.0/planning/Resources and Budgeting"
+              }
+            }
+          ],
+          "drafts": [],
+          "sidebars": {
+            "tutorialSidebar": [
+              {
+                "type": "doc",
+                "id": "intro"
+              },
+              {
+                "type": "doc",
+                "id": "glossary"
+              },
+              {
+                "type": "category",
+                "label": "Introduction to Tricot",
+                "items": [
+                  {
+                    "type": "doc",
+                    "id": "introduction-to-tricot/introduction"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "introduction-to-tricot/steps"
+                  }
+                ],
+                "collapsed": true,
+                "collapsible": true
+              },
+              {
+                "type": "category",
+                "label": "Planning",
+                "items": [
+                  {
+                    "type": "doc",
+                    "id": "planning/Problem Identification"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "planning/Stakeholder Engagement"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "planning/Resources and Budgeting"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "planning/Checklist"
+                  }
+                ],
+                "collapsed": true,
+                "collapsible": true
+              },
+              {
+                "type": "category",
+                "label": "Experimental Design",
+                "items": [
+                  {
+                    "type": "doc",
+                    "id": "experimental-design/tpp"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "experimental-design/socioeconomic-sampling"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "experimental-design/geographic-sampling"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "experimental-design/trial dimensions"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "experimental-design/standard-operating-procedures"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "experimental-design/bean-protocol"
+                  }
+                ],
+                "collapsed": true,
+                "collapsible": true
+              },
+              {
+                "type": "category",
+                "label": "Climmob Suite",
+                "items": [
+                  {
+                    "type": "doc",
+                    "id": "climmob-suite/climmob_platform"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "climmob-suite/Getting_Started"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "climmob-suite/Design"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "climmob-suite/Implementation"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "climmob-suite/Monitoring"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "climmob-suite/Outputs"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "climmob-suite/Share_your_project"
+                  }
+                ],
+                "collapsed": true,
+                "collapsible": true
+              },
+              {
+                "type": "category",
+                "label": "Implementation",
+                "items": [
+                  {
+                    "type": "doc",
+                    "id": "implementation/implementation"
+                  }
+                ],
+                "collapsed": true,
+                "collapsible": true
+              },
+              {
+                "type": "category",
+                "label": "Data Analysis",
+                "items": [
+                  {
+                    "type": "doc",
+                    "id": "data-analysis/data-analysis"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "data-analysis/vignette-1-trait-prioritization-and-crop-performance"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "data-analysis/vignette-2-gari-eba-consumer-testing"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "data-analysis/Rinstat"
+                  }
+                ],
+                "collapsed": true,
+                "collapsible": true
+              },
+              {
+                "type": "category",
+                "label": "Feedback & Dissemination",
+                "items": [
+                  {
+                    "type": "doc",
+                    "id": "feedback-dissemination/feedback"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "feedback-dissemination/dissemination"
+                  }
+                ],
+                "collapsed": true,
+                "collapsible": true
+              },
+              {
+                "type": "category",
+                "label": "Good, Bad & Ugly",
+                "items": [
+                  {
+                    "type": "doc",
+                    "id": "good-bad-ugly/case-studies"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "good-bad-ugly/groundnut-tari"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "good-bad-ugly/bean-tari"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "good-bad-ugly/maize-bayer"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "good-bad-ugly/maize-oneacrefund"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "good-bad-ugly/sweetpotato-cip"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "good-bad-ugly/groundnut-sari"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "good-bad-ugly/cowpea-iita"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "good-bad-ugly/severalcrops-issd"
+                  }
+                ],
+                "collapsed": true,
+                "collapsible": true
+              },
+              {
+                "type": "category",
+                "label": "FAQ and Resources",
+                "items": [
+                  {
+                    "type": "doc",
+                    "id": "FAQ and resources/FAQs"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "FAQ and resources/resources"
+                  }
+                ],
+                "collapsed": true,
+                "collapsible": true
+              },
+              {
+                "type": "category",
+                "label": "Appendices",
+                "items": [
+                  {
+                    "type": "doc",
+                    "id": "appendices/appendices"
+                  }
+                ],
+                "collapsed": true,
+                "collapsible": true
               }
             ]
           }
@@ -474,364 +2648,8 @@
       ]
     }
   },
-  "docusaurus-plugin-content-blog": {
-    "default": {
-      "blogSidebarTitle": "Recent posts",
-      "blogPosts": [
-        {
-          "id": "welcome",
-          "metadata": {
-            "permalink": "/documentation/blog/welcome",
-            "editUrl": "https://github.com/${organizationName}/${projectName}/tree/main/blog/2021-08-26-welcome/index.md",
-            "source": "@site/blog/2021-08-26-welcome/index.md",
-            "title": "Welcome",
-            "description": "Docusaurus blogging features are powered by the blog plugin.",
-            "date": "2021-08-26T00:00:00.000Z",
-            "formattedDate": "August 26, 2021",
-            "tags": [
-              {
-                "label": "facebook",
-                "permalink": "/documentation/blog/tags/facebook"
-              },
-              {
-                "label": "hello",
-                "permalink": "/documentation/blog/tags/hello"
-              },
-              {
-                "label": "docusaurus",
-                "permalink": "/documentation/blog/tags/docusaurus"
-              }
-            ],
-            "readingTime": 0.405,
-            "hasTruncateMarker": false,
-            "authors": [
-              {
-                "name": "Sébastien Lorber",
-                "title": "Docusaurus maintainer",
-                "url": "https://sebastienlorber.com",
-                "imageURL": "https://github.com/slorber.png",
-                "key": "slorber"
-              },
-              {
-                "name": "Yangshun Tay",
-                "title": "Front End Engineer @ Facebook",
-                "url": "https://github.com/yangshun",
-                "imageURL": "https://github.com/yangshun.png",
-                "key": "yangshun"
-              }
-            ],
-            "frontMatter": {
-              "slug": "welcome",
-              "title": "Welcome",
-              "authors": [
-                "slorber",
-                "yangshun"
-              ],
-              "tags": [
-                "facebook",
-                "hello",
-                "docusaurus"
-              ]
-            },
-            "unlisted": false,
-            "nextItem": {
-              "title": "MDX Blog Post",
-              "permalink": "/documentation/blog/mdx-blog-post"
-            }
-          },
-          "content": "[Docusaurus blogging features](https://docusaurus.io/docs/blog) are powered by the [blog plugin](https://docusaurus.io/docs/api/plugins/@docusaurus/plugin-content-blog).\n\nSimply add Markdown files (or folders) to the `blog` directory.\n\nRegular blog authors can be added to `authors.yml`.\n\nThe blog post date can be extracted from filenames, such as:\n\n- `2019-05-30-welcome.md`\n- `2019-05-30-welcome/index.md`\n\nA blog post folder can be convenient to co-locate blog post images:\n\n![Docusaurus Plushie](./docusaurus-plushie-banner.jpeg)\n\nThe blog supports tags as well!\n\n**And if you don't want a blog**: just delete this directory, and use `blog: false` in your Docusaurus config."
-        },
-        {
-          "id": "mdx-blog-post",
-          "metadata": {
-            "permalink": "/documentation/blog/mdx-blog-post",
-            "editUrl": "https://github.com/${organizationName}/${projectName}/tree/main/blog/2021-08-01-mdx-blog-post.mdx",
-            "source": "@site/blog/2021-08-01-mdx-blog-post.mdx",
-            "title": "MDX Blog Post",
-            "description": "Blog posts support Docusaurus Markdown features, such as MDX.",
-            "date": "2021-08-01T00:00:00.000Z",
-            "formattedDate": "August 1, 2021",
-            "tags": [
-              {
-                "label": "docusaurus",
-                "permalink": "/documentation/blog/tags/docusaurus"
-              }
-            ],
-            "readingTime": 0.175,
-            "hasTruncateMarker": false,
-            "authors": [
-              {
-                "name": "Sébastien Lorber",
-                "title": "Docusaurus maintainer",
-                "url": "https://sebastienlorber.com",
-                "imageURL": "https://github.com/slorber.png",
-                "key": "slorber"
-              }
-            ],
-            "frontMatter": {
-              "slug": "mdx-blog-post",
-              "title": "MDX Blog Post",
-              "authors": [
-                "slorber"
-              ],
-              "tags": [
-                "docusaurus"
-              ]
-            },
-            "unlisted": false,
-            "prevItem": {
-              "title": "Welcome",
-              "permalink": "/documentation/blog/welcome"
-            },
-            "nextItem": {
-              "title": "Long Blog Post",
-              "permalink": "/documentation/blog/long-blog-post"
-            }
-          },
-          "content": "Blog posts support [Docusaurus Markdown features](https://docusaurus.io/docs/markdown-features), such as [MDX](https://mdxjs.com/).\n\n:::tip\n\nUse the power of React to create interactive blog posts.\n\n```js\n<button onClick={() => alert('button clicked!')}>Click me!</button>\n```\n\n<button onClick={() => alert('button clicked!')}>Click me!</button>\n\n:::"
-        },
-        {
-          "id": "long-blog-post",
-          "metadata": {
-            "permalink": "/documentation/blog/long-blog-post",
-            "editUrl": "https://github.com/${organizationName}/${projectName}/tree/main/blog/2019-05-29-long-blog-post.md",
-            "source": "@site/blog/2019-05-29-long-blog-post.md",
-            "title": "Long Blog Post",
-            "description": "This is the summary of a very long blog post,",
-            "date": "2019-05-29T00:00:00.000Z",
-            "formattedDate": "May 29, 2019",
-            "tags": [
-              {
-                "label": "hello",
-                "permalink": "/documentation/blog/tags/hello"
-              },
-              {
-                "label": "docusaurus",
-                "permalink": "/documentation/blog/tags/docusaurus"
-              }
-            ],
-            "readingTime": 2.05,
-            "hasTruncateMarker": true,
-            "authors": [
-              {
-                "name": "Endilie Yacop Sucipto",
-                "title": "Maintainer of Docusaurus",
-                "url": "https://github.com/endiliey",
-                "imageURL": "https://github.com/endiliey.png",
-                "key": "endi"
-              }
-            ],
-            "frontMatter": {
-              "slug": "long-blog-post",
-              "title": "Long Blog Post",
-              "authors": "endi",
-              "tags": [
-                "hello",
-                "docusaurus"
-              ]
-            },
-            "unlisted": false,
-            "prevItem": {
-              "title": "MDX Blog Post",
-              "permalink": "/documentation/blog/mdx-blog-post"
-            },
-            "nextItem": {
-              "title": "First Blog Post",
-              "permalink": "/documentation/blog/first-blog-post"
-            }
-          },
-          "content": "This is the summary of a very long blog post,\n\nUse a `<!--` `truncate` `-->` comment to limit blog post size in the list view.\n\n<!--truncate-->\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet"
-        },
-        {
-          "id": "first-blog-post",
-          "metadata": {
-            "permalink": "/documentation/blog/first-blog-post",
-            "editUrl": "https://github.com/${organizationName}/${projectName}/tree/main/blog/2019-05-28-first-blog-post.md",
-            "source": "@site/blog/2019-05-28-first-blog-post.md",
-            "title": "First Blog Post",
-            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet",
-            "date": "2019-05-28T00:00:00.000Z",
-            "formattedDate": "May 28, 2019",
-            "tags": [
-              {
-                "label": "hola",
-                "permalink": "/documentation/blog/tags/hola"
-              },
-              {
-                "label": "docusaurus",
-                "permalink": "/documentation/blog/tags/docusaurus"
-              }
-            ],
-            "readingTime": 0.12,
-            "hasTruncateMarker": false,
-            "authors": [
-              {
-                "name": "Gao Wei",
-                "title": "Docusaurus Core Team",
-                "url": "https://github.com/wgao19",
-                "image_url": "https://github.com/wgao19.png",
-                "imageURL": "https://github.com/wgao19.png"
-              }
-            ],
-            "frontMatter": {
-              "slug": "first-blog-post",
-              "title": "First Blog Post",
-              "authors": {
-                "name": "Gao Wei",
-                "title": "Docusaurus Core Team",
-                "url": "https://github.com/wgao19",
-                "image_url": "https://github.com/wgao19.png",
-                "imageURL": "https://github.com/wgao19.png"
-              },
-              "tags": [
-                "hola",
-                "docusaurus"
-              ]
-            },
-            "unlisted": false,
-            "prevItem": {
-              "title": "Long Blog Post",
-              "permalink": "/documentation/blog/long-blog-post"
-            }
-          },
-          "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet"
-        }
-      ],
-      "blogListPaginated": [
-        {
-          "items": [
-            "welcome",
-            "mdx-blog-post",
-            "long-blog-post",
-            "first-blog-post"
-          ],
-          "metadata": {
-            "permalink": "/documentation/blog",
-            "page": 1,
-            "postsPerPage": 10,
-            "totalPages": 1,
-            "totalCount": 4,
-            "blogDescription": "Blog",
-            "blogTitle": "Blog"
-          }
-        }
-      ],
-      "blogTags": {
-        "/documentation/blog/tags/facebook": {
-          "label": "facebook",
-          "items": [
-            "welcome"
-          ],
-          "permalink": "/documentation/blog/tags/facebook",
-          "pages": [
-            {
-              "items": [
-                "welcome"
-              ],
-              "metadata": {
-                "permalink": "/documentation/blog/tags/facebook",
-                "page": 1,
-                "postsPerPage": 10,
-                "totalPages": 1,
-                "totalCount": 1,
-                "blogDescription": "Blog",
-                "blogTitle": "Blog"
-              }
-            }
-          ],
-          "unlisted": false
-        },
-        "/documentation/blog/tags/hello": {
-          "label": "hello",
-          "items": [
-            "welcome",
-            "long-blog-post"
-          ],
-          "permalink": "/documentation/blog/tags/hello",
-          "pages": [
-            {
-              "items": [
-                "welcome",
-                "long-blog-post"
-              ],
-              "metadata": {
-                "permalink": "/documentation/blog/tags/hello",
-                "page": 1,
-                "postsPerPage": 10,
-                "totalPages": 1,
-                "totalCount": 2,
-                "blogDescription": "Blog",
-                "blogTitle": "Blog"
-              }
-            }
-          ],
-          "unlisted": false
-        },
-        "/documentation/blog/tags/docusaurus": {
-          "label": "docusaurus",
-          "items": [
-            "welcome",
-            "mdx-blog-post",
-            "long-blog-post",
-            "first-blog-post"
-          ],
-          "permalink": "/documentation/blog/tags/docusaurus",
-          "pages": [
-            {
-              "items": [
-                "welcome",
-                "mdx-blog-post",
-                "long-blog-post",
-                "first-blog-post"
-              ],
-              "metadata": {
-                "permalink": "/documentation/blog/tags/docusaurus",
-                "page": 1,
-                "postsPerPage": 10,
-                "totalPages": 1,
-                "totalCount": 4,
-                "blogDescription": "Blog",
-                "blogTitle": "Blog"
-              }
-            }
-          ],
-          "unlisted": false
-        },
-        "/documentation/blog/tags/hola": {
-          "label": "hola",
-          "items": [
-            "first-blog-post"
-          ],
-          "permalink": "/documentation/blog/tags/hola",
-          "pages": [
-            {
-              "items": [
-                "first-blog-post"
-              ],
-              "metadata": {
-                "permalink": "/documentation/blog/tags/hola",
-                "page": 1,
-                "postsPerPage": 10,
-                "totalPages": 1,
-                "totalCount": 1,
-                "blogDescription": "Blog",
-                "blogTitle": "Blog"
-              }
-            }
-          ],
-          "unlisted": false
-        }
-      },
-      "blogTagsListPath": "/documentation/blog/tags"
-    }
-  },
   "docusaurus-plugin-content-pages": {
     "default": [
-      {
-        "type": "jsx",
-        "permalink": "/documentation/",
-        "source": "@site/src/pages/index.js"
-      },
       {
         "type": "mdx",
         "permalink": "/documentation/markdown-page",
@@ -847,6 +2665,7 @@
   },
   "docusaurus-plugin-debug": {},
   "docusaurus-theme-classic": {},
+  "docusaurus-theme-search-algolia": {},
   "docusaurus-bootstrap-plugin": {},
   "docusaurus-mdx-fallback-plugin": {}
 }

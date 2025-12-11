@@ -1,103 +1,208 @@
 {
   "docusaurus-plugin-content-docs": {
     "default": {
-      "path": "/documentation/docs",
+      "path": "/documentation/",
       "versions": [
         {
           "name": "current",
-          "label": "Next",
+          "label": "2.0",
           "isLast": true,
-          "path": "/documentation/docs",
+          "path": "/documentation/2.0",
           "mainDocId": "intro",
           "docs": [
             {
-              "id": "ClimMob suite/climmob",
-              "path": "/documentation/docs/ClimMob suite/climmob",
+              "id": "climmob-suite/ClimMob Platform",
+              "path": "/documentation/2.0/climmob-suite/ClimMob Platform",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "ClimMob suite/data_submission",
-              "path": "/documentation/docs/ClimMob suite/data_submission",
+              "id": "climmob-suite/Design",
+              "path": "/documentation/2.0/climmob-suite/Design",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "ClimMob suite/ODK",
-              "path": "/documentation/docs/ClimMob suite/ODK",
+              "id": "climmob-suite/Getting Started",
+              "path": "/documentation/2.0/climmob-suite/Getting Started",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "Data analysis with use cases/uc1",
-              "path": "/documentation/docs/Data analysis with use cases/uc1",
+              "id": "climmob-suite/Implementation",
+              "path": "/documentation/2.0/climmob-suite/Implementation",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "Data analysis with use cases/uc2",
-              "path": "/documentation/docs/Data analysis with use cases/uc2",
+              "id": "climmob-suite/Monitoring",
+              "path": "/documentation/2.0/climmob-suite/Monitoring",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "climmob-suite/Outputs",
+              "path": "/documentation/2.0/climmob-suite/Outputs",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "climmob-suite/Share your project",
+              "path": "/documentation/2.0/climmob-suite/Share your project",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "data-analysis/data-analysis",
+              "path": "/documentation/2.0/data-analysis/data-analysis",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "data-analysis/Rinstat",
+              "path": "/documentation/2.0/data-analysis/Rinstat",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "data-analysis/vignette-1-trait-prioritization-and-crop-performance",
+              "path": "/documentation/2.0/data-analysis/vignette-1-trait-prioritization-and-crop-performance",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "data-analysis/vignette-2-gari-eba-consumer-testing",
+              "path": "/documentation/2.0/data-analysis/vignette-2-gari-eba-consumer-testing",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "experimental-design/bean-protocol",
+              "path": "/documentation/2.0/experimental-design/bean-protocol",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "experimental-design/geographic-sampling",
+              "path": "/documentation/2.0/experimental-design/geographic-sampling",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "experimental-design/socioeconomic-sampling",
+              "path": "/documentation/2.0/experimental-design/socioeconomic-sampling",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "experimental-design/standard-operating-procedures",
+              "path": "/documentation/2.0/experimental-design/standard-operating-procedures",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "experimental-design/tpp",
+              "path": "/documentation/2.0/experimental-design/tpp",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "experimental-design/trial dimensions",
+              "path": "/documentation/2.0/experimental-design/trial dimensions",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "FAQ-and-resources/FAQs",
+              "path": "/documentation/2.0/FAQ-and-resources/FAQs",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "FAQ-and-resources/tricot-resources",
+              "path": "/documentation/2.0/FAQ-and-resources/tricot-resources",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "feedback-dissemination/dissemination",
+              "path": "/documentation/2.0/feedback-dissemination/dissemination",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "feedback-dissemination/feedback",
+              "path": "/documentation/2.0/feedback-dissemination/feedback",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "glossary",
+              "path": "/documentation/2.0/glossary",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "good-bad-ugly/bean-tari",
+              "path": "/documentation/2.0/good-bad-ugly/bean-tari",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "good-bad-ugly/case-studies",
+              "path": "/documentation/2.0/good-bad-ugly/case-studies",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "good-bad-ugly/cowpea-iita",
+              "path": "/documentation/2.0/good-bad-ugly/cowpea-iita",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "good-bad-ugly/groundnut-sari",
+              "path": "/documentation/2.0/good-bad-ugly/groundnut-sari",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "good-bad-ugly/groundnut-tari",
+              "path": "/documentation/2.0/good-bad-ugly/groundnut-tari",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "good-bad-ugly/maize-bayer",
+              "path": "/documentation/2.0/good-bad-ugly/maize-bayer",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "good-bad-ugly/maize-oneacrefund",
+              "path": "/documentation/2.0/good-bad-ugly/maize-oneacrefund",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "good-bad-ugly/severalcrops-issd",
+              "path": "/documentation/2.0/good-bad-ugly/severalcrops-issd",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "good-bad-ugly/sweetpotato-cip",
+              "path": "/documentation/2.0/good-bad-ugly/sweetpotato-cip",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "implementation/implementation",
+              "path": "/documentation/2.0/implementation/implementation",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "intro",
-              "path": "/documentation/docs/intro",
+              "path": "/documentation/2.0/",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "Participant Recruitment/geographic_sampling",
-              "path": "/documentation/docs/Participant Recruitment/geographic_sampling",
+              "id": "introduction-to-tricot/checklist",
+              "path": "/documentation/2.0/introduction-to-tricot/checklist",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "Participant Recruitment/socioeconomic_sampling",
-              "path": "/documentation/docs/Participant Recruitment/socioeconomic_sampling",
+              "id": "introduction-to-tricot/introduction",
+              "path": "/documentation/2.0/introduction-to-tricot/introduction",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "Protocols/bean_protocol",
-              "path": "/documentation/docs/Protocols/bean_protocol",
+              "id": "introduction-to-tricot/steps",
+              "path": "/documentation/2.0/introduction-to-tricot/steps",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "Technology selection/tpp",
-              "path": "/documentation/docs/Technology selection/tpp",
+              "id": "planning/Problem Identification",
+              "path": "/documentation/2.0/planning/Problem Identification",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "Tricot/introduction",
-              "path": "/documentation/docs/Tricot/introduction",
+              "id": "planning/Resources and Budgeting",
+              "path": "/documentation/2.0/planning/Resources and Budgeting",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "Tricot/steps",
-              "path": "/documentation/docs/Tricot/steps",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "/category/tricot",
-              "path": "/documentation/docs/category/tricot",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "/category/participant-recruitment",
-              "path": "/documentation/docs/category/participant-recruitment",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "/category/technology-selection",
-              "path": "/documentation/docs/category/technology-selection",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "/category/trials-protocols",
-              "path": "/documentation/docs/category/trials-protocols",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "/category/climmob-suite",
-              "path": "/documentation/docs/category/climmob-suite",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "/category/data-analysis-with-use-cases",
-              "path": "/documentation/docs/category/data-analysis-with-use-cases",
+              "id": "planning/Stakeholder Engagement",
+              "path": "/documentation/2.0/planning/Stakeholder Engagement",
               "sidebar": "tutorialSidebar"
             }
           ],
@@ -105,7 +210,225 @@
           "sidebars": {
             "tutorialSidebar": {
               "link": {
-                "path": "/documentation/docs/intro",
+                "path": "/documentation/2.0/",
+                "label": "intro"
+              }
+            }
+          }
+        },
+        {
+          "name": "1.0",
+          "label": "1.0",
+          "isLast": false,
+          "path": "/documentation/1.0",
+          "mainDocId": "intro",
+          "docs": [
+            {
+              "id": "appendices/appendices",
+              "path": "/documentation/1.0/appendices/appendices",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "climmob-suite/climmob_platform",
+              "path": "/documentation/1.0/climmob-suite/climmob_platform",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "climmob-suite/Design",
+              "path": "/documentation/1.0/climmob-suite/Design",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "climmob-suite/Getting_Started",
+              "path": "/documentation/1.0/climmob-suite/Getting_Started",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "climmob-suite/Implementation",
+              "path": "/documentation/1.0/climmob-suite/Implementation",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "climmob-suite/Monitoring",
+              "path": "/documentation/1.0/climmob-suite/Monitoring",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "climmob-suite/Outputs",
+              "path": "/documentation/1.0/climmob-suite/Outputs",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "climmob-suite/Share_your_project",
+              "path": "/documentation/1.0/climmob-suite/Share_your_project",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "data-analysis/data-analysis",
+              "path": "/documentation/1.0/data-analysis/data-analysis",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "data-analysis/Rinstat",
+              "path": "/documentation/1.0/data-analysis/Rinstat",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "data-analysis/vignette-1-trait-prioritization-and-crop-performance",
+              "path": "/documentation/1.0/data-analysis/vignette-1-trait-prioritization-and-crop-performance",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "data-analysis/vignette-2-gari-eba-consumer-testing",
+              "path": "/documentation/1.0/data-analysis/vignette-2-gari-eba-consumer-testing",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "experimental-design/bean-protocol",
+              "path": "/documentation/1.0/experimental-design/bean-protocol",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "experimental-design/geographic-sampling",
+              "path": "/documentation/1.0/experimental-design/geographic-sampling",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "experimental-design/socioeconomic-sampling",
+              "path": "/documentation/1.0/experimental-design/socioeconomic-sampling",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "experimental-design/standard-operating-procedures",
+              "path": "/documentation/1.0/experimental-design/standard-operating-procedures",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "experimental-design/tpp",
+              "path": "/documentation/1.0/experimental-design/tpp",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "experimental-design/trial dimensions",
+              "path": "/documentation/1.0/experimental-design/trial dimensions",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "FAQ and resources/FAQs",
+              "path": "/documentation/1.0/FAQ and resources/FAQs",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "FAQ and resources/resources",
+              "path": "/documentation/1.0/FAQ and resources/resources",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "feedback-dissemination/dissemination",
+              "path": "/documentation/1.0/feedback-dissemination/dissemination",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "feedback-dissemination/feedback",
+              "path": "/documentation/1.0/feedback-dissemination/feedback",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "glossary",
+              "path": "/documentation/1.0/glossary",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "good-bad-ugly/bean-tari",
+              "path": "/documentation/1.0/good-bad-ugly/bean-tari",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "good-bad-ugly/case-studies",
+              "path": "/documentation/1.0/good-bad-ugly/case-studies",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "good-bad-ugly/cowpea-iita",
+              "path": "/documentation/1.0/good-bad-ugly/cowpea-iita",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "good-bad-ugly/groundnut-sari",
+              "path": "/documentation/1.0/good-bad-ugly/groundnut-sari",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "good-bad-ugly/groundnut-tari",
+              "path": "/documentation/1.0/good-bad-ugly/groundnut-tari",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "good-bad-ugly/maize-bayer",
+              "path": "/documentation/1.0/good-bad-ugly/maize-bayer",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "good-bad-ugly/maize-oneacrefund",
+              "path": "/documentation/1.0/good-bad-ugly/maize-oneacrefund",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "good-bad-ugly/severalcrops-issd",
+              "path": "/documentation/1.0/good-bad-ugly/severalcrops-issd",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "good-bad-ugly/sweetpotato-cip",
+              "path": "/documentation/1.0/good-bad-ugly/sweetpotato-cip",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "implementation/implementation",
+              "path": "/documentation/1.0/implementation/implementation",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "intro",
+              "path": "/documentation/1.0/",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "introduction-to-tricot/introduction",
+              "path": "/documentation/1.0/introduction-to-tricot/introduction",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "introduction-to-tricot/steps",
+              "path": "/documentation/1.0/introduction-to-tricot/steps",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "planning/Checklist",
+              "path": "/documentation/1.0/planning/Checklist",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "planning/Problem Identification",
+              "path": "/documentation/1.0/planning/Problem Identification",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "planning/Resources and Budgeting",
+              "path": "/documentation/1.0/planning/Resources and Budgeting",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "planning/Stakeholder Engagement",
+              "path": "/documentation/1.0/planning/Stakeholder Engagement",
+              "sidebar": "tutorialSidebar"
+            }
+          ],
+          "draftIds": [],
+          "sidebars": {
+            "tutorialSidebar": {
+              "link": {
+                "path": "/documentation/1.0/",
                 "label": "intro"
               }
             }

@@ -1,23 +1,24 @@
 {
   "id": "intro",
-  "title": "Guidebook for Product Use Testing in agriculture Intro",
-  "description": "This can be used by a generic page for introducing the whole set of documentation",
+  "title": "Product testing with users in Agriculture and Food:",
+  "description": "Decentralized on-farm evaluation, breeding product validation, consumer testing and other applications using the tricot approach.",
   "source": "@site/docs/intro.md",
   "sourceDirName": ".",
-  "slug": "/intro",
-  "permalink": "/documentation/docs/intro",
+  "slug": "/",
+  "permalink": "/documentation/2.0/",
   "draft": false,
   "unlisted": false,
-  "editUrl": "https://github.com/${organizationName}/${projectName}/tree/main/docs/intro.md",
+  "editUrl": "https://github.com/AgrDataSci/documentation/tree/main/docs/intro.md",
   "tags": [],
   "version": "current",
   "sidebarPosition": 1,
   "frontMatter": {
+    "slug": "/",
     "sidebar_position": 1
   },
   "sidebar": "tutorialSidebar",
   "next": {
-    "title": "Tricot",
-    "permalink": "/documentation/docs/category/tricot"
+    "title": "Glossary",
+    "permalink": "/documentation/2.0/glossary"
   }
 }

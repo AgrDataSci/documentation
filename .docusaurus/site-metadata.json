@@ -7,11 +7,6 @@
       "name": "@docusaurus/plugin-content-docs",
       "version": "3.1.1"
     },
-    "docusaurus-plugin-content-blog": {
-      "type": "package",
-      "name": "@docusaurus/plugin-content-blog",
-      "version": "3.1.1"
-    },
     "docusaurus-plugin-content-pages": {
       "type": "package",
       "name": "@docusaurus/plugin-content-pages",
@@ -25,6 +20,11 @@
     "docusaurus-theme-classic": {
       "type": "package",
       "name": "@docusaurus/theme-classic",
+      "version": "3.1.1"
+    },
+    "docusaurus-theme-search-algolia": {
+      "type": "package",
+      "name": "@docusaurus/theme-search-algolia",
       "version": "3.1.1"
     }
   }

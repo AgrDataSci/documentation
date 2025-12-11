@@ -48,6 +48,13 @@ const config = {
           // Remove this to remove the "edit this page" links.
           editUrl:
             'https://github.com/AgrDataSci/documentation/tree/main/',
+          lastVersion: 'current',
+          versions: {
+            current: {
+              label: '2.0',
+              path: '2.0',
+            },
+          },
         },
         blog: false,
         // blog: {
@@ -128,6 +135,10 @@ const config = {
           {
             type: 'localeDropdown',
             position: 'left',
+          },
+          {
+            type: 'docsVersionDropdown',
+            versions: ['current', '1.0'],
           },
           // {
           //   type: 'docsVersionDropdown',

@@ -28,4 +28,142 @@
   --ifm-color-primary-lightest: #4fddbf;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
 }
+/* Hero */
+
+.tricot-hero {
+  margin-bottom: 2.5rem;
+}
+
+.tricot-hero-kicker {
+  font-size: 0.85rem;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  opacity: 0.7;
+  margin-bottom: 0.25rem;
+}
+
+.tricot-hero h1 {
+  margin-bottom: 0.5rem;
+}
+
+.tricot-hero-text {
+  max-width: 44rem;
+  font-size: 0.98rem;
+  line-height: 1.6;
+  margin-bottom: 1.25rem;
+}
+
+.tricot-hero-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.6rem;
+}
+
+.tricot-hero-link {
+  font-size: 0.9rem;
+  padding: 0.4rem 0.75rem;
+  border-radius: 999px;
+  border: 1px solid var(--ifm-color-emphasis-200);
+  text-decoration: none;
+  background: var(--ifm-background-surface-color);
+}
+
+/* Cards (videos, quick sections) */
+
+.tricot-card-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 1.25rem;
+  margin: 1.25rem 0 2rem;
+}
+
+@media (max-width: 1024px) {
+  .tricot-card-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media (max-width: 700px) {
+  .tricot-card-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+.tricot-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 1.2rem 1.3rem;
+  border-radius: 0.9rem;
+  border: 1px solid var(--ifm-color-emphasis-200);
+  background: var(--ifm-background-surface-color);
+  text-decoration: none;
+}
+
+.tricot-card h3 {
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+}
+
+.tricot-card p {
+  margin-bottom: 0.55rem;
+  font-size: 0.94rem;
+}
+
+.tricot-card-cta {
+  margin-top: 0.3rem;
+  font-weight: 500;
+}
+
+/* Publications list */
+
+.tricot-publications-list {
+  margin-top: 1rem;
+}
+
+.tricot-publications-list li {
+  margin-bottom: 1.1rem;
+}
+
+/* Image grid for supporting materials */
+
+.tricot-image-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1rem;
+  margin: 1rem 0 2rem;
+}
+
+@media (max-width: 700px) {
+  .tricot-image-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+.tricot-image-card {
+  display: flex;
+  flex-direction: column;
+  gap: 0.35rem;
+  padding: 0.75rem;
+  border-radius: 0.75rem;
+  border: 1px solid var(--ifm-color-emphasis-200);
+  background: var(--ifm-background-surface-color);
+  text-decoration: none;
+}
+
+.tricot-image-card img {
+  width: 100%;
+  height: auto;
+  border-radius: 0.5rem;
+}
+
+.tricot-image-card span {
+  font-size: 0.9rem;
+}
+
+/* Slightly tighter markdown spacing for dense reference lists */
+
+.markdown h3 {
+  margin-top: 1.5rem;
+}
 
