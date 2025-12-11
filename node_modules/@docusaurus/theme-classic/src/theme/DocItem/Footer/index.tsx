@@ -5,63 +5,17 @@
  * LICENSE file in the root directory of this source tree.
  */
 
-import React from 'react';
+import React, {type ReactNode} from 'react';
 import clsx from 'clsx';
 import {ThemeClassNames} from '@docusaurus/theme-common';
-import {useDoc, type DocContextValue} from '@docusaurus/theme-common/internal';
-import LastUpdated from '@theme/LastUpdated';
-import EditThisPage from '@theme/EditThisPage';
-import TagsListInline, {
-  type Props as TagsListInlineProps,
-} from '@theme/TagsListInline';
+import {useDoc} from '@docusaurus/plugin-content-docs/client';
+import TagsListInline from '@theme/TagsListInline';
 
-import styles from './styles.module.css';
+import EditMetaRow from '@theme/EditMetaRow';
 
-function TagsRow(props: TagsListInlineProps) {
-  return (
-    <div
-      className={clsx(
-        ThemeClassNames.docs.docFooterTagsRow,
-        'row margin-bottom--sm',
-      )}>
-      <div className="col">
-        <TagsListInline {...props} />
-      </div>
-    </div>
-  );
-}
-
-type EditMetaRowProps = Pick<
-  DocContextValue['metadata'],
-  'editUrl' | 'lastUpdatedAt' | 'lastUpdatedBy' | 'formattedLastUpdatedAt'
->;
-function EditMetaRow({
-  editUrl,
-  lastUpdatedAt,
-  lastUpdatedBy,
-  formattedLastUpdatedAt,
-}: EditMetaRowProps) {
-  return (
-    <div className={clsx(ThemeClassNames.docs.docFooterEditMetaRow, 'row')}>
-      <div className="col">{editUrl && <EditThisPage editUrl={editUrl} />}</div>
-
-      <div className={clsx('col', styles.lastUpdated)}>
-        {(lastUpdatedAt || lastUpdatedBy) && (
-          <LastUpdated
-            lastUpdatedAt={lastUpdatedAt}
-            formattedLastUpdatedAt={formattedLastUpdatedAt}
-            lastUpdatedBy={lastUpdatedBy}
-          />
-        )}
-      </div>
-    </div>
-  );
-}
-
-export default function DocItemFooter(): JSX.Element | null {
+export default function DocItemFooter(): ReactNode {
   const {metadata} = useDoc();
-  const {editUrl, lastUpdatedAt, formattedLastUpdatedAt, lastUpdatedBy, tags} =
-    metadata;
+  const {editUrl, lastUpdatedAt, lastUpdatedBy, tags} = metadata;
 
   const canDisplayTagsRow = tags.length > 0;
   const canDisplayEditMetaRow = !!(editUrl || lastUpdatedAt || lastUpdatedBy);
@@ -75,13 +29,26 @@ export default function DocItemFooter(): JSX.Element | null {
   return (
     <footer
       className={clsx(ThemeClassNames.docs.docFooter, 'docusaurus-mt-lg')}>
-      {canDisplayTagsRow && <TagsRow tags={tags} />}
+      {canDisplayTagsRow && (
+        <div
+          className={clsx(
+            'row margin-top--sm',
+            ThemeClassNames.docs.docFooterTagsRow,
+          )}>
+          <div className="col">
+            <TagsListInline tags={tags} />
+          </div>
+        </div>
+      )}
       {canDisplayEditMetaRow && (
         <EditMetaRow
+          className={clsx(
+            'margin-top--sm',
+            ThemeClassNames.docs.docFooterEditMetaRow,
+          )}
           editUrl={editUrl}
           lastUpdatedAt={lastUpdatedAt}
           lastUpdatedBy={lastUpdatedBy}
-          formattedLastUpdatedAt={formattedLastUpdatedAt}
         />
       )}
     </footer>

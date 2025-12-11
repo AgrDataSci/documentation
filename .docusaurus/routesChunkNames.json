@@ -1,394 +1,351 @@
 {
-  "/documentation/__docusaurus/debug-919": {
-    "__comp": "__comp---theme-debug-config-23-a-2ff",
+  "/documentation/fr/markdown-page-b3b": {
+    "__comp": "1f391b9e",
     "__context": {
-      "plugin": "plugin---documentation-docusaurus-debuge-1-e-55c"
-    }
-  },
-  "/documentation/__docusaurus/debug/config-30d": {
-    "__comp": "__comp---theme-debug-config-23-a-2ff",
-    "__context": {
-      "plugin": "plugin---documentation-docusaurus-debuge-1-e-55c"
-    }
-  },
-  "/documentation/__docusaurus/debug/content-ffd": {
-    "__comp": "__comp---theme-debug-contentba-8-ce7",
-    "__context": {
-      "plugin": "plugin---documentation-docusaurus-debuge-1-e-55c"
+      "plugin": "a7456010"
     },
-    "allContent": "allContent---documentation-docusaurus-debug-content-246-1fc"
+    "content": "393be207"
   },
-  "/documentation/__docusaurus/debug/globalData-bf7": {
-    "__comp": "__comp---theme-debug-global-dataede-0fa",
+  "/documentation/fr/search-fc3": {
+    "__comp": "1a4e3797",
     "__context": {
-      "plugin": "plugin---documentation-docusaurus-debuge-1-e-55c"
+      "plugin": "c141421f"
     }
   },
-  "/documentation/__docusaurus/debug/metadata-6f8": {
-    "__comp": "__comp---theme-debug-site-metadata-68-e-3d4",
+  "/documentation/fr/-bfe": {
+    "__comp": "5e95c892",
     "__context": {
-      "plugin": "plugin---documentation-docusaurus-debuge-1-e-55c"
+      "plugin": "aba21aa0"
     }
   },
-  "/documentation/__docusaurus/debug/registry-dca": {
-    "__comp": "__comp---theme-debug-registry-679-501",
-    "__context": {
-      "plugin": "plugin---documentation-docusaurus-debuge-1-e-55c"
-    }
-  },
-  "/documentation/__docusaurus/debug/routes-721": {
-    "__comp": "__comp---theme-debug-routes-946-699",
-    "__context": {
-      "plugin": "plugin---documentation-docusaurus-debuge-1-e-55c"
-    }
-  },
-  "/documentation/markdown-page-d86": {
-    "__comp": "__comp---theme-mdx-page-1-f-3-b90",
-    "__context": {
-      "plugin": "plugin---documentation-markdown-pageb-3-a-f97"
-    },
-    "content": "content---documentation-markdown-page-393-bce"
-  },
-  "/documentation/search-648": {
-    "__comp": "__comp---theme-search-page-1-a-4-d6f",
-    "__context": {
-      "plugin": "plugin---documentation-searchfdd-347"
-    }
-  },
-  "/documentation/-35e": {
-    "__comp": "__comp---theme-docs-root-5-e-9-0b6",
-    "__context": {
-      "plugin": "plugin---documentation-c-71-676"
-    }
-  },
-  "/documentation/1.0-c7a": {
-    "__comp": "__comp---theme-doc-version-roota-7-b-5de",
-    "version": "version---documentation-1-0352-40e"
-  },
-  "/documentation/1.0-e4d": {
-    "__comp": "__comp---theme-doc-roota-94-67a"
-  },
-  "/documentation/1.0/-f7c": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---documentation-1-0-7-bd-b53"
-  },
-  "/documentation/1.0/appendices/appendices-297": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---documentation-1-0-appendices-appendices-1-d-8-890"
-  },
-  "/documentation/1.0/climmob-suite/climmob_platform-d0b": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---documentation-1-0-climmob-suite-climmob-platform-9-b-2-a12"
-  },
-  "/documentation/1.0/climmob-suite/Design-74c": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---documentation-1-0-climmob-suite-design-81-a-c8f"
-  },
-  "/documentation/1.0/climmob-suite/Getting_Started-d5e": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---documentation-1-0-climmob-suite-getting-starteda-60-f9f"
-  },
-  "/documentation/1.0/climmob-suite/Implementation-47b": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---documentation-1-0-climmob-suite-implementationae-4-462"
-  },
-  "/documentation/1.0/climmob-suite/Monitoring-9c6": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---documentation-1-0-climmob-suite-monitoring-10-c-ad5"
-  },
-  "/documentation/1.0/climmob-suite/Outputs-2f0": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---documentation-1-0-climmob-suite-outputs-0-dc-c00"
-  },
-  "/documentation/1.0/climmob-suite/Share_your_project-22c": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---documentation-1-0-climmob-suite-share-your-project-699-f99"
-  },
-  "/documentation/1.0/data-analysis/data-analysis-616": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---documentation-1-0-data-analysis-data-analysis-87-a-a10"
-  },
-  "/documentation/1.0/data-analysis/Rinstat-7b2": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---documentation-1-0-data-analysis-rinstatbfc-653"
-  },
-  "/documentation/1.0/data-analysis/vignette-1-trait-prioritization-and-crop-performance-28a": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---documentation-1-0-data-analysis-vignette-1-trait-prioritization-and-crop-performance-701-c19"
-  },
-  "/documentation/1.0/data-analysis/vignette-2-gari-eba-consumer-testing-ec4": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---documentation-1-0-data-analysis-vignette-2-gari-eba-consumer-testingf-12-d65"
-  },
-  "/documentation/1.0/experimental-design/bean-protocol-e0e": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---documentation-1-0-experimental-design-bean-protocola-09-845"
-  },
-  "/documentation/1.0/experimental-design/geographic-sampling-a99": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---documentation-1-0-experimental-design-geographic-sampling-6-ab-965"
-  },
-  "/documentation/1.0/experimental-design/socioeconomic-sampling-0b0": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---documentation-1-0-experimental-design-socioeconomic-sampling-172-80b"
-  },
-  "/documentation/1.0/experimental-design/standard-operating-procedures-633": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---documentation-1-0-experimental-design-standard-operating-procedures-6-d-1-182"
+  "/documentation/fr/1.0-833": {
+    "__comp": "a7bd4aaa",
+    "__props": "c16ef63b"
   },
-  "/documentation/1.0/experimental-design/tpp-6e9": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---documentation-1-0-experimental-design-tpp-9-cc-f34"
+  "/documentation/fr/1.0-013": {
+    "__comp": "a94703ab"
+  },
+  "/documentation/fr/1.0/-e64": {
+    "__comp": "17896441",
+    "content": "7bd8db71"
+  },
+  "/documentation/fr/1.0/appendices/appendices-e34": {
+    "__comp": "17896441",
+    "content": "1d877e16"
+  },
+  "/documentation/fr/1.0/climmob-suite/climmob_platform-fdc": {
+    "__comp": "17896441",
+    "content": "9b2d6834"
+  },
+  "/documentation/fr/1.0/climmob-suite/Design-250": {
+    "__comp": "17896441",
+    "content": "81a3c8a9"
+  },
+  "/documentation/fr/1.0/climmob-suite/Getting_Started-910": {
+    "__comp": "17896441",
+    "content": "a602df35"
+  },
+  "/documentation/fr/1.0/climmob-suite/Implementation-a81": {
+    "__comp": "17896441",
+    "content": "ae4b1341"
+  },
+  "/documentation/fr/1.0/climmob-suite/Monitoring-91d": {
+    "__comp": "17896441",
+    "content": "10ccda97"
+  },
+  "/documentation/fr/1.0/climmob-suite/Outputs-6dd": {
+    "__comp": "17896441",
+    "content": "0dc4d100"
+  },
+  "/documentation/fr/1.0/climmob-suite/Share_your_project-92a": {
+    "__comp": "17896441",
+    "content": "699eb9e5"
+  },
+  "/documentation/fr/1.0/data-analysis/data-analysis-4cc": {
+    "__comp": "17896441",
+    "content": "87ac45e2"
+  },
+  "/documentation/fr/1.0/data-analysis/Rinstat-744": {
+    "__comp": "17896441",
+    "content": "bfc4e3d9"
+  },
+  "/documentation/fr/1.0/data-analysis/vignette-1-trait-prioritization-and-crop-performance-850": {
+    "__comp": "17896441",
+    "content": "701222b2"
+  },
+  "/documentation/fr/1.0/data-analysis/vignette-2-gari-eba-consumer-testing-2c3": {
+    "__comp": "17896441",
+    "content": "f12faf75"
+  },
+  "/documentation/fr/1.0/experimental-design/bean-protocol-4da": {
+    "__comp": "17896441",
+    "content": "a099ec6b"
+  },
+  "/documentation/fr/1.0/experimental-design/geographic-sampling-075": {
+    "__comp": "17896441",
+    "content": "6ab1a490"
+  },
+  "/documentation/fr/1.0/experimental-design/socioeconomic-sampling-9ed": {
+    "__comp": "17896441",
+    "content": "1728ca1d"
+  },
+  "/documentation/fr/1.0/experimental-design/standard-operating-procedures-b6e": {
+    "__comp": "17896441",
+    "content": "6d1a0de4"
   },
-  "/documentation/1.0/experimental-design/trial dimensions-af2": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---documentation-1-0-experimental-design-trial-dimensions-697-7cf"
+  "/documentation/fr/1.0/experimental-design/tpp-eef": {
+    "__comp": "17896441",
+    "content": "9ccb1c96"
   },
-  "/documentation/1.0/FAQ and resources/FAQs-2d3": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---documentation-1-0-faq-and-resources-fa-qsf-50-4d6"
+  "/documentation/fr/1.0/experimental-design/trial dimensions-a83": {
+    "__comp": "17896441",
+    "content": "6972f3a8"
   },
-  "/documentation/1.0/FAQ and resources/resources-6e5": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---documentation-1-0-faq-and-resources-resourcesc-0-c-a79"
+  "/documentation/fr/1.0/FAQ and resources/FAQs-272": {
+    "__comp": "17896441",
+    "content": "f502d7a9"
   },
-  "/documentation/1.0/feedback-dissemination/dissemination-6fc": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---documentation-1-0-feedback-dissemination-dissemination-5-b-7-b85"
+  "/documentation/fr/1.0/FAQ and resources/resources-b4f": {
+    "__comp": "17896441",
+    "content": "c0c548a0"
   },
-  "/documentation/1.0/feedback-dissemination/feedback-528": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---documentation-1-0-feedback-dissemination-feedback-1-a-5-411"
+  "/documentation/fr/1.0/feedback-dissemination/dissemination-681": {
+    "__comp": "17896441",
+    "content": "5b7d83e5"
   },
-  "/documentation/1.0/glossary-78e": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---documentation-1-0-glossary-762-cce"
+  "/documentation/fr/1.0/feedback-dissemination/feedback-8b2": {
+    "__comp": "17896441",
+    "content": "1a5922c6"
   },
-  "/documentation/1.0/good-bad-ugly/bean-tari-ea0": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---documentation-1-0-good-bad-ugly-bean-tari-387-202"
+  "/documentation/fr/1.0/glossary-9da": {
+    "__comp": "17896441",
+    "content": "7621fadc"
   },
-  "/documentation/1.0/good-bad-ugly/case-studies-f04": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---documentation-1-0-good-bad-ugly-case-studiese-63-ee9"
+  "/documentation/fr/1.0/good-bad-ugly/bean-tari-d1c": {
+    "__comp": "17896441",
+    "content": "387b0f39"
   },
-  "/documentation/1.0/good-bad-ugly/cowpea-iita-f7e": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---documentation-1-0-good-bad-ugly-cowpea-iitaa-34-0cc"
+  "/documentation/fr/1.0/good-bad-ugly/case-studies-370": {
+    "__comp": "17896441",
+    "content": "e6321aaa"
   },
-  "/documentation/1.0/good-bad-ugly/groundnut-sari-b58": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---documentation-1-0-good-bad-ugly-groundnut-sarid-1-c-c43"
+  "/documentation/fr/1.0/good-bad-ugly/cowpea-iita-fba": {
+    "__comp": "17896441",
+    "content": "a34727cb"
   },
-  "/documentation/1.0/good-bad-ugly/groundnut-tari-4ec": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---documentation-1-0-good-bad-ugly-groundnut-taricc-9-1b4"
+  "/documentation/fr/1.0/good-bad-ugly/groundnut-sari-fb1": {
+    "__comp": "17896441",
+    "content": "d1c75701"
   },
-  "/documentation/1.0/good-bad-ugly/maize-bayer-05b": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---documentation-1-0-good-bad-ugly-maize-bayer-6-cd-698"
+  "/documentation/fr/1.0/good-bad-ugly/groundnut-tari-8c3": {
+    "__comp": "17896441",
+    "content": "cc9725ff"
   },
-  "/documentation/1.0/good-bad-ugly/maize-oneacrefund-8a8": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---documentation-1-0-good-bad-ugly-maize-oneacrefunda-85-956"
+  "/documentation/fr/1.0/good-bad-ugly/maize-bayer-5b3": {
+    "__comp": "17896441",
+    "content": "6cd1d7a9"
   },
-  "/documentation/1.0/good-bad-ugly/severalcrops-issd-bb3": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---documentation-1-0-good-bad-ugly-severalcrops-issdbfd-59c"
+  "/documentation/fr/1.0/good-bad-ugly/maize-oneacrefund-498": {
+    "__comp": "17896441",
+    "content": "a8561847"
   },
-  "/documentation/1.0/good-bad-ugly/sweetpotato-cip-b6e": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---documentation-1-0-good-bad-ugly-sweetpotato-cip-13-e-d09"
+  "/documentation/fr/1.0/good-bad-ugly/severalcrops-issd-d0b": {
+    "__comp": "17896441",
+    "content": "bfd23d83"
   },
-  "/documentation/1.0/implementation/implementation-912": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---documentation-1-0-implementation-implementation-9-f-8-07e"
+  "/documentation/fr/1.0/good-bad-ugly/sweetpotato-cip-c07": {
+    "__comp": "17896441",
+    "content": "13e506c7"
   },
-  "/documentation/1.0/introduction-to-tricot/introduction-9bc": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---documentation-1-0-introduction-to-tricot-introduction-8-e-5-8e7"
+  "/documentation/fr/1.0/implementation/implementation-615": {
+    "__comp": "17896441",
+    "content": "9f8da62c"
   },
-  "/documentation/1.0/introduction-to-tricot/steps-ba9": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---documentation-1-0-introduction-to-tricot-stepsf-53-ad1"
+  "/documentation/fr/1.0/introduction-to-tricot/introduction-f01": {
+    "__comp": "17896441",
+    "content": "8e5233d0"
   },
-  "/documentation/1.0/planning/Checklist-89b": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---documentation-1-0-planning-checklist-101-eb4"
+  "/documentation/fr/1.0/introduction-to-tricot/steps-115": {
+    "__comp": "17896441",
+    "content": "f53ea1a5"
   },
-  "/documentation/1.0/planning/Problem Identification-23e": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---documentation-1-0-planning-problem-identification-5-e-9-271"
+  "/documentation/fr/1.0/planning/Checklist-e55": {
+    "__comp": "17896441",
+    "content": "1013a8d0"
   },
-  "/documentation/1.0/planning/Resources and Budgeting-8d3": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---documentation-1-0-planning-resources-and-budgetingdae-509"
+  "/documentation/fr/1.0/planning/Problem Identification-241": {
+    "__comp": "17896441",
+    "content": "5e94a431"
   },
-  "/documentation/1.0/planning/Stakeholder Engagement-cc5": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---documentation-1-0-planning-stakeholder-engagement-993-1a7"
+  "/documentation/fr/1.0/planning/Resources and Budgeting-7ac": {
+    "__comp": "17896441",
+    "content": "dae19143"
   },
-  "/documentation/2.0-832": {
-    "__comp": "__comp---theme-doc-version-roota-7-b-5de",
-    "version": "version---documentation-2-0935-527"
+  "/documentation/fr/1.0/planning/Stakeholder Engagement-455": {
+    "__comp": "17896441",
+    "content": "9933eedc"
   },
-  "/documentation/2.0-f37": {
-    "__comp": "__comp---theme-doc-roota-94-67a"
+  "/documentation/fr/-9ce": {
+    "__comp": "a7bd4aaa",
+    "__props": "46cdb0f2"
   },
-  "/documentation/2.0/-e17": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---documentation-2-0-0-e-3-2eb"
-  },
-  "/documentation/2.0/climmob-suite/ClimMob Platform-d05": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---documentation-2-0-climmob-suite-clim-mob-platform-4-fd-140"
-  },
-  "/documentation/2.0/climmob-suite/Design-254": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---documentation-2-0-climmob-suite-design-329-11d"
-  },
-  "/documentation/2.0/climmob-suite/Getting Started-2ca": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---documentation-2-0-climmob-suite-getting-startedbfc-1c2"
-  },
-  "/documentation/2.0/climmob-suite/Implementation-d3f": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---documentation-2-0-climmob-suite-implementation-4-b-6-622"
-  },
-  "/documentation/2.0/climmob-suite/Monitoring-7dd": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---documentation-2-0-climmob-suite-monitoring-8-fe-902"
-  },
-  "/documentation/2.0/climmob-suite/Outputs-34f": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---documentation-2-0-climmob-suite-outputsd-34-793"
-  },
-  "/documentation/2.0/climmob-suite/Share your project-5ad": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---documentation-2-0-climmob-suite-share-your-project-82-a-b0f"
-  },
-  "/documentation/2.0/data-analysis/data-analysis-79f": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---documentation-2-0-data-analysis-data-analysisd-4-c-a96"
-  },
-  "/documentation/2.0/data-analysis/Rinstat-c9f": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---documentation-2-0-data-analysis-rinstat-7-b-8-01a"
-  },
-  "/documentation/2.0/data-analysis/vignette-1-trait-prioritization-and-crop-performance-7ba": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---documentation-2-0-data-analysis-vignette-1-trait-prioritization-and-crop-performance-7-aa-6b6"
-  },
-  "/documentation/2.0/data-analysis/vignette-2-gari-eba-consumer-testing-6e5": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---documentation-2-0-data-analysis-vignette-2-gari-eba-consumer-testinga-53-690"
-  },
-  "/documentation/2.0/experimental-design/bean-protocol-838": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---documentation-2-0-experimental-design-bean-protocol-16-e-751"
-  },
-  "/documentation/2.0/experimental-design/geographic-sampling-32b": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---documentation-2-0-experimental-design-geographic-sampling-3-d-8-83b"
-  },
-  "/documentation/2.0/experimental-design/socioeconomic-sampling-a31": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---documentation-2-0-experimental-design-socioeconomic-sampling-952-b6b"
-  },
-  "/documentation/2.0/experimental-design/standard-operating-procedures-3cf": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---documentation-2-0-experimental-design-standard-operating-proceduresf-69-b24"
-  },
-  "/documentation/2.0/experimental-design/tpp-a8b": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---documentation-2-0-experimental-design-tppbc-3-09d"
-  },
-  "/documentation/2.0/experimental-design/trial dimensions-228": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---documentation-2-0-experimental-design-trial-dimensions-207-7e4"
-  },
-  "/documentation/2.0/FAQ-and-resources/FAQs-a98": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---documentation-2-0-faq-and-resources-fa-qs-0-c-5-c05"
-  },
-  "/documentation/2.0/FAQ-and-resources/tricot-resources-96c": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---documentation-2-0-faq-and-resources-tricot-resources-7-e-0-035"
-  },
-  "/documentation/2.0/feedback-dissemination/dissemination-739": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---documentation-2-0-feedback-dissemination-disseminationa-9-f-e37"
-  },
-  "/documentation/2.0/feedback-dissemination/feedback-aa1": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---documentation-2-0-feedback-dissemination-feedback-69-e-0b0"
-  },
-  "/documentation/2.0/glossary-224": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---documentation-2-0-glossarye-74-3fc"
-  },
-  "/documentation/2.0/good-bad-ugly/bean-tari-bf4": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---documentation-2-0-good-bad-ugly-bean-tarie-2-b-1b6"
-  },
-  "/documentation/2.0/good-bad-ugly/case-studies-89b": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---documentation-2-0-good-bad-ugly-case-studiesfec-331"
-  },
-  "/documentation/2.0/good-bad-ugly/cowpea-iita-28d": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---documentation-2-0-good-bad-ugly-cowpea-iita-555-7c7"
-  },
-  "/documentation/2.0/good-bad-ugly/groundnut-sari-501": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---documentation-2-0-good-bad-ugly-groundnut-sari-056-61b"
-  },
-  "/documentation/2.0/good-bad-ugly/groundnut-tari-f38": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---documentation-2-0-good-bad-ugly-groundnut-tari-74-b-26b"
-  },
-  "/documentation/2.0/good-bad-ugly/maize-bayer-ec3": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---documentation-2-0-good-bad-ugly-maize-bayer-768-59e"
-  },
-  "/documentation/2.0/good-bad-ugly/maize-oneacrefund-175": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---documentation-2-0-good-bad-ugly-maize-oneacrefund-0-e-9-b16"
-  },
-  "/documentation/2.0/good-bad-ugly/severalcrops-issd-b4e": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---documentation-2-0-good-bad-ugly-severalcrops-issd-538-060"
-  },
-  "/documentation/2.0/good-bad-ugly/sweetpotato-cip-2ca": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---documentation-2-0-good-bad-ugly-sweetpotato-cip-44-c-e63"
-  },
-  "/documentation/2.0/implementation/implementation-577": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---documentation-2-0-implementation-implementation-4-d-9-d44"
-  },
-  "/documentation/2.0/introduction-to-tricot/checklist-f29": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---documentation-2-0-introduction-to-tricot-checklist-5-f-9-6d4"
-  },
-  "/documentation/2.0/introduction-to-tricot/introduction-6f9": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---documentation-2-0-introduction-to-tricot-introduction-008-617"
-  },
-  "/documentation/2.0/introduction-to-tricot/steps-3a0": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---documentation-2-0-introduction-to-tricot-stepscf-4-a04"
-  },
-  "/documentation/2.0/planning/Problem Identification-317": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---documentation-2-0-planning-problem-identification-0-c-1-c1f"
-  },
-  "/documentation/2.0/planning/Resources and Budgeting-889": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---documentation-2-0-planning-resources-and-budgeting-1-f-0-378"
-  },
-  "/documentation/2.0/planning/Stakeholder Engagement-3cf": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---documentation-2-0-planning-stakeholder-engagementa-93-503"
+  "/documentation/fr/-75f": {
+    "__comp": "a94703ab"
+  },
+  "/documentation/fr/climmob-suite/ClimMob Platform-cfb": {
+    "__comp": "17896441",
+    "content": "4fdeca19"
+  },
+  "/documentation/fr/climmob-suite/Design-a30": {
+    "__comp": "17896441",
+    "content": "329f4037"
+  },
+  "/documentation/fr/climmob-suite/Getting Started-6aa": {
+    "__comp": "17896441",
+    "content": "bfca35a0"
+  },
+  "/documentation/fr/climmob-suite/Implementation-6a8": {
+    "__comp": "17896441",
+    "content": "4b6c84f6"
+  },
+  "/documentation/fr/climmob-suite/Monitoring-c6f": {
+    "__comp": "17896441",
+    "content": "8fe42207"
+  },
+  "/documentation/fr/climmob-suite/Outputs-ac6": {
+    "__comp": "17896441",
+    "content": "d3479e6d"
+  },
+  "/documentation/fr/climmob-suite/Share your project-1a0": {
+    "__comp": "17896441",
+    "content": "82a82087"
+  },
+  "/documentation/fr/data-analysis/data-analysis-0ea": {
+    "__comp": "17896441",
+    "content": "5e1f209a"
+  },
+  "/documentation/fr/data-analysis/Rinstat-63d": {
+    "__comp": "17896441",
+    "content": "7b803d3b"
+  },
+  "/documentation/fr/data-analysis/vignette-1-trait-prioritization-and-crop-performance-85b": {
+    "__comp": "17896441",
+    "content": "78b6f5f9"
+  },
+  "/documentation/fr/data-analysis/vignette-2-gari-eba-consumer-testing-f5e": {
+    "__comp": "17896441",
+    "content": "b0178b7a"
+  },
+  "/documentation/fr/experimental-design/bean-protocol-8db": {
+    "__comp": "17896441",
+    "content": "21fa78cb"
+  },
+  "/documentation/fr/experimental-design/geographic-sampling-41a": {
+    "__comp": "17896441",
+    "content": "84ece32c"
+  },
+  "/documentation/fr/experimental-design/socioeconomic-sampling-01d": {
+    "__comp": "17896441",
+    "content": "1a3ab05e"
+  },
+  "/documentation/fr/experimental-design/standard-operating-procedures-835": {
+    "__comp": "17896441",
+    "content": "944b7eb7"
+  },
+  "/documentation/fr/experimental-design/tpp-46c": {
+    "__comp": "17896441",
+    "content": "a027a15f"
+  },
+  "/documentation/fr/experimental-design/trial dimensions-f3d": {
+    "__comp": "17896441",
+    "content": "207efe73"
+  },
+  "/documentation/fr/FAQ-and-resources/FAQs-0bd": {
+    "__comp": "17896441",
+    "content": "0c5617c0"
+  },
+  "/documentation/fr/FAQ-and-resources/tricot-resources-c62": {
+    "__comp": "17896441",
+    "content": "7e0bfef3"
+  },
+  "/documentation/fr/feedback-dissemination/dissemination-f8e": {
+    "__comp": "17896441",
+    "content": "a9f5d94c"
+  },
+  "/documentation/fr/feedback-dissemination/feedback-2f9": {
+    "__comp": "17896441",
+    "content": "69e677af"
+  },
+  "/documentation/fr/glossary-47e": {
+    "__comp": "17896441",
+    "content": "e747ec83"
+  },
+  "/documentation/fr/good-bad-ugly/bean-tari-9a8": {
+    "__comp": "17896441",
+    "content": "e2b8d21b"
+  },
+  "/documentation/fr/good-bad-ugly/case-studies-46e": {
+    "__comp": "17896441",
+    "content": "fec91e19"
+  },
+  "/documentation/fr/good-bad-ugly/cowpea-iita-b19": {
+    "__comp": "17896441",
+    "content": "555935b2"
+  },
+  "/documentation/fr/good-bad-ugly/groundnut-sari-8f7": {
+    "__comp": "17896441",
+    "content": "056bded9"
+  },
+  "/documentation/fr/good-bad-ugly/groundnut-tari-cba": {
+    "__comp": "17896441",
+    "content": "74bc79d1"
+  },
+  "/documentation/fr/good-bad-ugly/maize-bayer-ef1": {
+    "__comp": "17896441",
+    "content": "76843ce6"
+  },
+  "/documentation/fr/good-bad-ugly/maize-oneacrefund-2eb": {
+    "__comp": "17896441",
+    "content": "0e99be63"
+  },
+  "/documentation/fr/good-bad-ugly/severalcrops-issd-9e2": {
+    "__comp": "17896441",
+    "content": "53800623"
+  },
+  "/documentation/fr/good-bad-ugly/sweetpotato-cip-a68": {
+    "__comp": "17896441",
+    "content": "44cafd03"
+  },
+  "/documentation/fr/implementation/implementation-7f3": {
+    "__comp": "17896441",
+    "content": "e0fb4fa0"
+  },
+  "/documentation/fr/introduction-to-tricot/checklist-504": {
+    "__comp": "17896441",
+    "content": "5f9e7ea8"
+  },
+  "/documentation/fr/introduction-to-tricot/introduction-c3f": {
+    "__comp": "17896441",
+    "content": "bf7fe1ea"
+  },
+  "/documentation/fr/introduction-to-tricot/steps-485": {
+    "__comp": "17896441",
+    "content": "b9c961fe"
+  },
+  "/documentation/fr/planning/Problem Identification-01a": {
+    "__comp": "17896441",
+    "content": "0c1b9172"
+  },
+  "/documentation/fr/planning/Resources and Budgeting-56a": {
+    "__comp": "17896441",
+    "content": "1f04d966"
+  },
+  "/documentation/fr/planning/Stakeholder Engagement-2fb": {
+    "__comp": "17896441",
+    "content": "a9325b04"
+  },
+  "/documentation/fr/-56a": {
+    "__comp": "17896441",
+    "content": "57a1d77e"
   }
 }

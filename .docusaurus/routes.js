@@ -3,299 +3,264 @@ import ComponentCreator from '@docusaurus/ComponentCreator';
 
 export default [
   {
-    path: '/documentation/__docusaurus/debug',
-    component: ComponentCreator('/documentation/__docusaurus/debug', '919'),
+    path: '/documentation/fr/markdown-page',
+    component: ComponentCreator('/documentation/fr/markdown-page', 'b3b'),
     exact: true
   },
   {
-    path: '/documentation/__docusaurus/debug/config',
-    component: ComponentCreator('/documentation/__docusaurus/debug/config', '30d'),
+    path: '/documentation/fr/search',
+    component: ComponentCreator('/documentation/fr/search', 'fc3'),
     exact: true
   },
   {
-    path: '/documentation/__docusaurus/debug/content',
-    component: ComponentCreator('/documentation/__docusaurus/debug/content', 'ffd'),
-    exact: true
-  },
-  {
-    path: '/documentation/__docusaurus/debug/globalData',
-    component: ComponentCreator('/documentation/__docusaurus/debug/globalData', 'bf7'),
-    exact: true
-  },
-  {
-    path: '/documentation/__docusaurus/debug/metadata',
-    component: ComponentCreator('/documentation/__docusaurus/debug/metadata', '6f8'),
-    exact: true
-  },
-  {
-    path: '/documentation/__docusaurus/debug/registry',
-    component: ComponentCreator('/documentation/__docusaurus/debug/registry', 'dca'),
-    exact: true
-  },
-  {
-    path: '/documentation/__docusaurus/debug/routes',
-    component: ComponentCreator('/documentation/__docusaurus/debug/routes', '721'),
-    exact: true
-  },
-  {
-    path: '/documentation/markdown-page',
-    component: ComponentCreator('/documentation/markdown-page', 'd86'),
-    exact: true
-  },
-  {
-    path: '/documentation/search',
-    component: ComponentCreator('/documentation/search', '648'),
-    exact: true
-  },
-  {
-    path: '/documentation/',
-    component: ComponentCreator('/documentation/', '35e'),
+    path: '/documentation/fr/',
+    component: ComponentCreator('/documentation/fr/', 'bfe'),
     routes: [
       {
-        path: '/documentation/1.0',
-        component: ComponentCreator('/documentation/1.0', 'c7a'),
+        path: '/documentation/fr/1.0',
+        component: ComponentCreator('/documentation/fr/1.0', '833'),
         routes: [
           {
-            path: '/documentation/1.0',
-            component: ComponentCreator('/documentation/1.0', 'e4d'),
+            path: '/documentation/fr/1.0',
+            component: ComponentCreator('/documentation/fr/1.0', '013'),
             routes: [
               {
-                path: '/documentation/1.0/',
-                component: ComponentCreator('/documentation/1.0/', 'f7c'),
+                path: '/documentation/fr/1.0/',
+                component: ComponentCreator('/documentation/fr/1.0/', 'e64'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/documentation/1.0/appendices/appendices',
-                component: ComponentCreator('/documentation/1.0/appendices/appendices', '297'),
+                path: '/documentation/fr/1.0/appendices/appendices',
+                component: ComponentCreator('/documentation/fr/1.0/appendices/appendices', 'e34'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/documentation/1.0/climmob-suite/climmob_platform',
-                component: ComponentCreator('/documentation/1.0/climmob-suite/climmob_platform', 'd0b'),
+                path: '/documentation/fr/1.0/climmob-suite/climmob_platform',
+                component: ComponentCreator('/documentation/fr/1.0/climmob-suite/climmob_platform', 'fdc'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/documentation/1.0/climmob-suite/Design',
-                component: ComponentCreator('/documentation/1.0/climmob-suite/Design', '74c'),
+                path: '/documentation/fr/1.0/climmob-suite/Design',
+                component: ComponentCreator('/documentation/fr/1.0/climmob-suite/Design', '250'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/documentation/1.0/climmob-suite/Getting_Started',
-                component: ComponentCreator('/documentation/1.0/climmob-suite/Getting_Started', 'd5e'),
+                path: '/documentation/fr/1.0/climmob-suite/Getting_Started',
+                component: ComponentCreator('/documentation/fr/1.0/climmob-suite/Getting_Started', '910'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/documentation/1.0/climmob-suite/Implementation',
-                component: ComponentCreator('/documentation/1.0/climmob-suite/Implementation', '47b'),
+                path: '/documentation/fr/1.0/climmob-suite/Implementation',
+                component: ComponentCreator('/documentation/fr/1.0/climmob-suite/Implementation', 'a81'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/documentation/1.0/climmob-suite/Monitoring',
-                component: ComponentCreator('/documentation/1.0/climmob-suite/Monitoring', '9c6'),
+                path: '/documentation/fr/1.0/climmob-suite/Monitoring',
+                component: ComponentCreator('/documentation/fr/1.0/climmob-suite/Monitoring', '91d'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/documentation/1.0/climmob-suite/Outputs',
-                component: ComponentCreator('/documentation/1.0/climmob-suite/Outputs', '2f0'),
+                path: '/documentation/fr/1.0/climmob-suite/Outputs',
+                component: ComponentCreator('/documentation/fr/1.0/climmob-suite/Outputs', '6dd'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/documentation/1.0/climmob-suite/Share_your_project',
-                component: ComponentCreator('/documentation/1.0/climmob-suite/Share_your_project', '22c'),
+                path: '/documentation/fr/1.0/climmob-suite/Share_your_project',
+                component: ComponentCreator('/documentation/fr/1.0/climmob-suite/Share_your_project', '92a'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/documentation/1.0/data-analysis/data-analysis',
-                component: ComponentCreator('/documentation/1.0/data-analysis/data-analysis', '616'),
+                path: '/documentation/fr/1.0/data-analysis/data-analysis',
+                component: ComponentCreator('/documentation/fr/1.0/data-analysis/data-analysis', '4cc'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/documentation/1.0/data-analysis/Rinstat',
-                component: ComponentCreator('/documentation/1.0/data-analysis/Rinstat', '7b2'),
+                path: '/documentation/fr/1.0/data-analysis/Rinstat',
+                component: ComponentCreator('/documentation/fr/1.0/data-analysis/Rinstat', '744'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/documentation/1.0/data-analysis/vignette-1-trait-prioritization-and-crop-performance',
-                component: ComponentCreator('/documentation/1.0/data-analysis/vignette-1-trait-prioritization-and-crop-performance', '28a'),
+                path: '/documentation/fr/1.0/data-analysis/vignette-1-trait-prioritization-and-crop-performance',
+                component: ComponentCreator('/documentation/fr/1.0/data-analysis/vignette-1-trait-prioritization-and-crop-performance', '850'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/documentation/1.0/data-analysis/vignette-2-gari-eba-consumer-testing',
-                component: ComponentCreator('/documentation/1.0/data-analysis/vignette-2-gari-eba-consumer-testing', 'ec4'),
+                path: '/documentation/fr/1.0/data-analysis/vignette-2-gari-eba-consumer-testing',
+                component: ComponentCreator('/documentation/fr/1.0/data-analysis/vignette-2-gari-eba-consumer-testing', '2c3'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/documentation/1.0/experimental-design/bean-protocol',
-                component: ComponentCreator('/documentation/1.0/experimental-design/bean-protocol', 'e0e'),
+                path: '/documentation/fr/1.0/experimental-design/bean-protocol',
+                component: ComponentCreator('/documentation/fr/1.0/experimental-design/bean-protocol', '4da'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/documentation/1.0/experimental-design/geographic-sampling',
-                component: ComponentCreator('/documentation/1.0/experimental-design/geographic-sampling', 'a99'),
+                path: '/documentation/fr/1.0/experimental-design/geographic-sampling',
+                component: ComponentCreator('/documentation/fr/1.0/experimental-design/geographic-sampling', '075'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/documentation/1.0/experimental-design/socioeconomic-sampling',
-                component: ComponentCreator('/documentation/1.0/experimental-design/socioeconomic-sampling', '0b0'),
+                path: '/documentation/fr/1.0/experimental-design/socioeconomic-sampling',
+                component: ComponentCreator('/documentation/fr/1.0/experimental-design/socioeconomic-sampling', '9ed'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/documentation/1.0/experimental-design/standard-operating-procedures',
-                component: ComponentCreator('/documentation/1.0/experimental-design/standard-operating-procedures', '633'),
+                path: '/documentation/fr/1.0/experimental-design/standard-operating-procedures',
+                component: ComponentCreator('/documentation/fr/1.0/experimental-design/standard-operating-procedures', 'b6e'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/documentation/1.0/experimental-design/tpp',
-                component: ComponentCreator('/documentation/1.0/experimental-design/tpp', '6e9'),
+                path: '/documentation/fr/1.0/experimental-design/tpp',
+                component: ComponentCreator('/documentation/fr/1.0/experimental-design/tpp', 'eef'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/documentation/1.0/experimental-design/trial dimensions',
-                component: ComponentCreator('/documentation/1.0/experimental-design/trial dimensions', 'af2'),
+                path: '/documentation/fr/1.0/experimental-design/trial dimensions',
+                component: ComponentCreator('/documentation/fr/1.0/experimental-design/trial dimensions', 'a83'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/documentation/1.0/FAQ and resources/FAQs',
-                component: ComponentCreator('/documentation/1.0/FAQ and resources/FAQs', '2d3'),
+                path: '/documentation/fr/1.0/FAQ and resources/FAQs',
+                component: ComponentCreator('/documentation/fr/1.0/FAQ and resources/FAQs', '272'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/documentation/1.0/FAQ and resources/resources',
-                component: ComponentCreator('/documentation/1.0/FAQ and resources/resources', '6e5'),
+                path: '/documentation/fr/1.0/FAQ and resources/resources',
+                component: ComponentCreator('/documentation/fr/1.0/FAQ and resources/resources', 'b4f'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/documentation/1.0/feedback-dissemination/dissemination',
-                component: ComponentCreator('/documentation/1.0/feedback-dissemination/dissemination', '6fc'),
+                path: '/documentation/fr/1.0/feedback-dissemination/dissemination',
+                component: ComponentCreator('/documentation/fr/1.0/feedback-dissemination/dissemination', '681'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/documentation/1.0/feedback-dissemination/feedback',
-                component: ComponentCreator('/documentation/1.0/feedback-dissemination/feedback', '528'),
+                path: '/documentation/fr/1.0/feedback-dissemination/feedback',
+                component: ComponentCreator('/documentation/fr/1.0/feedback-dissemination/feedback', '8b2'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/documentation/1.0/glossary',
-                component: ComponentCreator('/documentation/1.0/glossary', '78e'),
+                path: '/documentation/fr/1.0/glossary',
+                component: ComponentCreator('/documentation/fr/1.0/glossary', '9da'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/documentation/1.0/good-bad-ugly/bean-tari',
-                component: ComponentCreator('/documentation/1.0/good-bad-ugly/bean-tari', 'ea0'),
+                path: '/documentation/fr/1.0/good-bad-ugly/bean-tari',
+                component: ComponentCreator('/documentation/fr/1.0/good-bad-ugly/bean-tari', 'd1c'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/documentation/1.0/good-bad-ugly/case-studies',
-                component: ComponentCreator('/documentation/1.0/good-bad-ugly/case-studies', 'f04'),
+                path: '/documentation/fr/1.0/good-bad-ugly/case-studies',
+                component: ComponentCreator('/documentation/fr/1.0/good-bad-ugly/case-studies', '370'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/documentation/1.0/good-bad-ugly/cowpea-iita',
-                component: ComponentCreator('/documentation/1.0/good-bad-ugly/cowpea-iita', 'f7e'),
+                path: '/documentation/fr/1.0/good-bad-ugly/cowpea-iita',
+                component: ComponentCreator('/documentation/fr/1.0/good-bad-ugly/cowpea-iita', 'fba'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/documentation/1.0/good-bad-ugly/groundnut-sari',
-                component: ComponentCreator('/documentation/1.0/good-bad-ugly/groundnut-sari', 'b58'),
+                path: '/documentation/fr/1.0/good-bad-ugly/groundnut-sari',
+                component: ComponentCreator('/documentation/fr/1.0/good-bad-ugly/groundnut-sari', 'fb1'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/documentation/1.0/good-bad-ugly/groundnut-tari',
-                component: ComponentCreator('/documentation/1.0/good-bad-ugly/groundnut-tari', '4ec'),
+                path: '/documentation/fr/1.0/good-bad-ugly/groundnut-tari',
+                component: ComponentCreator('/documentation/fr/1.0/good-bad-ugly/groundnut-tari', '8c3'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/documentation/1.0/good-bad-ugly/maize-bayer',
-                component: ComponentCreator('/documentation/1.0/good-bad-ugly/maize-bayer', '05b'),
+                path: '/documentation/fr/1.0/good-bad-ugly/maize-bayer',
+                component: ComponentCreator('/documentation/fr/1.0/good-bad-ugly/maize-bayer', '5b3'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/documentation/1.0/good-bad-ugly/maize-oneacrefund',
-                component: ComponentCreator('/documentation/1.0/good-bad-ugly/maize-oneacrefund', '8a8'),
+                path: '/documentation/fr/1.0/good-bad-ugly/maize-oneacrefund',
+                component: ComponentCreator('/documentation/fr/1.0/good-bad-ugly/maize-oneacrefund', '498'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/documentation/1.0/good-bad-ugly/severalcrops-issd',
-                component: ComponentCreator('/documentation/1.0/good-bad-ugly/severalcrops-issd', 'bb3'),
+                path: '/documentation/fr/1.0/good-bad-ugly/severalcrops-issd',
+                component: ComponentCreator('/documentation/fr/1.0/good-bad-ugly/severalcrops-issd', 'd0b'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/documentation/1.0/good-bad-ugly/sweetpotato-cip',
-                component: ComponentCreator('/documentation/1.0/good-bad-ugly/sweetpotato-cip', 'b6e'),
+                path: '/documentation/fr/1.0/good-bad-ugly/sweetpotato-cip',
+                component: ComponentCreator('/documentation/fr/1.0/good-bad-ugly/sweetpotato-cip', 'c07'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/documentation/1.0/implementation/implementation',
-                component: ComponentCreator('/documentation/1.0/implementation/implementation', '912'),
+                path: '/documentation/fr/1.0/implementation/implementation',
+                component: ComponentCreator('/documentation/fr/1.0/implementation/implementation', '615'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/documentation/1.0/introduction-to-tricot/introduction',
-                component: ComponentCreator('/documentation/1.0/introduction-to-tricot/introduction', '9bc'),
+                path: '/documentation/fr/1.0/introduction-to-tricot/introduction',
+                component: ComponentCreator('/documentation/fr/1.0/introduction-to-tricot/introduction', 'f01'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/documentation/1.0/introduction-to-tricot/steps',
-                component: ComponentCreator('/documentation/1.0/introduction-to-tricot/steps', 'ba9'),
+                path: '/documentation/fr/1.0/introduction-to-tricot/steps',
+                component: ComponentCreator('/documentation/fr/1.0/introduction-to-tricot/steps', '115'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/documentation/1.0/planning/Checklist',
-                component: ComponentCreator('/documentation/1.0/planning/Checklist', '89b'),
+                path: '/documentation/fr/1.0/planning/Checklist',
+                component: ComponentCreator('/documentation/fr/1.0/planning/Checklist', 'e55'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/documentation/1.0/planning/Problem Identification',
-                component: ComponentCreator('/documentation/1.0/planning/Problem Identification', '23e'),
+                path: '/documentation/fr/1.0/planning/Problem Identification',
+                component: ComponentCreator('/documentation/fr/1.0/planning/Problem Identification', '241'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/documentation/1.0/planning/Resources and Budgeting',
-                component: ComponentCreator('/documentation/1.0/planning/Resources and Budgeting', '8d3'),
+                path: '/documentation/fr/1.0/planning/Resources and Budgeting',
+                component: ComponentCreator('/documentation/fr/1.0/planning/Resources and Budgeting', '7ac'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/documentation/1.0/planning/Stakeholder Engagement',
-                component: ComponentCreator('/documentation/1.0/planning/Stakeholder Engagement', 'cc5'),
+                path: '/documentation/fr/1.0/planning/Stakeholder Engagement',
+                component: ComponentCreator('/documentation/fr/1.0/planning/Stakeholder Engagement', '455'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               }
@@ -304,244 +269,244 @@ export default [
         ]
       },
       {
-        path: '/documentation/2.0',
-        component: ComponentCreator('/documentation/2.0', '832'),
+        path: '/documentation/fr/',
+        component: ComponentCreator('/documentation/fr/', '9ce'),
         routes: [
           {
-            path: '/documentation/2.0',
-            component: ComponentCreator('/documentation/2.0', 'f37'),
+            path: '/documentation/fr/',
+            component: ComponentCreator('/documentation/fr/', '75f'),
             routes: [
               {
-                path: '/documentation/2.0/',
-                component: ComponentCreator('/documentation/2.0/', 'e17'),
+                path: '/documentation/fr/climmob-suite/ClimMob Platform',
+                component: ComponentCreator('/documentation/fr/climmob-suite/ClimMob Platform', 'cfb'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/documentation/2.0/climmob-suite/ClimMob Platform',
-                component: ComponentCreator('/documentation/2.0/climmob-suite/ClimMob Platform', 'd05'),
+                path: '/documentation/fr/climmob-suite/Design',
+                component: ComponentCreator('/documentation/fr/climmob-suite/Design', 'a30'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/documentation/2.0/climmob-suite/Design',
-                component: ComponentCreator('/documentation/2.0/climmob-suite/Design', '254'),
+                path: '/documentation/fr/climmob-suite/Getting Started',
+                component: ComponentCreator('/documentation/fr/climmob-suite/Getting Started', '6aa'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/documentation/2.0/climmob-suite/Getting Started',
-                component: ComponentCreator('/documentation/2.0/climmob-suite/Getting Started', '2ca'),
+                path: '/documentation/fr/climmob-suite/Implementation',
+                component: ComponentCreator('/documentation/fr/climmob-suite/Implementation', '6a8'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/documentation/2.0/climmob-suite/Implementation',
-                component: ComponentCreator('/documentation/2.0/climmob-suite/Implementation', 'd3f'),
+                path: '/documentation/fr/climmob-suite/Monitoring',
+                component: ComponentCreator('/documentation/fr/climmob-suite/Monitoring', 'c6f'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/documentation/2.0/climmob-suite/Monitoring',
-                component: ComponentCreator('/documentation/2.0/climmob-suite/Monitoring', '7dd'),
+                path: '/documentation/fr/climmob-suite/Outputs',
+                component: ComponentCreator('/documentation/fr/climmob-suite/Outputs', 'ac6'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/documentation/2.0/climmob-suite/Outputs',
-                component: ComponentCreator('/documentation/2.0/climmob-suite/Outputs', '34f'),
+                path: '/documentation/fr/climmob-suite/Share your project',
+                component: ComponentCreator('/documentation/fr/climmob-suite/Share your project', '1a0'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/documentation/2.0/climmob-suite/Share your project',
-                component: ComponentCreator('/documentation/2.0/climmob-suite/Share your project', '5ad'),
+                path: '/documentation/fr/data-analysis/data-analysis',
+                component: ComponentCreator('/documentation/fr/data-analysis/data-analysis', '0ea'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/documentation/2.0/data-analysis/data-analysis',
-                component: ComponentCreator('/documentation/2.0/data-analysis/data-analysis', '79f'),
+                path: '/documentation/fr/data-analysis/Rinstat',
+                component: ComponentCreator('/documentation/fr/data-analysis/Rinstat', '63d'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/documentation/2.0/data-analysis/Rinstat',
-                component: ComponentCreator('/documentation/2.0/data-analysis/Rinstat', 'c9f'),
+                path: '/documentation/fr/data-analysis/vignette-1-trait-prioritization-and-crop-performance',
+                component: ComponentCreator('/documentation/fr/data-analysis/vignette-1-trait-prioritization-and-crop-performance', '85b'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/documentation/2.0/data-analysis/vignette-1-trait-prioritization-and-crop-performance',
-                component: ComponentCreator('/documentation/2.0/data-analysis/vignette-1-trait-prioritization-and-crop-performance', '7ba'),
+                path: '/documentation/fr/data-analysis/vignette-2-gari-eba-consumer-testing',
+                component: ComponentCreator('/documentation/fr/data-analysis/vignette-2-gari-eba-consumer-testing', 'f5e'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/documentation/2.0/data-analysis/vignette-2-gari-eba-consumer-testing',
-                component: ComponentCreator('/documentation/2.0/data-analysis/vignette-2-gari-eba-consumer-testing', '6e5'),
+                path: '/documentation/fr/experimental-design/bean-protocol',
+                component: ComponentCreator('/documentation/fr/experimental-design/bean-protocol', '8db'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/documentation/2.0/experimental-design/bean-protocol',
-                component: ComponentCreator('/documentation/2.0/experimental-design/bean-protocol', '838'),
+                path: '/documentation/fr/experimental-design/geographic-sampling',
+                component: ComponentCreator('/documentation/fr/experimental-design/geographic-sampling', '41a'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/documentation/2.0/experimental-design/geographic-sampling',
-                component: ComponentCreator('/documentation/2.0/experimental-design/geographic-sampling', '32b'),
+                path: '/documentation/fr/experimental-design/socioeconomic-sampling',
+                component: ComponentCreator('/documentation/fr/experimental-design/socioeconomic-sampling', '01d'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/documentation/2.0/experimental-design/socioeconomic-sampling',
-                component: ComponentCreator('/documentation/2.0/experimental-design/socioeconomic-sampling', 'a31'),
+                path: '/documentation/fr/experimental-design/standard-operating-procedures',
+                component: ComponentCreator('/documentation/fr/experimental-design/standard-operating-procedures', '835'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/documentation/2.0/experimental-design/standard-operating-procedures',
-                component: ComponentCreator('/documentation/2.0/experimental-design/standard-operating-procedures', '3cf'),
+                path: '/documentation/fr/experimental-design/tpp',
+                component: ComponentCreator('/documentation/fr/experimental-design/tpp', '46c'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/documentation/2.0/experimental-design/tpp',
-                component: ComponentCreator('/documentation/2.0/experimental-design/tpp', 'a8b'),
+                path: '/documentation/fr/experimental-design/trial dimensions',
+                component: ComponentCreator('/documentation/fr/experimental-design/trial dimensions', 'f3d'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/documentation/2.0/experimental-design/trial dimensions',
-                component: ComponentCreator('/documentation/2.0/experimental-design/trial dimensions', '228'),
+                path: '/documentation/fr/FAQ-and-resources/FAQs',
+                component: ComponentCreator('/documentation/fr/FAQ-and-resources/FAQs', '0bd'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/documentation/2.0/FAQ-and-resources/FAQs',
-                component: ComponentCreator('/documentation/2.0/FAQ-and-resources/FAQs', 'a98'),
+                path: '/documentation/fr/FAQ-and-resources/tricot-resources',
+                component: ComponentCreator('/documentation/fr/FAQ-and-resources/tricot-resources', 'c62'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/documentation/2.0/FAQ-and-resources/tricot-resources',
-                component: ComponentCreator('/documentation/2.0/FAQ-and-resources/tricot-resources', '96c'),
+                path: '/documentation/fr/feedback-dissemination/dissemination',
+                component: ComponentCreator('/documentation/fr/feedback-dissemination/dissemination', 'f8e'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/documentation/2.0/feedback-dissemination/dissemination',
-                component: ComponentCreator('/documentation/2.0/feedback-dissemination/dissemination', '739'),
+                path: '/documentation/fr/feedback-dissemination/feedback',
+                component: ComponentCreator('/documentation/fr/feedback-dissemination/feedback', '2f9'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/documentation/2.0/feedback-dissemination/feedback',
-                component: ComponentCreator('/documentation/2.0/feedback-dissemination/feedback', 'aa1'),
+                path: '/documentation/fr/glossary',
+                component: ComponentCreator('/documentation/fr/glossary', '47e'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/documentation/2.0/glossary',
-                component: ComponentCreator('/documentation/2.0/glossary', '224'),
+                path: '/documentation/fr/good-bad-ugly/bean-tari',
+                component: ComponentCreator('/documentation/fr/good-bad-ugly/bean-tari', '9a8'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/documentation/2.0/good-bad-ugly/bean-tari',
-                component: ComponentCreator('/documentation/2.0/good-bad-ugly/bean-tari', 'bf4'),
+                path: '/documentation/fr/good-bad-ugly/case-studies',
+                component: ComponentCreator('/documentation/fr/good-bad-ugly/case-studies', '46e'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/documentation/2.0/good-bad-ugly/case-studies',
-                component: ComponentCreator('/documentation/2.0/good-bad-ugly/case-studies', '89b'),
+                path: '/documentation/fr/good-bad-ugly/cowpea-iita',
+                component: ComponentCreator('/documentation/fr/good-bad-ugly/cowpea-iita', 'b19'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/documentation/2.0/good-bad-ugly/cowpea-iita',
-                component: ComponentCreator('/documentation/2.0/good-bad-ugly/cowpea-iita', '28d'),
+                path: '/documentation/fr/good-bad-ugly/groundnut-sari',
+                component: ComponentCreator('/documentation/fr/good-bad-ugly/groundnut-sari', '8f7'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/documentation/2.0/good-bad-ugly/groundnut-sari',
-                component: ComponentCreator('/documentation/2.0/good-bad-ugly/groundnut-sari', '501'),
+                path: '/documentation/fr/good-bad-ugly/groundnut-tari',
+                component: ComponentCreator('/documentation/fr/good-bad-ugly/groundnut-tari', 'cba'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/documentation/2.0/good-bad-ugly/groundnut-tari',
-                component: ComponentCreator('/documentation/2.0/good-bad-ugly/groundnut-tari', 'f38'),
+                path: '/documentation/fr/good-bad-ugly/maize-bayer',
+                component: ComponentCreator('/documentation/fr/good-bad-ugly/maize-bayer', 'ef1'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/documentation/2.0/good-bad-ugly/maize-bayer',
-                component: ComponentCreator('/documentation/2.0/good-bad-ugly/maize-bayer', 'ec3'),
+                path: '/documentation/fr/good-bad-ugly/maize-oneacrefund',
+                component: ComponentCreator('/documentation/fr/good-bad-ugly/maize-oneacrefund', '2eb'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/documentation/2.0/good-bad-ugly/maize-oneacrefund',
-                component: ComponentCreator('/documentation/2.0/good-bad-ugly/maize-oneacrefund', '175'),
+                path: '/documentation/fr/good-bad-ugly/severalcrops-issd',
+                component: ComponentCreator('/documentation/fr/good-bad-ugly/severalcrops-issd', '9e2'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/documentation/2.0/good-bad-ugly/severalcrops-issd',
-                component: ComponentCreator('/documentation/2.0/good-bad-ugly/severalcrops-issd', 'b4e'),
+                path: '/documentation/fr/good-bad-ugly/sweetpotato-cip',
+                component: ComponentCreator('/documentation/fr/good-bad-ugly/sweetpotato-cip', 'a68'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/documentation/2.0/good-bad-ugly/sweetpotato-cip',
-                component: ComponentCreator('/documentation/2.0/good-bad-ugly/sweetpotato-cip', '2ca'),
+                path: '/documentation/fr/implementation/implementation',
+                component: ComponentCreator('/documentation/fr/implementation/implementation', '7f3'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/documentation/2.0/implementation/implementation',
-                component: ComponentCreator('/documentation/2.0/implementation/implementation', '577'),
+                path: '/documentation/fr/introduction-to-tricot/checklist',
+                component: ComponentCreator('/documentation/fr/introduction-to-tricot/checklist', '504'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/documentation/2.0/introduction-to-tricot/checklist',
-                component: ComponentCreator('/documentation/2.0/introduction-to-tricot/checklist', 'f29'),
+                path: '/documentation/fr/introduction-to-tricot/introduction',
+                component: ComponentCreator('/documentation/fr/introduction-to-tricot/introduction', 'c3f'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/documentation/2.0/introduction-to-tricot/introduction',
-                component: ComponentCreator('/documentation/2.0/introduction-to-tricot/introduction', '6f9'),
+                path: '/documentation/fr/introduction-to-tricot/steps',
+                component: ComponentCreator('/documentation/fr/introduction-to-tricot/steps', '485'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/documentation/2.0/introduction-to-tricot/steps',
-                component: ComponentCreator('/documentation/2.0/introduction-to-tricot/steps', '3a0'),
+                path: '/documentation/fr/planning/Problem Identification',
+                component: ComponentCreator('/documentation/fr/planning/Problem Identification', '01a'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/documentation/2.0/planning/Problem Identification',
-                component: ComponentCreator('/documentation/2.0/planning/Problem Identification', '317'),
+                path: '/documentation/fr/planning/Resources and Budgeting',
+                component: ComponentCreator('/documentation/fr/planning/Resources and Budgeting', '56a'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/documentation/2.0/planning/Resources and Budgeting',
-                component: ComponentCreator('/documentation/2.0/planning/Resources and Budgeting', '889'),
+                path: '/documentation/fr/planning/Stakeholder Engagement',
+                component: ComponentCreator('/documentation/fr/planning/Stakeholder Engagement', '2fb'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/documentation/2.0/planning/Stakeholder Engagement',
-                component: ComponentCreator('/documentation/2.0/planning/Stakeholder Engagement', '3cf'),
+                path: '/documentation/fr/',
+                component: ComponentCreator('/documentation/fr/', '56a'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               }

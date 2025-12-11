@@ -5,7 +5,7 @@
   "source": "@site/docs/intro.md",
   "sourceDirName": ".",
   "slug": "/",
-  "permalink": "/documentation/2.0/",
+  "permalink": "/documentation/",
   "draft": false,
   "unlisted": false,
   "editUrl": "https://github.com/AgrDataSci/documentation/tree/main/docs/intro.md",
@@ -19,6 +19,6 @@
   "sidebar": "tutorialSidebar",
   "next": {
     "title": "Glossary",
-    "permalink": "/documentation/2.0/glossary"
+    "permalink": "/documentation/glossary"
   }
 }

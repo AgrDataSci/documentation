@@ -18,14 +18,12 @@ import {createStorageSlot} from '../utils/storageUtils';
 import {ReactContextError} from '../utils/reactUtils';
 import {useThemeConfig} from '../utils/useThemeConfig';
 
-export const AnnouncementBarDismissStorageKey =
-  'docusaurus.announcement.dismiss';
-const AnnouncementBarIdStorageKey = 'docusaurus.announcement.id';
-
+// Keep these keys in sync with the inlined script
+// See packages/docusaurus-theme-classic/src/inlineScripts.ts
 const AnnouncementBarDismissStorage = createStorageSlot(
-  AnnouncementBarDismissStorageKey,
+  'docusaurus.announcement.dismiss',
 );
-const IdStorage = createStorageSlot(AnnouncementBarIdStorageKey);
+const IdStorage = createStorageSlot('docusaurus.announcement.id');
 
 const isDismissedInStorage = () =>
   AnnouncementBarDismissStorage.get() === 'true';
@@ -105,7 +103,7 @@ export function AnnouncementBarProvider({
   children,
 }: {
   children: ReactNode;
-}): JSX.Element {
+}): ReactNode {
   const value = useContextValue();
   return <Context.Provider value={value}>{children}</Context.Provider>;
 }

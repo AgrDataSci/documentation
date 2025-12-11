@@ -5,10 +5,11 @@
  * LICENSE file in the root directory of this source tree.
  */
 
-import React from 'react';
+import React, {type ReactNode} from 'react';
 import Link from '@docusaurus/Link';
 import {translate} from '@docusaurus/Translate';
 import {PageMetadata} from '@docusaurus/theme-common';
+import {useDateTimeFormat} from '@docusaurus/theme-common/internal';
 import Layout from '@theme/Layout';
 import type {ArchiveBlogPost, Props} from '@theme/BlogArchivePage';
 import Heading from '@theme/Heading';
@@ -19,6 +20,15 @@ type YearProp = {
 };
 
 function Year({year, posts}: YearProp) {
+  const dateTimeFormat = useDateTimeFormat({
+    day: 'numeric',
+    month: 'long',
+    timeZone: 'UTC',
+  });
+
+  const formatDate = (lastUpdated: string) =>
+    dateTimeFormat.format(new Date(lastUpdated));
+
   return (
     <>
       <Heading as="h3" id={year}>
@@ -28,7 +38,7 @@ function Year({year, posts}: YearProp) {
         {posts.map((post) => (
           <li key={post.metadata.date}>
             <Link to={post.metadata.permalink}>
-              {post.metadata.formattedDate} - {post.metadata.title}
+              {formatDate(post.metadata.date)} - {post.metadata.title}
             </Link>
           </li>
         ))}
@@ -66,7 +76,7 @@ function listPostsByYears(blogPosts: readonly ArchiveBlogPost[]): YearProp[] {
   }));
 }
 
-export default function BlogArchive({archive}: Props): JSX.Element {
+export default function BlogArchive({archive}: Props): ReactNode {
   const title = translate({
     id: 'theme.blog.archive.title',
     message: 'Archive',
