@@ -86,11 +86,11 @@ This paper used tricot trials in Nigeria to reveal farmers preferred three CIP p
 
 This paper showed that farmer-generated yield estimates in Tanzanian tricot bean trials closely matched technician and researcher measurements, proving them accurate, scalable, and cost-effective for breeding decisions.
 
-* Geon Kang, Kauê de Sousa, Rhys Manners, Jacob van Etten,[…] Stefanie Griebel.2025. Integrating environmental, socio-economic, and biological data in a farmer-led potato trial for enhanced varietal assessment in Rwanda. Experimental Agriculture. 61(18), pp 1-26. https://doi:10.1017/S0014479725100100
+* Geon Kang, Kauê de Sousa, Rhys Manners, Jacob van Etten,[…] Stefanie Griebel.2025. Integrating environmental, socio-economic, and biological data in a farmer-led potato trial for enhanced varietal assessment in Rwanda. Experimental Agriculture. 61(18), pp 1-26. https://doi.org/10.1017/S0014479725100100
 
 This paper found through tricot trials in Rwanda that farmers favored older potato varieties, with yield and marketability—shaped by temperature and income—driving adoption more than on-station performance.
 
-* Jason Donovan, Pieter Rutsaert, Harriet Mawia, Kauê de Sousa, Jacob van Etten. 2025. Farmers’ preferences for the next generation of maize hybrids: application of product concept testing in Kenya and Uganda. https://doi:10.1017/S001447972500002X
+* Jason Donovan, Pieter Rutsaert, Harriet Mawia, Kauê de Sousa, Jacob van Etten. 2025. Farmers’ preferences for the next generation of maize hybrids: application of product concept testing in Kenya and Uganda. https://doi.org/10.1017/S001447972500002X
 
 This paper applied video-based product concept testing with 2,400 farmers in Kenya and Uganda, finding that “Resilience,” “Drought escape,” and “Intercropping” seed concepts were most preferred, highlighting opportunities for future maize breeding beyond yield-focused traits.
 

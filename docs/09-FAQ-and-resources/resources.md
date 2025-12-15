@@ -7,6 +7,8 @@ description: Publications, training videos, costing templates, and supporting ma
 
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
+import CassavaCMD from './img/cassava/3._Cassava_CMD.jpg';
+import CassavaCBSD from './img/cassava/4._Cassava_CBSD.jpg';
 
 <div className="tricot-hero">
   <p className="tricot-hero-kicker">ClimMob · Tricot approach</p>
@@ -160,13 +162,13 @@ All publications about the tricot approach are free and open access.
 
 * **Geon Kang, Kauê de Sousa, Rhys Manners, Jacob van Etten, […] Stefanie Griebel. 2025.  
   Integrating environmental, socio-economic, and biological data in a farmer-led potato trial for enhanced varietal assessment in Rwanda.**  
-  Experimental Agriculture. 61(18), pp 1-26. https://doi:10.1017/S0014479725100100  
+  Experimental Agriculture. 61(18), pp 1-26. https://doi.org/10.1017/S0014479725100100  
 
   This paper found through tricot trials in Rwanda that farmers favored older potato varieties, with yield and marketability—shaped by temperature and income—driving adoption more than on-station performance.
 
 * **Jason Donovan, Pieter Rutsaert, Harriet Mawia, Kauê de Sousa, Jacob van Etten. 2025.  
   Farmers’ preferences for the next generation of maize hybrids: application of product concept testing in Kenya and Uganda.**  
-  Experimental Agriculture. https://doi:10.1017/S001447972500002X  
+  Experimental Agriculture. https://doi.org/10.1017/S001447972500002X  
 
   This paper applied video-based product concept testing with 2,400 farmers in Kenya and Uganda, finding that “Resilience,” “Drought escape,” and “Intercropping” seed concepts were most preferred, highlighting opportunities for future maize breeding beyond yield-focused traits.
 
@@ -246,13 +248,13 @@ _Materials to be added._
 
 <div className="tricot-image-grid">
 
-  <a href="./img/cassava/3_Cassava_CMD.jpg" className="tricot-image-card">
-    <img src="./img/cassava/3_Cassava_CMD.jpg" alt="Cassava CMD" />
+  <a href={CassavaCMD} className="tricot-image-card">
+    <img src={CassavaCMD} alt="Cassava CMD" loading="lazy" />
     <span>Cassava CMD</span>
   </a>
 
-  <a href="./img/cassava/4._Cassava_CBSD.jpg" className="tricot-image-card">
-    <img src="./img/cassava/4._Cassava_CBSD.jpg" alt="Cassava CBSD" />
+  <a href={CassavaCBSD} className="tricot-image-card">
+    <img src={CassavaCBSD} alt="Cassava CBSD" loading="lazy" />
     <span>Cassava CBSD</span>
   </a>
 

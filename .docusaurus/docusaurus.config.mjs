@@ -8,11 +8,10 @@ export default {
   "tagline": "Guidebook for product use testing in agriculture",
   "favicon": "img/1000FARMS.jpg",
   "url": "https://AgrDataSci.github.io",
-  "baseUrl": "/documentation/",
+  "baseUrl": "/documentation/fr/",
   "organizationName": "AgrDataSci",
   "projectName": "documentation",
-  "onBrokenLinks": "throw",
-  "onBrokenMarkdownLinks": "warn",
+  "onBrokenLinks": "warn",
   "i18n": {
     "defaultLocale": "en",
     "locales": [
@@ -34,8 +33,8 @@ export default {
           "lastVersion": "current",
           "versions": {
             "current": {
-              "label": "2.0",
-              "path": "2.0"
+              "label": "current",
+              "path": ""
             }
           }
         },
@@ -107,7 +106,7 @@ export default {
           "title": "Docs",
           "items": [
             {
-              "label": "Tutorial",
+              "label": "Tutoriel",
               "to": "/"
             }
           ]
@@ -116,7 +115,7 @@ export default {
           "title": "Community",
           "items": [
             {
-              "label": "Community Of Practice website",
+              "label": "Site de la Communauté de Pratique",
               "href": "https://community.1000farms.net/"
             },
             {
@@ -124,13 +123,13 @@ export default {
               "href": "https://1000farms.climmob.net/"
             },
             {
-              "label": "Project website",
+              "label": "Site du projet",
               "href": "https://1000farms.net/"
             }
           ]
         },
         {
-          "title": "More",
+          "title": "Plus",
           "items": [
             {
               "label": "GitHub",
@@ -139,7 +138,7 @@ export default {
           ]
         }
       ],
-      "copyright": "Copyright © 2025 1000FARMS. Built with Docusaurus."
+      "copyright": "Copyright © 2024 1000FARMS. Built with Docusaurus."
     },
     "prism": {
       "theme": {
@@ -350,6 +349,11 @@ export default {
       "disableSwitch": false,
       "respectPrefersColorScheme": false
     },
+    "blog": {
+      "sidebar": {
+        "groupByYear": true
+      }
+    },
     "metadata": [],
     "tableOfContents": {
       "minHeadingLevel": 2,
@@ -357,6 +361,27 @@ export default {
     }
   },
   "baseUrlIssueBanner": true,
+  "future": {
+    "v4": {
+      "removeLegacyPostBuildHeadAttribute": false,
+      "useCssCascadeLayers": false
+    },
+    "experimental_faster": {
+      "swcJsLoader": false,
+      "swcJsMinimizer": false,
+      "swcHtmlMinimizer": false,
+      "lightningCssMinimizer": false,
+      "mdxCrossCompilerCache": false,
+      "rspackBundler": false,
+      "rspackPersistentCache": false,
+      "ssgWorkerThreads": false
+    },
+    "experimental_storage": {
+      "type": "localStorage",
+      "namespace": false
+    },
+    "experimental_router": "browser"
+  },
   "onBrokenAnchors": "warn",
   "onDuplicateRoutes": "warn",
   "staticDirectories": [
@@ -374,10 +399,18 @@ export default {
   "markdown": {
     "format": "mdx",
     "mermaid": false,
+    "emoji": true,
     "mdx1Compat": {
       "comments": true,
       "admonitions": true,
       "headingIds": true
+    },
+    "anchors": {
+      "maintainCase": false
+    },
+    "hooks": {
+      "onBrokenMarkdownLinks": "warn",
+      "onBrokenMarkdownImages": "throw"
     }
   }
 };

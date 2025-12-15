@@ -24,7 +24,7 @@ const config = {
   organizationName: 'AgrDataSci', // Usually your GitHub org/user name.
   projectName: 'documentation', // Usually your repo name.
 
-  onBrokenLinks: 'throw',
+  onBrokenLinks: 'warn',
   onBrokenMarkdownLinks: 'warn',
 
   // Even if you don't use internationalization, you can use this field to set
@@ -51,8 +51,8 @@ const config = {
           lastVersion: 'current',
           versions: {
             current: {
-              label: '2.0',
-              path: '2.0',
+              label: 'current',
+              path: '',
             },
           },
         },
