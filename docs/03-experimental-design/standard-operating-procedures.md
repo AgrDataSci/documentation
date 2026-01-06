@@ -1,24 +1,35 @@
 ---
 sidebar_position: 5
 ---
+import useBaseUrl from '@docusaurus/useBaseUrl';
 
-# Standard operating procedures
+# Standard operating procedures (SOPs)
 
 > Marie-Angélique Laporte, Almendra Cremaschi
 
-A crop protocol provides a standardised overview of the basic information that will be collected during a crop tricot trial. The protocol provides an overview of the data collection moments during the trials and the variables and traits collected at each data collection moment. Farmers evaluate varieties in their on-farm trials and provide comparative observations by ranking the varieties based on their performance throughout their growth and post-harvest qualities including taste and consumption preferences.
+## Introduction
 
-## Data Standardization and Ontologies 
+Systematic documentation of farmer-generated data is critical for assembling and comparing results across investigations, ultimately enabling the identification of broader geospatial patterns and actionable trends (Brown et al., 2020). This is particularly relevant in Tricot Trials, since they are embedded within real farming systems and therefore conducted under highly heterogeneous conditions, with differences in plot history, management, climate, and household labor shaping both crop performance and farmers’ perceptions. 
 
-ClimMob will connect with relevant ontologies for agriculture, thus securing its compliance with the Breeding API (BrAPI), for enabling the interoperability of the tricot data with breeding data. This way, ClimMob will extract defined traits and variables for the creation of project-specific questionnaires and storage in the database. 
+Capturing this diversity in a structured and analytically meaningful way requires common rules for what information is recorded, how, and when (Kool et al., 2020). Standard Operating Procedures (SOPs) are essential to this endeavor. SOPs are formal, validated descriptions of how a task is performed, documented, and communicated.  
 
-The Crop Ontology used by breeding databases provides descriptions, URIs (unique identifiers) and relationships of agronomic, morphological, physiological, quality, and stress traits. It follows a conceptual model that defines a phenotypic variable as a combination of a trait, a method and a scale (Shrestha et al, 2012, Arnaud et al, 2020) (Shrestha et al., 2012; Arnaud et al., 2020). Therefore, the tricot ranking method needs to be included into the Crop Ontology for all traits that are relevant to the tricot trials.  CO contains today 4,456 traits and 6,292 variables with methods and scales for 31 plant species. The Agronomy Ontology provides descriptions of field management practices (Devare et al, 2016). The conceptual model is centered on the plot or the entire field. It describes planned and unplanned time-bound processes occurring in the plot (e.g., fertilizer application), along with ‘participants’ to the event that can be a tool, a chemical component (e.g., manure spray, limestone). 
+The 'Introduction to SOPs' document introduces the rationale for SOPs in tricot trials, outlines their core components, and explains how to interpret and navigate them in practice. It also shows how well-designed SOPs enhance data quality, support interoperability across digital tools, and strengthen decision-making within breeding programs.  
 
-To support the connection of breeding product profiles to multiple sources of trait information, the ontology work is being extended to traits described by the social groups or market segments (e.g., sensory traits linked to the food products qualities, food product processing techniques for local processors) and will be completed by an ontology of the social groups and their roles in the value chain. The newly created socio-economic ontology (SEONT; Arnaud et al, 2020) based on the mini version of RHoMIS will support the use of socio-economic data for ClimMob projects. 
+Crop-specific SOPs (in pdf format) are found in the links below.
 
-Ontologies can also support the management of multilingual trait lists by mapping the concepts across languages. The agricultural thesaurus called AGROVOC, maintained by FAO, contains 38,000 concepts in around 40 languages and will be an important resource for concept translation. 
+NB: these are not uploaded as not finalized yet (6/01/25)
 
-A closely related effort is to create consensus on the variety traits and the socio-economic variables that should be included in tricot trials. A high degree of consensus about the traits would benefit the combined analysis of different datasets (see section Data analysis), ensure that important traits or variables are not omitted, and reduce the time spent on debating the different options for the design of each project while permitting the flexibility to add traits and variables that are thought to be of importance to a particular trial.  
-
-Trait lists have been developed for a number of crops but not yet published. Table 1 gives an example for cassava varietal traits to be elicited at harvest. These trait lists and questions have been generated through iterated discussion between domain experts. These traits will be available in ClimMob for each crop. Also, drawings were made to illustrate each trait, which are used to develop printed materials for farmers. Figure 3 shows an example. 
- 
+<div className="tricot-hero-links">
+   <a className="tricot-hero-link" href={useBaseUrl('/pdfs/sops-intro.pdf')} target="_blank" rel="noopener noreferrer">Introduction to SOPs</a> 
+   <a className="tricot-hero-link" href={useBaseUrl('/pdfs/amaranth.pdf')} target="_blank" rel="noopener noreferrer">🥬 Amaranth</a>
+  <a className="tricot-hero-link" href={useBaseUrl('/pdfs/bambara-groundnut.pdf')} target="_blank" rel="noopener noreferrer">🥜 Bambara groundnut</a>
+  <a className="tricot-hero-link" href={useBaseUrl('/pdfs/cowpea.pdf')} target="_blank" rel="noopener noreferrer">🫘 Cowpea</a>
+  <a className="tricot-hero-link" href={useBaseUrl('/pdfs/finger-millet.pdf')} target="_blank" rel="noopener noreferrer">🌾 Finger millet</a>
+  <a className="tricot-hero-link" href={useBaseUrl('/pdfs/jute-mallow.pdf')} target="_blank" rel="noopener noreferrer">🥬 Jute mallow</a>
+  <a className="tricot-hero-link" href={useBaseUrl('/pdfs/leafy-vegetables.pdf')} target="_blank" rel="noopener noreferrer">🥗 Leafy vegetables</a>
+  <a className="tricot-hero-link" href={useBaseUrl('/pdfs/maize.pdf')} target="_blank" rel="noopener noreferrer">🌽 Maize</a>
+  <a className="tricot-hero-link" href={useBaseUrl('/pdfs/pearl-millet.pdf')} target="_blank" rel="noopener noreferrer">🌾 Pearl millet</a>
+  <a className="tricot-hero-link" href={useBaseUrl('/pdfs/pumpkin.pdf')} target="_blank" rel="noopener noreferrer">🎃 Pumpkin</a>
+  <a className="tricot-hero-link" href={useBaseUrl('/pdfs/sesame.pdf')} target="_blank" rel="noopener noreferrer">🌿 Sesame</a>
+  <a className="tricot-hero-link" href={useBaseUrl('/pdfs/sweet-potato.pdf')} target="_blank" rel="noopener noreferrer">🍠 Sweet potato</a>
+</div>
