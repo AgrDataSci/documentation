@@ -29,9 +29,16 @@ description: >
 
 #### **Putting Farmers at the Center: Testing Groundnut Varieties with the Tricot Approach in Kenya and Tanzania**{#groundnut_ke_tz}
 
-<div style="display:flex; justify-content:center; gap:16px; flex-wrap:wrap;">
-  <img src="./img/happy-field.png" alt="Happy in the field" width="200" style="height:auto;" />
-  <img src="./img/happy-farmer.png" alt="Happy with a farmer" width="200" style="height:auto;" />
+<div
+  style={{
+    display: "flex",
+    justifyContent: "center",
+    gap: 16,
+    flexWrap: "wrap",
+  }}
+>
+  <img src="./img/happy-field.png" alt="Happy in the field" width="200" style={{ height: "auto" }} />
+  <img src="./img/happy-farmer.png" alt="Happy with a farmer" width="200" style={{ height: "auto" }} />
 </div>
 
 
@@ -102,11 +109,10 @@ Even so, her experience shows that tricot is a major step toward farmer-centered
 ---
 #### **From Trials to Scale: How Tricot Guides Maize Variety Choices at One Acre Fund**{#maize_rw}
 
-<div style="display:flex; justify-content:center; gap:16px; flex-wrap:wrap;">
-  <img src="./img/elyse-cabbage.png" alt="Happy in the field" width="200" style="height:auto;" />
-  <img src="./img/elyse-training.png" alt="Happy with a farmer" width="200" style="height:auto;" />
+<div style={{ display: "flex", justifyContent: "center", gap: 16, flexWrap: "wrap" }}>
+  <img src="./img/elyse-cabbage.png" alt="Cabbage tricot trial" width={200} style={{ height: "auto" }} />
+  <img src="./img/elyse-training.png" alt="Farmer training session" width={200} style={{ height: "auto" }} />
 </div>
-
 
 For Elyse Tuyishime and his team at One Acre Fund in Rwanda, the goal was clear: identify maize varieties with real potential to scale to farmers. With limited time and many candidate varieties, they needed an approach that could move quickly, involve farmers directly, and still generate reliable insights.
 They turned to the tricot approach.
@@ -118,7 +124,7 @@ First, it allowed them to test many varieties in a single season—up to 15 diff
 Second, by testing so many varieties at once, tricot helped them identify high-performing varieties faster and move more quickly toward scaling out the best options to farmers.
 Third, tricot required less follow-up than other approaches. Compared to more traditional methods, it meant fewer visits to farmers and less time required to complete the trials, a major advantage for a field-based organization working across many communities.
 
-**What He Learned From Using Tricot**
+**What They Learned From Using Tricot**
 
 As they implemented tricot, Elyse’s team uncovered several important lessons.
 One of the most striking was the value of blind testing. When farmers did not know which variety was which, it reduced bias and sparked more curiosity about the results. Farmers were genuinely interested in seeing which varieties would come out on top.
