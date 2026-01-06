@@ -2,9 +2,11 @@
 title: "Tricot Case Studies"
 id: "tricot-case-studies"
 sidebar_position: 2
-description: Interviews with breeders and trial managers that have employed the tricot
+description: >
+  Interviews with breeders and trial managers that have employed the tricot
   approach for crop evaluations
 ---
+
 <div className="tricot-hero">
   <p className="tricot-hero-text">
     Interviews with breeders and trial managers that have employed the tricot approach for crop evaluations.
@@ -22,7 +24,8 @@ description: Interviews with breeders and trial managers that have employed the 
 </div>
 </div>
 
----
+<hr />
+
 
 #### **Putting Farmers at the Center: Testing Groundnut Varieties with the Tricot Approach in Kenya and Tanzania**{#groundnut_ke_tz}
 
@@ -78,10 +81,8 @@ That means breeders can better match varieties to specific regions and farmer pr
 
 If you’re considering tricot, Happy has some practical advice:
 
-*	Plan and organize carefully.
-“People must organize and plan well,” she says.
-*	Don’t be intimidated by the software.
-“Don’t worry about the software – it is easy to learn it.”
+*	Plan and organize carefully.“People must organize and plan well,” she says.
+*	Don’t be intimidated by the software.“Don’t worry about the software – it is easy to learn it.”
 *	Make sure you have enough seed.
 You need to know how many farmers you can realistically involve with the seed you have. “You need to multiply enough seeds for the trials so it is important to see how many farmers you can give seeds to with what you have.”
 *	Align trials with the growing season.
@@ -157,4 +158,5 @@ In addition, tricot requires a dedicated field-based team to engage with farmers
 Despite these demands, his experience in Rwanda shows that tricot can be a highly effective way to find the right maize varieties quickly, understand what farmers truly value, and support smarter, more targeted scaling decisions—all while keeping farmers’ voices at the center of the process.
 
 ---
+
 
