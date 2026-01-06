@@ -3,12 +3,11 @@ sidebar_position: 4
 ---
 import useBaseUrl from '@docusaurus/useBaseUrl';
 
-
 ## Tricot Trial Checklist
 
-The following table can be used as a checklist while planning a tricot experiment. 
-<a href={useBaseUrl('/pdfs/tricot-trial-checklist.pdf')} target="_blank" rel="noopener noreferrer">
-  Click here to open Checklist PDF
+This table can be used as a checklist while planning a tricot experiment. 
+<a href={useBaseUrl('/pdfs/tricot_trial_checklist.pdf')} target="_blank" rel="noopener noreferrer">
+  Click here to open Checklist in PDF format for easy printing
 </a>
 
 
