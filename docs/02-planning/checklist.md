@@ -7,7 +7,7 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 
 This table can be used as a checklist while planning a tricot experiment. 
 <a href={useBaseUrl('/pdfs/tricot_trial_checklist.pdf')} target="_blank" rel="noopener noreferrer">
-  Click here to open Checklist in PDF format for easy printing
+  Click here to open the checklist in PDF format for easy printing
 </a>
 
 
