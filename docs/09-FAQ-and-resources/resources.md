@@ -11,9 +11,7 @@ import CassavaCMD from './img/cassava/3._Cassava_CMD.jpg';
 import CassavaCBSD from './img/cassava/4._Cassava_CBSD.jpg';
 
 <div className="tricot-hero">
-  <p className="tricot-hero-kicker">ClimMob · Tricot approach</p>
-  <h1>Tricot Resources</h1>
-  <p className="tricot-hero-text">
+    <p className="tricot-hero-text">
     Curated resources on the tricot approach and ClimMob: key publications, training videos,
     costing templates, and crop-specific supporting materials.
   </p>
