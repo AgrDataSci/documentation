@@ -1,4 +1,5 @@
 ---
+title: Introduction to the tricot approach
 sidebar_position: 1
 bibliography: ref.bib
 output:
@@ -7,7 +8,7 @@ output:
 ---
 
 
-# Introduction to the tricot approach 
+#  Introduction to the tricot approach
 
 > Jacob van Etten, Jonathan Steinke, Kauê de Sousa
 
