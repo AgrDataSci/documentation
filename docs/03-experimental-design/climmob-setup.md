@@ -1,4 +1,5 @@
 ---
+title: Creating a ClimMob Project
 sidebar_position: 3
 ---
 

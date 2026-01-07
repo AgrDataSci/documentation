@@ -3,27 +3,22 @@ id: sampling-plots
 title: Sampling and Plot Design
 sidebar_position: 2
 ---
-import Tabs from '@theme/Tabs';
-import TabItem from '@theme/TabItem';
 
 <div className="tricot-hero">
-  <p className="tricot-hero-kicker"></p>
-  <h1>Sampling and Plot Design</h1>
-  <p className="tricot-hero-text">
+   <p className="tricot-hero-text">
     Resources for the sampling and plot design of tricot experiments regarding socio-economics, geography and plot design.
   </p>
 
-
-  <div className="tricot-hero-links">
-    <a href="#socio-economic" className="tricot-hero-link">👥 Socio-economic sampling</a>
+  <div className="tricot-hero-links tricot-tabs">
+    <a href="#socioeconomic" className="tricot-hero-link">👥 Socio-economic sampling</a>
     <a href="#geographic" className="tricot-hero-link">🗺️ Geographic sampling</a>
-    <a href="#plot-design" className="tricot-hero-link">📐 Plot design</a>
+    <a href="#plotdesign" className="tricot-hero-link">📐 Plot design</a>
     </div>
 </div>
 
 ---
 
-# Socioeconomic sampling {#socio-economic}
+# Socioeconomic sampling {#socioeconomic}
 
 > Béla Teeken, Jill Cairns, Mainassara Abdou Zaman-Allah
 
@@ -240,7 +235,7 @@ Figure 4. Overview of output of the sampling tool prototype showing the most eff
 
 ---
 
-# Plot design {#plot-design}
+# Plot design {#plotdesign}
 
 ## Trial dimensions 
 
