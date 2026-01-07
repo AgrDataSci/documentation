@@ -1,7 +1,7 @@
 ---
 id: bean-protocol
 title: "Example of Experimental Design: Bean Trial Protocol"
-sidebar_position: 4
+sidebar_position: 5
 ---
 
 # Example of Experimental Design: Bean Trial Protocol
