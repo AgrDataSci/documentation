@@ -23,7 +23,7 @@ import TabItem from '@theme/TabItem'
 
 ---
 
-# Socioeconomic sampling{#socio-economic}
+# Socioeconomic sampling {#socio-economic}
 
 > Béla Teeken, Jill Cairns, Mainassara Abdou Zaman-Allah
 
@@ -193,7 +193,7 @@ Secondly, tricot may be exposed to ABS laws when using traditional knowledge. Fa
 
 ---
 
-# Geographic sampling{#geographic}
+# Geographic sampling {#geographic}
 
 > Joost van Heerwaarden
 
@@ -240,7 +240,7 @@ Figure 4. Overview of output of the sampling tool prototype showing the most eff
 
 ---
 
-# Plot design{#plot-design}
+# Plot design {#plot-design}
 
 ## Trial dimensions 
 
