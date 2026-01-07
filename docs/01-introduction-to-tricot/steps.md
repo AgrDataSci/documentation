@@ -4,7 +4,8 @@ sidebar_position: 2
 
 # The 10 steps of a tricot experiment
 
-This section provides a short overview of each of the 10 steps needed to develop and implement a tricot project.
+This online book is divided into chapters describing the 10 steps required to develop and implement a tricot project as laid out in the Tricot Short Guide (van Etten et al. 2020). 
+This section provides a short overview of each of the 10 steps.
 
 ## Step 1: Preparation
 Researchers define a set of comparable technology options to test. For example, they decide to compare crop varieties with each other, or different fertilizer types, or irrigation technologies. They will provide the necessary materials (inputs or other) to project implementers (organizations that will reach farmers). Typically, about 8-12 technology options (comparable items) are included in the trial to be tested.

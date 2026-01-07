@@ -1,5 +1,7 @@
 ---
-sidebar_position: 5
+id: sops
+title: Standard operating procedures 
+sidebar_position: 3
 ---
 import useBaseUrl from '@docusaurus/useBaseUrl';
 
