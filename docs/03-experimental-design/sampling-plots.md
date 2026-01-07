@@ -3,6 +3,8 @@ id: sampling-plots
 title: Sampling and Plot Design
 sidebar_position: 2
 ---
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem'
 
 <div className="tricot-hero">
   <p className="tricot-hero-kicker"></p>
