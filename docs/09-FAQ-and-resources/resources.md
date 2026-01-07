@@ -1,5 +1,6 @@
 ---
 id: tricot-resources
+title: Tricot Resources
 sidebar_position: 2
 description: Publications, training videos, costing templates, and supporting materials for the tricot approach.
 ---
