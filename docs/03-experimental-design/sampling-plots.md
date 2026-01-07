@@ -5,8 +5,8 @@ sidebar_position: 2
 ---
 
 <div className="tricot-hero">
-  <p className="tricot-hero-kicker">ClimMob · Tricot approach</p>
-  <h1>Tricot Resources</h1>
+  <p className="tricot-hero-kicker"></p>
+  <h1>Sampling and Plot Design</h1>
   <p className="tricot-hero-text">
     Resources for the sampling and plot design of tricot experiments regarding socio-economics, geography and plot design.
   </p>
@@ -189,6 +189,7 @@ Firstly, tricot may need to observe ABS rules when using traditional varieties. 
 
 Secondly, tricot may be exposed to ABS laws when using traditional knowledge. Farmers’ ability to perceive crop characteristics is often considered to be part of traditional knowledge related to genetic resources (Mancini et al., 2017). In tricot trials, farmers use their skills to produce new knowledge, which would usually not fall under national ABS laws, but whose use may be anyway subject to rules and protocols related to the interaction with indigenous and local communities, the access to their knowledge and their natural resources. Even if the country has not yet enacted ABS legislation in relation to genetic resources and/or traditional knowledge, or even if the existing laws and regulation do not apply to tricot trials in a particular context, it is wise to observe, the CBD and the Nagoya Protocol principles in the management of farmers’ varieties and knowledge in tricot trials, as ‘best practice’, as recommended by the Guidelines on the Nagoya Protocol for CGIAR Research Centers. This means, among other things, sharing non-monetary benefits back with the participants, in the form of informational results, best performing varieties and other types of technologies.  
 
+---
 
 # Geographic sampling{#geographic}
 
@@ -235,6 +236,7 @@ Figure 3. Network graphs showing connectivity and balance in pairwise comparison
 
 Figure 4. Overview of output of the sampling tool prototype showing the most efficient route among locations covering a an agro-ecological zone. 
 
+---
 
 # Plot design{#plot-design}
 
