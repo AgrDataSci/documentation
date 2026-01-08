@@ -11,7 +11,7 @@ import 'dotenv/config';
 const config = {
   title: '1000FARMS Docs',
   tagline: 'Guidebook for product use testing in agriculture',
-  favicon: 'img/1000FARMS.jpg',
+  favicon: 'img/1000FARMS-wide.jpg',
 
   // Set the production url of your site here
   url: 'https://AgrDataSci.github.io',
