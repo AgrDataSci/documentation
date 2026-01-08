@@ -24,7 +24,7 @@ The new Plackett-Luce regression approach will also allow the use of variety tra
 
 Data analysis has also been increasingly supported by implementing the existing code, which was generated to a large degree for the analyses presented in (van Etten et al., 2019), into R packages. The R packages that have been generated as a result from this research are listed in Table 2. 
 
-![R packages created to support the tricot approach](./img/Rpackages.png)
+![R packages created to support the tricot approach](/img/Rpackages.png)
 
 ## Visualization
 
