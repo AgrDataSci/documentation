@@ -1,0 +1,10 @@
+{
+  "label": "Observation",
+  "position": 7,
+  "link": {
+    "type": "generated-index",
+    "description": "Data observation."
+  }
+}
+
+
