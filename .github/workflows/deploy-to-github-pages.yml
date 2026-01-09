@@ -45,14 +45,12 @@ jobs:
         
    
 
-      - name: Debug docusaurus.config.js parse error
-        run: |
-          echo "PWD: $(pwd)"
-          ls -la
-          echo "---- node syntax check ----"
-          node --check docusaurus.config.js || true
-          echo "---- lines 60-90 ----"
-          nl -ba docusaurus.config.js | sed -n '60,90p'
+    - name: Show docusaurus.config.js around line 72
+      run: |
+        echo "PWD=$(pwd)"
+        node --check docusaurus.config.js || true
+        nl -ba docusaurus.config.js | sed -n '66,78p'
+
           
       - name: Build
         env:
