@@ -43,7 +43,6 @@ jobs:
       - name: Install dependencies
         run: npm ci
         - name: Debug docusaurus.config.js parse error
-        - name: Debug docusaurus.config.js parse error
         run: |
         echo "PWD: $(pwd)"
         ls -la
