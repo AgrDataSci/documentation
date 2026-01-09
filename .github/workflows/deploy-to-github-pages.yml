@@ -43,6 +43,8 @@ jobs:
       - name: Install dependencies
         run: npm ci
         
+   
+
       - name: Debug docusaurus.config.js parse error
         run: |
           echo "PWD: $(pwd)"
@@ -56,6 +58,7 @@ jobs:
         env:
           ALGOLIA_API_KEY: ${{ secrets.ALGOLIA_API_KEY }}
         run: npm run build
+        
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
