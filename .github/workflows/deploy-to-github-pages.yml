@@ -42,23 +42,10 @@ jobs:
           cache: npm
       - name: Install dependencies
         run: npm ci
-        
-   
-
-      - name: Debug docusaurus.config.js parse error
-        run: |
-          echo "PWD: $(pwd)"
-          ls -la
-          echo "---- node syntax check ----"
-          node --check docusaurus.config.js || true
-          echo "---- lines 60-90 ----"
-          nl -ba docusaurus.config.js | sed -n '60,90p'
-          
       - name: Build
         env:
           ALGOLIA_API_KEY: ${{ secrets.ALGOLIA_API_KEY }}
         run: npm run build
-        
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
