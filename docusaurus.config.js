@@ -6,6 +6,9 @@
 
 import {themes as prismThemes} from 'prism-react-renderer';
 import 'dotenv/config';
+import rehypeCitation from 'rehype-citation';
+import remarkGfm from 'remark-gfm';
+
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
@@ -54,6 +57,18 @@ const config = {
               label: 'current',
               path: '',
             },
+            remarkPlugins: [remarkGfm],
+            rehypePlugins: [
+    [
+      rehypeCitation,
+      {
+        bibliography: 'docs/01-intro/ref.bib',
+        path: process.cwd(),
+        linkCitations: true,
+      },
+    ],
+  ],
+},
           },
         },
         blog: false,
