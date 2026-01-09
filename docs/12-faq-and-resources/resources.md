@@ -2,7 +2,7 @@
 id: tricot-resources
 title: Tricot Resources
 sidebar_position: 2
-description: Publications, training videos, costing templates, and supporting materials for the tricot approach.
+description: Publications, training videos, costing templates, SOPs and supporting materials for the tricot approach.
 ---
 
 import Tabs from '@theme/Tabs';
@@ -20,6 +20,7 @@ import CassavaCBSD from './img/cassava/4._Cassava_CBSD.jpg';
     <a href="#publications" className="tricot-hero-link">📄 Publications</a>
     <a href="#videos" className="tricot-hero-link">🎬 Training Videos</a>
     <a href="#costing" className="tricot-hero-link">💰 Costing Templates</a>
+    <a href="#sops" className="tricot-hero-link"> 📄 SOPs</a>
     <a href="#support_material" className="tricot-hero-link">🌾 Supporting Material</a>
   </div>
 </div>
@@ -231,6 +232,26 @@ https://www.youtube.com/channel/UCmqo4KCZwX8R-H4SNkXfuSA/playlists
 
 _Coming soon._  
 Standardized templates to estimate and compare the costs of tricot trials across crops, geographies, and scales.
+
+---
+
+
+### Standard Operating Procedures (SOPs)
+
+<div className="tricot-hero-links">
+   <a className="tricot-hero-link" href={useBaseUrl('/pdfs/sops-intro.pdf')} target="_blank" rel="noopener noreferrer">Introduction to SOPs</a> 
+   <a className="tricot-hero-link" href={useBaseUrl('/pdfs/amaranth.pdf')} target="_blank" rel="noopener noreferrer">🥬 Amaranth</a>
+  <a className="tricot-hero-link" href={useBaseUrl('/pdfs/bambara-groundnut.pdf')} target="_blank" rel="noopener noreferrer">🥜 Bambara groundnut</a>
+  <a className="tricot-hero-link" href={useBaseUrl('/pdfs/cowpea.pdf')} target="_blank" rel="noopener noreferrer">🫘 Cowpea</a>
+  <a className="tricot-hero-link" href={useBaseUrl('/pdfs/finger-millet.pdf')} target="_blank" rel="noopener noreferrer">🌾 Finger millet</a>
+  <a className="tricot-hero-link" href={useBaseUrl('/pdfs/jute-mallow.pdf')} target="_blank" rel="noopener noreferrer">🥬 Jute mallow</a>
+  <a className="tricot-hero-link" href={useBaseUrl('/pdfs/leafy-vegetables.pdf')} target="_blank" rel="noopener noreferrer">🥗 Leafy vegetables</a>
+  <a className="tricot-hero-link" href={useBaseUrl('/pdfs/maize.pdf')} target="_blank" rel="noopener noreferrer">🌽 Maize</a>
+  <a className="tricot-hero-link" href={useBaseUrl('/pdfs/pearl-millet.pdf')} target="_blank" rel="noopener noreferrer">🌾 Pearl millet</a>
+  <a className="tricot-hero-link" href={useBaseUrl('/pdfs/pumpkin.pdf')} target="_blank" rel="noopener noreferrer">🎃 Pumpkin</a>
+  <a className="tricot-hero-link" href={useBaseUrl('/pdfs/sesame.pdf')} target="_blank" rel="noopener noreferrer">🌿 Sesame</a>
+  <a className="tricot-hero-link" href={useBaseUrl('/pdfs/sweet-potato.pdf')} target="_blank" rel="noopener noreferrer">🍠 Sweet potato</a>
+</div>
 
 ---
 
