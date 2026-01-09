@@ -151,8 +151,9 @@ const config = {
           },
           {
             type: 'docsVersionDropdown',
-            versions: ['current', '1.0'],
+            position: 'left',
           },
+
           // {
           //   type: 'docsVersionDropdown',
           // },
