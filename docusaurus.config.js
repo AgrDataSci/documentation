@@ -68,7 +68,6 @@ const config = {
   ],
 },
 
-          },
         },
         blog: false,
         // blog: {
