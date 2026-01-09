@@ -42,21 +42,10 @@ jobs:
           cache: npm
       - name: Install dependencies
         run: npm ci
-        
-   
-
-    - name: Show docusaurus.config.js around line 72
-      run: |
-        echo "PWD=$(pwd)"
-        node --check docusaurus.config.js || true
-        nl -ba docusaurus.config.js | sed -n '66,78p'
-
-          
       - name: Build
         env:
           ALGOLIA_API_KEY: ${{ secrets.ALGOLIA_API_KEY }}
         run: npm run build
-        
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
