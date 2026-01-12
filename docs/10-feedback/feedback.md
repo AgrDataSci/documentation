@@ -1,5 +1,5 @@
 ---
-title: Trial feedback and evaluation
+title: Trial feedback 
 sidebar_position: 1
 ---
 
@@ -45,26 +45,3 @@ This diploma was designed to stress the importance of the farmers' contribution 
 •	Group sizes: As with the training and distribution workshop, in most cases farmers should be limited to around 20-25 per event, in a central location accessible to all.
 •	Materials – depends highly on implementation of the sheet & diploma. We recommend :
 
-## Trial evaluation 
-
-The first tricot cycle has finished. What can be improved?
-
-Countries, crops, farming systems, and people are diverse, so every tricot project is different. This booklet can only be a guide to assist you in designing your own local experiment. Tricot is an iterative process and the last step in a project cycle is the evaluation of the project for further improvement.
-
-Listening to the farmers’ experiences is most important. It is crucial that farmers perceive tricot as both simple and beneficial. You should try to identify possible improvements in managing and executing the trials. At the feedback workshop, farmers can express their experiences, recommendations and complaints about the process. Moreover, the local field agents can provide project implementers with many valuable comments and recommendations, since they have constantly been in touch with the farmers and in some cases have followed the trials in person on site.
-
-After every project cycle, the project implementers, researchers, and local field agents should discuss how to improve the process. Including more farmers with every project cycle should be a constant objective in tricot, so that more households can benefit from the research.
-
-Also, with the results of every cycle, you may identify one or two technology options that were not well accepted by the farmers, or that did not work well in your region. For the next cycle, you can discard those technology options ranked lowest by farmers and replace them with new ones. This way, there is ‘refreshed’ input to the research system, and the farmers’ chances of discovering a suitable technology option for the conditions of their farm remain high.
-
-### Indicators of success 
-
-The success of your tricot trial can be measured. You can evaluate four indicators in ClimMob, which will give you an idea about the individual trials’ impact, and the project’s overall success.
-
-1.	The rate of completed trials: counts the trials that were fully completed, as well as the trials where data was missing. You can evaluate whether the loss of information is due to natural causes (e.g. drought that made it impossible to evaluate certain criteria on farm) or to the farmer’s management of the trial (e.g. a mistake with the package code (QR code), lack of interest in finishing the observations). This way, important knowledge about the specific difficulties can be generated, which will help you find strategies to avoid them being repeated.
-
-2.	Farmers’ gender balance: it is important to recognize the gender ratio in the cultivation of a particular crop and strive to achieve the same ratio in the trials. For example, maize is considered a “cash crop” in some countries and therefore tend to be male dominated, while other crops like millet tend to be considered womens’ crops. The goal of tricot trials is to get a proportional participation compared to the population growing the specific crop and bring evidence on the effects of these dynamics.
-
-3.	Returning farmers: The percentage of farmers who participate again after the first cycle is a clear indicator of the farmers’ motivation. If many of the farmers do not want to participate a second time, something about the tricot process design may need to be changed.
-
-4.	Changes in the technology choice: On the observation card, the farmers write whether they will continue using any of the new technology options from their tricot trial. If they choose to use at least one of the three technology options, this shows the impact of the trials. If no or very few farmers want to continue using the newly introduced technology options, then the initial pool of technology options may need to be reconsidered.
