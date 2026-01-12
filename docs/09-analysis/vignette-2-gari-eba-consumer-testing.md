@@ -1,4 +1,5 @@
 ---
+title: Vignette 2 - Gari eba consumer testing 
 sidebar_position: 3
 ---
 

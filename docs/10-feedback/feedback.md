@@ -1,8 +1,9 @@
 ---
+title: Trial feedback and evaluation
 sidebar_position: 1
 ---
 
-# Trial feedback and evaluation
+# Trial feedback to farmers
 
 > Anna Muller, Juan Manual Londono
 
