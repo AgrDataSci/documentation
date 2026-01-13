@@ -1,6 +1,6 @@
 ---
 title: Vignette 2 - Gari eba consumer testing 
-sidebar_position: 3
+sidebar_position: 4
 ---
 
 # Example workflow: Consumer preference of cassava gari-eba

@@ -1,4 +1,5 @@
 ---
+title: Analysis of tricot data
 sidebar_position: 1
 ---
 

@@ -1,6 +1,6 @@
 ---
 title: Vignette 1 - Trait prioritization and crop performance
-sidebar_position: 2
+sidebar_position: 3
 
 ---
 

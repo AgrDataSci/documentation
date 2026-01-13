@@ -1,6 +1,6 @@
 ---
-title: R-instat
-sidebar_position: 4
+title: Analysis in R-instat
+sidebar_position: 5
 ---
 
 > Lily Clements, Roger Stern, Rachel Chase, Kaue de Sousa
