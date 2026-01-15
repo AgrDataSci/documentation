@@ -217,20 +217,17 @@ module.exports = async function createConfigAsync() {
   const rehypeCitation = (await import("rehype-citation")).default;
 
   return {
+    title: "Tricot ebook",
+    url: "https://agrdatasci.github.io",
+    baseUrl: "/agrdatasci/",
+
     presets: [
       [
         "@docusaurus/preset-classic",
         {
           docs: {
             rehypePlugins: [
-              [
-                rehypeCitation,
-                {
-                  bibliography: "bib/ref.bib",
-                  csl: "apa",
-                  linkCitations: true,
-                },
-              ],
+              [rehypeCitation, { bibliography: "bib/ref.bib" }],
             ],
           },
         },
@@ -238,4 +235,3 @@ module.exports = async function createConfigAsync() {
     ],
   };
 };
-
