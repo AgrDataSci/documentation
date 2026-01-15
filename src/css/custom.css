@@ -162,10 +162,8 @@
 
 /* Slightly tighter markdown spacing for dense reference lists */
 
-.markdown h3 + ol li,
-.markdown h3 + ul li {
-  margin-bottom: 0.35rem;
+.markdown h3 {
+  margin-top: 1.5rem;
 }
-
 
 
