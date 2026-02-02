@@ -2,7 +2,7 @@
 sidebar_position: 2
 ---
 
-# Glossary
+# Glossary of Terms
 
 **Administrator** is the person or organization who coordinates the tricot project. It’s the project manager. The administrator could be a scientist working at a research institute, or at an NGO, governmental extension service, etc.
 If the administrator is not a scientist, she or he might collaborate with scientists or a research institute to develop the tricot project, and obtain the tested technologies, such as seeds or fertilizer.
