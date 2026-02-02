@@ -55,7 +55,7 @@ The organization that is in charge of carrying out and monitoring the project. I
 **Incomplete block design**
 Incomplete block design refers to an experimental setup in which not all treatments occur in one block. In the case of tricot, this means that not all technology options (= treatments) occur in each individual trial (=block). Instead, each participant cultivates or tests just three technology options in her/his trial (for example, three randomly assigned bean varieties), instead of cultivating all technology options included in the tricot project (which could be up to 20 bean varieties). Because many participants each cultivate a trial with a subset of three different technology options, all these individual trials – taken together – cover the testing of all technology options.
 
-![](/img/incomplete block.png)
+![](/img/incomplete-block.png)
 
 **Infosheet**
 Personalized information output for every participant. It is generated automatically using ClimMob and includes:
