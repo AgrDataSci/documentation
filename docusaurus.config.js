@@ -6,7 +6,7 @@
 
 import {themes as prismThemes} from 'prism-react-renderer';
 import 'dotenv/config';
-import rehypeCitation from 'rehype-citation/node';
+import rehypeCitation from 'rehype-citation';
 import remarkGfm from 'remark-gfm';
 import remarkIgnoreCitationsInCode from './remark-ignore-citations-in-code.mjs';
 
