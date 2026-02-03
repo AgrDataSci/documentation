@@ -6,8 +6,10 @@
 
 import {themes as prismThemes} from 'prism-react-renderer';
 import 'dotenv/config';
-import rehypeCitation from 'rehype-citation';
+import rehypeCitation from 'rehype-citation/node';
 import remarkGfm from 'remark-gfm';
+import remarkIgnoreCitationsInCode from './remark-ignore-citations-in-code.mjs';
+
 
 
 /** @type {import('@docusaurus/types').Config} */
@@ -55,17 +57,17 @@ const config = {
       path: '',
     },
   },
-  remarkPlugins: [remarkGfm],
-//rehypePlugins: [
-  //[
-  //  rehypeCitation,
-   // {
-     // bibliography: 'docs/ref.bib', 
-      //path: process.cwd(),
-      //linkCitations: true,
-    //},
-  //],
-//],
+  remarkPlugins: [remarkIgnoreCitationsInCode,remarkGfm],
+rehypePlugins: [
+  [
+    rehypeCitation,
+    {
+      bibliography: 'docs/ref.bib', 
+      path: process.cwd(),
+      linkCitations: true,
+    },
+  ],
+],
 },
 
         blog: false,
