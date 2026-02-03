@@ -56,17 +56,17 @@ const config = {
     },
   },
   remarkPlugins: [remarkGfm],
-  rehypePlugins: [
-    [
-      rehypeCitation,
-      {
-        bibliography: 'docs/01-intro/ref.bib',
-        path: process.cwd(),
-        linkCitations: true,
-      },
-    ],
+rehypePlugins: [
+  [
+    rehypeCitation,
+    {
+      bibliography: 'docs/ref.bib', 
+      path: process.cwd(),
+      linkCitations: true,
+    },
   ],
-},
+],
+
 
         blog: false,
         // blog: {
