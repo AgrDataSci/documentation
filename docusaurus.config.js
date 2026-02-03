@@ -79,7 +79,7 @@ rehypePlugins: [
         theme: {
           customCss: './src/css/custom.css',
         },
-      }),
+      },
     ],
   ],
 
