@@ -66,7 +66,7 @@ rehypePlugins: [
     },
   ],
 ],
-
+},
 
         blog: false,
         // blog: {
@@ -79,7 +79,7 @@ rehypePlugins: [
         theme: {
           customCss: './src/css/custom.css',
         },
-      },
+      }),
     ],
   ],
 
