@@ -134,8 +134,9 @@ const config = {
       prism: {
         theme: prismThemes.github,
         darkTheme: prismThemes.dracula,
-      }),
-    };
+      },
+    }),
+};
 
 
 export default config;
