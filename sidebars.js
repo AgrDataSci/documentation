@@ -95,6 +95,10 @@ const sidebars = {
       type: 'doc',
       id: 'glossary', // refers to glossary.md
     },
+    {
+      type: 'doc',
+      id: 'contact', 
+    },
     
   ],
    
