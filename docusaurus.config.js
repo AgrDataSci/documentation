@@ -40,44 +40,35 @@ const config = {
     locales: ['en', 'fr'],
   },
 
-  presets: [
+   presets: [
     [
       'classic',
       /** @type {import('@docusaurus/preset-classic').Options} */
       ({
         docs: {
-  routeBasePath: '/',
-  sidebarPath: './sidebars.js',
-  sidebarCollapsed: true,
-  editUrl: 'https://github.com/AgrDataSci/documentation/tree/main/',
-  lastVersion: 'current',
-  versions: {
-    current: {
-      label: 'current',
-      path: '',
-    },
-  },
-  remarkPlugins: [remarkIgnoreCitationsInCode,remarkGfm],
-rehypePlugins: [
-  [
-    rehypeCitation,
-    {
-      bibliography: 'docs/ref.bib', 
-      path: process.cwd(),
-      linkCitations: true,
-    },
-  ],
-],
-},
+          routeBasePath: '/',
+          sidebarPath: './sidebars.js',
+          sidebarCollapsed: true,
+          editUrl: 'https://github.com/AgrDataSci/documentation/tree/main/',
+          lastVersion: 'current',
+          versions: {
+            current: { label: 'current', path: '' },
+          },
+          remarkPlugins: [remarkIgnoreCitationsInCode, remarkGfm],
+          rehypePlugins: [
+            [
+              rehypeCitation,
+              {
+                bibliography: 'docs/ref.bib',
+                path: process.cwd(),
+                linkCitations: true,
+              },
+            ],
+          ],
+        },
 
         blog: false,
-        // blog: {
-        //   showReadingTime: true,
-        //   // Please change this to your repo.
-        //   // Remove this to remove the "edit this page" links.
-        //   editUrl:
-        //     'https://github.com/${organizationName}/${projectName}/tree/main/',
-        // },
+
         theme: {
           customCss: './src/css/custom.css',
         },
@@ -86,143 +77,66 @@ rehypePlugins: [
   ],
 
   themeConfig:
-  /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
-  ({
-    docs: {
-      sidebar: {
-        hideable: true,
-      },
-    },
-
-    footer: {
-      copyright:
-        `Copyright © ${new Date().getFullYear()} 1000FARMS. ` +
-        `Content licensed under <a href="/license">CC BY-SA</a>.`,
-    },
-  }),
-};
-
+    /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
+    ({
       algolia: {
-        // The application ID provided by Algolia
         appId: 'DN3EGM2WTS',
-
-        // Public API key: it is safe to commit it
         apiKey: process.env.ALGOLIA_API_KEY,
-
         indexName: 'agrdatasciio',
-
-        // Optional: see doc section below
         contextualSearch: true,
-
-        // Optional: Specify domains where the navigation should occur through window.location instead on history.push. Useful when our Algolia config crawls multiple documentation sites and we want to navigate with window.location.href to them.
         externalUrlRegex: 'external\\.com|domain\\.com',
-
-        // Optional: Replace parts of the item URLs from Algolia. Useful when using the same search index for multiple deployments using a different baseUrl. You can use regexp or string in the `from` param. For example: localhost:3000 vs myCompany.com/docs
-        replaceSearchResultPathname: {
-          from: '/documentation/', // or as RegExp: /\/docs\//
-          to: '/',
-        },
-
-        // Optional: Algolia search parameters
+        replaceSearchResultPathname: { from: '/documentation/', to: '/' },
         searchParameters: {},
-
-        // Optional: path for search page that enabled by default (`false` to disable it)
         searchPagePath: 'search',
-
-        // Optional: whether the insights feature is enabled or not on Docsearch (`false` by default)
         insights: false,
-
-        //... other Algolia params
       },
-      // Replace with your project's social card
+
       image: 'img/1000FARMS.jpg',
+
       navbar: {
         title: '1000FARMS Docs',
-        logo: {
-          alt: '1000FARMS logo',
-          src: 'img/1000FARMS.jpg',
-        },
+        logo: { alt: '1000FARMS logo', src: 'img/1000FARMS.jpg' },
         items: [
-          // {
-          //   type: 'docSidebar',
-          //   sidebarId: 'tutorialSidebar',
-          //   position: 'left',
-          //   label: 'Documentation',
-          // },
-         // {to: '/blog', label: 'Blog', position: 'left'},
-          {
-            href: 'https://github.com/AgrDataSci/documentation',
-            label: 'GitHub',
-            position: 'right',
-          },
-          {
-            type: 'localeDropdown',
-            position: 'left',
-          },
-          {
-            type: 'docsVersionDropdown',
-            position: 'left',
-          },
-
-          // {
-          //   type: 'docsVersionDropdown',
-          // },
+          { href: 'https://github.com/AgrDataSci/documentation', label: 'GitHub', position: 'right' },
+          { type: 'localeDropdown', position: 'left' },
+          { type: 'docsVersionDropdown', position: 'left' },
         ],
       },
+
       footer: {
         style: 'dark',
         links: [
           {
             title: 'Docs',
             items: [
-              {
-                label: 'Tutorial',
-                to: '/',
-              },
+              { label: 'Tutorial', to: '/' },
+              { label: 'License', to: '/license' },
             ],
           },
           {
             title: 'Community',
             items: [
-              {
-                label: 'Community Of Practice website',
-                href: 'https://community.1000farms.net/',
-              },
-              {
-                label: 'ClimMob',
-                href: 'https://1000farms.climmob.net/',
-              },
-              {
-                label: 'Project website',
-                href: 'https://1000farms.net/',
-              },
+              { label: 'Community Of Practice website', href: 'https://community.1000farms.net/' },
+              { label: 'ClimMob', href: 'https://1000farms.climmob.net/' },
+              { label: 'Project website', href: 'https://1000farms.net/' },
             ],
           },
           {
             title: 'More',
-            items: [
-              // {
-              //   label: 'Blog',
-              //   to: '/blog',
-              // },
-              {
-                label: 'GitHub',
-                href: 'https://github.com/AgrDataSci/documentation',
-              },
-            ],
+            items: [{ label: 'GitHub', href: 'https://github.com/AgrDataSci/documentation' }],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} 1000FARMS. Built with Docusaurus.`,
+        copyright:
+          `Copyright © ${new Date().getFullYear()} 1000FARMS. ` +
+          `Content licensed under <a href="/documentation/license">CC BY-SA</a>. Built with Docusaurus.`,
       },
+
       prism: {
         theme: prismThemes.github,
         darkTheme: prismThemes.dracula,
       },
-
     }),
 };
 
 
-
 export default config;
-
