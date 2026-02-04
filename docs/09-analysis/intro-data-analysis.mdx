@@ -15,17 +15,10 @@ For ranking data, tricot analyses rely primarily on the Plackett–Luce (PL) mod
 
 The PL model has been widely used in fields where choices are made from sets of alternatives, including sports rankings, comparative judgement exercises [@Donovan2025; @Chambers2022], consumer preference studies [@Olaosebikan2023], and crop variety selection [@vanEtten2019]. Ranking methods in revealed-choice experiments are rapid, locally adaptable, and cognitively intuitive for respondents, requiring little calibration or training [@Coe2002]. This makes them particularly well suited for decentralized, farmer-led experimentation at scale.
 
-In tricot, farmers typically compare three varieties per trait in an incomplete block design. The PL model is especially appropriate for this structure, as it accommodates partial rankings and comparisons among subsets of all tested varieties. This allows the aggregation of thousands of small, farmer-managed trials into a single coherent statistical analysis.
-
-In the Plackett–Luce (PL) model, each variety \( i \) is associated with a positive worth parameter \( \pi_i \). The probability that variety \( i \) is ranked above variety \( j \) depends on the ratio of their worths:
-
-\[
-P(i \succ j) = \frac{\pi_i}{\pi_i + \pi_j}
-\]
-
-For a full ranking of multiple items, the model expresses the probability of observing a specific order as a product of conditional choice probabilities. In the tricot context, this means that each farmer's ranking contributes information about relative performance, even though each farmer only evaluates a small subset of varieties.
+In tricot, farmers typically compare three varieties per trait in an incomplete block design. The PL model is especially appropriate for this structure, as it accommodates partial rankings and comparisons among subsets of all tested varieties. This allows the aggregation of thousands of small, farmer-managed trials into a single coherent statistical analysis. For a full ranking of multiple items, the model expresses the probability of observing a specific order as a product of conditional choice probabilities. In the tricot context, this means that each farmer's ranking contributes information about relative performance, even though each farmer only evaluates a small subset of varieties.
 
 Key advantages of the PL framework for tricot include:
+
 - Ability to handle incomplete and unbalanced designs
 - Direct modeling of ordinal (ranking) data
 - Straightforward interpretation of relative performance
