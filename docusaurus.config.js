@@ -213,5 +213,16 @@ rehypePlugins: [
     }),
 };
 
+
+// docusaurus.config.js
+themeConfig: {
+  footer: {
+    // ...
+    copyright:
+      `Copyright © ${new Date().getFullYear()} 1000FARMS. ` +
+      `Content licensed under <a href="/license">CC BY SA</a>.`,
+  },
+}
+
 export default config;
 
