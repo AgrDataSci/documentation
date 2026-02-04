@@ -12,87 +12,57 @@ output:
 
 Tricot (triadic comparisons of technologies, pronounced “try-cot”) is a citizen science approach for testing technology options in their use environments, originally conceived in 2011 [@vanEtten2011]. The Oxford English Dictionary defines citizen science as “the collection and analysis of data relating to the natural world by members of the general public, typically as part of a collaborative project with professional scientists”. Different definitions are given by others, but our use of it is not far from this one. As a citizen science approach, tricot actively involves non-scientists in experimental data generation and interpretation. This follows a broader movement of applying citizen science and crowd sourcing methods in research on food and agriculture, providing a fresh lease of life to participatory agricultural research [@VandeGevel2020;@Ryan2018;@Minet2017].  
 
-Tricot addresses important challenges that have plagued on-farm testing, which is an often-underrated activity in the agricultural sciences [@Kool2020]. In addition, the approach is increasingly used for areas closely related to on-farm testing of varieties, such as fertilizer testing (e.g. AKILIMO scaling project by IITA and CIP in Rwanda) and food product testing for sweetpotato implemented by CIP [@Moyo2020;@Moyo2021]. Testing technologies in their use environments is important for external validity of experiments, the degree to which the findings have application outside of the experimental setting. To overcome common issues in user testing, the tricot approach streamlines the approach through digital support throughout the experimental cycle, simplifies the experimentation format to make user participation easy, and enhances data analysis by enriching it with data about the user context. 
+Tricot addresses important challenges in on-farm testing [@deSousa2024]. In addition, the approach is increasingly used for areas closely related to on-farm testing of varieties, such as food product testing for sweetpotato implemented by CIP [@Moyo2021] and gari/eba implemented by IITA [@Alamu2023; @Olaosebikan2023]. Testing technologies in their use environments is important for external validity of experiments, the degree to which the findings have application outside of the experimental setting. To overcome common issues in user testing, the tricot approach streamlines the approach through digital support throughout the experimental cycle, simplifies the experimentation format to make user participation easy, and enhances data analysis by enriching it with data about the user context. 
 
 The method was first implemented and tested between 2013 and 2016 for on-farm testing of varieties, and an earlier article reported about methodological progress in this period [@vanEtten2019]. Much of this work was part of the Seeds for Needs initiative, aiming at broadening the range of varietal diversity to farmers to adapt to climate change [@Fadda2020]. These projects were focused on cereals and grain legumes. Since then, the tricot approach has been used for other trials, by different organizations (including private sector) and for different applications (food products, fertilizers, etc.), and for clonal crops (cassava, sweetpotato, potato), vegetables, and a perennial crop (cacao). 
 
 ## Description of the tricot approach 
 
-The tricot approach has been described in several publications [@vanEtten2016;@vanEtten2011;@vanEtten2019;@vanEtten2020;@Steinke2017;@Fadda2020;@Beza2017]. Here, a short synthesis will be provided.  
-
-The word ‘tricot’ is derived from triadic comparisons of technology options. ‘Triadic’ refers to the sets of three technology options that are compared by each participant. Tricot enables many citizen scientists doing a small experiment while contributing to answering a larger question. Researchers and citizen science participants are supported throughout the experiment cycle by digital tools to design, execute, monitor and analyze the trials. As many citizen scientists contribute and do experiments in their typical use environments using their usual practices, it becomes possible to start to understand how variation in environments and practices affects the results. 
+Tricot enables many citizen scientists doing a small experiment while contributing to answering a larger question. Researchers and citizen science participants are supported throughout the experiment cycle by digital tools to design, execute, monitor and analyze the trials. As many citizen scientists contribute and do experiments in their typical use environments using their usual practices, it becomes possible to start to understand how variation in environments and practices affects the results. The trajectory from conceptualization of tricot in 2011 to its scaling phase in 2022 is described by de Sousa et al. [-@deSousa2024].
 
 The particular way in which tricot works makes these steps possible. The following aspects are key to tricot:  
 
-1. The use of incomplete blocks of three items – to make the threshold of participation low in terms of farm size, and reduce resource needs and training required;
+1. The use of incomplete blocks of three items: makes the threshold of participation low in terms of farm size, and reduces resource needs and training required;
 
-2. The use of ranking as the main way to report observations -- to facilitate digital data collection and to make it possible to evaluate a tricot plot with very little training (in contrast, scoring requires calibration and absolute yield measurements require training); 
+2. The use of ranking as the main way to report observations: facilitates digital data collection and makes it possible to evaluate an experiment with very little training and calibration; 
 
-3. The limited control of experimental conditions – following common local technology use practices to maximize external validity;
+3. The limited control of experimental conditions: following common local technology use practices to maximize external validity;
 
-4. The use of a streamlined digital process from trial design to analysis – to make it manageable, executable with many participants, to reduce errors, to reduce costs, and to quickly deliver feedback to achieve high motivation and impact on subsequent decisions; 
+4. The use of a streamlined digital process from trial design to analysis: makes it manageable, executable with many participants, reduces errors and costs, and quickly delivers feedback to achieve high motivation and impact on subsequent decisions; 
 
-5. Early feedback of the results to the participants -- to provide ownership to and stimulate engagement of participating “citizen scientists” and to validate results. 
+5. Early feedback of the results to the participants: provides ownership and stimulates engagement of participating “citizen scientists”. 
 
-Tricot builds on existing participatory research formats that have been used in the past, as documented by [@vanEtten2019]. The novelty of the format is the combination of the different elements in a standardized, widely used approach supported by a corresponding digital platform, ClimMob (https://climmob.net). 
-
-Another innovation behind the tricot approach is the use of the Plackett-Luce model [@luce1959;@plackett1975]. This statistical model is also not new, but an appropriate software implementation was not available. In previous analyses of on-farm data, data were converted to pairwise comparisons, after which the Bradley-Terry model was used [@Coe2002;@vanEtten2019;@Steinke2019;@Dittrich2000]. However, this leads to anti-conservative statistical error estimates and the conversion from rankings to pairwise comparisons implies information loss. This was the reason to implement the Plackett-Luce model in R [@Turner2020]. Also, a number of other R packages were created to support data management and analysis. These are described in [link here](/analysis/xxx) **link to the page in Analysis**. 
-
-The tricot approach is supported by the [ClimMob](https://climmob.net/) digital platform. The platform is described in detail in Quirós et al., 2024 [@Quirs2024] and throughout this ebook. ClimMob supports the user in designing a trial, randomizing the entries, creating electronic questionnaires, collecting the data, monitoring trial progress, and generating reports. 
+Tricot builds on existing participatory research formats that have been used in the past, as documented by [@vanEtten2019]. The novelty of the format is the combination of the different elements in a standardized, widely used approach supported by a corresponding digital platform, ClimMob (https://climmob.net). The platform is described in detail in Quirós et al. [-@Quirs2024] and throughout this eBook. ClimMob supports the user in designing a trial, randomizing the entries, creating electronic questionnaires, collecting the data, monitoring trial progress, and generating reports. 
 
 ## How is the tricot approach is used?
 
-The tricot approach (triadic comparison of technology options) is a participatory method designed for product use testing in agriculture. It has been applied in on-farm trials, consumer testing, concept evaluation, and iterative product development. The approach leverages citizen science to generate robust, scalable insights across diverse environments and user contexts. Here's how it integrates into different aspects of product use testing:
+The tricot approach leverages citizen science to generate robust, scalable insights across diverse environments and user contexts. Here's how it integrates into different aspects of product use testing:
 
-1. On-Farm Testing
+1. On-farm testing
 
-Farmers receive three randomly assigned technology options (e.g., seed varieties, fertilizers) and independently evaluate their performance under local conditions. No direct supervision is required, making it cost-effective and scalable, especially in remote areas. Data collection focuses on farmer-reported outcomes such as yield, resilience, and preference, linked to environmental metadata (e.g., soil, climate), socio-economic metadata (e.g., market preferences, household dynamics, management practices) and DNA metadata.
+Farmers receive three randomly assigned technology options (e.g., seed varieties, fertilizers) and independently evaluate their performance under local conditions. No direct supervision is required, making it cost-effective and scalable, especially in remote areas. Data collection focuses on farmer-reported outcomes such as yield, resilience, and preference, linked to environmental metadata (e.g., soil, climate), socio-economic metadata (e.g., market preferences, household dynamics, management practices) and DNA metadata [@Kang2025; @vanEtten2019; @deSousa2021; @Voss2025].
 
-2. Consumer Testing
+2. Consumer testing
 
-Tricot integrates consumer preferences for end-use products (e.g., taste, cooking quality, shelf life). Farmers and end-users assess outputs from tested options (e.g., crops, processed goods) to ensure alignment with market demands. The approach helps bridge the gap between agricultural production and consumer needs by combining field performance with end-user satisfaction.
+Tricot integrates consumer preferences for end-use products (e.g., taste, cooking quality, shelf life). Farmers and end-users assess outputs from tested options (e.g., crops, processed goods) to ensure alignment with market demands. The approach helps bridge the gap between agricultural production and consumer needs by combining field performance with end-user satisfaction [@Alamu2023; @Olaosebikan2023].
 
-3. Concept Testing
+3. Concept testing
 
-Tricot can be used to evaluate broader concepts, such as innovative farming practices, new varieties and agroforestry designs. Participants compare three alternatives in usability, practicality, or benefits, ensuring the development of context-specific solutions. This iterative testing phase supports refining ideas before large-scale implementation.
+Tricot can be used to evaluate broader concepts, such as innovative farming practices, new varieties and agroforestry designs. Participants compare three alternatives in usability, practicality, or benefits, ensuring the development of context-specific solutions [@Donovan2025]. This iterative testing phase supports refining ideas before large-scale implementation.
 
-4. Farmer-centric Data and Decision Support
+4. Scaling and adaptation
 
-By empowering farmers as co-researchers, tricot generates farmer-driven data, enriching breeding programs and product development pipelines. Insights into environmental interactions and user preferences guide demand-driven breeding and agricultural innovation. The [ClimMob](https://climmob.net/) platform enables real-time data collection, analysis, and visualization to inform decision-making.
+Tricot's simplicity allows broad implementation across geographies, crops, and technologies [@deSousa2024]. The model is adaptable to low-resource settings, supporting smallholders while enabling private sector product testing. It also fosters inclusitivity, involving women, youth, and marginalized groups in the innovation process.
 
-5. Scaling and Adaptation
+5. Outcomes and impact
 
-Tricot's simplicity allows broad implementation across geographies, crops, and technologies. The model is adaptable to low-resource settings, supporting smallholders while enabling private sector product testing. It also fosters inclusitivity, involving women, youth, and marginalized groups in the innovation process.
-
-6. Outcomes and Impact
-
-Enhances crop diversity and resilience by tailoring recommendations to local needs. Increases adoption rates by aligning product characteristics with farmer and consumer preferences. Supports sustainable and climate-adaptive agriculture by integrating real-world testing with robust scientific analysis. In summary, the tricot approach is a dynamic, end-to-end solution for product use testing in agriculture, integrating farmer trials, consumer insights, and conceptual testing. It drives innovation by prioritizing user needs, ensuring product relevance, and enabling resilient and inclusive agricultural systems.
+Enhances crop diversity and resilience by tailoring recommendations to local needs [@Gotor2021]. Speeds adoption rates by aligning product characteristics with farmer and consumer preferences [@Occelli2024]. Supports sustainable and climate-adaptive agriculture by integrating real-world testing with robust scientific analysis. In summary, the tricot approach is a dynamic, end-to-end solution for product use testing in agriculture, integrating farmer trials, consumer insights, and conceptual testing. It drives innovation by prioritizing user needs, ensuring product relevance, and enabling resilient and inclusive agricultural systems.
 
 ## How the tricot approach works 
 
-With the tricot method, large numbers of farmers carry out many small, simple trials on their own farms instead of a few big, complex trials conducted at research stations. A research center provides the participating farmers with material for the on-farm trials. The farmers provide observations from their trials to the agricultural research center, where the data from all mini-trials is aggregated and analyzed. The research center then feeds back the findings to the farmers.
+With the tricot method, large numbers of farmers carry out many small, simple trials on their own farms instead of a few big, complex trials conducted at research stations. The trial manager provides the participating farmers with material for the on-farm trials. The farmers provide observations from their trials to the agricultural research center, where the data from all mini-trials is aggregated and analyzed. The trial manager then feeds back the findings to the farmers.
 
 With tricot, research centers can validate and disseminate new agricultural technologies in a participatory way, collaborating with a large number of farmers under diverse conditions. Large-scale tricot experiments, involving many farmers, generate excellent/reliable results about the performance of different technology options (such as different crop varieties or different fertilizer types) in different environments. Farmers evaluate the new technology options on their own farms and under real conditions. 
-
-The tricot trial format is very simple for participating farmers: each executes the mini-task of evaluating only three technology options, out of a range to be tested. This makes it possible to engage many farmers without expending excessive effort on training or supervising them. But this does not mean we can only evaluate three technology options at once! Even though each farmer only evaluates three options, they evaluate many different combinations of technology options, that partially overlaps with the combination of other farmers. By putting the results of their experiments together, a tricot trial can evaluate how well each the options performs relative to the others. Tricot is like a world sports ranking. These rankings cover all players (or teams) and reflect their relative strength. The scores depend on the matches the players have won from other players. But these calculations can be done even if certain teams never played against each other. 
-
-Tricot is a valid strategy to overcome the ‘bottleneck’ of technology dissemination to users,often faced by research institutes, because it presents the following advantages:
-
-1. Farmer-led innovation
-
-Being fully executed by farmers on their farm, tricot experiments account for important adoption criteria that could easily not occur in researcher-managed trials.  
-
-2. Specific solutions 
-
-Rural households benefit directly and firsthand from discovering new technology options that fit their environmental and socio-economic conditions, with a high probability of improving their farm production.  
-
-3. Capturing diversity
-
-Tricot experiments address the challenge of diversity in regions where environmental conditions or socio-cultural preferences vary strongly across the landscape. The tricot approach helps research centers to collaborate with farmer organizations, development organizations or input providers in the organization of large trials with many farmers.  
-
-4. Meaningful data 
-
-Tricot uses a data-driven approach that can combine farmer-generated experimental and preference data with data about cropping systems and farming households, thus it enables a rich analysis. Without tricot, this could only be achieved by very complex methods (such as crop modelling). The tricot data can be analyzed with existing maps of temperature, rainfall, altitude, and other environmental variables. These analyses can provide recommendations for different environments or strategies to deal with climatic risk. Tricot makes it possible to combine several seasons of data to do in-depth analyses of this kind.
 
 ![Tricot stakeholders](/img/stakeholders.png)
 
