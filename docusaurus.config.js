@@ -100,6 +100,7 @@ rehypePlugins: [
         `Content licensed under <a href="/license">CC BY-SA</a>.`,
     },
   }),
+};
 
       algolia: {
         // The application ID provided by Algolia
