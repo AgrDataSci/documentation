@@ -86,4 +86,40 @@ In an important extension of the PL framework, de Sousa et al. (2021) [@deSousa2
 
 Such methods help bridge participatory research and advanced quantitative genetics.
 
+## From rankings to breeding decisions
+
+Breeding programs are often interested in the probability that a new variety outperforms current standards, rather than in exact yield differences. Ranking-based analyses are well suited for this, as PL model outputs can be expressed as probabilities of superiority [@Eskridge1992]. This aligns closely with modern breeding strategies that focus on product replacement and incremental gains [@Cobb2019].
+
+Tricot thus provides an efficient way to generate early-stage evidence about the likelihood that a candidate variety will succeed under farmer conditions.
+
+## Integrating on-farm and on-station data
+
+A major challenge (and opportunity) in decentralized variety testing is the integration of on-farm and on-station datasets to support breeding decisions and biological interpretation of farmer preferences. On-station trials, conducted under controlled and replicated conditions, produce precise phenotypic measurements and genotypic estimates (e.g. yield, disease scores, physiological traits) that are essential for breeding decisions. In contrast, on-farm trials provide real-world performance assessments that incorporate the full complexity of farmer management, socio-economic context, and micro-environmental variation. 
+
+Kang et al. (2025) [@Kang2025] demonstrate a concrete example of such integration in potato trials in Rwanda. In this study, genotypic values estimated from on-station trials were incorporated as item covariates in the statistical model analysing farmers' tricot rankings. This strategy allowed the researchers to assess how biological measurements captured in controlled environments influence farmers' relative evaluations. Providing a richer understanding of variety performance across scales and can directly inform breeding decisions on trait prioritization and advancement in breeding pipelines.
+
+Similarly, Alamu et al. (2023) [@Alamu2023] have pioneered the use of item covariates derived from instrumental laboratory data (i.e. color, texture, hardness) in Plackett–Luce regressions, not just to explain consumers' preferences on gari (a cassava sub-product) but also to integrate biological and consumer preference data into a unified framework. 
+
+While not always focused on yield traits per se, these methods showcase how external measurements from controlled settings (e.g., instrumental sensory traits) can be used analytically alongside ranking data from decentralized trials.
+
+Integrating on-station data into on-farm analyses can significantly enhance model robustness and interpretability. For example, item covariate models (e.g. Plackett–Luce regression with traits or genotypic values) allow the effects of measured biological traits to be directly estimated on the worth parameters used in ranking analyses.
+
+These models effectively combine absolute performance metrics from station settings with relative performance evaluations from on-farm environments. From a breeding perspective, this integration supports a two-level modelling strategy:
+
+- Predict genetic value and trait responses under controlled conditions, and
+- Translate these predictions into expected performance under farmer conditions and diverse environments.
+
+This strategy reflects a growing trend in crop improvement research where data from diverse sources (e.g. farm trials, climate data, genomic estimates) are systematically combined to support decision-making at both breeding and deployment stages [@vanEtten2023].
+
+# Future directions for integrated data analysis
+
+From a data analysis perspective, integrating on-farm and on-station data opens important opportunities to strengthen the role of decentralised trials within breeding pipelines. A key direction is the development of multi-level models that jointly analyse ranking data from on-farm trials and quantitative trait measurements from on-station experiments. Recent work shows that ranking-based estimates of genotypic performance can be placed on an underlying continuous scale and then used in mixed-model frameworks similar to those applied in conventional quantitative genetics [@Dorado2026].
+
+Extending these approaches to multi-environment and multi-year datasets will allow more robust estimation of genotypic performance and variability under farmer conditions.
+Another priority is the integration of environmental covariates into performance models. Linking on-farm results with weather, soil, and management data enables context-specific interpretation of variety performance and supports the definition of Target Populations of Environments. Data-driven breeding frameworks emphasize that combining trial data with environmental characterization improves both representativeness and predictive power [@vanEtten2023].
+
+Future analysis will also benefit from multi-trait modelling. Farmers evaluate varieties holistically, and studies of participatory trials show that preferences often reflect combinations of agronomic and end-use traits that differ across farmer segments [@Voss2025]. Statistical frameworks that allow simultaneous analysis of multiple traits, whether measured on-station or from on-farm rankings, will better capture these complex performance profiles.
+
+Finally, there is growing scope for data-driven approaches that combine ranking data, quantitative measurements, and genomic or trait covariates within unified models [@Kang2025; @Alamu2023]. Such integration will help translate farmer-generated evidence into biologically interpretable parameters, strengthening the connection between decentralized on-farm testing and formal breeding decision-making.
+
 ## References
