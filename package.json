@@ -2,8 +2,7 @@
   "scripts": {
     "prebuild": "node scripts/build-sections-json.js",
     "build": "docusaurus build"
-  }
-}
+  },
 
 {
   "name": "my-website",
