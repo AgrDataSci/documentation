@@ -1,14 +1,9 @@
 {
-  "scripts": {
-    "prebuild": "node scripts/build-sections-json.js",
-    "build": "docusaurus build"
-  },
-
-{
   "name": "my-website",
   "version": "0.0.0",
   "private": true,
   "scripts": {
+    "prebuild": "node scripts/build-sections-json.js",
     "docusaurus": "docusaurus",
     "start": "docusaurus start",
     "build": "docusaurus build",
