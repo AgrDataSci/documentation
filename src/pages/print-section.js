@@ -10,9 +10,11 @@ function useQuery() {
 
 export default function PrintSection() {
   const query = useQuery();
-  const sectionName = query.get("name") || "";
 
-  // ✅ These will become /documentation/print/sections.json etc. on GitHub Pages
+  // Use a stable section id like "01-intro" instead of a label name
+  const sectionId = query.get("id") || "";
+
+  // GitHub Pages-safe URLs (auto-prefixes /documentation/)
   const sectionsJsonUrl = useBaseUrl("/print/sections.json");
   const siteRoot = useBaseUrl("/"); // -> "/documentation/"
 
@@ -28,32 +30,44 @@ export default function PrintSection() {
       try {
         return JSON.parse(text);
       } catch {
-        throw new Error(`Expected JSON at ${url} but got HTML (likely a 404).`);
+        const preview = text.slice(0, 120).replace(/\s+/g, " ");
+        throw new Error(`Expected JSON at ${url} but got: ${preview}`);
       }
     }
 
     async function run() {
-      if (!sectionName) {
-        setStatus('Missing section name (?name=...)');
+      if (!sectionId) {
+        setStatus('Missing section id (use ?id=...)');
         return;
       }
 
       setStatus("Loading section map…");
-      const sections = await fetchJsonStrict(sectionsJsonUrl);
+      const data = await fetchJsonStrict(sectionsJsonUrl);
 
-      const ids = sections[sectionName];
-      if (!ids?.length) {
-        setStatus(`Unknown/empty section: "${sectionName}"`);
+      const list = Array.isArray(data.sections) ? data.sections : [];
+      const section = list.find((s) => s.id === sectionId);
+
+      if (!section) {
+        setStatus(`Unknown section id: "${sectionId}"`);
         return;
       }
 
-      setStatus(`Loading ${ids.length} pages…`);
+      // New format: section.pages = [{ url: "intro/introduction", id: "01-intro/introduction" }, ...]
+      const pages = Array.isArray(section.pages) ? section.pages : [];
+      if (!pages.length) {
+        setStatus(`Section "${sectionId}" has no pages.`);
+        return;
+      }
+
+      setStatus(`Loading ${pages.length} pages…`);
 
       const blocks = [];
-      for (const id of ids) {
-        // ✅ Important: doc ids often contain slashes, so DON'T use encodeURIComponent(id)
-        const cleanId = String(id).replace(/^\/+/, "");
-        const docUrl = siteRoot + cleanId; // e.g. /documentation/intro/introduction
+      for (const page of pages) {
+        // Use the slug-based URL so it matches your live routes
+        const cleanUrl = String(page.url || "").replace(/^\/+/, "");
+        if (!cleanUrl) continue;
+
+        const docUrl = siteRoot + cleanUrl; // e.g. /documentation/intro/introduction
 
         const pageRes = await fetch(docUrl);
         const html = await pageRes.text();
@@ -77,16 +91,19 @@ export default function PrintSection() {
       }
     }
 
-    run().catch((e) => !cancelled && setStatus(`Error: ${e.message}`));
+    run().catch((e) => {
+      if (!cancelled) setStatus(`Error: ${e.message || String(e)}`);
+    });
+
     return () => {
       cancelled = true;
     };
-  }, [sectionName, sectionsJsonUrl, siteRoot]);
+  }, [sectionId, sectionsJsonUrl, siteRoot]);
 
   return (
-    <Layout title={`Print: ${sectionName || "Section"}`}>
+    <Layout title={`Print: ${sectionId || "Section"}`}>
       <main style={{ padding: "1rem" }}>
-        <h1>{sectionName || "Print section"}</h1>
+        <h1>{sectionId || "Print section"}</h1>
         <p>{status}</p>
         <div dangerouslySetInnerHTML={{ __html: htmlBlocks.join("\n") }} />
       </main>

@@ -1,0 +1,66 @@
+{
+  "Tricot": [
+    "01-intro/introduction",
+    "01-intro/steps"
+  ],
+  "Planning a tricot experiment": [
+    "02-preparation/budgeting",
+    "02-preparation/checklist",
+    "02-preparation/problem-identification",
+    "02-preparation/stakeholder-engagement"
+  ],
+  "Experimental design": [
+    "03-design/bean-protocol",
+    "03-design/climmob-setup",
+    "03-design/sampling-plots",
+    "03-design/sops",
+    "03-design/tpp"
+  ],
+  "Recruitment": [
+    "04-recruitment/farmer-registration"
+  ],
+  "Distribution": [
+    "05-distribution/packages",
+    "05-distribution/training"
+  ],
+  "Execution": [
+    "06-execution/trial-execution"
+  ],
+  "Observation": [
+    "07-observation/observation"
+  ],
+  "Compilation": [
+    "08-compilation/documentation"
+  ],
+  "Data Analysis and Reporting": [
+    "09-analysis/climmob-data-analysis",
+    "09-analysis/intro-data-analysis",
+    "09-analysis/r-instat",
+    "09-analysis/r-packages-suite"
+  ],
+  "Feedback and dissemination": [
+    "10-feedback/dissemination",
+    "10-feedback/feedback"
+  ],
+  "Evaluation": [
+    "11-evaluation/evaluation"
+  ],
+  "FAQs and other resources": [
+    "12-faq-and-resources/cop",
+    "12-faq-and-resources/faqs",
+    "12-faq-and-resources/resources"
+  ],
+  "Tricot Case Studies": [
+    "13-case-studies/case-studies",
+    "13-case-studies/iita-handbooks"
+  ],
+  "Contact": [
+    "contact"
+  ],
+  "Glossary": [
+    "glossary"
+  ],
+  "Intro": [
+    "intro"
+  ]
+}
