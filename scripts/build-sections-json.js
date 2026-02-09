@@ -5,10 +5,14 @@ const fs = require("fs");
 const path = require("path");
 
 const projectRoot = path.join(__dirname, "..");
-const docsRoot = path.join(projectRoot, "docs"); // your structure
+const docsRoot = path.join(projectRoot, "docs");
 
 function existsDir(p) {
   try { return fs.statSync(p).isDirectory(); } catch { return false; }
+}
+
+function safeRead(p) {
+  try { return fs.readFileSync(p, "utf8"); } catch { return null; }
 }
 
 function listFilesRecursive(dir, out = []) {
@@ -28,7 +32,7 @@ function docIdFromPath(filePath) {
 }
 
 function parseFrontMatter(text) {
-  // minimal front matter parser for slug + sidebar_position
+  // minimal parser for simple "key: value" lines in the first front matter block
   if (!text || !text.startsWith("---")) return {};
   const end = text.indexOf("\n---", 3);
   if (end === -1) return {};
@@ -47,21 +51,48 @@ function parseFrontMatter(text) {
 
 function labelFromFolder(folder) {
   return folder
-    .replace(/^[0-9]+[-_ ]*/, "")
+    .replace(/^[0-9]+[-_ ]*/, "") // drop numeric prefix
     .replace(/[-_]+/g, " ")
     .replace(/\b\w/g, (c) => c.toUpperCase())
     .trim();
 }
 
-function urlFromSlugOrId(frontMatterSlug, fallbackId) {
-  // If slug is absolute like /intro/introduction, use it (strip leading slash)
-  if (frontMatterSlug && typeof frontMatterSlug === "string") {
-    const s = frontMatterSlug.trim();
-    if (s.startsWith("/")) return s.replace(/^\/+/, "");     // "/intro/x" -> "intro/x"
-    // If slug is relative, treat as relative path (no leading slash)
-    return s.replace(/^\/+/, "");
+function cleanFolderSlug(folder) {
+  // 01-intro -> intro
+  return folder
+    .replace(/^[0-9]+[-_ ]*/, "")
+    .replace(/[_\s]+/g, "-")
+    .toLowerCase()
+    .trim();
+}
+
+function readCategoryMetaSlug(folderAbsPath) {
+  // Reads docs/<folder>/_category_.json and returns its "slug" if present
+  const metaPath = path.join(folderAbsPath, "_category_.json");
+  const txt = safeRead(metaPath);
+  if (!txt) return null;
+  try {
+    const obj = JSON.parse(txt);
+    if (obj && typeof obj.slug === "string" && obj.slug.trim()) {
+      return obj.slug.trim().replace(/^\/+/, "").replace(/\/+$/, "");
+    }
+  } catch {
+    // ignore
   }
-  return fallbackId; // fallback to file-based id
+  return null;
+}
+
+function urlFromSlugOrFolder(fmSlug, folderSlug, fileBase) {
+  // 1) front matter slug wins
+  if (typeof fmSlug === "string" && fmSlug.trim()) {
+    return fmSlug.trim().replace(/^\/+/, "").replace(/\/+$/, "");
+  }
+  // 2) folder/category slug + filename
+  if (folderSlug) {
+    return `${folderSlug}/${fileBase}`;
+  }
+  // 3) fallback to folder + filename (already cleaned folderSlug earlier)
+  return `${folderSlug || ""}/${fileBase}`.replace(/^\/+/, "");
 }
 
 if (!existsDir(docsRoot)) {
@@ -80,11 +111,17 @@ for (const dir of topDirs) {
   const sectionDir = path.join(docsRoot, dir);
   const files = listFilesRecursive(sectionDir).filter((f) => /\.(md|mdx)$/i.test(f));
 
+  // Determine the folder/category slug (from _category_.json if present, else cleaned folder)
+  const folderSlug =
+    readCategoryMetaSlug(sectionDir) || cleanFolderSlug(dir);
+
   const pages = files.map((f) => {
     const id = docIdFromPath(f);
-    const txt = fs.readFileSync(f, "utf8");
+    const fileBase = id.split("/").slice(-1)[0]; // filename without folder
+    const txt = safeRead(f) || "";
     const fm = parseFrontMatter(txt);
-    const url = urlFromSlugOrId(fm.slug, id);
+
+    const url = urlFromSlugOrFolder(fm.slug, folderSlug, fileBase);
 
     const posRaw = fm.sidebar_position;
     const pos =
@@ -97,9 +134,9 @@ for (const dir of topDirs) {
 
   if (pages.length) {
     sections.push({
-      id: dir,                       // stable section id: "01-intro"
-      label: labelFromFolder(dir),   // "Intro"
-      pages: pages.map(({ url, id }) => ({ url, id })) // keep id for debugging
+      id: dir,                     // "01-intro"
+      label: labelFromFolder(dir), // "Intro"
+      pages: pages.map(({ url, id }) => ({ url, id }))
     });
   }
 }
