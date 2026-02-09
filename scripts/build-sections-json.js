@@ -1,4 +1,6 @@
 // scripts/build-sections-json.js
+"use strict";
+
 const fs = require("fs");
 const path = require("path");
 
@@ -8,12 +10,14 @@ const sidebars = typeof sidebarsExport === "function" ? sidebarsExport() : sideb
 
 function asArray(maybe) {
   if (Array.isArray(maybe)) return maybe;
-  // Common pattern: { sidebar: [...] }
+
+  // Common patterns: { items: [...] } or { sidebar: [...] } or { default: [...] }
   if (maybe && typeof maybe === "object") {
     if (Array.isArray(maybe.items)) return maybe.items;
     if (Array.isArray(maybe.sidebar)) return maybe.sidebar;
     if (Array.isArray(maybe.default)) return maybe.default;
   }
+
   return null;
 }
 
@@ -24,22 +28,25 @@ function extractDocIds(items, out = []) {
   for (const it of arr) {
     if (!it) continue;
 
+    // Shorthand doc id
     if (typeof it === "string") {
       out.push(it);
       continue;
     }
 
+    // Explicit doc item
     if (it.type === "doc" && it.id) {
       out.push(it.id);
       continue;
     }
 
+    // Category
     if (it.type === "category" && it.items) {
       extractDocIds(it.items, out);
       continue;
     }
 
-    // Some sidebar items embed items without "type"
+    // Fallback: nested items without explicit "type"
     if (it.items) {
       extractDocIds(it.items, out);
     }
@@ -60,16 +67,34 @@ function walk(items) {
     if (it.type === "category") {
       const title = it.label || it.title || "Section";
       const ids = extractDocIds(it.items, []);
+
       // Only store non-empty sections
       if (ids.length) sections[title] = ids;
 
       // Recurse into nested categories
       walk(it.items);
-    } else if (it.items) {
-      walk(it.items);
+      continue;
     }
+
+    // Other nested structures
+    if (it.items) walk(it.items);
   }
 }
 
 // Walk ALL sidebars (in case you have more than one)
-for (c
+for (const [key, val] of Object.entries(sidebars || {})) {
+  const root = asArray(val) ?? asArray(val?.items) ?? asArray(val?.sidebar);
+  if (!root) {
+    console.warn(`Skipping sidebar "${key}" (not an array-like structure)`);
+    continue;
+  }
+  walk(root);
+}
+
+const outDir = path.join(__dirname, "..", "static", "print");
+fs.mkdirSync(outDir, { recursive: true });
+
+const outPath = path.join(outDir, "sections.json");
+fs.writeFileSync(outPath, JSON.stringify(sections, null, 2), "utf8");
+
+console.log(`Wrote ${outPath} with ${Object.keys(sections).length} sections`);
