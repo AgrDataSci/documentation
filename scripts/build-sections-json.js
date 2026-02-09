@@ -1,51 +1,75 @@
-/* scripts/build-sections-json.js */
+// scripts/build-sections-json.js
 const fs = require("fs");
 const path = require("path");
 
-// Update if your sidebar export shape is different
-const sidebars = require("../sidebars.js");
+// sidebars.js can export an object OR a function that returns an object
+const sidebarsExport = require("../sidebars.js");
+const sidebars = typeof sidebarsExport === "function" ? sidebarsExport() : sidebarsExport;
+
+function asArray(maybe) {
+  if (Array.isArray(maybe)) return maybe;
+  // Common pattern: { sidebar: [...] }
+  if (maybe && typeof maybe === "object") {
+    if (Array.isArray(maybe.items)) return maybe.items;
+    if (Array.isArray(maybe.sidebar)) return maybe.sidebar;
+    if (Array.isArray(maybe.default)) return maybe.default;
+  }
+  return null;
+}
 
 function extractDocIds(items, out = []) {
-  for (const it of items) {
+  const arr = asArray(items);
+  if (!arr) return out;
+
+  for (const it of arr) {
     if (!it) continue;
+
     if (typeof it === "string") {
       out.push(it);
-    } else if (it.type === "doc" && it.id) {
+      continue;
+    }
+
+    if (it.type === "doc" && it.id) {
       out.push(it.id);
-    } else if (it.type === "category" && Array.isArray(it.items)) {
+      continue;
+    }
+
+    if (it.type === "category" && it.items) {
       extractDocIds(it.items, out);
-    } else if (Array.isArray(it.items)) {
+      continue;
+    }
+
+    // Some sidebar items embed items without "type"
+    if (it.items) {
       extractDocIds(it.items, out);
     }
   }
+
   return out;
 }
 
-// Choose the sidebar you use (often "default" or "docs")
-const sidebarKey = Object.keys(sidebars)[0];
-const rootItems = sidebars[sidebarKey];
-
 const sections = {}; // { "Section Title": ["docId1","docId2", ...], ... }
 
-function walk(items, currentSection = null) {
-  for (const it of items) {
-    if (it?.type === "category") {
+function walk(items) {
+  const arr = asArray(items);
+  if (!arr) return;
+
+  for (const it of arr) {
+    if (!it) continue;
+
+    if (it.type === "category") {
       const title = it.label || it.title || "Section";
       const ids = extractDocIds(it.items, []);
-      sections[title] = ids;
-      walk(it.items, title);
+      // Only store non-empty sections
+      if (ids.length) sections[title] = ids;
+
+      // Recurse into nested categories
+      walk(it.items);
+    } else if (it.items) {
+      walk(it.items);
     }
   }
 }
 
-walk(rootItems);
-
-const outDir = path.join(__dirname, "..", "static", "print");
-fs.mkdirSync(outDir, { recursive: true });
-fs.writeFileSync(
-  path.join(outDir, "sections.json"),
-  JSON.stringify(sections, null, 2),
-  "utf8"
-);
-
-console.log("Wrote static/print/sections.json");
+// Walk ALL sidebars (in case you have more than one)
+for (c
