@@ -160,10 +160,12 @@
   font-size: 0.9rem;
 }
 
-/* Slightly tighter markdown spacing for dense reference lists */
+/* Slightly more markdown spacing for reference lists */
 
-.markdown h3 {
-  margin-top: 1.5rem;
-}
+.markdown h3 { margin-top: 2.25rem; }
+
+#refs .csl-entry { margin-bottom: 1rem; }
+#refs p { margin: 0; }
+
 
 
