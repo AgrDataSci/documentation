@@ -71,7 +71,7 @@ In a tricot project, the field agents use this app on a mobile devices (smartpho
 
 The field agents do not need to be connected to the internet when entering data into ODK Collect, for example, when they are out in the field, visiting participants. When a participant observations are entered, ODK Collect will first store the data locally on the field agents’ mobile device. The field agents can upload the data to ClimMob at later points in time, whenever the device can connect to the internet again. ODK Collect then uploads the individual data sets to the ClimMob online software.
 
-The app can be downloaded for free from the Google Play Store. ** Note that the app is available for Android only, not for iOS.**
+The app can be downloaded for free from the Google Play Store. **Note that the app is available for Android only, not for iOS.**
 
 **Observation card**
 Observation cards are used by the participants to record their field observations during different stages of the tricot trial. These paper cards are distributed by the field agents at the initial training event. Over the course of the trial period, the growers fill them out, using a pen.
@@ -132,7 +132,7 @@ The word ‘tricot’ is derived from three words: Triadic comparison of technol
 **Tricot trial**
 Test of different technological options, in sets of three, each observed and ranked by a participant. For an on-farm trial, the options are grown and observed in a small designated area of her/his own farm.
 
-**Tricot Experiment**
+**Tricot experiment**
 A tricot experiment (or tricot project) refers to the whole process of putting the tricot approach into action. That is, engaging a large number of participants in testing a range of technology options in random sub-sets of three technology option per participant.
 
 A tricot experiment, or tricot project consists of many small tricot trials.
