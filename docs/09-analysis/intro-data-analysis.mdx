@@ -20,22 +20,22 @@ In tricot, farmers typically compare three varieties per trait in an incomplete 
 
 Key advantages of the PL framework for tricot include:
 
-- Ability to handle incomplete and unbalanced designs
-- Direct modeling of ordinal (ranking) data
-- Straightforward interpretation of relative performance
-- Compatibility with covariates and hierarchical extensions
+* Ability to handle incomplete and unbalanced designs
+* Direct modeling of ordinal (ranking) data
+* Straightforward interpretation of relative performance
+* Compatibility with covariates and hierarchical extensions
 
 The estimated worth parameters can be transformed into probabilities of outperforming other varieties or into expected ranks, which are highly intuitive for breeders, extension agents, and decision makers.
 
 ## Modelling heterogeneity using covariates and recursive partitioning
 
-Farmer evaluations are influenced by environmental conditions, management practices, and socio-economic context. To account for this heterogeneity, the PL model can be extended with covariates. One widely used approach in tricot is model-based recursive partitioning [@Strobl2011]. This method identifies subgroups in the data using binary splits based on environmental or socio-economic variables (e.g. rainfall, temperature, soil type, gender of farmer). Within each subgroup, a separate PL model is estimated. The result is a Plackett–Luce tree, which reveals how variety performance changes across contexts and helps define Target Populations of Environments (TPEs). This approach has proven especially useful for identifying genotype × environment (G×E) interactions under real farm conditions, supporting context-specific variety recommendations [@vanEtten2019].
+Farmer evaluations are influenced by environmental conditions, management practices, and socio*economic context. To account for this heterogeneity, the PL model can be extended with covariates. One widely used approach in tricot is model-based recursive partitioning [@Strobl2011]. This method identifies subgroups in the data using binary splits based on environmental or socio-economic variables (e.g. rainfall, temperature, soil type, gender of farmer). Within each subgroup, a separate PL model is estimated. The result is a Plackett–Luce tree, which reveals how variety performance changes across contexts and helps define Target Populations of Environments (TPEs). This approach has proven especially useful for identifying genotype × environment (G×E) interactions under real farm conditions, supporting context-specific variety recommendations [@vanEtten2019].
 
 More recently, developments in Plackett–Luce regression allow the inclusion of linear covariates directly in the model [@Turner2020; @Alamu2023; @Kang2025]. This enables:
 
-- Modelling of environmental gradients rather than discrete groups
-- Inclusion of variety-level covariates (e.g. traits, genomic predictions)
-- More continuous representations of performance variation across environments
+* Modelling of environmental gradients rather than discrete groups
+* Inclusion of variety-level covariates (e.g. traits, genomic predictions)
+* More continuous representations of performance variation across environments
 
 These advances bring tricot analysis closer to mainstream quantitative genetics and breeding analytics.
 
@@ -45,10 +45,10 @@ Although rankings are central in tricot, many trials also collect quantitative m
 
 Mixed models allow partitioning of variation into components attributable to:
 
-- Variety (genotype)
-- Environment
-- Farmer or location
-- Residual error
+* Variety (genotype)
+* Environment
+* Farmer or location
+* Residual error
 
 They also support estimation of heritability, variance components, and genotype × environment interactions. When tricot trials include both ranking and quantitative data, analyses can be conducted in parallel and later integrated at the interpretation stage. Research is ongoing into joint modelling frameworks that combine ordinal and continuous data within a single statistical structure [@Dorado2026].
 
@@ -56,9 +56,9 @@ They also support estimation of heritability, variance components, and genotype 
 
 A major innovation in tricot analysis has been the integration of seasonal climate data, and other spatial covariates. Van Etten et al. [-@vanEtten2019] demonstrated how PL models combined with climate covariates and cross-validation can produce locally specific variety recommendations. This approach allows:
 
-- Identification of environmental drivers of variety performance
-- Prediction of performance in new locations
-- Development of climate-informed decision support tools
+* Identification of environmental drivers of variety performance
+* Prediction of performance in new locations
+* Development of climate-informed decision support tools
 
 This integration is especially important under increasing climate variability, where static recommendations are insufficient.
 
@@ -66,17 +66,17 @@ This integration is especially important under increasing climate variability, w
 
 Another major development is the rank-based synthesis of data across multiple trials [@Brown2020]. Because the PL model works with relative performance, it allows the combination of datasets from different years, locations, and experimental conditions—even when absolute measurements are not comparable. This is particularly promising for tricot, as it enables:
 
-- Meta-analysis of decentralized trials
-- Increased statistical power through aggregation
-- Reuse of legacy or small-scale datasets
-- Standardized data formats and open data sharing will further increase the value of such synthesis efforts, creating cumulative knowledge across projects and regions.
-- Integration of genomic and biological information
+* Meta-analysis of decentralized trials
+* Increased statistical power through aggregation
+* Reuse of legacy or small-scale datasets
+* Standardized data formats and open data sharing will further increase the value of such synthesis efforts, creating cumulative knowledge across projects and regions.
+* Integration of genomic and biological information
 
 In an important extension of the PL framework, de Sousa et al. [-@deSousa2021] incorporated genomic relatedness among varieties as a covariance structure within the model. This increased predictive accuracy, demonstrating that combining farmer evaluations with genomic information can improve selection decisions. This approach opens the door to:
 
-- Decentralized genomic selection
-- Testing genetically diverse materials under farmer management
-- Better representation of G×E interactions in breeding pipelines
+* Decentralized genomic selection
+* Testing genetically diverse materials under farmer management
+* Better representation of G×E interactions in breeding pipelines
 
 Such methods help bridge participatory research and advanced quantitative genetics.
 
@@ -100,8 +100,8 @@ Integrating on-station data into on-farm analyses can significantly enhance mode
 
 These models effectively combine absolute performance metrics from station settings with relative performance evaluations from on-farm environments. From a breeding perspective, this integration supports a two-level modelling strategy:
 
-- Predict genetic value and trait responses under controlled conditions, and
-- Translate these predictions into expected performance under farmer conditions and diverse environments.
+* Predict genetic value and trait responses under controlled conditions, and
+* Translate these predictions into expected performance under farmer conditions and diverse environments.
 
 This strategy reflects a growing trend in crop improvement research where data from diverse sources (e.g. farm trials, climate data, genomic estimates) are systematically combined to support decision-making at both breeding and deployment stages [@vanEtten2023].
 

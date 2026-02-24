@@ -24,9 +24,7 @@ sidebar_position: 4
 ClimMob is a **free, open-source, online platform** for participatory testing projects. It guides users through all stages of their tricot projects: from project design and generation of randomized test packages, to efficient data collection, automated analysis, and reporting.
 
 *	Current version: ClimMob 3
-
-*	Data collection: via the Android app ODK Collect 
-
+*	Data collection: via the Android app ODK Collect
 *	Analysis: uses the R package ClimMobTools
 
 Requirements: An Android smartphone or tablet for field data collection
@@ -38,13 +36,9 @@ Participatory testing in agriculture can be complex, involving multiple actors�
 ClimMob was custom-built to streamline this complexity by supporting:
 
 *	Project design and planning
-
 *	Generation of randomized test packages
-
 *	Efficient data collection and storage
-
 *	Monitoring of data and project progress
-
 *	Automated data analysis and reporting
 
 By simplifying all stages of the workflow, ClimMob makes tricot projects more manageable, scalable, and successful.
@@ -62,9 +56,7 @@ ClimMob is built using Component-Based Software Engineering (CBSE). This allows 
 ClimMob is based on robust, widely adopted open-source components, including:
 
 *	Open Data Kit (ODK)
-
 *	ODK Tools
-
 *	PyUtilib Component Architecture
 
 All data analysis is conducted through R packages, particularly the ClimMobTools package, ensuring reproducibility and transparency.
@@ -74,9 +66,7 @@ All data analysis is conducted through R packages, particularly the ClimMobTools
 From the beginning, ClimMob has followed an iterative and user-centered development process, marked by:
 
 *	Ongoing feedback from users
-
 *	Short communication loops between developers and field teams
-
 *	Continuous improvements based on real-world use
 
 This has resulted in a platform that adapts to the evolving needs of agricultural innovation projects.
@@ -96,11 +86,8 @@ Testers (farmers or participants) - They receive their test results soon after d
 Ongoing development of ClimMob focuses on:
 
 *	Improving user experience (UI/UX)
-
 *	Expanding data types and media (e.g. audio, photos, sensor data)
-
 *	Enhancing integration with other platforms
-
 *	Strengthening support for data-driven agricultural decision-making
 
 ---
@@ -151,9 +138,7 @@ Here is the order in which these onboarding messages appear:
 Libraries are centralized repositories for elements that will be reused in multiple projects, such as agents, technologies, and questions.
 
 *	Field agents: are the individuals responsible for registering farmers and collecting data in the field. You’ll define them once and assign them across multiple projects.
-
 *	Technologies: are the options that farmers will evaluate—for example, different seed varieties, soil treatments, or planting methods. These are stored in the library for future use.
-
 *	Questions: ClimMob provides a rich library of premade evaluation questions developed by the 1000FARMS team, available in multiple languages and ready to use across projects. This library helps ensure consistency and comparability in data collection. In addition, you can also define your own custom questions—such as “Which variety grew fastest?” or “Which option tasted better?”—which will then be stored and reused in future projects.
 
 **Downloads**
@@ -161,11 +146,8 @@ Libraries are centralized repositories for elements that will be reused in multi
 This menu option gives access to tools and resources needed for field implementation, including:
 
 * Field data collection templates
-
 * Survey forms
-
 * ClimMob documentation
-
 * R analysis tools
 	
 ---
@@ -180,16 +162,11 @@ To set up a profile for your tricot project. Fields to fill:
 
 * Project name: Unique and more descriptive name for the project. We recommend including the technology, the year or time, and the location, to distinguish the project from others, when you manage multiple projects. For example: Bean_Honduras_2019_season1  
 
-* Project ID: Short, unique identifier of the project. For example, your initials and year of the project: JV19.  
-
-* Description: Add more detail about the project.  
-
-* Keywords: To make your project searchable, enter up to X keywords that define your project. Examples: “bean”, “Honduras”.  
-
+* Project ID: Short, unique identifier of the project. For example, your initials and year of the project: JV19.
+* Description: Add more detail about the project. 
+* Keywords: To make your project searchable, enter up to X keywords that define your project. Examples: “bean”, “Honduras”.
 * Trial coordinator: Your full name, start with your first name, all names separated by a space. By default, it is already filled with your data. Change if the trial coordinator is someone else.  
-
-* Email address: Your email address.  
-
+* Email address: Your email address. 
 * Affiliation: Select one or create a new affiliation, if any of the options applies to your organization.  
 
 2) Geographic information
@@ -203,17 +180,13 @@ To set up a profile for your tricot project. Fields to fill:
 4) Technology options labels
 
 * Number of technology options each participant compares: By default, this is set to ‘3’ and cannot be changed. It’s a reminder that in a tricot project, every participant will receive 3 technology options to compare.
-
 * Name given to the 3 items that each participant compares: by default the names are “Option A, Option B and Option C” but the trial coordinator could decide to change them for something else that participants can relate to better, such as numbers, colors or shapes.
 
 5) Project type
 
 * You can indicate whether the project is a training project. This means the project was created for educational purposes—such as practice, demonstrations, or coursework—and not intended for actual data collection in the field.
-
 * There are three options for experimental site: on-farm testing, home, or public space (e.g., market). Depending on the experimental site selected, you will need to choose between different units of analysis and corresponding objectives (see examples in box below).
-   
 *	Do you want to create your project from a template? Select if it applies to your project.
-
 *	Finally, you can select up to four languages in which the participant forms will be provided, allowing multilingual data collection as needed.
    
  **Video tutorial**
@@ -247,7 +220,6 @@ How-to:
 In this section, you define the different data collection moments for the on-farm evaluation that participants will carry out. At each moment, specific questions will be asked to capture observations. It is important to decide:
 
 *	Which traits will be evaluated in the selected technology options?
-
 *	When will each trait be evaluated during the planting cycle?
 
 Once set up, these data collection forms will guide field agents and participants during the evaluation process.
@@ -284,9 +256,7 @@ How-to:
 2. Set combinations:
 
 * Choose whether to include all technology options or only a selection.
-
 * Define how many packages with each technology option will be generated.
-
 * By default, all technology options are included, and the same number of packages are created for each.
 
 **WARNING** If you change the number of packages for one technology, you must balance the total by adding or subtracting from others to ensure the same overall number of packages.
@@ -296,7 +266,6 @@ How-to:
 4. Once confirmed, the randomization documents are available in the Downloads section:
 
 * List of packages with QR codes for the registration form → required for preparing test packages.
-
 * List with randomized trial packages (Excel) → shows the technology combinations assigned to each package. This file is useful when preparing test packages. Do not edit this file.
 
 **Video tutorials:**
