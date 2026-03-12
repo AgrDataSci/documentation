@@ -25,15 +25,15 @@ ClimMob is a **free, open-source, online platform** for participatory testing pr
 
 *	Current version: ClimMob 3
 *	Data collection: via the Android app ODK Collect
-*	Analysis: uses the R package ClimMobTools
+*	Analysis: using many R packages
 
-Requirements: An Android smartphone or tablet for field data collection
+Requirements: A computer with an internet connection to design the trial and an Android smartphone or tablet for field data collection
 
 ### Why ClimMob?
 
-Participatory testing in agriculture can be complex, involving multiple actors—such as project implementers, field agents, and farmers—often across different regions or countries. These projects generate large volumes of data that must be organized, validated, and analyzed.
+Participatory testing in agriculture can be complex, involving multiple actors—such as project implementers, field agents, and farmers—often across different regions or countries. These projects generate large volumes of data that must be organized, validated, and analyzed. Before ClimMob, previous disintegrated pipelines made it unlikely that project outputs were delivered on time.
 
-ClimMob was custom-built to streamline this complexity by supporting:
+ClimMob was custom-built to streamline the complexity by supporting:
 
 *	Project design and planning
 *	Generation of randomized test packages
@@ -47,9 +47,9 @@ By simplifying all stages of the workflow, ClimMob makes tricot projects more ma
 
 Design philosophy
 
-ClimMob’s architecture was shaped by the need for a feasible and project-owner-oriented workflow, while also addressing the requirements of breeders, researchers, and field agents. The platform is designed primarily for scientists and project coordinators who lead participatory trials, ensuring they can manage projects efficiently while keeping outputs relevant for farmers and decision-makers. The software and workflow (shown below) were developed in parallel to ensure technical coherence, usability, and alignment with real-world project management needs.
+ClimMob’s architecture was shaped by the need for a feasible and project owner-oriented workflow, while also addressing the requirements of breeders, researchers, and field agents. The platform is designed primarily for scientists and project coordinators who lead participatory trials, ensuring they can manage projects efficiently while keeping outputs relevant for farmers and decision-makers. The software and workflow were developed in parallel to ensure technical coherence, usability, and alignment with real-world project management needs (Figure 1).
 
-![Implementation](/img/implementation.png)
+![Figure 1. Worflow of the tricot approach using ClimMob](/img/implementation.png)
 
 ClimMob is built using Component-Based Software Engineering (CBSE). This allows for a flexible and modular platform that is easy to update and maintain.
 
@@ -59,7 +59,7 @@ ClimMob is based on robust, widely adopted open-source components, including:
 *	ODK Tools
 *	PyUtilib Component Architecture
 
-All data analysis is conducted through R packages, particularly the ClimMobTools package, ensuring reproducibility and transparency.
+All data analysis is conducted through R packages, ensuring reproducibility and transparency.
 
 ### User-centered development
 
@@ -77,9 +77,9 @@ ClimMob was built to support a range of users within participatory testing proje
 
 Implementers (project leaders) - They benefit from tools for project setup, assigning field agents, and managing test packages. ClimMob also offers automatic statistical reports, enabling data-informed decision-making.
 
-Field Agents - They register participants and collect data using the ODK Collect app. This ensures data entry is quick, efficient, and synchronized with ClimMob.
+Field agents - They register participants and collect data using the ODK Collect app. This ensures data entry is quick, efficient, and synchronized with ClimMob.
 
-Testers (farmers or participants) - They receive their test results soon after data submission. This rapid feedback helps them learn from peers and adopt the most promising technologies.
+Testers (participants) - They receive their test results soon after data submission. This rapid feedback helps them learn from peers and adopt the most promising technologies.
 
 ### What’s next for ClimMob?
 
@@ -139,7 +139,7 @@ Libraries are centralized repositories for elements that will be reused in multi
 
 *	Field agents: are the individuals responsible for registering farmers and collecting data in the field. You’ll define them once and assign them across multiple projects.
 *	Technologies: are the options that farmers will evaluate—for example, different seed varieties, soil treatments, or planting methods. These are stored in the library for future use.
-*	Questions: ClimMob provides a rich library of premade evaluation questions developed by the 1000FARMS team, available in multiple languages and ready to use across projects. This library helps ensure consistency and comparability in data collection. In addition, you can also define your own custom questions—such as “Which variety grew fastest?” or “Which option tasted better?”—which will then be stored and reused in future projects.
+*	Questions: ClimMob provides a rich library of premade evaluation questions developed by the 1000FARMS team, available in multiple languages and ready to use across projects. This library helps ensure consistency and comparability in data collection. In addition, you can also define your own custom questions, which will then be stored and can be reused in future projects.
 
 **Downloads**
 
@@ -164,7 +164,7 @@ To set up a profile for your tricot project. Fields to fill:
 
 * Project ID: Short, unique identifier of the project. For example, your initials and year of the project: JV19.
 * Description: Add more detail about the project. 
-* Keywords: To make your project searchable, enter up to X keywords that define your project. Examples: “bean”, “Honduras”.
+* Keywords: To make your project searchable to other users, enter up to X keywords that define your project. Examples: “bean”, “Honduras”.
 * Trial coordinator: Your full name, start with your first name, all names separated by a space. By default, it is already filled with your data. Change if the trial coordinator is someone else.  
 * Email address: Your email address. 
 * Affiliation: Select one or create a new affiliation, if any of the options applies to your organization.  
@@ -197,11 +197,7 @@ Create a new project
    
 ### Select technology options
 
-In this section, you can specify the technology options you want to compare in your tricot experiment. We recommend you select a pool of 7 to 20 technology options.
-
-For example, if you want to test which bean variety of a pool of 7 to 20 bean varieties is best adapted to the region you are running your tricot experiment in, you would add the names of all bean varieties here. If you want to include 7 bean varieties in the experiment, or 20, or anything in between, depends on the experiment you have in mind.
-
-If you want to test which fertilizer regime of a pool of 10 to 20 different fertilizer regimes makes crops grow best, you would add the names of these 10 to 20 fertilizer regimes here.
+In this section, you can specify the technology options you want to compare in your tricot experiment. For example, if you want to test bean varieties, you would add the names of the bean varieties to be tested here. If you want to test which fertilizer regimes, you would add the names of the fertilizer regimes to be tested.
 
 How-to:
 
@@ -261,7 +257,7 @@ How-to:
 
 **WARNING** If you change the number of packages for one technology, you must balance the total by adding or subtracting from others to ensure the same overall number of packages.
 
-3. Review packages and CONFIRM. If the list of packages is not confirmed, it will be lost, and you will need to repeat the randomization.
+3. Review packages and confirm. If the list of packages is not confirmed, it will be lost, and you will need to repeat the randomization.
 
 4. Once confirmed, the randomization documents are available in the Downloads section:
 
@@ -280,7 +276,7 @@ In this step, you define and manage the questions that participants will answer 
 
 How-to (two steps):
 
-1. Define time points
+1. Define data collection moments
 
 Decide when participants should make their observations during the trial.
 
