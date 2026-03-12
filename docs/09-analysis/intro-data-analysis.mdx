@@ -11,8 +11,7 @@ sidebar_position: 1
 
 ## Introduction
 
-The tricot data consist primarily of rankings provided by farmers, but can also include numeric and continuous measurements such as yield, plant density, disease incidence, or days to maturity. Because the core of tricot relies on comparative evaluation, statistical models that work naturally with relative rather than absolute performance are required.
-For ranking data, tricot analyses rely primarily on the Plackett–Luce (PL) model [@luce1959; @plackett1975]. This probabilistic model, derived from Luce's Choice Axiom, estimates the probability that an item (e.g. a crop variety) is preferred over others within a set. Each item is assigned a latent parameter often referred to as its "worth" or ability, which reflects its expected performance relative to alternatives.
+The tricot data consist primarily of rankings provided by farmers, but can also include numeric and continuous measurements such as yield, plant density, disease incidence, or days to maturity. Because the core of tricot relies on comparative evaluation, statistical models that work naturally with relative rather than absolute performance are required. For ranking data, tricot analyses rely primarily on the Plackett–Luce (PL) model [@luce1959; @plackett1975]. This probabilistic model, derived from Luce's Choice Axiom, estimates the probability that an item (e.g. a crop variety) is preferred over others within a set. Each item is assigned a latent parameter often referred to as its "worth" or ability, which reflects its expected performance relative to alternatives.
 
 The PL model has been widely used in fields where choices are made from sets of alternatives, including sports rankings, comparative judgement exercises [@Donovan2025; @Chambers2022], consumer preference studies [@Olaosebikan2023], and crop variety selection [@vanEtten2019]. Ranking methods in revealed-choice experiments are rapid, locally adaptable, and cognitively intuitive for respondents, requiring little calibration or training [@Coe2002]. This makes them particularly well suited for decentralized, farmer-led experimentation at scale.
 
@@ -29,12 +28,14 @@ The estimated worth parameters can be transformed into probabilities of outperfo
 
 ## Modelling heterogeneity using covariates and recursive partitioning
 
-Farmer evaluations are influenced by environmental conditions, management practices, and socio*economic context. To account for this heterogeneity, the PL model can be extended with covariates. One widely used approach in tricot is model-based recursive partitioning [@Strobl2011]. This method identifies subgroups in the data using binary splits based on environmental or socio-economic variables (e.g. rainfall, temperature, soil type, gender of farmer). Within each subgroup, a separate PL model is estimated. The result is a Plackett–Luce tree, which reveals how variety performance changes across contexts and helps define Target Populations of Environments (TPEs). This approach has proven especially useful for identifying genotype × environment (G×E) interactions under real farm conditions, supporting context-specific variety recommendations [@vanEtten2019].
+Farmer evaluations are influenced by environmental conditions, management practices, and socioeconomic context. To account for this heterogeneity, the PL model can be extended with covariates. One widely used approach in tricot is model-based recursive partitioning [@Strobl2011]. This method identifies subgroups in the data using binary splits based on environmental or socio-economic variables (e.g. rainfall, temperature, soil type, gender of farmer). Within each subgroup, a separate PL model is estimated. The result is a Plackett–Luce tree, which reveals how variety performance changes across contexts and helps define Target Populations of Environments (TPEs) (Figure 1). A TPE is a relatively uniform group of crop production environments (where and how the crop is grown). This approach has proven especially useful for identifying genotype × environment (G×E) interactions (e.g. local adaptations) under real farm conditions, supporting context-specific variety recommendations [@vanEtten2019].
+
+_add Figure 1. example of PL tree_
 
 More recently, developments in Plackett–Luce regression allow the inclusion of linear covariates directly in the model [@Turner2020; @Alamu2023; @Kang2025]. This enables:
 
 * Modelling of environmental gradients rather than discrete groups
-* Inclusion of variety-level covariates (e.g. traits, genomic predictions)
+* Inclusion of option-level covariates (e.g. trait data, genomic data, food lab data)
 * More continuous representations of performance variation across environments
 
 These advances bring tricot analysis closer to mainstream quantitative genetics and breeding analytics.
@@ -86,7 +87,7 @@ Breeding programs are often interested in the probability that a new variety out
 
 Tricot thus provides an efficient way to generate early-stage evidence about the likelihood that a candidate variety will succeed under farmer conditions.
 
-## Integrating on-farm and on-station data
+## Integrating on-farm and on-station data or lab data
 
 A major challenge (and opportunity) in decentralized variety testing is the integration of on-farm and on-station datasets to support breeding decisions and biological interpretation of farmer preferences. On-station trials, conducted under controlled and replicated conditions, produce precise phenotypic measurements and genotypic estimates (e.g. yield, disease scores, physiological traits) that are essential for breeding decisions. In contrast, on-farm trials provide real-world performance assessments that incorporate the full complexity of farmer management, socio-economic context, and micro-environmental variation. 
 
