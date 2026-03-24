@@ -187,10 +187,10 @@ export function SampleSizeCalculator() {
       </div>
 
       <div style={{ ...gridStyle(), marginTop: '1rem' }}>
-        <div style={resultBoxStyle()}>
+        {/*<div style={resultBoxStyle()}>
           <div style={mutedStyle()}>Approximate samples needed</div>
           <div style={{ fontSize: '1.8rem', fontWeight: 700 }}>{samplesNeeded}</div>
-        </div>
+        </div>*/}
 
         <div style={resultBoxStyle()}>
           <div style={mutedStyle()}>Replicates per option (n)</div>
@@ -198,14 +198,14 @@ export function SampleSizeCalculator() {
         </div>
 
         <div style={resultBoxStyle()}>
-          <div style={mutedStyle()}>Farms required</div>
+          <div style={mutedStyle()}>Total number of participants needed</div>
           <div style={{ fontSize: '1.8rem', fontWeight: 700 }}>{nfarms}</div>
         </div>
 
-        <div style={resultBoxStyle()}>
+       {/* <div style={resultBoxStyle()}>
           <div style={mutedStyle()}>Plots required</div>
           <div style={{ fontSize: '1.8rem', fontWeight: 700 }}>{nplots}</div>
-        </div>
+        </div>*/}
       </div>
 
       <div style={{ marginTop: '1rem' }}>
@@ -322,12 +322,12 @@ export function SeedNeedsCalculator() {
 
       <div style={{ ...gridStyle(), marginTop: '1rem' }}>
         <div style={resultBoxStyle()}>
-          <div style={mutedStyle()}>Farms required</div>
+          <div style={mutedStyle()}>Total number of participants needed</div>
           <div style={{ fontSize: '1.8rem', fontWeight: 700 }}>{nfarms}</div>
         </div>
 
         <div style={resultBoxStyle()}>
-          <div style={mutedStyle()}>Plots required</div>
+          <div style={mutedStyle()}>Plots needed</div>
           <div style={{ fontSize: '1.8rem', fontWeight: 700 }}>{nplots}</div>
         </div>
 
