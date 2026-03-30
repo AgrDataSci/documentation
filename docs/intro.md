@@ -15,4 +15,6 @@ Chase, R.R. (editor), de Sousa, K., Laporte, M.A., Acuna, S., Angudubo, S., Cair
 
 Readers can download individual chapters by clicking on the prompt at the beginning of each chapter. 
 
-[To download the entire book as a pdf click here](https://learn.climmob.net/pdf/tricot-documentation-book.pdf)
+<div className="tricot-hero-links">
+   <a className="tricot-hero-link" href="https://learn.climmob.net/pdf/tricot-documentation-book.pdf" target="_blank" rel="noopener noreferrer">📄 To download the entire book as a pdf click here</a>
+<div>
