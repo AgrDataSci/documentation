@@ -13,6 +13,7 @@ Readers can download individual chapters by clicking on the link at the beginnin
 <div className="tricot-hero-links">
    <a className="tricot-hero-link" href="https://learn.climmob.net/pdf/tricot-documentation-book.pdf" target="_blank" rel="noopener noreferrer">📄 Click here to download the entire book as a pdf</a>
 </div>
+---
 
 Citation:
 
