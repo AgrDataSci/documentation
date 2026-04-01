@@ -359,21 +359,6 @@ export function SampleSizeCalculator() {
           value={formatNumber(calculation.totalDataRecordsNeeded, 0)}
         />
       </div>
-
-      <div style={{ marginTop: '1rem' }}>
-        <div style={mutedStyle()}>Formulas used:</div>
-        <ul>
-          <li><code>effectivePairs = IF(productsPerSubject &gt; 1, totalProducts × (productsPerSubject − 1) / (totalProducts − 1) / totalProducts, 1 / totalProducts)</code></li>
-          <li><code>nTests = totalProducts × (totalProducts − 1) / 2</code></li>
-          <li><code>alphaBH = alpha × (0.5 + 0.5 / nTests)</code></li>
-          <li><code>f(alpha, beta) = z(1 − alphaBH/2) + z(1 − beta)</code></li>
-          <li><code>Guenther = 0.5 × z(1 − alphaBH/2)^2</code></li>
-          <li><code>recordsPerProduct = ROUND((f / effectSize)^2 + Guenther + 0.4999, 0)</code></li>
-          <li><code>totalConsumers = ROUND(recordsPerProduct / effectivePairs + 0.499, 0)</code></li>
-          <li><code>totalDataRecords = totalConsumers × productsPerSubject</code></li>
-        </ul>
-      </div>
-    </div>
   );
 }
 
