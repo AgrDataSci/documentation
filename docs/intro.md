@@ -11,7 +11,7 @@ This is an online reference on everything dealing with on farm testing (OFT) usi
 Readers can download individual chapters by clicking on the link at the beginning of each chapter. The whole book can be downloaded via the link below.
 
 <div className="tricot-hero-links">
-   <a className="tricot-hero-link" href="https://learn.climmob.net/pdf/tricot-documentation-book.pdf" target="_blank" rel="noopener noreferrer">📄 Click here to download the entire book as a pdf</a>
+   <a className="tricot-hero-link" href="https://learn.climmob.net/pdf/tricot-documentation-book.pdf" target="_blank" rel="noopener noreferrer">📄 Click here to download the whole book as a PDF</a>
 </div>
 ---
 
