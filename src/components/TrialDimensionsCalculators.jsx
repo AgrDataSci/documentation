@@ -359,6 +359,7 @@ export function SampleSizeCalculator() {
           value={formatNumber(calculation.totalDataRecordsNeeded, 0)}
         />
       </div>
+    </div>
   );
 }
 
