@@ -34,7 +34,9 @@ The estimated worth parameters can be transformed into probabilities of outperfo
 
 Farmer evaluations are influenced by environmental conditions, management practices, and socioeconomic context. To account for this heterogeneity, the PL model can be extended with covariates. One widely used approach in tricot is model-based recursive partitioning [@Strobl2011]. This method identifies subgroups in the data using binary splits based on environmental or socio-economic variables (e.g. rainfall, temperature, soil type, gender of farmer). Within each subgroup, a separate PL model is estimated. The result is a Plackett–Luce tree, which reveals how variety performance changes across contexts and helps define Target Populations of Environments (TPEs) (Figure 1). A TPE is a relatively uniform group of crop production environments (where and how the crop is grown). This approach has proven especially useful for identifying genotype × environment (G×E) interactions (e.g. local adaptations) under real farm conditions, supporting context-specific variety recommendations [@vanEtten2019].
 
-_add Figure 1. example of PL tree_
+![Plackett-Luce tree](/img/PLtree.png)
+
+Figure 1. Plackett–Luce tree of tricot trial data and associated climatic data for common bean in Nicaragua. The horizontal axis of each panel is the probability of winning of varieties. In this case, the model selected maxNT, the maximum night temperature during the vegetative and ﬂowering periods, as the covariate. From van Etten et al. [-@vanEtten2019].
 
 More recently, developments in Plackett–Luce regression allow the inclusion of linear covariates directly in the model [@Turner2020; @Alamu2023; @Kang2025]. This enables:
 
