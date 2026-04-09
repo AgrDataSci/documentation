@@ -93,7 +93,7 @@ const sidebars = {
     },
     {
       type: 'doc',
-      id: 'Coming soon',
+      id: 'coming-soon',
     },
     {
       type: 'doc',
