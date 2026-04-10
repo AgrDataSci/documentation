@@ -16,7 +16,7 @@ import remarkIgnoreCitationsInCode from './remark-ignore-citations-in-code.mjs';
 const config = {
   title: '1000FARMS Docs',
   tagline: 'Guidebook for product use testing in agriculture',
-  favicon: 'img/1000FARMS-wide.jpg',
+  favicon: 'img/1000FARMS-wide.png',
 
   // Set the production url of your site here
   url: 'https://AgrDataSci.github.io',
