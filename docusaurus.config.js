@@ -99,7 +99,7 @@ const config = {
         items: [
           { href: 'https://github.com/AgrDataSci/documentation', label: 'GitHub', position: 'right' },
           { type: 'localeDropdown', position: 'left' },
-          { type: 'docsVersionDropdown', position: 'left' },
+          //{ type: 'docsVersionDropdown', position: 'left' },
         ],
       },
 
