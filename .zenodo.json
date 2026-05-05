@@ -8,7 +8,7 @@
   "publicationYear": "2026",
   "resourceType": {
     "resourceTypeGeneral": "Book",
-    "resourceType": "Book"
+    "resourceType": "Dataset"
   },
   "descriptions": [
     {
@@ -16,7 +16,7 @@
       "descriptionType": "Abstract"
     }
   ],
-  "version": "v1",
+  "version": "v1.1",
   "language": "eng",
   "rightsList": [
     {
