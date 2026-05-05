@@ -1,0 +1,368 @@
+{
+  "titles": [
+    {
+      "title": "Product testing with users in agriculture and food: Decentralized on-farm evaluation, breeding product validation, consumer testing and other applications using the tricot approach"
+    }
+  ],
+  "publisher": "Zenodo",
+  "publicationYear": "2026",
+  "resourceType": {
+    "resourceTypeGeneral": "Book",
+    "resourceType": "Book"
+  },
+  "descriptions": [
+    {
+      "description": "This is an online reference on everything dealing with product testing using tricot. The tricot approach (triadic comparison of technology options) is a participatory, decentralized method where participants test three randomly assigned options on their use context. Using citizen science, it integrates participatory insights and site-specific data to guide breeding and agricultural innovation. Scalable and cost-effective, tricot empowers farmers and enhances crop diversity and resilience (in the case of on-farm testing). Read more at https://learn.climmob.net",
+      "descriptionType": "Abstract"
+    }
+  ],
+  "version": "v1",
+  "language": "eng",
+  "rightsList": [
+    {
+      "rights": "Creative Commons Attribution 4.0 International",
+      "rightsUri": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "rightsIdentifier": "cc-by-sa-4.0",
+      "rightsIdentifierScheme": "SPDX"
+    }
+  ],
+  "subjects": [
+    {
+      "subject": "agriculture"
+    },
+    {
+      "subject": "digital innovation"
+    },
+    {
+      "subject": "partnerships for the goals"
+    },
+    {
+      "subject": "tricot approach"
+    }
+  ],
+  "creators": [
+    {
+      "name": "Chase, Rachel",
+      "nameType": "Personal",
+      "givenName": "Rachel",
+      "familyName": "Chase",
+      "affiliation": [
+        "Bioversity International"
+      ],
+      "nameIdentifiers": [
+        {
+          "nameIdentifier": "https://orcid.org/0000-0002-5859-6455",
+          "nameIdentifierScheme": "ORCID",
+          "schemeUri": "https://orcid.org"
+        }
+      ]
+    },
+    {
+      "name": "de Sousa, Kauê",
+      "nameType": "Personal",
+      "givenName": "Kauê",
+      "familyName": "de Sousa",
+      "affiliation": [
+        "Bioversity International"
+      ],
+      "nameIdentifiers": [
+        {
+          "nameIdentifier": "https://orcid.org/0000-0002-7571-7845",
+          "nameIdentifierScheme": "ORCID",
+          "schemeUri": "https://orcid.org"
+        }
+      ]
+    },
+    {
+      "name": "Laporte, Marie-Angélique",
+      "nameType": "Personal",
+      "givenName": "Marie-Angélique",
+      "familyName": "Laporte",
+      "affiliation": [
+        "Bioversity International"
+      ],
+      "nameIdentifiers": [
+        {
+          "nameIdentifier": "https://orcid.org/0000-0002-8461-9745",
+          "nameIdentifierScheme": "ORCID",
+          "schemeUri": "https://orcid.org"
+        }
+      ]
+    },
+    {
+      "name": "Acuña, Sofia",
+      "nameType": "Personal",
+      "givenName": "Sofia",
+      "familyName": "Acuña",
+      "affiliation": [
+        "MrBot Software Solutions"
+      ]
+    },
+    {
+      "name": "Angudubo, Stephen",
+      "nameType": "Personal",
+      "givenName": "Stephen",
+      "familyName": "Angudubo",
+      "affiliation": [
+        "Bioversity International"
+      ],
+      "nameIdentifiers": [
+        {
+          "nameIdentifier": "https://orcid.org/0009-0002-4699-9094",
+          "nameIdentifierScheme": "ORCID",
+          "schemeUri": "https://orcid.org"
+        }
+      ]
+    },
+    {
+      "name": "Benavente, Grecia",
+      "nameType": "Personal",
+      "givenName": "Grecia",
+      "familyName": "Benavente",
+      "affiliation": [
+        "Bioversity International"
+      ]
+    },
+    {
+      "name": "Cairns, Jill",
+      "nameType": "Personal",
+      "givenName": "Jill",
+      "familyName": "Cairns",
+      "affiliation": [
+        "International Maize and Wheat Improvement Center"
+      ],
+      "nameIdentifiers": [
+        {
+          "nameIdentifier": "https://orcid.org/0000-0002-2735-3485",
+          "nameIdentifierScheme": "ORCID",
+          "schemeUri": "https://orcid.org"
+        }
+      ]
+    },
+    {
+      "name": "Clements, Lily",
+      "nameType": "Personal",
+      "givenName": "Lily",
+      "familyName": "Clements",
+      "affiliation": [
+        "IDEMS International"
+      ],
+      "nameIdentifiers": [
+        {
+          "nameIdentifier": "https://orcid.org/0000-0001-8864-0552",
+          "nameIdentifierScheme": "ORCID",
+          "schemeUri": "https://orcid.org"
+        }
+      ]
+    },
+    {
+      "name": "Cremaschi, Almendra",
+      "nameType": "Personal",
+      "givenName": "Almendra",
+      "familyName": "Cremaschi",
+      "affiliation": [
+        "Bioversity International"
+      ],
+      "nameIdentifiers": [
+        {
+          "nameIdentifier": "https://orcid.org/0000-0001-8932-5626",
+          "nameIdentifierScheme": "ORCID",
+          "schemeUri": "https://orcid.org"
+        }
+      ]
+    },
+    {
+      "name": "Dorado-Betancourt, Hugo",
+      "nameType": "Personal",
+      "givenName": "Hugo",
+      "familyName": "Dorado-Betancourt",
+      "affiliation": [
+        "Wageningen University and Research"
+      ],
+      "nameIdentifiers": [
+        {
+          "nameIdentifier": "https://orcid.org/0000-0002-0103-7505",
+          "nameIdentifierScheme": "ORCID",
+          "schemeUri": "https://orcid.org"
+        }
+      ]
+    },
+    {
+      "name": "Gandhi, Harish",
+      "nameType": "Personal",
+      "givenName": "Harish",
+      "familyName": "Gandhi",
+      "affiliation": [
+        "International Maize and Wheat Improvement Center"
+      ],
+      "nameIdentifiers": [
+        {
+          "nameIdentifier": "https://orcid.org/0000-0002-1304-8877",
+          "nameIdentifierScheme": "ORCID",
+          "schemeUri": "https://orcid.org"
+        }
+      ]
+    },
+    {
+      "name": "Londoño, Juan Manuel",
+      "nameType": "Personal",
+      "givenName": "Juan Manuel",
+      "familyName": "Londoño",
+      "affiliation": [
+        "Bioversity International"
+      ]
+    },
+    {
+      "name": "Madriz, Brandon",
+      "nameType": "Personal",
+      "givenName": "Brandon",
+      "familyName": "Madriz",
+      "affiliation": [
+        "MrBot Software Solutions"
+      ]
+    },
+    {
+      "name": "Manrow-Villalobos, Marilyn",
+      "nameType": "Personal",
+      "givenName": "Marilyn",
+      "familyName": "Manrow-Villalobos",
+      "affiliation": [
+        "MrBot Software Solutions"
+      ]
+    },
+    {
+      "name": "Mbugua Gitonga, Agnes",
+      "nameType": "Personal",
+      "givenName": "Agnes",
+      "familyName": "Mbugua Gitonga",
+      "affiliation": [
+        "International Maize and Wheat Improvement Center"
+      ],
+      "nameIdentifiers": [
+        {
+          "nameIdentifier": "https://orcid.org/0009-0005-6602-5264",
+          "nameIdentifierScheme": "ORCID",
+          "schemeUri": "https://orcid.org"
+        }
+      ]
+    },
+    {
+      "name": "Muller, Anna",
+      "nameType": "Personal",
+      "givenName": "Anna",
+      "familyName": "Muller",
+      "affiliation": [
+        "Bioversity International"
+      ],
+      "nameIdentifiers": [
+        {
+          "nameIdentifier": "https://orcid.org/0000-0003-3120-8560",
+          "nameIdentifierScheme": "ORCID",
+          "schemeUri": "https://orcid.org"
+        }
+      ]
+    },
+    {
+      "name": "Steinke, Jonathan",
+      "nameType": "Personal",
+      "givenName": "Jonathan",
+      "familyName": "Steinke",
+      "affiliation": [
+        "Bioversity International"
+      ]
+    },
+    {
+      "name": "Stern, Roger",
+      "nameType": "Personal",
+      "givenName": "Roger",
+      "familyName": "Stern",
+      "affiliation": [
+        "IDEMS International"
+      ]
+    },
+    {
+      "name": "Teeken, Béla",
+      "nameType": "Personal",
+      "givenName": "Béla",
+      "familyName": "Teeken",
+      "affiliation": [
+        "International Institute of Tropical Agriculture"
+      ],
+      "nameIdentifiers": [
+        {
+          "nameIdentifier": "https://orcid.org/0000-0002-3150-1532",
+          "nameIdentifierScheme": "ORCID",
+          "schemeUri": "https://orcid.org"
+        }
+      ]
+    },
+    {
+      "name": "van Heerwaarden, Joost",
+      "nameType": "Personal",
+      "givenName": "Joost",
+      "familyName": "van Heerwaarden",
+      "affiliation": [
+        "Wageningen University and Research"
+      ],
+      "nameIdentifiers": [
+        {
+          "nameIdentifier": "https://orcid.org/0000-0002-4959-3914",
+          "nameIdentifierScheme": "ORCID",
+          "schemeUri": "https://orcid.org"
+        }
+      ]
+    },
+    {
+      "name": "Zaman-Allah, Mainassara",
+      "nameType": "Personal",
+      "givenName": "Mainassara",
+      "familyName": "Zaman-Allah",
+      "affiliation": [
+        "International Maize and Wheat Improvement Center"
+      ],
+      "nameIdentifiers": [
+        {
+          "nameIdentifier": "https://orcid.org/0000-0002-8120-5125",
+          "nameIdentifierScheme": "ORCID",
+          "schemeUri": "https://orcid.org"
+        }
+      ]
+    },
+    {
+      "name": "van Etten, Jacob",
+      "nameType": "Personal",
+      "givenName": "Jacob",
+      "familyName": "van Etten",
+      "affiliation": [
+        "Bioversity International"
+      ],
+      "nameIdentifiers": [
+        {
+          "nameIdentifier": "https://orcid.org/0000-0001-7554-2558",
+          "nameIdentifierScheme": "ORCID",
+          "schemeUri": "https://orcid.org"
+        }
+      ]
+    }
+  ],
+  "fundingReferences": [
+    {
+      "funderName": "Gates Foundation",
+      "funderIdentifier": "https://ror.org/0456r8d26",
+      "awardTitle": "1000FARMS",
+      "awardNumber": "INV-031561"
+    },
+    {
+      "funderName": "Gates Foundation",
+      "funderIdentifier": "https://ror.org/0456r8d26",
+      "awardTitle": "AVISA",
+      "awardNumber": "INV-009649"
+    },
+    {
+      "funderName": "Norwegian Agency for Development Cooperation",
+      "funderIdentifier": "https://ror.org/04zbn7k04",
+      "awardTitle": "Biodiversity for Opportunities, Livelihoods and Development (BOLD WP7)",
+      "awardNumber": "CONT-1522"
+    }
+  ]
+}
