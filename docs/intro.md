@@ -15,6 +15,24 @@ Readers can download individual chapters by clicking on the link at the beginnin
 </div>
 ---
 
-Citation:
+## Citation:
 
-Chase, R.R. (ed), de Sousa, K., Laporte, M.A., Acuña, S., Angudubo, S., Benavente, G., Cairns, J., Clements, L., Cremaschi, A., Dorado, H., Gandhi, H., Londono, J.M., Madriz, B., Manrow, M., Mbugua, A., Muller, A., Steinke, J., Stern, R., Teeken, B., van Heerwaarden, J., Zaman-Allah, M., van Etten, J. (2026). Product testing with users in agriculture and food: Decentralized on-farm evaluation, breeding product validation, consumer testing and other applications using the tricot approach. Bioversity International. 
+### Plain
+
+Chase, R., de Sousa, K., Laporte, M.-A., Acuña, S., Angudubo, S., Benavente, G., Cairns, J., Clements, L., Cremaschi, A., Dorado-Betancourt, H., Gandhi, H., Londoño, J. M., Madriz, B., Manrow-Villalobos, M., Mbugua Gitonga, A., Muller, A., Steinke, J., Stern, R., Teeken, B., … van Etten, J. (2026). Product testing with users in agriculture and food: Decentralized on-farm evaluation, breeding product validation, consumer testing and other applications using the tricot approach (1st ed., p. 298). Bioversity International. Montpellier, France. https://doi.org/10.5281/zenodo.20043167
+
+### BibTeX
+
+```
+@book{Chase2026,
+  doi = {10.5281/zenodo.20043167},
+  url = {https://zenodo.org/doi/10.5281/zenodo.20043167},
+  author = {Chase,  Rachel and {de Sousa},  Kau\^e and Laporte,  Marie-Angélique and Acuña,  Sofia and Angudubo,  Stephen and Benavente,  Grecia and Cairns,  Jill and Clements,  Lily and Cremaschi,  Almendra and Dorado-Betancourt,  Hugo and Gandhi,  Harish and Londoño,  Juan Manuel and Madriz,  Brandon and Manrow-Villalobos,  Marilyn and Mbugua Gitonga,  Agnes and Muller,  Anna and Steinke,  Jonathan and Stern,  Roger and Teeken,  Béla and {van Heerwaarden},  Joost and Zaman-Allah,  Mainassara and {van Etten},  Jacob},
+  keywords = {digital innovation,  agriculture,  partnerships for the goals,  participatory research,  citizen science},
+  title = {Product testing with users in agriculture and food: Decentralized on-farm evaluation,  breeding product validation,  consumer testing and other applications using the tricot approach},
+  publisher = {Bioversity International},
+  address = {Montpellier, France},
+  year = {2026},
+  copyright = {Creative Commons Attribution Share Alike 4.0 International}
+}
+```
