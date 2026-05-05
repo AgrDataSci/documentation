@@ -23,7 +23,7 @@ Chase, R., de Sousa, K., Laporte, M.-A., Acuña, S., Angudubo, S., Benavente, G.
 
 ### BibTeX
 
-```
+```bibtex
 @book{Chase2026,
   doi = {10.5281/zenodo.20043167},
   url = {https://zenodo.org/doi/10.5281/zenodo.20043167},
