@@ -98,7 +98,7 @@ const config = {
         logo: { alt: '1000FARMS logo', src: 'img/1000FARMS.jpg' },
         items: [
           { href: 'https://github.com/AgrDataSci/documentation', label: 'GitHub', position: 'right' },
-          { type: 'localeDropdown', position: 'left' },
+          //{ type: 'localeDropdown', position: 'left' },
           //{ type: 'docsVersionDropdown', position: 'left' },
         ],
       },
