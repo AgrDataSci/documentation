@@ -39,5 +39,6 @@ Chase, R., de Sousa, K., Laporte, M.-A., Acuña, S., Angudubo, S., Benavente, G.
 
 ## Acknowledgements
 
-This publication was made possible with support from the Bill & Melinda Gates Foundation through the 1000FARMS platform. The views expressed herein are those of the authors and do not necessarily reflect the views of the Foundation.
+This publication was produced as part of the 1000FARMS project (INV-031561) funded by the Gates Foundation. The views expressed are those of the authors and do not necessarily reflect the views of the Foundation.
+
 We also thank everyone who contributed their time and content to this publication.
