@@ -36,3 +36,8 @@ Chase, R., de Sousa, K., Laporte, M.-A., Acuña, S., Angudubo, S., Benavente, G.
   copyright = {Creative Commons Attribution Share Alike 4.0 International}
 }
 ```
+
+## Acknowledgements
+
+This publication was made possible with support from the Bill & Melinda Gates Foundation through the 1000FARMS platform. The views expressed herein are those of the authors and do not necessarily reflect the views of the Foundation.
+We also thank everyone who contributed their time and content to this publication.
