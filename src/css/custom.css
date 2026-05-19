@@ -173,12 +173,9 @@
 #refs p { margin: 0; }
 
 .navbar-subtitle {
-  font-size: 0.85rem;
-  font-weight: 700;
   opacity: 0.75;
   color: var(--ifm-navbar-link-color);
   border-left: 1px solid var(--ifm-color-emphasis-300);
   padding-left: 0.75rem;
   margin-left: 0.1rem;
 }
-
