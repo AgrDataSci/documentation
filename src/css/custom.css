@@ -174,7 +174,7 @@
 
 .navbar-subtitle {
   font-size: 0.85rem;
-  font-weight: 500;
+  font-weight: 700;
   opacity: 0.75;
   color: var(--ifm-navbar-link-color);
   border-left: 1px solid var(--ifm-color-emphasis-300);
