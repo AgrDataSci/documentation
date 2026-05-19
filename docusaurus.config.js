@@ -97,6 +97,11 @@ const config = {
         title: '1000FARMS Docs',
         logo: { alt: '1000FARMS logo', src: 'img/1000FARMS.jpg' },
         items: [
+          {
+            type: 'html',
+            position: 'left',
+            value: '<span class="navbar-subtitle">Tricot Learning Guide</span>',
+          },
           { href: 'https://github.com/AgrDataSci/documentation', label: 'GitHub', position: 'right' },
           //{ type: 'localeDropdown', position: 'left' },
           //{ type: 'docsVersionDropdown', position: 'left' },
