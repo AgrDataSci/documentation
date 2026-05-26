@@ -180,3 +180,15 @@
   padding-left: 0.75rem;
   margin-left: 0.1rem;
 }
+
+/* Page numbers for PrinceXML PDF generation */
+@page {
+  margin: 25mm 20mm 25mm 20mm;
+
+  @bottom-center {
+    content: counter(page);
+    font-family: var(--ifm-font-family-base);
+    font-size: 9pt;
+    color: #888;
+  }
+}
