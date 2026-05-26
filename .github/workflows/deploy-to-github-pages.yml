@@ -69,9 +69,24 @@ jobs:
       - name: Generate PDF
         run: |
           mkdir -p build/pdf
+          # Write a Prince-specific stylesheet
+          cat > /tmp/prince-page-numbers.css << 'EOF'
+          @page {
+            margin: 25mm 20mm 25mm 20mm;
+            @bottom-center {
+              content: counter(page) " / " counter(pages);
+              font-family: sans-serif;
+              font-size: 9pt;
+              color: #888;
+            }
+          }
+          EOF
+
           npx docusaurus-prince-pdf \
             -u https://learn.climmob.net/ \
-            --output build/pdf/tricot-documentation-book.pdf
+            --style /tmp/prince-page-numbers.css \
+            --output build/pdf/tricot-documentation-book.pdfnpx docusaurus-prince-pdf \
+  
 
       # 7. Upload the site (including PDF) as GitHub Pages artifact
       - name: Upload Pages artifact
