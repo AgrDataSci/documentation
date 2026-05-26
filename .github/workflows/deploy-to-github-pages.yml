@@ -85,7 +85,7 @@ jobs:
           npx docusaurus-prince-pdf \
             -u https://learn.climmob.net/ \
             --style /tmp/prince-page-numbers.css \
-            --output build/pdf/tricot-documentation-book.pdfnpx docusaurus-prince-pdf \
+            --output build/pdf/tricot-documentation-book.pdf
   
 
       # 7. Upload the site (including PDF) as GitHub Pages artifact
