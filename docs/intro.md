@@ -19,7 +19,7 @@ Readers can download individual chapters by clicking on the link at the beginnin
 
 ### Plain
 
-Chase, R., de Sousa, K., Laporte, M.-A., Acuña, S., Angudubo, S., Benavente, G., Cairns, J., Clements, L., Cremaschi, A., Dorado-Betancourt, H., Gandhi, H., Londoño, J. M., Madriz, B., Manrow-Villalobos, M., Mbugua Gitonga, A., Muller, A., Steinke, J., Stern, R., Teeken, B., … van Etten, J. (2026). Product testing with users in agriculture and food: Decentralized on-farm evaluation, breeding product validation, consumer testing and other applications using the tricot approach (1st ed., p. 298). Bioversity International. Montpellier, France. https://doi.org/10.5281/zenodo.20043167
+Chase, R., de Sousa, K., Laporte, M.-A., Acuña, S., Angudubo, S., Benavente, G., Cairns, J., Clements, L., Cremaschi, A., Dorado-Betancourt, H., Gandhi, H., Londoño, J. M., Madriz, B., Manrow-Villalobos, M., Mbugua Gitonga, A., Muller, A., Steinke, J., Stern, R., Teeken, B., van Heerwaarden, J., Zaman-Allah, M., and van Etten, J. (2026). Product testing with users in agriculture and food: Decentralized on-farm evaluation, breeding product validation, consumer testing and other applications using the tricot approach (1st ed., p. 298). Bioversity International. Montpellier, France. https://doi.org/10.5281/zenodo.20043167
 
 ### BibTeX
 
