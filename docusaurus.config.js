@@ -37,7 +37,13 @@ const config = {
   // may want to replace "en" with "zh-Hans".
   i18n: {
     defaultLocale: 'en',
-    locales: ['en', 'fr'],
+    locales: ['en', 'fr', 'es', 'sw'],
+    localeConfigs: {
+      en: { label: 'English' },
+      fr: { label: 'Français' },
+      es: { label: 'Español' },
+      sw: { label: 'Kiswahili' },
+    },
   },
 
    presets: [
@@ -103,7 +109,7 @@ const config = {
             value: '<span class="navbar-subtitle">Tricot Learning Guide</span>',
           },
           { href: 'https://github.com/AgrDataSci/documentation', label: 'GitHub', position: 'right' },
-          //{ type: 'localeDropdown', position: 'left' },
+          { type: 'localeDropdown', position: 'left' },
           //{ type: 'docsVersionDropdown', position: 'left' },
         ],
       },
