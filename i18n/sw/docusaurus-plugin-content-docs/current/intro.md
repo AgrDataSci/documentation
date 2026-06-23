@@ -3,21 +3,21 @@ slug: /
 sidebar_position: 1
 ---
 
-# Product testing with users in agriculture and food 
-## Decentralized on-farm evaluation, breeding product validation, consumer testing and other applications using the tricot approach
+# Upimaji wa bidhaa na watumiaji katika kilimo na chakula
+## Tathmini ya mashambani iliyogatuliwa, uthibitishaji wa bidhaa za ufugaji, upimaji wa watumiaji na matumizi mengine kwa kutumia mbinu ya tricot
 
-This is an online reference on everything dealing with product testing using tricot. The *tricot* approach (triadic comparison of technology options) is a participatory, decentralized method where participants test three randomly assigned options on their use context. Using citizen science, it integrates participatory insights and site-specific data to guide breeding and agricultural innovation. Scalable and cost-effective, tricot empowers farmers and enhances crop diversity and resilience (in the case of on-farm testing).
+Hii ni rejea ya mtandaoni inayoshughulikia kila kitu kinachohusiana na upimaji wa bidhaa kwa kutumia tricot. Mbinu ya *tricot* (ulinganisho wa tatu wa chaguo za teknolojia) ni njia ya ushiriki, iliyogatuliwa ambapo washiriki hupima chaguo tatu zilizopangwa kwa nasibu katika muktadha wao wa matumizi. Kwa kutumia sayansi ya raia, inaunganisha maarifa ya ushiriki na data mahususi ya eneo ili kuongoza uzalishaji wa mbegu na uvumbuzi wa kilimo. Inayoweza kupanuka na yenye ufanisi wa gharama, tricot inawapa nguvu wakulima na kuimarisha utofauti wa mazao na ustahimilivu (katika kesi ya upimaji wa mashambani).
 
-Readers can download individual chapters by clicking on the link at the beginning of each chapter. The whole book can be downloaded via the link below.
+Wasomaji wanaweza kupakua sura moja moja kwa kubofya kiungo mwanzoni mwa kila sura. Kitabu kizima kinaweza kupakuliwa kupitia kiungo hapa chini.
 
 <div className="tricot-hero-links">
-   <a className="tricot-hero-link" href="https://learn.climmob.net/pdf/tricot-documentation-book.pdf" target="_blank" rel="noopener noreferrer">📄 Click here to download the whole book as a PDF</a>
+   <a className="tricot-hero-link" href="https://learn.climmob.net/pdf/tricot-documentation-book.pdf" target="_blank" rel="noopener noreferrer">📄 Bofya hapa kupakua kitabu kizima kama PDF</a>
 </div>
 ---
 
-## Citation:
+## Maelezo ya kutaja:
 
-### Plain
+### Kawaida
 
 Chase, R., de Sousa, K., Laporte, M.-A., Acuña, S., Angudubo, S., Benavente, G., Cairns, J., Clements, L., Cremaschi, A., Dorado-Betancourt, H., Gandhi, H., Londoño, J. M., Madriz, B., Manrow-Villalobos, M., Mbugua Gitonga, A., Muller, A., Steinke, J., Stern, R., Teeken, B., van Heerwaarden, J., Zaman-Allah, M., and van Etten, J. (2026). Product testing with users in agriculture and food: Decentralized on-farm evaluation, breeding product validation, consumer testing and other applications using the tricot approach (1st ed., p. 298). Bioversity International. Montpellier, France. https://doi.org/10.5281/zenodo.20043167
 
@@ -37,6 +37,6 @@ Chase, R., de Sousa, K., Laporte, M.-A., Acuña, S., Angudubo, S., Benavente, G.
 }
 ```
 
-## Acknowledgements
+## Shukrani
 
-This publication was produced as part of the 1000FARMS project (INV-031561) funded by the Gates Foundation, and as part of the project "Building Opportunities for Lesser-known Diversity in Edible Resources" BOLD WP7 (Crop Trust Ref: CONT-1522; CONT-1536) funded by the Norwegian Agency for Development Cooperation (Norad) through The Global Crop Diversity Trust. The views expressed are those of the authors and do not necessarily reflect the views of the Foundation. We also thank everyone who contributed their time and content to this publication.
+Chapisho hili lilitolewa kama sehemu ya mradi wa 1000FARMS (INV-031561) uliofadhiliwa na Gates Foundation, na kama sehemu ya mradi "Building Opportunities for Lesser-known Diversity in Edible Resources" BOLD WP7 (Crop Trust Ref: CONT-1522; CONT-1536) uliofadhiliwa na Wakala wa Norway wa Ushirikiano wa Maendeleo (Norad) kupitia The Global Crop Diversity Trust. Maoni yaliyoonyeshwa ni ya waandishi na hayawakilishi lazima maoni ya Foundation. Pia tunashukuru kila mtu aliyechangia muda wao na maudhui kwa chapisho hili.

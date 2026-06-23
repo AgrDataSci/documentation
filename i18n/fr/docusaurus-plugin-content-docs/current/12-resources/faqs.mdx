@@ -5,147 +5,147 @@ sidebar_position: 3
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 
-# Frequently Asked Questions
+# Questions Fréquemment Posées
 
 <Tabs>
-  <TabItem value="tricot" label="Tricot FAQs" default>
+  <TabItem value="tricot" label="FAQs Tricot" default>
 
-## Tricot FAQs
+## FAQs Tricot
 
-### What is the incentive for growers to participate?
+### Quelle est la motivation des agriculteurs à participer ?
 
-Through participation in a tricot experiment, growers are exposed to new technologies: For example, they may try out new crop varieties directly under the conditions of their own farm. This way, participating growers can learn about new options to improve their farming and might discover useful innovation under realistic conditions. Many growers are also motivated by being part of a research project, interacting with researchers and contributing to knowledge generation.
+En participant à une expérience tricot, les agriculteurs sont exposés à de nouvelles technologies : par exemple, ils peuvent essayer de nouvelles variétés de cultures directement dans les conditions de leur propre exploitation. Ainsi, les agriculteurs participants peuvent découvrir de nouvelles options pour améliorer leur pratique agricole et trouver des innovations utiles dans des conditions réalistes. De nombreux agriculteurs sont également motivés par le fait de faire partie d'un projet de recherche, d'interagir avec des chercheurs et de contribuer à la génération de connaissances.
 
-Even when a grower does not immediately identify a suitable option among the three tested technologies, participation can be useful: growers often discuss results with their neighbors, exchange seeds, and subsequently try out options that were successful on other participants’ farms.
+Même lorsqu'un agriculteur n'identifie pas immédiatement une option adaptée parmi les trois technologies testées, la participation peut être utile : les agriculteurs discutent souvent des résultats avec leurs voisins, échangent des semences et essaient par la suite des options qui ont été fructueuses sur les exploitations d'autres participants.
 
-### Do the growers need a smartphone to participate?
+### Les agriculteurs ont-ils besoin d'un smartphone pour participer ?
 
-No. They note down all their field observations on observation cards. Only the field agents need a smartphone or tablet to enter the growers’ data into the ODK Collect app. ODK Collect will then upload and merge all data into ClimMob.
+Non. Ils consignent toutes leurs observations de terrain sur des fiches d'observation. Seuls les agents de terrain ont besoin d'un smartphone ou d'une tablette pour saisir les données des agriculteurs dans l'application ODK Collect. ODK Collect téléchargera ensuite toutes les données et les fusionnera dans ClimMob.
 
-### How do the growers record their field observations?
+### Comment les agriculteurs enregistrent-ils leurs observations de terrain ?
 
-At the beginning of the tricot experiment, growers will receive observation cards. These paper cards contain all the questions you decided they should answer during the experiment. The observation cards are very easy to use, growers just need a pen. At the end of the tricot experiment, the data that was recorded on the observation cards will be collected by the field agents.
+Au début de l'expérience tricot, les agriculteurs recevront des fiches d'observation. Ces fiches papier contiennent toutes les questions que vous avez décidé qu'ils devaient répondre pendant l'expérience. Les fiches d'observation sont très faciles à utiliser, les agriculteurs ont juste besoin d'un stylo. À la fin de l'expérience tricot, les données enregistrées sur les fiches d'observation seront collectées par les agents de terrain.
 
-### Should growers control their field conditions?
+### Les agriculteurs doivent-ils contrôler les conditions de leur champ ?
 
-Tricot experiments are designed to generate results that apply to realistic management and farm conditions. In order to generate results that are meaningful for general farming practice, the small trials should be cultivated in strictly the same way as the general farming plot. If growers control conditions, for example, by applying mineral fertilizer, they might end up selecting a variety that will not fare well on a larger scale, without fertilizer.
+Les expériences tricot sont conçues pour générer des résultats applicables à des conditions de gestion et d'exploitation réalistes. Afin de produire des résultats pertinents pour la pratique agricole générale, les petits essais doivent être cultivés exactement de la même manière que la parcelle agricole générale. Si les agriculteurs contrôlent les conditions, par exemple en appliquant des engrais minéraux, ils pourraient finir par sélectionner une variété qui ne se comportera pas bien à plus grande échelle, sans engrais.
 
-### How should a grower rank the varieties if there are no evident differences?
+### Comment un agriculteur doit-il classer les variétés s'il n'y a pas de différences évidentes ?
 
-That’s a tough question. As tricot relies on comparison data, all data must be entered in that format. That means, growers have to decide which variety grows best, which grows worst. They cannot record their observations saying ‘all varieties performed equally well’. We generally advise everybody to just take another look – surely, there is some small difference.
+C'est une question difficile. Comme tricot repose sur des données de comparaison, toutes les données doivent être saisies dans ce format. Cela signifie que les agriculteurs doivent décider quelle variété pousse le mieux et laquelle pousse le moins bien. Ils ne peuvent pas enregistrer leurs observations en disant « toutes les variétés ont été également performantes ». Nous conseillons généralement à tout le monde de regarder à nouveau – il y a certainement une petite différence.
 
-### The growers work in different environments. How can their observations be merged?
+### Les agriculteurs travaillent dans des environnements différents. Comment leurs observations peuvent-elles être fusionnées ?
 
-Growers provide rankings based on what they observe in their fields. Under different environmental conditions, such as different climate, these observations may vary. The ClimMob process allows for geospatial disaggregation of results by registering growers’ GPS locations. Using existing maps of temperature, rainfall, altitude, and other environmental variables, ClimMob can provide different results for different environments. For example, the results may show that one variety had highest yield in lowlands, while another variety had highest yield in higher altitudes. If the observations did differ significantly between environments, ClimMob will automatically provide location-specific results. You may need to use our R package ClimMobTools for this analysis.
+Les agriculteurs fournissent des classements basés sur ce qu'ils observent dans leurs champs. Dans des conditions environnementales différentes, comme un climat différent, ces observations peuvent varier. Le processus ClimMob permet une désagrégation géospatiale des résultats en enregistrant les positions GPS des agriculteurs. En utilisant des cartes existantes de température, de pluviométrie, d'altitude et d'autres variables environnementales, ClimMob peut fournir des résultats différents pour différents environnements. Par exemple, les résultats peuvent montrer qu'une variété avait le rendement le plus élevé dans les basses terres, tandis qu'une autre variété avait le rendement le plus élevé en altitude. Si les observations différaient significativement entre les environnements, ClimMob fournira automatiquement des résultats spécifiques à chaque localisation. Vous aurez peut-être besoin d'utiliser notre package R ClimMobTools pour cette analyse.
 
-### Does every grower compare their three options with a local control?
+### Est-ce que chaque agriculteur compare ses trois options avec un témoin local ?
 
-Every grower receives and compares three technology options, for example three different crop varieties. If you want to compare these new varieties with the local one, you can do that but it’s not a must. There are two ways to do so. First, you can include the variety that growers usually grow (their ‘local control’) to the comparison as an additional question at the end of the experiment (e.g. Does variety A performed better or worse than the local variety).
+Chaque agriculteur reçoit et compare trois options technologiques, par exemple trois variétés de cultures différentes. Si vous souhaitez comparer ces nouvelles variétés avec la variété locale, vous pouvez le faire, mais ce n'est pas obligatoire. Il existe deux façons de procéder. Premièrement, vous pouvez inclure la variété que les agriculteurs cultivent habituellement (leur « témoin local ») dans la comparaison sous forme de question supplémentaire à la fin de l'expérience (par exemple : la variété A a-t-elle été plus performante ou moins performante que la variété locale).
 
-Secondly, local varieties can also be included in the pool of test varieties. Some growers will then “blindly” receive a local variety as one of their three options for evaluation. At the end of the trial and once the data from all growers is analyzed, every grower will receive an individual evaluation of which variety has performed best under their local conditions. Perhaps in the next year, they want to grow a different variety, as it outperformed their local variety!
+Deuxièmement, les variétés locales peuvent également être incluses dans le pool de variétés testées. Certains agriculteurs recevront alors « à l'aveugle » une variété locale comme l'une de leurs trois options d'évaluation. À la fin de l'essai et une fois les données de tous les agriculteurs analysées, chaque agriculteur recevra une évaluation individuelle de la variété qui a le mieux performé dans ses conditions locales. Peut-être que l'année suivante, ils voudront cultiver une variété différente, car elle a surpassé leur variété locale !
 
-### What agricultural technologies can I innovate using tricot?
+### Quelles technologies agricoles puis-je innover en utilisant tricot ?
 
-So far, tricot has mostly been used to evaluate annual crop varieties (e.g. beans, rice, wheat, chickpeas). But you can use tricot to evaluate different options of any agronomic technology, such as fertilizer management regimes, different irrigation systems, intercropping systems or early establishment of perennial crops.
+Jusqu'à présent, tricot a été principalement utilisé pour évaluer des variétés de cultures annuelles (par exemple, haricots, riz, blé, pois chiches). Mais vous pouvez utiliser tricot pour évaluer différentes options de toute technologie agronomique, comme les régimes de gestion des engrais, les différents systèmes d'irrigation, les systèmes de culture intercalaire ou l'établissement précoce de cultures pérennes.
 
-Please send us an email if you are thinking about testing another technology, and are unsure about how to proceed. We think the tricot method is powerful, and together with the ClimMob software can easily be applied to a range of agronomic technologies.
+Veuillez nous envoyer un e-mail si vous envisagez de tester une autre technologie et que vous n'êtes pas sûr de la marche à suivre. Nous pensons que la méthode tricot est puissante et qu'elle peut facilement être appliquée à un large éventail de technologies agronomiques, en combinaison avec le logiciel ClimMob.
 
-### I understand that I design the tricot experiment, and participating growers run the trials on their farms. But who are these field agents?
+### Je comprends que je conçois l'expérience tricot et que les agriculteurs participants mènent les essais sur leurs exploitations. Mais qui sont ces agents de terrain ?
 
-The field agents act as intermediaries between you and the growers.
+Les agents de terrain agissent comme intermédiaires entre vous et les agriculteurs.
 
-Let’s say you are designing a tricot experiment that involves 300 growers. All these growers will need to receive initial training; seeds or fertilizer regimes they are about to compare; and in general a person to contact if they have any questions. So the field agents take care of all these tasks, each field agent might care for a group of 10 to 20 growers. Often, they might themselves be a local grower who knows the area and other growers well.
+Supposons que vous concevez une expérience tricot impliquant 300 agriculteurs. Tous ces agriculteurs devront recevoir une formation initiale, des semences ou des régimes d'engrais qu'ils vont comparer, et en général une personne à contacter s'ils ont des questions. Les agents de terrain s'occupent donc de toutes ces tâches, chaque agent de terrain pouvant s'occuper d'un groupe de 10 à 20 agriculteurs. Souvent, ils peuvent eux-mêmes être un agriculteur local qui connaît bien la région et les autres agriculteurs.
 
-You as administrator of the tricot experiment could also be a field agent.
+En tant qu'administrateur de l'expérience tricot, vous pouvez également être un agent de terrain.
 
-### How long does it take to run a tricot experiment?
+### Combien de temps faut-il pour mener une expérience tricot ?
 
-The duration of a tricot experiment depends on the technology you want to test, and on how many cycles you run. For example, if you test different varieties of annual crops, first results can be available after just one cropping season. You can use these results to narrow down the number of varieties for testing in the following season, adjust your tricot experiment and so improve your selection over time.
+La durée d'une expérience tricot dépend de la technologie que vous souhaitez tester et du nombre de cycles que vous effectuez. Par exemple, si vous testez différentes variétés de cultures annuelles, les premiers résultats peuvent être disponibles après une seule saison de culture. Vous pouvez utiliser ces résultats pour réduire le nombre de variétés à tester lors de la saison suivante, ajuster votre expérience tricot et ainsi améliorer votre sélection au fil du temps.
 
-You should allow enough time before and after the tricot experiment for organizational tasks, to recruit and train field agents and growers, and afterwards to communicate the results of the experiment to the growers.
+Vous devez prévoir suffisamment de temps avant et après l'expérience tricot pour les tâches organisationnelles, pour recruter et former les agents de terrain et les agriculteurs, et ensuite pour communiquer les résultats de l'expérience aux agriculteurs.
 
-### How many field agents and farmers are required to run a successful tricot experiment?
+### Combien d'agents de terrain et d'agriculteurs sont nécessaires pour mener une expérience tricot réussie ?
 
-This depends on the number of technology options that you want to test. And also on the resources you have available. However, the ClimMob software will help you plan all those steps, and tailor your tricot experiment to your needs and resources. You can calculate the number of farmers required by using [the sample size calculator](/design/plot-design#samplesize).
+Cela dépend du nombre d'options technologiques que vous souhaitez tester, ainsi que des ressources dont vous disposez. Cependant, le logiciel ClimMob vous aidera à planifier toutes ces étapes et à adapter votre expérience tricot à vos besoins et à vos ressources. Vous pouvez calculer le nombre d'agriculteurs requis en utilisant [le calculateur de taille d'échantillon](/design/plot-design#samplesize).
 
-### I am familiar with Participatory Variety Selection (PVS). Why should I use tricot?
+### Je suis familier avec la Sélection Participative de Variétés (PVS). Pourquoi devrais-je utiliser tricot ?
 
-The tricot approach is based on the idea of Participatory Variety Selection: New crop varieties get evaluated by growers, on their own fields, and for traits that are of direct interest to them. The unique idea behind tricot consists in “crowdsourcing” the data. This makes tricot experiments more flexible, less resource-consuming and easier to scale up to very high numbers of contributors, representing more diverse environments.
+L'approche tricot est basée sur l'idée de la Sélection Participative de Variétés : de nouvelles variétés de cultures sont évaluées par les agriculteurs, sur leurs propres champs, et pour des caractéristiques qui les intéressent directement. L'idée unique derrière tricot consiste à « externaliser » les données. Cela rend les expériences tricot plus flexibles, moins gourmandes en ressources et plus faciles à étendre à un très grand nombre de contributeurs, représentant des environnements plus diversifiés.
 
-For example, comparing a PVS and a tricot experiment on common bean selection in Central America [@Occelli2024] showed us that the tricot approach was about a quarter cheaper compared to the PVS experiment. Tricot was shown to reach nearly twice as many farmers with the same resources and was easier to scale across larger geographic areas. Data management and publication was also better with tricot due to more complete and accurate data.
+Par exemple, la comparaison d'une expérience PVS et d'une expérience tricot sur la sélection de haricots communs en Amérique centrale [@Occelli2024] nous a montré que l'approche tricot était environ quatre fois moins coûteuse que l'expérience PVS. Il a été démontré que tricot permettait d'atteindre près du double d'agriculteurs avec les mêmes ressources et était plus facile à étendre sur de plus grandes zones géographiques. La gestion et la publication des données étaient également meilleures avec tricot en raison de données plus complètes et plus précises.
 
-### How much does it cost to run a tricot experiment?
+### Combien coûte la réalisation d'une expérience tricot ?
 
-There is no one fixed answer, but a tricot experiment can be tailored to the resources you have available. As a starting point, here are some of the items you will need to budget for:
+Il n'existe pas de réponse unique, mais une expérience tricot peut être adaptée aux ressources dont vous disposez. Pour commencer, voici quelques-uns des éléments à budgétiser :
 
-* a computer with internet connection to run the ClimMob software
-* enough experimental packages of seeds/fertilizer treatments etc. (the technology you want to compare) to distribute among the growers
-* training events for recruiting and training field agents
-* training events for recruiting and training growers
-* time and cost involved for field agents to go out and collect data from the growers
-* possibly smartphones / tablets to collect data (field agents might already have phones, and the ODK Collect app is a compatible Android app)
+* un ordinateur avec connexion internet pour utiliser le logiciel ClimMob
+* suffisamment de packages expérimentaux de semences/traitements d'engrais, etc. (la technologie que vous souhaitez comparer) à distribuer aux agriculteurs
+* des événements de formation pour recruter et former les agents de terrain
+* des événements de formation pour recruter et former les agriculteurs
+* le temps et les coûts impliqués pour que les agents de terrain se déplacent et collectent les données auprès des agriculteurs
+* éventuellement des smartphones/tablettes pour collecter des données (les agents de terrain peuvent déjà avoir des téléphones, et l'application ODK Collect est une application Android compatible)
 
-To help estimate tricot trial costs, we have developed guidelines and templates that can be filled in. [Click here to go to the costing templates.](/resources/resources#costing)
+Pour aider à estimer les coûts des essais tricot, nous avons développé des directives et des modèles qui peuvent être remplis. [Cliquez ici pour accéder aux modèles de coûts.](/resources/resources#costing)
 
-### Is there a cost for any of the software that I need for running a tricot experiment (ClimMob, ODK Collect)?
+### Y a-t-il un coût pour les logiciels nécessaires à la conduite d'une expérience tricot (ClimMob, ODK Collect) ?
 
-Both ClimMob and ODK Collect are free for CGIAR and NARES plant breeding programs. On ClimMob.net, you will find everything you need for planning, designing and analyzing your tricot experiment. The Android smartphone app “ODK Collect” is used by the field agents to collect data from growers in the field, without the need for internet connectivity. A fee will be charged for private companies.
+ClimMob et ODK Collect sont tous deux gratuits pour les programmes de sélection végétale du CGIAR et des NARES. Sur ClimMob.net, vous trouverez tout ce dont vous avez besoin pour planifier, concevoir et analyser votre expérience tricot. L'application Android « ODK Collect » est utilisée par les agents de terrain pour collecter des données auprès des agriculteurs sur le terrain, sans nécessiter de connexion internet. Des frais seront facturés aux entreprises privées.
 
-### Every grower compares only three technology options. Does that mean I can only include three options in the whole tricot experiment?
+### Chaque agriculteur compare seulement trois options technologiques. Cela signifie-t-il que je ne peux inclure que trois options dans toute l'expérience tricot ?
 
-You can include more than three technology options in your tricot experiment. 
+Vous pouvez inclure plus de trois options technologiques dans votre expérience tricot.
 
-Every grower will receive a personal trial package which contains only three technology options, but these come out of a larger pool. For example, every grower receives seeds of three different crop varieties. It’s important to know that each grower receives “their” specific three varieties based on a strict randomization scheme. The ClimMob software takes care of organizing which three varieties go to which grower. The grower will plant the three options in 'incomplete blocks' [(see definition in glossary)](/glossary)
+Chaque agriculteur recevra un package d'essai personnel contenant seulement trois options technologiques, mais celles-ci proviennent d'un pool plus large. Par exemple, chaque agriculteur reçoit des semences de trois variétés de cultures différentes. Il est important de savoir que chaque agriculteur reçoit « ses » trois variétés spécifiques selon un schéma de randomisation strict. Le logiciel ClimMob se charge d'organiser quelles trois variétés vont à quel agriculteur. L'agriculteur plantera les trois options dans des « blocs incomplets » [(voir la définition dans le glossaire)](/glossary)
 
   </TabItem>
-  <TabItem value="climmob" label="ClimMob FAQs">
+  <TabItem value="climmob" label="FAQs ClimMob">
 
-## ClimMob FAQs
+## FAQs ClimMob
 
-### Who created ClimMob?
+### Qui a créé ClimMob ?
 
-ClimMob and the tricot methodology were initiated by Jacob van Etten, PhD, and developed by a team of researchers and programmers at the Alliance of Bioversity International and CIAT (CGIAR), now led by Kauê de Sousa. 
+ClimMob et la méthodologie tricot ont été initiés par Jacob van Etten, PhD, et développés par une équipe de chercheurs et de programmeurs à l'Alliance de Bioversity International et du CIAT (CGIAR), maintenant dirigée par Kauê de Sousa.
 
-Learn more about the development process through these publications: 
+En savoir plus sur le processus de développement à travers ces publications :
 
-* van Etten et al., 2019. First experiences with a novel farmer citizen science approach: Crowdsourcing participatory variety selection through on-farm triadic comparisons of technologies (tricot). Experimental Agriculture, 55(S1). https://doi.org/10.1017/S0014479716000739. 
+* van Etten et al., 2019. First experiences with a novel farmer citizen science approach: Crowdsourcing participatory variety selection through on-farm triadic comparisons of technologies (tricot). Experimental Agriculture, 55(S1). https://doi.org/10.1017/S0014479716000739.
 
 * van Etten et al., 2022. Redesigning farmer-participatory on-farm trials from a citizen science perspective: The tricot experience. In: Véronique Bellon Maurel, Nicolas Tremblay, Simon Cook, Myrtille Lacoste, James Taylor, et al.. Proceedings of the 1st International Conference on Farmer-Centric On-Farm Experimentation (OFE2021): Digital tools for a scalable transformative pathway. 1st International Conference Farmer-Centric On-Farm Experimentation (OFE2021), Oct 2021, Montpellier, France. https://hdl.handle.net/10568/121924
 
-### Do I need to be a programmer to use ClimMob?
+### Dois-je être programmeur pour utiliser ClimMob ?
 
-No, ClimMob is designed to be user-friendly and accessible, even for users without technical backgrounds.
+Non, ClimMob est conçu pour être convivial et accessible, même pour les utilisateurs sans formation technique.
 
-### Can ClimMob be used without internet access in the field?
+### ClimMob peut-il être utilisé sans accès à internet sur le terrain ?
 
-Yes, data can be collected offline with ODK Collect and uploaded once the device has internet access.
+Oui, les données peuvent être collectées hors ligne avec ODK Collect et téléchargées une fois que l'appareil dispose d'un accès à internet.
 
-### How is ClimMob different from other agricultural data platforms?
+### En quoi ClimMob est-il différent des autres plateformes de données agricoles ?
 
-ClimMob is designed specifically for participatory testing using the tricot method. It is open-source, modular, and tailored to multi-actor agricultural innovation.
+ClimMob est conçu spécifiquement pour les tests participatifs utilisant la méthode tricot. Il est open-source, modulaire et adapté à l'innovation agricole multi-acteurs.
 
-### What crops or technologies can I test with ClimMob?
+### Quelles cultures ou technologies puis-je tester avec ClimMob ?
 
-Any agricultural technology that can be compared in sets of three—e.g., crop varieties, fertilizers, planting methods—can be tested with ClimMob.
+Toute technologie agricole pouvant être comparée par ensembles de trois — par exemple des variétés de cultures, des engrais, des méthodes de plantation — peut être testée avec ClimMob.
 
-### Is ClimMob free to use?
+### ClimMob est-il gratuit ?
 
-Yes, ClimMob is open-source and free for anyone to use.
+Oui, ClimMob est open-source et gratuit pour tout le monde.
 
-### Can I merge data from two different tricot projects?
+### Puis-je fusionner les données de deux projets tricot différents ?
 
-You can merge the data if both projects are testing the same technology and you have at least one technology option (e.g. the same crop variety) in both projects. The merger can be done, for example, in the R package using ClimMob R Tools and your API key. You find your API key in the ClimMob software, by clicking on your name >>> Profile.
+Vous pouvez fusionner les données si les deux projets testent la même technologie et si vous avez au moins une option technologique (par exemple la même variété de culture) dans les deux projets. La fusion peut être effectuée, par exemple, dans le package R en utilisant ClimMob R Tools et votre clé API. Vous trouvez votre clé API dans le logiciel ClimMob, en cliquant sur votre nom >>> Profil.
 
-### Does the ODK Collect app work on iOS smartphones?
+### L'application ODK Collect fonctionne-t-elle sur les smartphones iOS ?
 
-As of today, there is no ODK Collect app for iOS. You need an Android phone to run ODK Collect.
+À ce jour, il n'existe pas d'application ODK Collect pour iOS. Vous avez besoin d'un téléphone Android pour utiliser ODK Collect.
 
-### Do field agents need constant internet connection while collecting trial data with ODK Collect?
+### Les agents de terrain ont-ils besoin d'une connexion internet permanente lors de la collecte des données d'essai avec ODK Collect ?
 
-No. The field agents can input the data they collect from the observers even while they are not connected to the internet. Field agents can later upload the data to ClimMob, at the first opportunity to connect to the internet again.
+Non. Les agents de terrain peuvent saisir les données qu'ils collectent auprès des observateurs même lorsqu'ils ne sont pas connectés à internet. Les agents de terrain peuvent ensuite télécharger les données sur ClimMob, dès la première occasion de se connecter à internet.
 
 
  </TabItem>
 </Tabs>
 
-## References
+## Références

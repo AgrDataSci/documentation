@@ -1,0 +1,127 @@
+---
+title: Modelos estatísticos aplicados a dados tricot
+sidebar_position: 1
+---
+
+<br />
+<div className="tricot-hero-links">
+  <a className="tricot-hero-link" href="/print-section?id=09-analysis">📄 Download the Analysis chapter as a PDF</a>
+</div>
+<br />
+
+# Modelos estatísticos aplicados a dados tricot
+
+> Kauê de Sousa, Joost van Heerwaarden, Hugo Dorado
+
+## Introdução
+
+Os dados tricot consistem principalmente em classificações fornecidas por agricultores, mas também podem incluir medições numéricas e contínuas, como rendimento, densidade de plantas, incidência de doenças ou dias até a maturidade. Como o núcleo do tricot depende de avaliação comparativa, são necessários modelos estatísticos que trabalhem naturalmente com desempenho relativo em vez de absoluto. Para dados de classificação, as análises tricot baseiam-se principalmente no modelo Plackett–Luce (PL) [@luce1959; @plackett1975]. Este modelo probabilístico, derivado do Axioma de Escolha de Luce, estima a probabilidade de que um item (por exemplo, uma variedade de cultura) seja preferido em relação a outros dentro de um conjunto. Cada item recebe um parâmetro latente frequentemente referido como seu "valor" ou capacidade, que reflete seu desempenho esperado em relação às alternativas.
+
+O modelo PL tem sido amplamente utilizado em áreas onde escolhas são feitas a partir de conjuntos de alternativas, incluindo classificações esportivas, exercícios de julgamento comparativo [@Donovan2025; @Chambers2022], estudos de preferência do consumidor [@Olaosebikan2023] e seleção de variedades de culturas [@vanEtten2019]. Os métodos de classificação em experimentos de escolha revelada são rápidos, localmente adaptáveis e cognitivamente intuitivos para os respondentes, exigindo pouca calibração ou treinamento [@Coe2002]. Isso os torna particularmente adequados para experimentação descentralizada liderada por agricultores em escala.
+
+No tricot, os agricultores normalmente comparam três variedades por característica em um delineamento de blocos incompletos. O modelo PL é especialmente apropriado para esta estrutura, pois acomoda classificações parciais e comparações entre subconjuntos de todas as variedades testadas. Isso permite a agregação de milhares de pequenos ensaios gerenciados por agricultores em uma única análise estatística coerente. Para uma classificação completa de múltiplos itens, o modelo expressa a probabilidade de observar uma ordem específica como um produto de probabilidades de escolha condicional. No contexto tricot, isso significa que a classificação de cada agricultor contribui com informações sobre desempenho relativo, mesmo que cada agricultor avalie apenas um pequeno subconjunto de variedades.
+
+As principais vantagens do framework PL para tricot incluem:
+
+* Capacidade de lidar com delineamentos incompletos e não balanceados
+* Modelagem direta de dados ordinais (de classificação)
+* Interpretação direta do desempenho relativo
+* Compatibilidade com covariáveis e extensões hierárquicas
+
+Os parâmetros de valor estimados podem ser transformados em probabilidades de superar outras variedades ou em classificações esperadas, que são altamente intuitivas para melhoristas, agentes de extensão e tomadores de decisão.
+
+## Modelando heterogeneidade usando covariáveis e particionamento recursivo
+
+As avaliações dos agricultores são influenciadas pelas condições ambientais, práticas de manejo e contexto socioeconômico. Para contabilizar essa heterogeneidade, o modelo PL pode ser estendido com covariáveis. Uma abordagem amplamente utilizada no tricot é o particionamento recursivo baseado em modelo [@Strobl2011]. Este método identifica subgrupos nos dados usando divisões binárias baseadas em variáveis ambientais ou socioeconômicas (por exemplo, precipitação, temperatura, tipo de solo, gênero do agricultor). Dentro de cada subgrupo, um modelo PL separado é estimado. O resultado é uma árvore Plackett–Luce, que revela como o desempenho das variedades muda entre contextos e ajuda a definir Populações-Alvo de Ambientes (TPEs) (Figura 1). Uma TPE é um grupo relativamente uniforme de ambientes de produção de culturas (onde e como a cultura é cultivada). Esta abordagem tem se mostrado especialmente útil para identificar interações genótipo × ambiente (G×A) (por exemplo, adaptações locais) em condições reais de fazenda, apoiando recomendações de variedades específicas para cada contexto [@vanEtten2019].
+
+![Plackett-Luce tree](/img/PLtree.png)
+
+Figura 1. Árvore Plackett–Luce de dados de ensaio tricot e dados climáticos associados para feijão comum na Nicarágua. O eixo horizontal de cada painel é a probabilidade de vitória das variedades. Neste caso, o modelo selecionou maxNT, a temperatura máxima noturna durante os períodos vegetativo e de florescimento, como covariável. De van Etten et al. [-@vanEtten2019].
+
+Mais recentemente, desenvolvimentos na regressão Plackett–Luce permitem a inclusão de covariáveis lineares diretamente no modelo [@Turner2020; @Alamu2023; @Kang2025]. Isso permite:
+
+* Modelagem de gradientes ambientais em vez de grupos discretos
+* Inclusão de covariáveis no nível da opção (por exemplo, dados de características, dados genômicos, dados de laboratório alimentar)
+* Representações mais contínuas da variação de desempenho entre ambientes
+
+Esses avanços aproximam a análise tricot da genética quantitativa convencional e da análise de melhoramento.
+
+## Analisando dados contínuos
+
+Embora as classificações sejam centrais no tricot, muitos ensaios também coletam medições quantitativas, como rendimento ou pontuações de doenças [@Nabateregga2025]. Esses dados são tipicamente analisados usando modelos lineares de efeitos mistos (LMMs) ou modelos lineares generalizados mistos (GLMMs).
+
+Os modelos mistos permitem a partição da variação em componentes atribuíveis a:
+
+* Variedade (genótipo)
+* Ambiente
+* Agricultor ou localização
+* Erro residual
+
+Eles também suportam estimativa de herdabilidade, componentes de variância e interações genótipo × ambiente. Quando os ensaios tricot incluem dados de classificação e quantitativos, as análises podem ser conduzidas em paralelo e posteriormente integradas na etapa de interpretação. A pesquisa está em andamento em frameworks de modelagem conjunta que combinam dados ordinais e contínuos dentro de uma única estrutura estatística [@Dorado2026].
+
+## Vinculando tricot com dados climáticos e ambientais
+
+Uma grande inovação na análise tricot tem sido a integração de dados climáticos sazonais e outras covariáveis espaciais. Van Etten et al. [-@vanEtten2019] demonstraram como os modelos PL combinados com covariáveis climáticas e validação cruzada podem produzir recomendações de variedades localmente específicas. Esta abordagem permite:
+
+* Identificação de fatores ambientais que impulsionam o desempenho das variedades
+* Previsão de desempenho em novos locais
+* Desenvolvimento de ferramentas de suporte à decisão informadas pelo clima
+
+Esta integração é especialmente importante sob variabilidade climática crescente, onde recomendações estáticas são insuficientes.
+
+## Síntese de dados entre ensaios
+
+Outro grande desenvolvimento é a síntese baseada em classificação de dados entre múltiplos ensaios [@Brown2020]. Como o modelo PL trabalha com desempenho relativo, ele permite a combinação de conjuntos de dados de diferentes anos, locais e condições experimentais — mesmo quando as medições absolutas não são comparáveis. Isso é particularmente promissor para o tricot, pois permite:
+
+* Meta-análise de ensaios descentralizados
+* Aumento do poder estatístico por meio de agregação
+* Reutilização de conjuntos de dados legados ou de pequena escala
+* Formatos de dados padronizados e compartilhamento de dados abertos aumentarão ainda mais o valor de tais esforços de síntese, criando conhecimento cumulativo entre projetos e regiões.
+* Integração de informações genômicas e biológicas
+
+Em uma extensão importante do framework PL, de Sousa et al. [-@deSousa2021] incorporaram a relação genômica entre variedades como uma estrutura de covariância dentro do modelo. Isso aumentou a precisão preditiva, demonstrando que combinar avaliações de agricultores com informações genômicas pode melhorar as decisões de seleção. Esta abordagem abre caminho para:
+
+* Seleção genômica descentralizada
+* Teste de materiais geneticamente diversos sob manejo de agricultores
+* Melhor representação das interações G×A nos pipelines de melhoramento
+
+Esses métodos ajudam a conectar a pesquisa participativa e a genética quantitativa avançada.
+
+## De classificações a decisões de melhoramento
+
+Os programas de melhoramento frequentemente estão interessados na probabilidade de que uma nova variedade supere os padrões atuais, em vez de nas diferenças exatas de rendimento. As análises baseadas em classificação são bem adequadas para isso, pois as saídas do modelo PL podem ser expressas como probabilidades de superioridade [@Eskridge1992]. Isso está alinhado com as estratégias modernas de melhoramento que se concentram na substituição de produtos e ganhos incrementais [@Cobb2019].
+
+O tricot, portanto, fornece uma maneira eficiente de gerar evidências em estágio inicial sobre a probabilidade de que uma variedade candidata tenha sucesso sob condições de agricultores.
+
+## Integrando dados de campo, estação experimental ou laboratório
+
+Um grande desafio (e oportunidade) no teste descentralizado de variedades é a integração de conjuntos de dados de campo e de estação experimental para apoiar decisões de melhoramento e interpretação biológica das preferências dos agricultores. Os ensaios em estação, conduzidos em condições controladas e replicadas, produzem medições fenotípicas precisas e estimativas genotípicas (por exemplo, rendimento, pontuações de doenças, características fisiológicas) que são essenciais para as decisões de melhoramento. Em contraste, os ensaios de campo fornecem avaliações de desempenho do mundo real que incorporam toda a complexidade do manejo do agricultor, contexto socioeconômico e variação microambiental.
+
+Kang et al. [-@Kang2025] demonstram um exemplo concreto de tal integração em ensaios de batata em Ruanda. Neste estudo, valores genotípicos estimados a partir de ensaios em estação foram incorporados como covariáveis de item no modelo estatístico que analisa as classificações tricot dos agricultores. Esta estratégia permitiu aos pesquisadores avaliar como as medições biológicas capturadas em ambientes controlados influenciam as avaliações relativas dos agricultores. Proporcionando uma compreensão mais rica do desempenho das variedades em diferentes escalas e pode informar diretamente as decisões de melhoramento sobre priorização de características e avanço nos pipelines de melhoramento.
+
+Da mesma forma, Alamu et al. [-@Alamu2023] pioneiraram o uso de covariáveis de item derivadas de dados de laboratório instrumental (ou seja, cor, textura, dureza) em regressões Plackett–Luce, não apenas para explicar as preferências dos consumidores sobre gari (um subproduto de mandioca), mas também para integrar dados biológicos e de preferência do consumidor em um framework unificado.
+
+Embora nem sempre focados em características de rendimento per se, esses métodos mostram como medições externas de ambientes controlados (por exemplo, características sensoriais instrumentais) podem ser usadas analiticamente juntamente com dados de classificação de ensaios descentralizados.
+
+A integração de dados de estação em análises de campo pode melhorar significativamente a robustez e interpretabilidade do modelo. Por exemplo, modelos de covariável de item (por exemplo, regressão Plackett–Luce com características ou valores genotípicos) permitem que os efeitos de características biológicas medidas sejam diretamente estimados nos parâmetros de valor usados nas análises de classificação.
+
+Esses modelos efetivamente combinam métricas de desempenho absoluto de ambientes de estação com avaliações de desempenho relativo de ambientes de campo. Do ponto de vista do melhoramento, essa integração suporta uma estratégia de modelagem em dois níveis:
+
+* Prever valor genético e respostas de características em condições controladas, e
+* Traduzir essas previsões em desempenho esperado sob condições de agricultores e ambientes diversos.
+
+Esta estratégia reflete uma tendência crescente na pesquisa de melhoria de culturas onde dados de diversas fontes (por exemplo, ensaios de campo, dados climáticos, estimativas genômicas) são sistematicamente combinados para apoiar a tomada de decisão tanto nas etapas de melhoramento quanto de implantação [@vanEtten2023].
+
+# Direções futuras para análise integrada de dados
+
+Do ponto de vista da análise de dados, a integração de dados de campo e de estação abre importantes oportunidades para fortalecer o papel dos ensaios descentralizados nos pipelines de melhoramento. Uma direção fundamental é o desenvolvimento de modelos multinível que analisam conjuntamente dados de classificação de ensaios de campo e medições quantitativas de características de experimentos em estação. Trabalhos recentes mostram que estimativas de desempenho genotípico baseadas em classificação podem ser colocadas em uma escala contínua subjacente e então usadas em frameworks de modelos mistos semelhantes aos aplicados na genética quantitativa convencional [@Dorado2026].
+
+Estender essas abordagens a conjuntos de dados multi-ambiente e multi-ano permitirá uma estimativa mais robusta do desempenho genotípico e da variabilidade sob condições de agricultores.
+
+Outra prioridade é a integração de covariáveis ambientais em modelos de desempenho. Vincular resultados de campo com dados de clima, solo e manejo permite a interpretação específica ao contexto do desempenho das variedades e apoia a definição de Populações-Alvo de Ambientes. Os frameworks de melhoramento orientados por dados enfatizam que a combinação de dados de ensaio com caracterização ambiental melhora tanto a representatividade quanto o poder preditivo [@vanEtten2023].
+
+A análise futura também se beneficiará da modelagem multicaracterística. Os agricultores avaliam as variedades de forma holística, e estudos de ensaios participativos mostram que as preferências frequentemente refletem combinações de características agronômicas e de uso final que diferem entre segmentos de agricultores [@Voss2025]. Os frameworks estatísticos que permitem a análise simultânea de múltiplas características, sejam medidas em estação ou a partir de classificações de campo, capturarão melhor esses perfis de desempenho complexos.
+
+Por fim, há um escopo crescente para abordagens orientadas por dados que combinam dados de classificação, medições quantitativas e covariáveis genômicas ou de características dentro de modelos unificados [@Kang2025; @Alamu2023]. Tal integração ajudará a traduzir evidências geradas por agricultores em parâmetros biologicamente interpretáveis, fortalecendo a conexão entre testes descentralizados de campo e a tomada de decisão formal de melhoramento.
+
+## Referências

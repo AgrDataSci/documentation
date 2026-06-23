@@ -1,8 +1,8 @@
 {
-  "label": "Tricot Case Studies",
+  "label": "Estudios de Caso de Tricot",
   "position": 8,
   "link": {
     "type": "generated-index",
-    "description": "Case stories on tricot"
+    "description": "Historias de caso sobre tricot"
   }
 }

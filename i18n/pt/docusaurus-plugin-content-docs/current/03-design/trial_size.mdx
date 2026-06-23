@@ -1,0 +1,107 @@
+---
+title: Tamanho do ensaio
+sidebar_position: 3
+---
+
+import React from 'react';
+import { SampleSizeCalculator, SeedNeedsCalculator } from '@site/src/components/TrialDimensionsCalculators';
+
+# Tamanho do ensaio
+
+> Joost van Heerwaarden, Marie-Angélique Laporte
+
+<div className="tricot-hero">
+  <div className="tricot-hero-links tricot-tabs">
+    <a href="#samplesize" className="tricot-hero-link">🧮 Calculadora de amostras</a>
+    <a href="#seedsize" className="tricot-hero-link">🧮 Calculadora de sementes</a>
+  </div>
+</div>
+
+### Tamanho da amostra
+
+Como em qualquer experimento, decidir sobre o tamanho adequado da amostra é importante ao desenhar ensaios tricot. Como o objetivo dos ensaios de variedades é determinar diferenças no desempenho das opções, o número de repetições por opção (n) determina o poder estatístico. Como pode ser visto na Figura 1, o poder estatístico aumenta com n, e um número bastante substancial de repetições pode ser necessário quando as diferenças entre as opções são pequenas, ou a variação residual (isto é, aleatória) é grande.
+
+Por exemplo, detectar uma diferença na produção média igual a 0,7 vezes o desvio padrão residual (isto é, um chamado Cohen's d de 0,7) com 95% de probabilidade exigiria aproximadamente 30 repetições por opção. É importante notar que os dados de classificação tricot contêm menos informação do que medições diretas e, consequentemente, cerca do dobro de repetições é necessário para alcançar poder equivalente. Além disso, estimativas de desempenho de opções baseadas em classificação podem ser pouco confiáveis quando n é muito pequeno, e deve-se ter como objetivo um mínimo de 30 repetições.
+
+Os ensaios tricot são desenhados para ser totalmente balanceados, portanto, uma vez decidido o número de repetições, n, e o número de opções (noptions), é simples calcular os recursos necessários. As equações a seguir são úteis neste sentido.
+
+Para calcular o número de parcelas necessárias:
+
+`Nplots = nfarms × 3 = noptions × n`
+
+Para calcular o número de propriedades necessárias:
+
+`nfarms = (noptions × n)/3`
+
+Para calcular o tamanho da amostra, n, para um delineamento existente:
+
+`n = (nfarms × 3)/ noptions`
+
+### Calculadora interativa de tamanho de amostra {#samplesize}
+
+Esta calculadora pressupõe que o formato tricot está sendo utilizado (blocos de tamanho 3). É baseada em Talsma [-@Talsma2018].
+
+Calcula quantas amostras são necessárias para alcançar um determinado Cohen's d (tamanho de efeito relativo ao desvio padrão das opções de tecnologia testadas) com 95% de probabilidade. Não leva em conta a taxa de retorno dos dados. Para uma única estação, um Cohen's d entre 0,7 e 1,0 é razoável. Para um teste de preferência do consumidor, recomenda-se um Cohen's d entre 0,2 e 0,5.
+
+<SampleSizeCalculator />
+
+### Calculadora interativa de necessidades de sementes {#seedsize}
+
+A calculadora pressupõe que o formato tricot está sendo utilizado (blocos de tamanho 3). As unidades da "Quantidade de sementes por parcela" são as mesmas dos resultados (por exemplo, quilogramas, mas também o número de plantas pode ser utilizado).
+
+<SeedNeedsCalculator />
+
+### Locais
+
+Os ensaios tricot frequentemente cobrem diferentes áreas geográficas ou agroecológicas. Nesses casos, os aspectos mais importantes são o tamanho da amostra, o balanceamento e a representatividade. Como mencionado acima, as estimativas de desempenho de opções baseadas em classificação podem ser bastante pouco confiáveis quando n &lt; 20. Isso também se aplica quando é necessário estimar o desempenho diferencial entre geografias (Figura 2), por isso recomenda-se ter pelo menos 10-20 repetições por área geográfica. Para múltiplos ambientes, dados sequencialmente balanceados implicam que os pares de opções são comparados o mesmo número de vezes em cada ambiente. Isso pode ser alcançado usando um delineamento em blocos incompletos resolvível (alfa), que pode ser gerado por pacotes de software especializados. Na prática, os delineamentos produzidos pelo ClimMob serão sequencialmente balanceados se o mesmo número de propriedades for atribuído a diferentes locais (Figura 3).
+
+Por fim, alcançar boa representatividade das áreas geográficas requer a amostragem de múltiplos locais dentro da região-alvo. Uma ferramenta de amostragem prototípica foi desenvolvida para auxiliar na criação de delineamentos e itinerários para esses experimentos multilocais (Figura 4). Logisticamente, é conveniente amostrar vários agricultores por local e, para permitir a detecção de efeitos específicos por local, recomenda-se ter pelo menos 10 repetições por local. No exemplo com 20 opções e 7 locais mostrado na Figura 4, isso exigiria visitar 467 propriedades no total (67 propriedades por local). Um equilíbrio adequado entre a cobertura das áreas-alvo e o custo logístico é importante, razão pela qual a ferramenta de amostragem calculará o tempo total de viagem para as rotas mais curtas entre os locais escolhidos.
+
+![Figura 1](/img/Geo_fig_1.png)
+
+Figura 1. Poder estatístico simulado para detectar uma diferença entre duas opções (prop sign), em função do tamanho da amostra (n) e da magnitude da diferença (Cohen's D) para um caráter quantitativo (vermelho) e para dados de classificação (vermelho). Os planos cinza e azul indicam os valores esperados, assumindo que os dados de classificação têm um tamanho de amostra efetivo equivalente à metade em comparação com dados quantitativos.
+
+![Figura 2](/img/Geo_fig_2.png)
+
+Figura 2. Resultados simulados demonstrando o efeito do tamanho da amostra sobre a capacidade de estimar a variação devida à interação opção por ambiente (sigma) usando dados contínuos (métricos) e de classificação para 3 e 18 repetições por ambiente (10 ambientes).
+
+![Figura 3](/img/Geo_fig_3.png)
+
+Figura 3. Grafos de rede mostrando conectividade e balanceamento nas comparações pareadas para dados multilocais agregados (esquerda) e desagregados (direita).
+
+![Figura 4](/img/Geo_fig_4.png)
+
+Figura 4. Visão geral da saída do protótipo da ferramenta de amostragem mostrando a rota mais eficiente entre locais que cobrem uma zona agroecológica.
+
+Uma questão recorrente é decidir sobre o tamanho da parcela e o número de parcelas (repetições). Na literatura sobre ensaios de culturas, existem vários métodos para orientar a tomada de decisão. Ao mesmo tempo, essa não é apenas uma questão estatística, mas considerações biológicas também são importantes. Para os ensaios tricot, há uma série de considerações adicionais relacionadas às capacidades dos agricultores.
+
+### Tamanho da parcela
+
+Os tamanhos das parcelas devem ser geralmente pequenos, pelos seguintes motivos.
+
+- Com a mesma quantidade de sementes, mais agricultores podem participar. O tricot trata de validade externa, portanto capturar a diversidade nos contextos de uso é importante.
+- Tamanhos de parcela pequenos permitem que agricultores com propriedades menores participem. Isso torna os ensaios tricot mais inclusivos e representativos.
+- Tamanhos de parcela pequenos aumentam a variação entre propriedades, mas não distorcem os resultados sistematicamente para cima ou para baixo (a menos que efeitos de borda/fronteira desempenhem um papel importante, veja abaixo).
+
+No entanto, as parcelas tricot não devem ser muito pequenas.
+
+- Efeitos de borda ou fronteira acentuados devem ser evitados. Isso pode ser contornado não colhendo as linhas de bordadura.
+- Se as variedades também forem testadas para características de processamento ou culinárias, as parcelas devem produzir volume suficiente para permitir isso.
+
+Algumas observações sobre culturas específicas:
+
+- Para batata, os efeitos de competição entre parcelas constituídas por camalhões individuais parecem ser pouco importantes para a produtividade, pois os estolões raramente se estendem além dos camalhões `Connolly 1993`.
+- Para mandioca, constatou-se que os efeitos de competição entre parcelas se estendem além da primeira linha `Elias 2018`.
+- Para batata-doce, presume-se que a interação entre parcelas seja substancial devido à competição aérea `Gruneberg 2019`. Para ensaios de batata-doce, recomendaram-se parcelas de 30 m2 com 100 estacas para ensaios em campo `Gruneberg 2019`. Para um ensaio tricot em Gana, no entanto, foram utilizadas parcelas muito menores de 6 m2 com 20 estacas, o que representa dois terços do tamanho de parcela recomendado para ensaios em estação.
+
+O tamanho da parcela está intimamente relacionado com o número de sementes fornecido aos agricultores. Em culturas de grãos, os melhoristas frequentemente fornecem sementes com base no peso médio necessário para uma unidade de terra. No entanto, isso pode ser problemático quando há diferenças no tamanho das sementes entre variedades. Uma variedade de sementes pequenas seria representada por mais sementes. Consequentemente, o agricultor pode decidir aumentar a densidade de plantio de uma variedade de sementes pequenas ou adicionar mais posições de plantio. Isso poderia distorcer as estimativas de produção em favor das variedades de sementes pequenas. Por isso, recomenda-se não fornecer o mesmo peso de semente para cada variedade, mas o mesmo número de sementes.
+
+### Número de parcelas (ou propriedades)
+
+Para um ensaio com cerca de 12 entradas (variedades, linhagens, etc.), tipicamente 100-200 propriedades forneceriam resultados sólidos para fazer recomendações. Isso significa que o ensaio tem 95% de probabilidade de identificar diferenças (tamanhos de efeito) entre 0,7 e 1 desvio padrão (Cohen's d). Como os ensaios são realizados ao longo de várias estações, esse número diminuirá com o tempo. Consulte a calculadora interativa de tamanho de amostra abaixo para estimar o número de propriedades necessárias.
+
+Essa é a mesma ordem de grandeza encontrada em trabalhos anteriores com ensaios em campo com cereais.
+
+Se o ensaio cobrir mais ambientes agroecológicos (aos quais se espera que o conjunto de variedades responda de maneiras diferentes), o número de agricultores deve ser proporcionalmente maior. Estudos futuros deverão fornecer melhor orientação sobre as dimensões ideais dos ensaios.
+
+## Referências

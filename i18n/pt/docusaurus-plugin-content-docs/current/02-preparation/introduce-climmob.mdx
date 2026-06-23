@@ -1,0 +1,137 @@
+---
+title: Introdução ao ClimMob
+sidebar_position: 5
+---
+
+# Introdução ao ClimMob
+
+> Sofía Acuña, Marilyn Manrow, Brandon Madriz, Kauê de Sousa
+
+## ClimMob: Uma plataforma de software para ciência cidadã experimental na agricultura
+
+O [ClimMob](https://climmob.net/) apoia os implementadores de ensaios tricot na avaliação de opções tecnológicas em diversos contextos, com uma solução integrada para projetar, gerenciar e compartilhar experimentos. Ele ajuda os implementadores a planejar e monitorar processos, garantindo que os resultados relevantes cheguem a pesquisadores, agentes de campo e participantes dos ensaios no momento certo. Isso permite operações eficazes nos ensaios e decisões ágeis baseadas em dados, sustentadas por uma excelente experiência do usuário.
+
+O ClimMob é uma **plataforma online gratuita e de código aberto** para projetos de teste participativo. Ele orienta os usuários em todas as etapas de seus projetos tricot: desde o design do projeto e a geração de pacotes de teste randomizados, até a coleta eficiente de dados, análise automatizada e geração de relatórios.
+
+*	Versão atual: ClimMob 3
+*	Coleta de dados: pode ser realizada usando o aplicativo Android ODK Collect, por meio de formulários online (Enketo), ou por meio do upload de dados via modelos Excel
+*	Análise: utiliza diversos pacotes R
+
+Requisitos: Um computador com conexão à internet para projetar o ensaio e um smartphone ou tablet Android para a coleta de dados em campo
+
+### Por que o ClimMob?
+
+Os testes participativos na agricultura podem ser complexos, envolvendo múltiplos atores — como implementadores de projetos, agentes de campo e agricultores — frequentemente em diferentes regiões ou países. Esses projetos geram grandes volumes de dados que precisam ser organizados, validados e analisados. Antes do ClimMob, pipelines anteriores desintegrados tornavam improvável que os resultados do projeto fossem entregues a tempo.
+
+O ClimMob foi desenvolvido especificamente para simplificar essa complexidade, apoiando:
+
+*	Design e planejamento de projetos
+*	Geração de pacotes de teste randomizados
+*	Coleta e armazenamento eficiente de dados
+*	Monitoramento de dados e progresso do projeto
+*	Análise automatizada de dados e geração de relatórios
+
+Ao simplificar todas as etapas do fluxo de trabalho, o ClimMob torna os projetos tricot mais gerenciáveis, escaláveis e bem-sucedidos.
+
+### Arquitetura de software e princípios de design
+
+A arquitetura do ClimMob foi moldada pela necessidade de um fluxo de trabalho viável e orientado ao proprietário do projeto, ao mesmo tempo em que atende aos requisitos de melhoristas, pesquisadores e agentes de campo. A plataforma é projetada principalmente para cientistas e coordenadores de projetos que lideram ensaios participativos, garantindo que possam gerenciar projetos com eficiência enquanto mantêm os resultados relevantes para agricultores e tomadores de decisão. O software e o fluxo de trabalho foram desenvolvidos em paralelo para garantir coerência técnica, usabilidade e alinhamento com as necessidades reais de gestão de projetos.
+
+![Figura 1. Fluxo de trabalho da abordagem tricot usando o ClimMob](/img/implementation.png)
+
+O ClimMob é construído usando Engenharia de Software Baseada em Componentes (CBSE). Isso permite uma plataforma flexível e modular, fácil de atualizar e manter.
+
+O ClimMob é baseado em componentes de código aberto robustos e amplamente adotados, incluindo:
+
+*	Open Data Kit (ODK)
+*	ODK Tools
+*	PyUtilib Component Architecture
+
+Toda a análise de dados é realizada por meio de pacotes R, garantindo reprodutibilidade e transparência.
+
+### Desenvolvimento centrado no usuário
+
+Desde o início, o ClimMob seguiu um processo de desenvolvimento iterativo e centrado no usuário, marcado por:
+
+*	Feedback contínuo dos usuários
+*	Ciclos de comunicação curtos entre desenvolvedores e equipes de campo
+*	Melhorias contínuas baseadas no uso no mundo real
+
+Isso resultou em uma plataforma que se adapta às necessidades em constante evolução dos projetos de inovação agrícola.
+
+### Quem usa o ClimMob — e como?
+
+O ClimMob foi criado para apoiar uma variedade de usuários em projetos de teste participativo:
+
+* Implementadores (líderes de projeto) - Eles se beneficiam de ferramentas para configuração de projetos, atribuição de agentes de campo e gerenciamento de pacotes de teste. O ClimMob também oferece relatórios estatísticos automáticos, permitindo a tomada de decisões baseada em dados.
+
+* Agentes de campo - Eles registram participantes e coletam dados usando o aplicativo ODK Collect. Isso garante que a entrada de dados seja rápida, eficiente e sincronizada com o ClimMob.
+
+* Testadores (participantes) - Eles recebem seus resultados de teste logo após o envio dos dados. Esse feedback rápido os ajuda a aprender com seus pares e a adotar as tecnologias mais promissoras.
+
+### O que vem a seguir para o ClimMob?
+
+O desenvolvimento contínuo do ClimMob está focado em:
+
+*	Melhoria da experiência do usuário (UI/UX)
+*	Expansão de tipos de dados e mídia (por exemplo, áudio, fotos, dados de sensores)
+*	Aprimoramento da integração com outras plataformas
+*	Fortalecimento do suporte à tomada de decisões agrícolas baseada em dados
+
+### Crie uma conta no ClimMob
+
+Crie sua conta pessoal no ClimMob. Se você já possui uma conta cadastrada, pode fazer login imediatamente.
+
+Como fazer:
+
+Acesse o [software online ClimMob](https://climmob.net/).
+
+No canto superior esquerdo, clique em Login ou registre uma conta.
+
+Se você já tem uma conta, insira seu nome de usuário e senha e clique em Login (botão verde).
+
+Se você não tem uma conta, clique em Create an account (botão branco) que você encontrará abaixo de Login.
+
+1. Preencha todos os campos solicitados:
+
+   a. Full name: seu nome e sobrenome  
+   b. Email: seu endereço de e-mail  
+   c. Organization: a organização para a qual você trabalha, por exemplo, Alliance Bioversity – CIAT  
+   d. Country: selecione seu país no menu suspenso  
+   e. Sector: selecione o tipo de setor para o qual você trabalha no menu suspenso  
+   f. Username: o nome que você usará para acessar o painel do ClimMob  
+   g. Password: a senha que você usará para acessar o painel do ClimMob  
+   h. Retype password: redigite a senha que você inseriu acima  
+   i. Concorde com nossos Termos de serviço e nossa Política de Privacidade  
+   j. Por fim, clique em register e sua conta estará configurada
+
+**Tutorial em vídeo** - Criar uma conta
+
+[![Assistir no YouTube](https://img.youtube.com/vi/YgE-I37xMzg/hqdefault.jpg)](https://www.youtube.com/watch?v=YgE-I37xMzg)
+
+### Familiarize-se com o ClimMob
+
+Quando os usuários fazem login no ClimMob pela primeira vez, são recebidos com uma configuração guiada projetada para ajudá-los a configurar a plataforma antes de criar seu primeiro projeto. Esse fluxo de trabalho garante que os componentes principais sejam definidos antecipadamente, agilizando a configuração de projetos futuros.
+
+### Navegue pelo menu principal
+
+O menu principal está localizado no lado esquerdo da tela e dá acesso às principais áreas da plataforma, incluindo seus projetos, itens da biblioteca e ferramentas.
+
+Aqui está a ordem em que essas mensagens de integração aparecem:
+
+**Libraries**
+
+As bibliotecas são repositórios centralizados para elementos que serão reutilizados em múltiplos projetos, como agentes, tecnologias e perguntas.
+
+*	Field agents: são os indivíduos responsáveis pelo registro de agricultores e pela coleta de dados em campo. Você os definirá uma vez e os atribuirá em múltiplos projetos.
+*	Technologies: são as opções que os agricultores avaliarão — por exemplo, diferentes variedades de sementes, tratamentos de solo ou métodos de plantio. Estas são armazenadas na biblioteca para uso futuro.
+*	Questions: o ClimMob fornece uma rica biblioteca de perguntas de avaliação predefinidas desenvolvidas pela equipe 1000FARMS, disponíveis em múltiplos idiomas e prontas para uso em projetos. Essa biblioteca ajuda a garantir consistência e comparabilidade na coleta de dados. Além disso, você também pode definir suas próprias perguntas personalizadas, que serão armazenadas e poderão ser reutilizadas em projetos futuros.
+
+**Downloads**
+
+Esta opção de menu dá acesso a ferramentas e recursos necessários para a implementação em campo, incluindo:
+
+* Modelos de coleta de dados em campo
+* Formulários de pesquisa
+* Documentação do ClimMob
+* Ferramentas de análise R

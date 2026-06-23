@@ -3,21 +3,21 @@ slug: /
 sidebar_position: 1
 ---
 
-# Product testing with users in agriculture and food 
-## Decentralized on-farm evaluation, breeding product validation, consumer testing and other applications using the tricot approach
+# Tests de produits avec des utilisateurs en agriculture et alimentation
+## Évaluation décentralisée en exploitation, validation de produits issus de la sélection variétale, tests consommateurs et autres applications utilisant l'approche tricot
 
-This is an online reference on everything dealing with product testing using tricot. The *tricot* approach (triadic comparison of technology options) is a participatory, decentralized method where participants test three randomly assigned options on their use context. Using citizen science, it integrates participatory insights and site-specific data to guide breeding and agricultural innovation. Scalable and cost-effective, tricot empowers farmers and enhances crop diversity and resilience (in the case of on-farm testing).
+Ceci est une référence en ligne portant sur tout ce qui concerne les tests de produits utilisant tricot. L'approche *tricot* (comparaison triadique d'options technologiques) est une méthode participative et décentralisée dans laquelle les participants testent trois options assignées aléatoirement dans leur contexte d'utilisation. Faisant appel à la science citoyenne, elle intègre des données participatives et des données spécifiques aux sites pour orienter la sélection variétale et l'innovation agricole. Évolutive et rentable, l'approche tricot autonomise les agriculteurs et renforce la diversité et la résilience des cultures (dans le cas des tests en exploitation).
 
-Readers can download individual chapters by clicking on the link at the beginning of each chapter. The whole book can be downloaded via the link below.
+Les lecteurs peuvent télécharger des chapitres individuels en cliquant sur le lien au début de chaque chapitre. L'ensemble du livre peut être téléchargé via le lien ci-dessous.
 
 <div className="tricot-hero-links">
-   <a className="tricot-hero-link" href="https://learn.climmob.net/pdf/tricot-documentation-book.pdf" target="_blank" rel="noopener noreferrer">📄 Click here to download the whole book as a PDF</a>
+   <a className="tricot-hero-link" href="https://learn.climmob.net/pdf/tricot-documentation-book.pdf" target="_blank" rel="noopener noreferrer">📄 Cliquez ici pour télécharger l'intégralité du livre en PDF</a>
 </div>
 ---
 
-## Citation:
+## Citation :
 
-### Plain
+### Format simple
 
 Chase, R., de Sousa, K., Laporte, M.-A., Acuña, S., Angudubo, S., Benavente, G., Cairns, J., Clements, L., Cremaschi, A., Dorado-Betancourt, H., Gandhi, H., Londoño, J. M., Madriz, B., Manrow-Villalobos, M., Mbugua Gitonga, A., Muller, A., Steinke, J., Stern, R., Teeken, B., van Heerwaarden, J., Zaman-Allah, M., and van Etten, J. (2026). Product testing with users in agriculture and food: Decentralized on-farm evaluation, breeding product validation, consumer testing and other applications using the tricot approach (1st ed., p. 298). Bioversity International. Montpellier, France. https://doi.org/10.5281/zenodo.20043167
 
@@ -37,6 +37,6 @@ Chase, R., de Sousa, K., Laporte, M.-A., Acuña, S., Angudubo, S., Benavente, G.
 }
 ```
 
-## Acknowledgements
+## Remerciements
 
-This publication was produced as part of the 1000FARMS project (INV-031561) funded by the Gates Foundation, and as part of the project "Building Opportunities for Lesser-known Diversity in Edible Resources" BOLD WP7 (Crop Trust Ref: CONT-1522; CONT-1536) funded by the Norwegian Agency for Development Cooperation (Norad) through The Global Crop Diversity Trust. The views expressed are those of the authors and do not necessarily reflect the views of the Foundation. We also thank everyone who contributed their time and content to this publication.
+Cette publication a été produite dans le cadre du projet 1000FARMS (INV-031561) financé par la Fondation Gates, et dans le cadre du projet « Building Opportunities for Lesser-known Diversity in Edible Resources » BOLD WP7 (Crop Trust Réf. : CONT-1522 ; CONT-1536) financé par l'Agence norvégienne de coopération pour le développement (Norad) via The Global Crop Diversity Trust. Les opinions exprimées sont celles des auteurs et ne reflètent pas nécessairement les vues de la Fondation. Nous remercions également toutes les personnes qui ont contribué de leur temps et de leur contenu à cette publication.

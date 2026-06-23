@@ -1,0 +1,8 @@
+{
+  "label": "Distribuição",
+  "position": 5,
+  "link": {
+    "type": "generated-index",
+    "description": "treinamento e distribuição de pacotes para agricultores."
+  }
+}

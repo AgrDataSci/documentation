@@ -7,133 +7,131 @@ sidebar_position: 5
 
 > Sofía Acuña, Marilyn Manrow, Brandon Madriz, Kauê de Sousa
 
-## ClimMob: A software platform for experimental citizen science in agriculture
+## ClimMob : Une plateforme logicielle pour la science citoyenne expérimentale en agriculture
 
-[ClimMob](https://climmob.net/) supports tricot trial implementers in evaluating technology options across diverse contexts with a one-platform solution to design, manage, and share experiments. It helps implementers plan and monitor processes while ensuring that relevant outputs reach researchers, field agents, and trial participants at the right time. This enables effective trial operations and agile, data-based decisions, underpinned by an excellent user experience.
+[ClimMob](https://climmob.net/) accompagne les responsables d'essais tricot dans l'évaluation d'options technologiques dans des contextes variés, grâce à une solution tout-en-un pour concevoir, gérer et partager des expériences. Elle aide les responsables à planifier et surveiller les processus tout en garantissant que les résultats pertinents parviennent aux chercheurs, agents de terrain et participants aux essais au bon moment. Cela permet des opérations d'essai efficaces et des décisions agiles basées sur les données, soutenues par une excellente expérience utilisateur.
 
-ClimMob is a **free, open-source, online platform** for participatory testing projects. It guides users through all stages of their tricot projects: from project design and generation of randomized test packages, to efficient data collection, automated analysis, and reporting.
+ClimMob est une **plateforme en ligne gratuite et open-source** pour les projets de tests participatifs. Elle guide les utilisateurs à travers toutes les étapes de leurs projets tricot : de la conception du projet et de la génération de paquets de test randomisés, à la collecte efficace de données, en passant par l'analyse automatisée et la production de rapports.
 
-*	Current version: ClimMob 3
-*	Data collection: can be conducted using the Android app ODK Collect, through online forms (Enketo), or by uploading data via Excel templates
-*	Analysis: uses many R packages
+*	Version actuelle : ClimMob 3
+*	Collecte de données : peut être réalisée à l'aide de l'application Android ODK Collect, via des formulaires en ligne (Enketo), ou en téléchargeant des données via des modèles Excel
+*	Analyse : utilise de nombreux packages R
 
-Requirements: A computer with an internet connection to design the trial and an Android smartphone or tablet for field data collection
+Prérequis : Un ordinateur avec une connexion internet pour concevoir l'essai et un smartphone ou une tablette Android pour la collecte de données sur le terrain
 
-### Why ClimMob?
+### Pourquoi ClimMob ?
 
-Participatory testing in agriculture can be complex, involving multiple actors—such as project implementers, field agents, and farmers—often across different regions or countries. These projects generate large volumes of data that must be organized, validated, and analyzed. Before ClimMob, previous disintegrated pipelines made it unlikely that project outputs were delivered on time.
+Les tests participatifs en agriculture peuvent être complexes, impliquant de multiples acteurs—tels que les responsables de projet, les agents de terrain et les agriculteurs—souvent dans différentes régions ou pays. Ces projets génèrent de grands volumes de données qui doivent être organisées, validées et analysées. Avant ClimMob, les pipelines désintégrés précédents rendaient peu probable la livraison des résultats du projet dans les délais.
 
-ClimMob was custom-built to streamline the complexity by supporting:
+ClimMob a été conçu sur mesure pour simplifier cette complexité en prenant en charge :
 
-*	Project design and planning
-*	Generation of randomized test packages
-*	Efficient data collection and storage
-*	Monitoring of data and project progress
-*	Automated data analysis and reporting
+*	La conception et la planification du projet
+*	La génération de paquets de test randomisés
+*	La collecte et le stockage efficaces des données
+*	Le suivi des données et de l'avancement du projet
+*	L'analyse automatisée des données et la production de rapports
 
-By simplifying all stages of the workflow, ClimMob makes tricot projects more manageable, scalable, and successful.
+En simplifiant toutes les étapes du flux de travail, ClimMob rend les projets tricot plus gérables, évolutifs et réussis.
 
-### Software architecture and design principles
+### Architecture logicielle et principes de conception
 
-ClimMob’s architecture was shaped by the need for a feasible and project owner-oriented workflow, while also addressing the requirements of breeders, researchers, and field agents. The platform is designed primarily for scientists and project coordinators who lead participatory trials, ensuring they can manage projects efficiently while keeping outputs relevant for farmers and decision-makers. The software and workflow were developed in parallel to ensure technical coherence, usability, and alignment with real-world project management needs.
+L'architecture de ClimMob a été façonnée par la nécessité d'un flux de travail réalisable et orienté vers le propriétaire du projet, tout en répondant aux exigences des sélectionneurs, chercheurs et agents de terrain. La plateforme est principalement conçue pour les scientifiques et coordinateurs de projet qui dirigent des essais participatifs, en veillant à ce qu'ils puissent gérer les projets efficacement tout en maintenant des résultats pertinents pour les agriculteurs et les décideurs. Le logiciel et le flux de travail ont été développés en parallèle pour assurer la cohérence technique, la convivialité et l'alignement avec les besoins réels de gestion de projet.
 
-![Figure 1. Worflow of the tricot approach using ClimMob](/img/implementation.png)
+![Figure 1. Flux de travail de l'approche tricot utilisant ClimMob](/img/implementation.png)
 
-ClimMob is built using Component-Based Software Engineering (CBSE). This allows for a flexible and modular platform that is easy to update and maintain.
+ClimMob est construit selon le principe de l'ingénierie logicielle basée sur les composants (CBSE). Cela permet une plateforme flexible et modulaire, facile à mettre à jour et à maintenir.
 
-ClimMob is based on robust, widely adopted open-source components, including:
+ClimMob repose sur des composants open-source robustes et largement adoptés, notamment :
 
 *	Open Data Kit (ODK)
 *	ODK Tools
 *	PyUtilib Component Architecture
 
-All data analysis is conducted through R packages, ensuring reproducibility and transparency.
+Toutes les analyses de données sont effectuées via des packages R, garantissant la reproductibilité et la transparence.
 
-### User-centered development
+### Développement centré sur l'utilisateur
 
-From the beginning, ClimMob has followed an iterative and user-centered development process, marked by:
+Dès le début, ClimMob a suivi un processus de développement itératif et centré sur l'utilisateur, marqué par :
 
-*	Ongoing feedback from users
-*	Short communication loops between developers and field teams
-*	Continuous improvements based on real-world use
+*	Des retours continus des utilisateurs
+*	Des boucles de communication courtes entre les développeurs et les équipes de terrain
+*	Des améliorations continues basées sur l'utilisation réelle
 
-This has resulted in a platform that adapts to the evolving needs of agricultural innovation projects.
+Il en résulte une plateforme qui s'adapte aux besoins évolutifs des projets d'innovation agricole.
 
-### Who uses ClimMob—and how?
+### Qui utilise ClimMob—et comment ?
 
-ClimMob was built to support a range of users within participatory testing projects:
+ClimMob a été conçu pour prendre en charge une gamme d'utilisateurs au sein des projets de tests participatifs :
 
-* Implementers (project leaders) - They benefit from tools for project setup, assigning field agents, and managing test packages. ClimMob also offers automatic statistical reports, enabling data-informed decision-making.
+* Responsables (chefs de projet) - Ils bénéficient d'outils pour la configuration du projet, l'affectation des agents de terrain et la gestion des paquets de test. ClimMob propose également des rapports statistiques automatiques, permettant une prise de décision basée sur les données.
 
-* Field agents - They register participants and collect data using the ODK Collect app. This ensures data entry is quick, efficient, and synchronized with ClimMob.
+* Agents de terrain - Ils enregistrent les participants et collectent les données à l'aide de l'application ODK Collect. Cela garantit que la saisie des données est rapide, efficace et synchronisée avec ClimMob.
 
-* Testers (participants) - They receive their test results soon after data submission. This rapid feedback helps them learn from peers and adopt the most promising technologies.
+* Testeurs (participants) - Ils reçoivent leurs résultats de test peu après la soumission des données. Ce retour rapide les aide à apprendre de leurs pairs et à adopter les technologies les plus prometteuses.
 
-### What’s next for ClimMob?
+### Quelle est la suite pour ClimMob ?
 
-Ongoing development of ClimMob focuses on:
+Le développement continu de ClimMob se concentre sur :
 
-*	Improving user experience (UI/UX)
-*	Expanding data types and media (e.g. audio, photos, sensor data)
-*	Enhancing integration with other platforms
-*	Strengthening support for data-driven agricultural decision-making
+*	L'amélioration de l'expérience utilisateur (UI/UX)
+*	L'expansion des types de données et des médias (par exemple, audio, photos, données de capteurs)
+*	Le renforcement de l'intégration avec d'autres plateformes
+*	Le renforcement du soutien à la prise de décision agricole basée sur les données
 
-### Create a ClimMob account 
+### Créer un compte ClimMob
 
-Create your personal account on ClimMob. If you have already registered an account, you can log in straight away.
+Créez votre compte personnel sur ClimMob. Si vous avez déjà enregistré un compte, vous pouvez vous connecter directement.
 
-How-to:
+Procédure :
 
-Visit the [ClimMob online software](https://climmob.net/).
+Visitez le [logiciel en ligne ClimMob](https://climmob.net/).
 
-On the left upper corner, click on Login or register an account.
+Dans le coin supérieur gauche, cliquez sur Login or register an account.
 
-If you already have an account, enter your username and password and click on Login (green button).
+Si vous avez déjà un compte, entrez votre nom d'utilisateur et votre mot de passe, puis cliquez sur Login (bouton vert).
 
-If you don't have an account, click on Create an account (white button) which you will find under Login.
+Si vous n'avez pas de compte, cliquez sur Create an account (bouton blanc) que vous trouverez sous Login.
 
-1. Fill in all the requested fields:
+1. Remplissez tous les champs demandés :
 
-   a. Full name: your name and surname  
-   b. Email: your email address
-   c. Organization: the organization you are working for, e.g. Alliance Bioversity – CIAT  
-   d. Country: select your country from the drop-down menu  
-   e. Sector: select the type of sector you are working for from the drop-down menu  
-   f. Username: the name you will use to enter the ClimMob dashboard  
-   g. Password: the password you will use to enter the ClimMob dashboard  
-   h. Retype password: retype the password you have entered above  
-   i. Agree with our Terms of service and our Privacy Policy  
-   j. Finally, click on register and your account will be set
+   a. Full name : votre prénom et nom de famille  
+   b. Email : votre adresse e-mail
+   c. Organization : l'organisation pour laquelle vous travaillez, par exemple Alliance Bioversity – CIAT  
+   d. Country : sélectionnez votre pays dans le menu déroulant  
+   e. Sector : sélectionnez le type de secteur pour lequel vous travaillez dans le menu déroulant  
+   f. Username : le nom que vous utiliserez pour accéder au tableau de bord ClimMob  
+   g. Password : le mot de passe que vous utiliserez pour accéder au tableau de bord ClimMob  
+   h. Retype password : retapez le mot de passe que vous avez saisi ci-dessus  
+   i. Acceptez nos Terms of service et notre Privacy Policy  
+   j. Enfin, cliquez sur register et votre compte sera configuré
 
-**Video tutorial** - Create an account
+**Tutoriel vidéo** - Créer un compte
 
-[![Watch on YouTube](https://img.youtube.com/vi/YgE-I37xMzg/hqdefault.jpg)](https://www.youtube.com/watch?v=YgE-I37xMzg)
+[![Regarder sur YouTube](https://img.youtube.com/vi/YgE-I37xMzg/hqdefault.jpg)](https://www.youtube.com/watch?v=YgE-I37xMzg)
 
-### Get familiar with ClimMob 
+### Se familiariser avec ClimMob
 
-When users log into ClimMob for the first time, they are welcomed with a guided setup designed to help them configure the platform before creating their first project. This workflow ensures that key components are defined early, streamlining future project setup.
+Lorsque les utilisateurs se connectent à ClimMob pour la première fois, ils sont accueillis par une configuration guidée conçue pour les aider à configurer la plateforme avant de créer leur premier projet. Ce flux de travail garantit que les composants clés sont définis tôt, simplifiant la configuration future du projet.
 
-### Navigate the main menu
+### Naviguer dans le menu principal
 
-The main menu is located on the left side of the screen and gives access to key areas of the platform, including your projects, library items, and tools.
+Le menu principal est situé sur le côté gauche de l'écran et donne accès aux zones clés de la plateforme, notamment vos projets, les éléments de bibliothèque et les outils.
 
-Here is the order in which these onboarding messages appear:
+Voici l'ordre dans lequel ces messages d'intégration apparaissent :
 
-**Libraries**
+**Bibliothèques**
 
-Libraries are centralized repositories for elements that will be reused in multiple projects, such as agents, technologies, and questions.
+Les bibliothèques sont des référentiels centralisés pour les éléments qui seront réutilisés dans plusieurs projets, tels que les agents, les technologies et les questions.
 
-*	Field agents: are the individuals responsible for registering farmers and collecting data in the field. You’ll define them once and assign them across multiple projects.
-*	Technologies: are the options that farmers will evaluate—for example, different seed varieties, soil treatments, or planting methods. These are stored in the library for future use.
-*	Questions: ClimMob provides a rich library of premade evaluation questions developed by the 1000FARMS team, available in multiple languages and ready to use across projects. This library helps ensure consistency and comparability in data collection. In addition, you can also define your own custom questions, which will then be stored and can be reused in future projects.
+*	Agents de terrain : ce sont les personnes responsables de l'enregistrement des agriculteurs et de la collecte des données sur le terrain. Vous les définirez une fois et les affecterez à plusieurs projets.
+*	Technologies : ce sont les options que les agriculteurs évalueront—par exemple, différentes variétés de semences, traitements du sol ou méthodes de plantation. Elles sont stockées dans la bibliothèque pour une utilisation future.
+*	Questions : ClimMob fournit une riche bibliothèque de questions d'évaluation préfabriquées développées par l'équipe 1000FARMS, disponibles en plusieurs langues et prêtes à être utilisées dans différents projets. Cette bibliothèque aide à assurer la cohérence et la comparabilité dans la collecte de données. De plus, vous pouvez également définir vos propres questions personnalisées, qui seront ensuite stockées et pourront être réutilisées dans de futurs projets.
 
-**Downloads**
+**Téléchargements**
 
-This menu option gives access to tools and resources needed for field implementation, including:
+Cette option de menu donne accès aux outils et ressources nécessaires à la mise en œuvre sur le terrain, notamment :
 
-* Field data collection templates
-* Survey forms
-* ClimMob documentation
-* R analysis tools
-	
-
+* Les modèles de collecte de données sur le terrain
+* Les formulaires d'enquête
+* La documentation ClimMob
+* Les outils d'analyse R

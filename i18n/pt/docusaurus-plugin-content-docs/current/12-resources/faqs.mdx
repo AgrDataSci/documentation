@@ -1,0 +1,151 @@
+---
+title: FAQs
+sidebar_position: 3
+---
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
+
+# Perguntas Frequentes
+
+<Tabs>
+  <TabItem value="tricot" label="FAQs do Tricot" default>
+
+## FAQs do Tricot
+
+### Qual é o incentivo para os agricultores participarem?
+
+Através da participação em um experimento tricot, os agricultores têm acesso a novas tecnologias: Por exemplo, podem experimentar novas variedades de culturas diretamente nas condições de sua própria propriedade. Dessa forma, os agricultores participantes podem conhecer novas opções para melhorar sua agricultura e descobrir inovações úteis em condições realistas. Muitos agricultores também se sentem motivados por fazer parte de um projeto de pesquisa, interagindo com pesquisadores e contribuindo para a geração de conhecimento.
+
+Mesmo quando um agricultor não identifica imediatamente uma opção adequada entre as três tecnologias testadas, a participação pode ser útil: os agricultores frequentemente discutem os resultados com seus vizinhos, trocam sementes e, posteriormente, experimentam opções que foram bem-sucedidas nas propriedades de outros participantes.
+
+### Os agricultores precisam de um smartphone para participar?
+
+Não. Eles registram todas as suas observações de campo em cartões de observação. Apenas os agentes de campo precisam de um smartphone ou tablet para inserir os dados dos agricultores no aplicativo ODK Collect. O ODK Collect irá então fazer o upload e consolidar todos os dados no ClimMob.
+
+### Como os agricultores registram suas observações de campo?
+
+No início do experimento tricot, os agricultores receberão cartões de observação. Esses cartões de papel contêm todas as perguntas que você decidiu que eles deveriam responder durante o experimento. Os cartões de observação são muito fáceis de usar, os agricultores precisam apenas de uma caneta. Ao final do experimento tricot, os dados registrados nos cartões de observação serão coletados pelos agentes de campo.
+
+### Os agricultores devem controlar as condições do seu campo?
+
+Os experimentos tricot são projetados para gerar resultados que se aplicam ao manejo realista e às condições reais da propriedade. Para gerar resultados que sejam significativos para a prática agrícola geral, os pequenos ensaios devem ser cultivados exatamente da mesma forma que a parcela de cultivo geral. Se os agricultores controlarem as condições, por exemplo, aplicando fertilizante mineral, podem acabar selecionando uma variedade que não terá bom desempenho em maior escala, sem fertilizante.
+
+### Como um agricultor deve classificar as variedades se não houver diferenças evidentes?
+
+Essa é uma questão difícil. Como o tricot depende de dados de comparação, todos os dados devem ser inseridos nesse formato. Isso significa que os agricultores precisam decidir qual variedade cresce melhor e qual cresce pior. Eles não podem registrar suas observações dizendo "todas as variedades tiveram desempenho igualmente bom". Geralmente aconselhamos todos a simplesmente olhar novamente – certamente há alguma pequena diferença.
+
+### Os agricultores trabalham em diferentes ambientes. Como suas observações podem ser combinadas?
+
+Os agricultores fornecem classificações com base no que observam em seus campos. Sob diferentes condições ambientais, como climas distintos, essas observações podem variar. O processo ClimMob permite a desagregação geoespacial dos resultados ao registrar as localizações GPS dos agricultores. Usando mapas existentes de temperatura, precipitação, altitude e outras variáveis ambientais, o ClimMob pode fornecer resultados diferentes para diferentes ambientes. Por exemplo, os resultados podem mostrar que uma variedade teve maior produtividade em terras baixas, enquanto outra variedade teve maior produtividade em altitudes mais elevadas. Se as observações diferirem significativamente entre os ambientes, o ClimMob fornecerá automaticamente resultados específicos por localização. Talvez seja necessário usar nosso pacote R ClimMobTools para esta análise.
+
+### Cada agricultor compara suas três opções com um controle local?
+
+Cada agricultor recebe e compara três opções de tecnologia, por exemplo, três variedades diferentes de culturas. Se você quiser comparar essas novas variedades com a local, pode fazê-lo, mas não é obrigatório. Existem duas maneiras de fazer isso. Primeiro, você pode incluir a variedade que os agricultores geralmente cultivam (seu "controle local") na comparação como uma pergunta adicional no final do experimento (por exemplo: A variedade A teve desempenho melhor ou pior do que a variedade local?).
+
+Em segundo lugar, as variedades locais também podem ser incluídas no conjunto de variedades de teste. Alguns agricultores receberão então "às cegas" uma variedade local como uma de suas três opções para avaliação. Ao final do ensaio e após a análise dos dados de todos os agricultores, cada agricultor receberá uma avaliação individual de qual variedade teve melhor desempenho em suas condições locais. Talvez no ano seguinte queiram cultivar uma variedade diferente, pois ela superou sua variedade local!
+
+### Quais tecnologias agrícolas posso inovar usando o tricot?
+
+Até agora, o tricot tem sido usado principalmente para avaliar variedades de culturas anuais (por exemplo, feijão, arroz, trigo, grão-de-bico). Mas você pode usar o tricot para avaliar diferentes opções de qualquer tecnologia agronômica, como regimes de manejo de fertilizantes, diferentes sistemas de irrigação, sistemas de cultivo consorciado ou estabelecimento inicial de culturas perenes.
+
+Por favor, envie-nos um e-mail se estiver pensando em testar outra tecnologia e não tiver certeza sobre como proceder. Acreditamos que o método tricot é poderoso e, em conjunto com o software ClimMob, pode ser facilmente aplicado a uma variedade de tecnologias agronômicas.
+
+### Entendo que eu projeto o experimento tricot e os agricultores participantes conduzem os ensaios em suas propriedades. Mas quem são esses agentes de campo?
+
+Os agentes de campo atuam como intermediários entre você e os agricultores.
+
+Digamos que você está projetando um experimento tricot que envolve 300 agricultores. Todos esses agricultores precisarão receber treinamento inicial; sementes ou regimes de fertilizantes que estão prestes a comparar; e, em geral, uma pessoa para contatar se tiverem alguma dúvida. Portanto, os agentes de campo cuidam de todas essas tarefas, cada agente de campo pode atender a um grupo de 10 a 20 agricultores. Frequentemente, eles podem ser um agricultor local que conhece bem a área e os outros agricultores.
+
+Você, como administrador do experimento tricot, também pode ser um agente de campo.
+
+### Quanto tempo leva para conduzir um experimento tricot?
+
+A duração de um experimento tricot depende da tecnologia que você deseja testar e de quantos ciclos você realiza. Por exemplo, se você testar diferentes variedades de culturas anuais, os primeiros resultados podem estar disponíveis após apenas uma estação de cultivo. Você pode usar esses resultados para reduzir o número de variedades a testar na temporada seguinte, ajustar seu experimento tricot e assim aprimorar sua seleção ao longo do tempo.
+
+Você deve reservar tempo suficiente antes e depois do experimento tricot para as tarefas organizacionais, para recrutar e treinar agentes de campo e agricultores, e depois para comunicar os resultados do experimento aos agricultores.
+
+### Quantos agentes de campo e agricultores são necessários para conduzir um experimento tricot bem-sucedido?
+
+Isso depende do número de opções de tecnologia que você deseja testar. E também dos recursos disponíveis. No entanto, o software ClimMob irá ajudá-lo a planejar todas essas etapas e adequar seu experimento tricot às suas necessidades e recursos. Você pode calcular o número de agricultores necessários usando [a calculadora de tamanho de amostra](/design/plot-design#samplesize).
+
+### Estou familiarizado com a Seleção Participativa de Variedades (PVS). Por que devo usar o tricot?
+
+A abordagem tricot baseia-se na ideia da Seleção Participativa de Variedades: Novas variedades de culturas são avaliadas pelos agricultores, em seus próprios campos, e para características de interesse direto para eles. A ideia única por trás do tricot consiste em fazer o "crowdsourcing" dos dados. Isso torna os experimentos tricot mais flexíveis, menos intensivos em recursos e mais fáceis de escalar para um número muito maior de colaboradores, representando ambientes mais diversos.
+
+Por exemplo, a comparação de um experimento PVS e um experimento tricot na seleção de feijão-comum na América Central [@Occelli2024] mostrou-nos que a abordagem tricot foi cerca de um quarto mais barata em comparação com o experimento PVS. O tricot demonstrou alcançar quase o dobro de agricultores com os mesmos recursos e foi mais fácil de escalar em áreas geográficas maiores. O gerenciamento e a publicação de dados também foram melhores com o tricot devido a dados mais completos e precisos.
+
+### Quanto custa conduzir um experimento tricot?
+
+Não há uma resposta única, mas um experimento tricot pode ser adaptado aos recursos disponíveis. Como ponto de partida, aqui estão alguns dos itens para os quais você precisará prever orçamento:
+
+* um computador com conexão à internet para executar o software ClimMob
+* pacotes experimentais suficientes de sementes/tratamentos de fertilizantes etc. (a tecnologia que você deseja comparar) para distribuir entre os agricultores
+* eventos de treinamento para recrutar e treinar agentes de campo
+* eventos de treinamento para recrutar e treinar agricultores
+* tempo e custos envolvidos para que os agentes de campo saiam e coletem dados dos agricultores
+* possivelmente smartphones/tablets para coleta de dados (os agentes de campo podem já ter telefones, e o aplicativo ODK Collect é um aplicativo Android compatível)
+
+Para ajudar a estimar os custos do ensaio tricot, desenvolvemos diretrizes e modelos que podem ser preenchidos. [Clique aqui para acessar os modelos de custos.](/resources/resources#costing)
+
+### Há algum custo para qualquer um dos softwares necessários para executar um experimento tricot (ClimMob, ODK Collect)?
+
+Tanto o ClimMob quanto o ODK Collect são gratuitos para programas de melhoramento vegetal do CGIAR e NARES. Em ClimMob.net, você encontrará tudo o que precisa para planejar, projetar e analisar seu experimento tricot. O aplicativo Android "ODK Collect" é usado pelos agentes de campo para coletar dados dos agricultores no campo, sem necessidade de conectividade com a internet. Uma taxa será cobrada de empresas privadas.
+
+### Cada agricultor compara apenas três opções de tecnologia. Isso significa que posso incluir apenas três opções no experimento tricot inteiro?
+
+Você pode incluir mais de três opções de tecnologia em seu experimento tricot.
+
+Cada agricultor receberá um pacote de ensaio pessoal que contém apenas três opções de tecnologia, mas estas vêm de um conjunto maior. Por exemplo, cada agricultor recebe sementes de três variedades diferentes de culturas. É importante saber que cada agricultor recebe "suas" três variedades específicas com base em um esquema rigoroso de aleatorização. O software ClimMob cuida de organizar quais três variedades vão para qual agricultor. O agricultor plantará as três opções em "blocos incompletos" [(veja a definição no glossário)](/glossary)
+
+  </TabItem>
+  <TabItem value="climmob" label="FAQs do ClimMob">
+
+## FAQs do ClimMob
+
+### Quem criou o ClimMob?
+
+O ClimMob e a metodologia tricot foram iniciados por Jacob van Etten, PhD, e desenvolvidos por uma equipe de pesquisadores e programadores na Alliance of Bioversity International e CIAT (CGIAR), atualmente liderada por Kauê de Sousa.
+
+Saiba mais sobre o processo de desenvolvimento por meio destas publicações:
+
+* van Etten et al., 2019. First experiences with a novel farmer citizen science approach: Crowdsourcing participatory variety selection through on-farm triadic comparisons of technologies (tricot). Experimental Agriculture, 55(S1). https://doi.org/10.1017/S0014479716000739.
+
+* van Etten et al., 2022. Redesigning farmer-participatory on-farm trials from a citizen science perspective: The tricot experience. In: Véronique Bellon Maurel, Nicolas Tremblay, Simon Cook, Myrtille Lacoste, James Taylor, et al.. Proceedings of the 1st International Conference on Farmer-Centric On-Farm Experimentation (OFE2021): Digital tools for a scalable transformative pathway. 1st International Conference Farmer-Centric On-Farm Experimentation (OFE2021), Oct 2021, Montpellier, France. https://hdl.handle.net/10568/121924
+
+### Preciso ser programador para usar o ClimMob?
+
+Não, o ClimMob foi projetado para ser fácil de usar e acessível, mesmo para usuários sem formação técnica.
+
+### O ClimMob pode ser usado sem acesso à internet no campo?
+
+Sim, os dados podem ser coletados offline com o ODK Collect e enviados assim que o dispositivo tiver acesso à internet.
+
+### Como o ClimMob é diferente de outras plataformas de dados agrícolas?
+
+O ClimMob é projetado especificamente para testes participativos usando o método tricot. É de código aberto, modular e adaptado à inovação agrícola com múltiplos atores.
+
+### Quais culturas ou tecnologias posso testar com o ClimMob?
+
+Qualquer tecnologia agrícola que possa ser comparada em conjuntos de três — por exemplo, variedades de culturas, fertilizantes, métodos de plantio — pode ser testada com o ClimMob.
+
+### O ClimMob é gratuito?
+
+Sim, o ClimMob é de código aberto e gratuito para qualquer pessoa usar.
+
+### Posso combinar dados de dois projetos tricot diferentes?
+
+Você pode combinar os dados se ambos os projetos estiverem testando a mesma tecnologia e você tiver pelo menos uma opção de tecnologia (por exemplo, a mesma variedade de cultura) em ambos os projetos. A combinação pode ser feita, por exemplo, no pacote R usando o ClimMob R Tools e sua chave de API. Você encontra sua chave de API no software ClimMob, clicando em seu nome >>> Perfil.
+
+### O aplicativo ODK Collect funciona em smartphones iOS?
+
+Até hoje, não há aplicativo ODK Collect para iOS. Você precisa de um telefone Android para executar o ODK Collect.
+
+### Os agentes de campo precisam de conexão constante com a internet ao coletar dados do ensaio com o ODK Collect?
+
+Não. Os agentes de campo podem inserir os dados coletados dos observadores mesmo quando não estão conectados à internet. Os agentes de campo podem posteriormente fazer o upload dos dados para o ClimMob, na primeira oportunidade de se conectar à internet novamente.
+
+
+ </TabItem>
+</Tabs>
+
+## Referências

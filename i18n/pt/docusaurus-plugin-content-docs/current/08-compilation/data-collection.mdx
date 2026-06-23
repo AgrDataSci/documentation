@@ -1,0 +1,121 @@
+---
+title: Coleta de dados
+sidebar_position: 1
+---
+<br />
+<div className="tricot-hero-links">
+  <a className="tricot-hero-link" href="/print-section?id=08-compilation">📄 Baixar o capítulo de Compilação em PDF</a>
+</div>
+<br />
+
+# Coleta de dados
+
+> Sofía Acuña, Marilyn Manrow, Brandon Madriz, Kauê de Sousa
+
+Após os agricultores iniciarem seus ensaios nas propriedades, o próximo passo é coletar os dados gerados nos diferentes momentos de coleta. Para cada momento, o ClimMob gera um formulário específico com perguntas personalizadas [(clique aqui para ir à etapa 'Preparar formulário de coleta de dados' no ClimMob)](/design/climmob-setup#prepare-data-collection-form). Os dados podem ser coletados usando o ODK Collect (recomendado) ou, alternativamente, fazendo o upload de um arquivo Excel para a plataforma ClimMob.
+
+**Usando o ODK Collect (recomendado)**
+
+1. Cada agente de campo abre o ODK Collect no celular.
+
+2. Toque nos três pontos (canto superior direito) → Obter formulário em branco → selecione o formulário de coleta de dados.
+
+3. Para o primeiro momento de coleta de dados:
+
+* Escolha Preencher formulário em branco
+* Selecione o participante
+* Insira os dados
+* Envie o formulário finalizado
+
+4. De volta à plataforma ClimMob, o administrador do projeto deve:
+
+* Verificar os dados coletados e corrigir se necessário (no painel principal, clique em Visualizar dados no lado direito e selecione os parâmetros para revisar).
+* Após a verificação, vá ao menu principal, finalize a primeira coleta de dados e inicie a próxima avaliação.
+
+5. Repita este processo até que todos os pontos de coleta de dados sejam concluídos.
+
+Ações no ODK Collect:
+
+Cancelar formulário: Exclui permanentemente o formulário. Nenhum dado adicional poderá ser coletado e quaisquer dados existentes também serão excluídos.
+
+**Usando Excel (não recomendado)**
+
+1. No painel do ClimMob, vá ao menu principal (lado esquerdo) e clique em Fazer upload de dados (botão verde).
+
+2. Clique em Criar modelo. O modelo Excel será gerado e salvo em seus Downloads como Modelo Excel para upload de dados do formulário de avaliação.
+
+3. Preencha o modelo com os dados coletados.
+
+4. Retorne ao menu principal do ClimMob → Fazer upload de dados (botão verde) → faça o upload do arquivo Excel preenchido.
+
+**Tutorial em vídeo:**
+
+Coleta de dados com ODK Collect
+
+[![Assistir no YouTube](https://img.youtube.com/vi/3O3nwH7TqVE/hqdefault.jpg)](https://www.youtube.com/watch?v=3O3nwH7TqVE)
+
+**Enviar dados pelo navegador**
+
+Para preencher formulários online com suporte do Enketo, os agentes de campo (enumeradores) precisam fazer login usando suas credenciais (nome de usuário e senha). Aqui fazemos uma explicação rápida sobre como registrar um novo agente de campo, que posteriormente fará login no Enketo para enviar dados pelo navegador.
+
+(Os passos a seguir são acompanhados das capturas de tela relevantes do ClimMob)
+
+Acesse a seção de Agentes de Campo no menu principal:
+
+
+![](/img/menu.JPG)
+---
+Preencha o formulário com as credenciais do agente de campo.
+
+![](/img/field_credentials.JPG)
+
+---
+
+Verifique se o agente de campo foi criado com sucesso na lista de agentes de campo registrados:
+
+![](/img/registered_field.JPG)
+
+---
+
+Na definição do projeto, selecione "Atribuir agentes de campo":
+
+![](/img/assign_menu.JPG)
+
+---
+
+Selecione o(s) agente(s) de campo:
+
+![](/img/assign.JPG)
+
+---
+
+Clique no botão "Adicionar agentes de campo" e verifique se o usuário foi atribuído ao projeto.
+
+![](/img/field_project.JPG)
+
+---
+
+No menu principal, acesse o formulário que deseja preencher pelo navegador e clique no botão "Enviar dados pelo navegador" para exibir o formulário:
+
+![](/img/submit.JPG)
+
+---
+
+Agora o formulário será exibido e solicitará as credenciais do agente de campo que foram registradas na Biblioteca.
+
+![](/img/credentials.JPG)
+
+
+---
+
+Após fornecer as credenciais, o formulário a ser preenchido será exibido:
+
+![](/img/form.JPG)
+
+---
+
+No caso do Formulário de Registro, você precisa substituir o código QR (usado no ODK Collect) por um código que segue o padrão: nomedousuáriododonodoprojeto-númerodopacote-códigodoprojeto~
+
+Por exemplo, se o nome de usuário do dono do projeto for: ballen, o código do projeto: prj01 e você atribuir o pacote nº 30, deve escrever da seguinte forma: ballen-30-prj01~
+
+Lembre-se de manter o símbolo ~ no final para que o ClimMob possa ler o código completo.

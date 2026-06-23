@@ -1,8 +1,8 @@
 {
-  "label": "Feedback and dissemination",
+  "label": "Retour et diffusion",
   "position": 7,
   "link": {
     "type": "generated-index",
-    "description": "Feedback session to participants. Follow up and reporting."
+    "description": "Session de retour aux participants. Suivi et rapportage."
   }
 }

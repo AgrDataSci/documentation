@@ -3,138 +3,135 @@ title: Glossary
 sidebar_position: 3
 ---
 
-# Glossary of Terms
+# Kamusi ya Istilahi
 
-**Administrator** is the person or organization who coordinates the tricot project. It’s the project manager. The administrator could be a scientist working at a research institute, or at an NGO, governmental extension service, etc.
-If the administrator is not a scientist, she or he might collaborate with scientists or a research institute to develop the tricot project, and obtain the tested technologies, such as seeds or fertilizer.
-The tasks of the administrator include:
-*	Designing the tricot project using ClimMob software
-*	Recruiting field agents and participants
-*	Training field agents
-*	Preparing trial packages
-*	Organizing initial workshops
-*	Keeping track of growers’ data collection
-*	Analyzing data using the ClimMob software
-* Communicating final results to participants in final workshops (together with field agents)
+**Msimamizi** ni mtu au shirika linaloratibu mradi wa tricot. Yeye ndiye meneja wa mradi. Msimamizi anaweza kuwa mwanasayansi anayefanya kazi katika taasisi ya utafiti, au katika NGO, huduma ya ugani ya serikali, n.k.
+Kama msimamizi si mwanasayansi, anaweza kushirikiana na wanasayansi au taasisi ya utafiti kuendeleza mradi wa tricot, na kupata teknolojia zilizojaribiwa, kama mbegu au mbolea.
+Kazi za msimamizi ni pamoja na:
+*	Kubuni mradi wa tricot kwa kutumia programu ya ClimMob
+*	Kuajiri mawakala wa shamba na washiriki
+*	Kuwafunza mawakala wa shamba
+*	Kuandaa vifurushi vya majaribio
+*	Kupanga warsha za awali
+*	Kufuatilia ukusanyaji wa data ya wakulima
+*	Kuchambua data kwa kutumia programu ya ClimMob
+* Kuwasiliana matokeo ya mwisho na washiriki katika warsha za mwisho (pamoja na mawakala wa shamba)
 
-**Balancing a trial**
-‘Balancing’ the trial means that all technology options are spread across all the participating villages. Each village will receive packages with 
-consecutive numbers (1, 2, 3, 4, 5, etc.) and not random numbers (3, 11, 9, 23, 1, etc.). If this principle is followed, each of these villages will receive a balanced set and all of the technology options will be tested and evaluated.
+**Kusawazisha jaribio**
+'Kusawazisha' jaribio kunamaanisha kwamba chaguo zote za teknolojia zimesambazwa katika vijiji vyote vinavyoshiriki. Kila kijiji kitapokea vifurushi vyenye nambari zinazofuatana (1, 2, 3, 4, 5, n.k.) na si nambari za nasibu (3, 11, 9, 23, 1, n.k.). Kama kanuni hii itafuatwa, kila moja ya vijiji hivi itapokea seti iliyosawazishwa na chaguo zote za teknolojia zitajaribiwa na kutathminiwa.
 
 **ClimMob**
-Online software for the design and management of any tricot experiment (www.climmob.net). The database of all tricot projects is stored here. Project implementers also use ClimMob for the analysis of results and the generation of information outputs at the end of the project.
+Programu ya mtandaoni kwa ajili ya kubuni na kusimamia majaribio yoyote ya tricot (www.climmob.net). Hifadhidata ya miradi yote ya tricot inahifadhiwa hapa. Watekelezaji wa mradi pia hutumia ClimMob kwa uchambuzi wa matokeo na uzalishaji wa matokeo ya taarifa mwishoni mwa mradi.
 
-**ClimMobTools** is an open-source statistics toolkit available on the R platform. It enables administrators to further explore and analyze their tricot data. The ‘ClimMobTools’ R package supports more sophisticated data analysis than what is offered through the easy-to-handle ClimMob online software.
-R software (free): https://cran.r-project.org/
+**ClimMobTools** ni kifaa cha takwimu cha chanzo-wazi kinachopatikana kwenye jukwaa la R. Kinawezesha wasimamizi kuchunguza zaidi na kuchambua data yao ya tricot. Kifurushi cha R cha 'ClimMobTools' kinasaidia uchambuzi wa data ulio wa kisasa zaidi kuliko unavyotolewa kupitia programu rahisi ya mtandaoni ya ClimMob.
+Programu ya R (bure): https://cran.r-project.org/
 ClimMobTools: https://cran.r-project.org/web/packages/ClimMobTools/index.html
 
-**Evaluation criteria**
-The 5 to 10 criteria that will be evaluated within the tricot experiment. These criteria should be chosen in consultation with all stakeholders. 
-For example: Plant height, disease resistance, yield, and others.
+**Vigezo vya tathmini**
+Vigezo 5 hadi 10 ambavyo vitatathminiwa ndani ya jaribio la tricot. Vigezo hivi vinapaswa kuchaguliwa kwa kushauriana na wadau wote.
+Kwa mfano: Urefu wa mmea, upinzani wa magonjwa, mavuno, na vingine.
 
-**Explanatory variables**
-For on farm trials, information about meteorology and agronomic management of the trials serves to improve the analysis. The explanatory variables refine the results and help to identify the most suitable variety for the local conditions of every farm. Examples: Use of irrigation, use of fertilization, season was rainier or drier than usual, etc.
+**Vigezo vya maelezo**
+Kwa majaribio ya shambani, taarifa kuhusu hali ya hewa na usimamizi wa kilimo wa majaribio husaidia kuboresha uchambuzi. Vigezo vya maelezo vinaboresha matokeo na kusaidia kutambua aina inayofaa zaidi kwa hali za eneo la kila shamba. Mifano: Matumizi ya umwagiliaji, matumizi ya mbolea, msimu ulikuwa na mvua nyingi au kidogo kuliko kawaida, n.k.
 
-**Farmers / participating farmers**
-Women and men who participate in a tricot experiment by managing their own tricot trial and carrying out the observations, marking the observations on the observation card at the appropriate dates, and eventually reporting the observations to the local field agents. Their recruitment should involve considerations of gender, age and other demographic factors, as well as their task related to the technology under evaluation. In some tricot trials, non-farmers participate, based on their role in food processing, trading, retailing or consumption.
+**Wakulima / wakulima wanaoshiriki**
+Wanawake na wanaume wanaoshiriki katika jaribio la tricot kwa kusimamia majaribio yao wenyewe ya tricot na kufanya uchunguzi, kuweka alama za uchunguzi kwenye kadi ya uchunguzi katika tarehe zinazofaa, na hatimaye kuripoti uchunguzi kwa mawakala wa shamba wa eneo hilo. Uajiri wao unapaswa kuzingatia jinsia, umri na mambo mengine ya idadi ya watu, pamoja na majukumu yao yanayohusiana na teknolojia inayotathminiwa. Katika baadhi ya majaribio ya tricot, wasio wakulima wanashiriki, kulingana na jukumu lao katika usindikaji wa chakula, biashara, uuzaji au matumizi.
 
-**Field agent** is the extension worker, linking the implementer and the participants. A tricot project might employ 20 to 30 field agents. Each field agent can cover a different geographical region and can coordinate 10 to 20 participants. Field agents are vital to a tricot project, as they allow many small trials to take place in different regions at the same time.
-Field agents get trained by the implementer, and in turn pass their knowledge on to the participants. The implementer can also be a field agent. Likewise, a field agent can also participate in the tricot project as an observer.
-*The tasks of field agents include:
-*	Staying in personal contact with participants
-*	Assisting participants with trial cultivation and data collection
-*	Collecting participants’ observations at the end of the trial through personal visits or telephone calls
-*	Passing on participant data to the implementer, using the ODK Collect app
+**Wakala wa shamba** ni mfanyakazi wa ugani, anayeunganisha mtekelezaji na washiriki. Mradi wa tricot unaweza kuajiri mawakala 20 hadi 30 wa shamba. Kila wakala wa shamba anaweza kuhudumia eneo tofauti la kijiografia na kuratibu washiriki 10 hadi 20. Mawakala wa shamba ni muhimu sana kwa mradi wa tricot, kwani wanaruhusu majaribio mengi madogo kufanyika katika maeneo tofauti kwa wakati mmoja.
+Mawakala wa shamba hufunzwa na mtekelezaji, na kwa upande wao hupitisha maarifa yao kwa washiriki. Mtekelezaji pia anaweza kuwa wakala wa shamba. Vivyo hivyo, wakala wa shamba pia anaweza kushiriki katika mradi wa tricot kama mwangalizi.
+*Kazi za mawakala wa shamba ni pamoja na:
+*	Kudumisha mawasiliano ya kibinafsi na washiriki
+*	Kusaidia washiriki katika ulimaji wa majaribio na ukusanyaji wa data
+*	Kukusanya uchunguzi wa washiriki mwishoni mwa jaribio kupitia ziara za kibinafsi au simu
+*	Kupitisha data ya washiriki kwa mtekelezaji, kwa kutumia programu ya ODK Collect
 
-**Implementing organization/ project implementers**
-The organization that is in charge of carrying out and monitoring the project. It can be an NGO, a government service, or a research program, among other options. Implementers have the major responsibilities in the project, for example:
-* Training the field agents and participants
-* Distributing the trial packages
-* Carrying out the data analysis once all data is collected and compiled
-* Feeding back the information to the participants via the field agents.
+**Shirika la utekelezaji / watekelezaji wa mradi**
+Shirika linalohusika na kutekeleza na kufuatilia mradi. Linaweza kuwa NGO, huduma ya serikali, au programu ya utafiti, miongoni mwa chaguo nyingine. Watekelezaji wana majukumu makubwa katika mradi, kwa mfano:
+* Kuwafunza mawakala wa shamba na washiriki
+* Kusambaza vifurushi vya majaribio
+* Kufanya uchambuzi wa data baada ya data yote kukusanywa na kukusanyiwa
+* Kurudisha taarifa kwa washiriki kupitia mawakala wa shamba.
 
-**Incomplete block design**
-Incomplete block design refers to an experimental setup in which not all treatments occur in one block. In the case of tricot, this means that not all technology options (= treatments) occur in each individual trial (=block). Instead, each participant cultivates or tests just three technology options in her/his trial (for example, three randomly assigned bean varieties), instead of cultivating all technology options included in the tricot project (which could be up to 20 bean varieties). Because many participants each cultivate a trial with a subset of three different technology options, all these individual trials – taken together – cover the testing of all technology options.
+**Muundo wa block usio kamili**
+Muundo wa block usio kamili unarejelea mpangilio wa majaribio ambao matibabu yote hayatokei katika block moja. Katika kesi ya tricot, hii inamaanisha kwamba chaguo zote za teknolojia (= matibabu) hazitokei katika kila jaribio moja (= block). Badala yake, kila mshiriki hulima au kujaribu chaguo tatu tu za teknolojia katika jaribio lake (kwa mfano, aina tatu za maharagwe zilizopangiwa nasibu), badala ya kulima chaguo zote za teknolojia zilizojumuishwa katika mradi wa tricot (ambazo zinaweza kufikia aina 20 za maharagwe). Kwa sababu washiriki wengi kila mmoja hulima jaribio lenye seti ndogo ya chaguo tatu tofauti za teknolojia, majaribio haya yote ya mtu binafsi – yakichukuliwa pamoja – yanashughulikia upimaji wa chaguo zote za teknolojia.
 
 ![](/img/incomplete-block.png)
 
 **Infosheet**
-Personalized information output for every participant. It is generated automatically using ClimMob and includes:
-* Names of the three technology options that the participant received and tested
-* Names of the most recommended option for their farm (in the case of on-farm trials)
-* Information about where to obtain more material of the preferred technology option (if applicable).
+Matokeo ya taarifa yaliyobinafsishwa kwa kila mshiriki. Yanazalishwa kiotomatiki kwa kutumia ClimMob na yanajumuisha:
+* Majina ya chaguo tatu za teknolojia ambazo mshiriki alipokea na kujaribu
+* Majina ya chaguo linalopendekezwa zaidi kwa shamba lao (katika kesi ya majaribio ya shambani)
+* Taarifa kuhusu mahali pa kupata nyenzo zaidi ya chaguo la teknolojia linalopendelewa (ikiwa inatumika).
 
 **ODK Collect**
-ODK stands for ‘Open Data Kit’. ODK Collect is a free app for Android devices that is used to collect and compile data. It completely replaces the need for paper forms, for example during a survey.
+ODK inasimama kwa 'Open Data Kit'. ODK Collect ni programu ya bure kwa vifaa vya Android inayotumika kukusanya na kukusanyia data. Inabadilisha kabisa haja ya fomu za karatasi, kwa mfano wakati wa utafiti.
 
-In a tricot project, the field agents use this app on a mobile devices (smartphone or tablet) to collect the field observation data from participants. Each participant has written down their observations on their own observation card, and ODK Collect offers a simple way to digitize and compile the data from many growers.
+Katika mradi wa tricot, mawakala wa shamba hutumia programu hii kwenye vifaa vya simu (simu mahiri au kompyuta kibao) kukusanya data ya uchunguzi wa shamba kutoka kwa washiriki. Kila mshiriki ameandika uchunguzi wao kwenye kadi yao ya uchunguzi, na ODK Collect inatoa njia rahisi ya kubadilisha dijiti na kukusanya data kutoka kwa wakulima wengi.
 
-The field agents do not need to be connected to the internet when entering data into ODK Collect, for example, when they are out in the field, visiting participants. When a participant observations are entered, ODK Collect will first store the data locally on the field agents’ mobile device. The field agents can upload the data to ClimMob at later points in time, whenever the device can connect to the internet again. ODK Collect then uploads the individual data sets to the ClimMob online software.
+Mawakala wa shamba hawahitaji kuunganishwa na mtandao wakati wa kuingiza data katika ODK Collect, kwa mfano, wanapokuwa shambani, wakitembelea washiriki. Uchunguzi wa mshiriki unapoingizwa, ODK Collect itahifadhi kwanza data ndani ya kifaa cha simu cha mawakala wa shamba. Mawakala wa shamba wanaweza kupakia data kwa ClimMob wakati mwingine baadaye, wakati wowote kifaa kinaweza kuunganishwa na mtandao tena. ODK Collect kisha hupakia seti za data za mtu binafsi kwa programu ya mtandaoni ya ClimMob.
 
-The app can be downloaded for free from the Google Play Store. **Note that the app is available for Android only, not for iOS.**
+Programu inaweza kupakuliwa bila malipo kutoka Google Play Store. **Kumbuka kwamba programu inapatikana kwa Android pekee, si kwa iOS.**
 
-**Observation card**
-Observation cards are used by the participants to record their field observations during different stages of the tricot trial. These paper cards are distributed by the field agents at the initial training event. Over the course of the trial period, the growers fill them out, using a pen.
+**Kadi ya uchunguzi**
+Kadi za uchunguzi hutumiwa na washiriki kurekodi uchunguzi wao wa shamba wakati wa hatua tofauti za jaribio la tricot. Kadi hizi za karatasi husambazwa na mawakala wa shamba katika tukio la awali la mafunzo. Wakati wa kipindi cha jaribio, wakulima huzijaza, kwa kutumia kalamu.
 
-Observation cards get designed by the project administrator, adapting a template that is available on ClimMob. Which observations participants need to make, and at what points in time – the observation card includes this information, to help participants collect their data alone. Observation cards require the observations to be entered as comparison data (ranking).
+Kadi za uchunguzi zinabuniwа na msimamizi wa mradi, akibadilisha kiolezo kinachopatikana kwenye ClimMob. Uchunguzi gani washiriki wanahitaji kufanya, na wakati gani – kadi ya uchunguzi inajumuisha taarifa hii, kusaidia washiriki kukusanya data yao peke yao. Kadi za uchunguzi zinahitaji uchunguzi kuingizwa kama data ya ulinganisho (mpangilio).
 
-**On-farm trial** On-farm trails are tricot experiments conducted on the fields of participants. Participants in this case are farmers, and their role is to test throughout the growing season the three different technologies in their fields.
+**Jaribio la shambani** Majaribio ya shambani ni majaribio ya tricot yanayofanywa katika mashamba ya washiriki. Washiriki katika kesi hii ni wakulima, na jukumu lao ni kujaribu katika msimu wote wa ukuaji chaguo tatu tofauti za teknolojia katika mashamba yao.
 
-**Plackett-Luce model**
-In a tricot project, ranking data is collected on all participants (either farmers or consumers) with each one of them contributing one ‘partial ranking’. The ClimMob software uses the statistical Plackett-Luce model to combine all these partial rankings into a full picture.
+**Mfano wa Plackett-Luce**
+Katika mradi wa tricot, data ya mpangilio hukusanywa kwa washiriki wote (iwe wakulima au watumiaji) na kila mmoja wao anachangia 'mpangilio wa sehemu' mmoja. Programu ya ClimMob hutumia mfano wa takwimu wa Plackett-Luce kuchanganya mapangilio haya yote ya sehemu katika picha kamili.
 
-The image below visualizes an example. Here, three growers each rank their individual set of three technology options (for example, crop varieties). Participant 1, for example, reported that var1 was the best technology option, while var4 was the worst, and var3 took a middle position.
+Picha iliyo hapa chini inaonyesha mfano. Hapa, wakulima watatu kila mmoja hupanga seti yao ya mtu binafsi ya chaguo tatu za teknolojia (kwa mfano, aina za mazao). Mshiriki 1, kwa mfano, aliripoti kwamba var1 ilikuwa chaguo bora la teknolojia, wakati var4 ilikuwa mbaya zaidi, na var3 ilichukua nafasi ya kati.
 
-The partial rankings from all participants are then combined, giving the overall ranking. When there are disagreements (for example, some participants find that var3 > var4, but others report that var4 > var3), the Plackett-Luce model determines the most likely overall 
+Mapangilio ya sehemu kutoka kwa washiriki wote yanajumuishwa, ikitoa mpangilio wa jumla. Panapokuwa na kutokubaliana (kwa mfano, baadhi ya washiriki wanagundua kwamba var3 > var4, lakini wengine wanaripoti kwamba var4 > var3), mfano wa Plackett-Luce huamua mpangilio wa jumla unaowezekana zaidi.
 
 ![](/img/Plackett-Luce.png)
 
-**Randomization**
-The balanced creation of sets of three varieties from the full pool of varieties. The randomization is generated by the ClimMob software and is required to prepare the trial packages.
+**Nasibu**
+Uundaji uliосawazishwa wa seti za aina tatu kutoka kwenye mkusanyiko kamili wa aina. Nasibu huzalishwa na programu ya ClimMob na inahitajika kuandaa vifurushi vya majaribio.
 
-**Ranking**
-Ranking is a way of describing the relationship between two items, for example, one being ‘bigger than’ the other. Ranking data is common, for example, in sports (‘Claire ran faster than Anna’), or in consumer studies (‘Consumers like apples better than pears, and pears better than strawberries’).
+**Mpangilio**
+Mpangilio ni njia ya kuelezea uhusiano kati ya vitu viwili, kwa mfano, kimoja kuwa 'kikubwa kuliko' kingine. Data ya mpangilio ni ya kawaida, kwa mfano, katika michezo ('Claire alikimbia haraka kuliko Anna'), au katika mafunzo ya watumiaji ('Watumiaji wanapenda tufaha zaidi ya pea, na pea zaidi ya strawberry').
 
-In tricot project, participants observe their technology options and rank these options by different aspects of their performance. Using ranking as a way to collect field observations in on-farm trials has proven successful in a number of studies. There are multiple advantages in asking participants to rank, rather than take exact measurements or give subjective ratings:
+Katika mradi wa tricot, washiriki huchunguza chaguo zao za teknolojia na kupanga chaguo hizi kulingana na vipengele tofauti vya utendaji wao. Kutumia mpangilio kama njia ya kukusanya uchunguzi wa shamba katika majaribio ya shambani kumefanikiwa katika tafiti kadhaa. Kuna faida nyingi za kuomba washiriki kupanga, badala ya kupima kwa usahihi au kutoa viwango vya kibinafsi:
 
-Ranking avoids a drift in the point of reference during the evaluation process, it avoids different interpretations of the scoring scale between participants, and ranking is easy to explain and understand. A disadvantage of ranking is that it does not give an absolute zero, or an absolute scale.
+Mpangilio huepuka mabadiliko ya kumbukumbu ya tathmini wakati wa mchakato wa tathmini, huepuka tafsiri tofauti za kipimo cha alama kati ya washiriki, na mpangilio ni rahisi kueleza na kuelewa. Hasara ya mpangilio ni kwamba haitoi sifuri kamili, au kipimo kamili.
 
-In a race, two athletes might cross the finish line at the exact same time. In a tricot trial, a participant might observe two different bean varieties without noticing any difference in growth. However, the observation cards only allow field observations to be entered as ranks – ties are not possible. Even though it might be tough to spot the difference – we encourage participants to take another look. Surely, there is some small difference.
+Katika mbio, wanariadha wawili wanaweza kukaribia mstari wa mwisho kwa wakati mmoja kabisa. Katika jaribio la tricot, mshiriki anaweza kuchunguza aina mbili tofauti za maharagwe bila kutambua tofauti yoyote katika ukuaji. Hata hivyo, kadi za uchunguzi zinaruhusu tu uchunguzi wa shamba kuingizwa kama viwango – vifungo haviwezekani. Ingawa inaweza kuwa ngumu kutambua tofauti – tunahimiza washiriki kutazama tena. Hakika, kuna tofauti ndogo fulani.
 
-ClimMob analyzes ranking data using the statistical Plackett-Luce model.
+ClimMob huchambua data ya mpangilio kwa kutumia mfano wa takwimu wa Plackett-Luce.
 
-**Researchers**
-Experts studying or using the agricultural technology under evaluation. They select the technology options to be included in the project and supply experimental material for each technology option to the implementing organization.
+**Watafiti**
+Wataalam wanaosoma au kutumia teknolojia ya kilimo inayotathminiwa. Wanachagua chaguo za teknolojia zitakazojumuishwa katika mradi na kutoa nyenzo za majaribio kwa kila chaguo la teknolojia kwa shirika la utekelezaji.
 
-**Sequentially balanced randomization**
-‘Random’ means that there is no obvious pattern or predictability in the way items are ordered. Simple randomization is the process of putting anything in a random order.
+**Nasibu iliyosawazishwa kwa mfululizo**
+'Nasibu' inamaanisha kwamba hakuna mfumo wazi au utabiri katika njia ambavyo vitu vimepangwa. Nasibu rahisi ni mchakato wa kuweka chochote katika mpangilio wa nasibu.
 
-In a tricot experiment, growers receive trial packages that contain a random sub-set of three technology options. For example, if the tricot focus technology is ‘bean varieties’, every participating grower receives a set of three bean varieties, which are randomly picked from the total pool of bean varieties included in the project. Experience shows that a small share of growers tends to drop out of a tricot project, for different reasons. This is not a problem at the level of the entire project. At the local level, however, this can lead to an imbalance. If technology options are distributed by simple randomization only, some technology options can be rare or absent in a certain community.
+Katika jaribio la tricot, wakulima hupokea vifurushi vya majaribio vilivyo na seti ndogo ya nasibu ya chaguo tatu za teknolojia. Kwa mfano, kama teknolojia ya kuzingatia ya tricot ni 'aina za maharagwe', kila mkulima anayeshiriki hupokea seti ya aina tatu za maharagwe, ambazo huchaguliwa kwa nasibu kutoka kwenye mkusanyiko kamili wa aina za maharagwe zilizojumuishwa katika mradi. Uzoefu unaonyesha kwamba sehemu ndogo ya wakulima huwa wanajiondoa katika mradi wa tricot, kwa sababu tofauti. Hii si tatizo katika kiwango cha mradi mzima. Katika kiwango cha eneo, hata hivyo, hii inaweza kusababisha kukosekana kwa usawa. Kama chaguo za teknolojia zikisambazwa kwa nasibu rahisi pekee, baadhi ya chaguo za teknolojia zinaweza kuwa nadra au kutokuwepo katika jamii fulani.
 
-To address this issue, the tricot approach uses the ClimMob online software to assign technology options to participating growers using an advanced form of randomization: sequentially balanced randomization. This means that trial packages contain a balanced frequency of each technology option. For example, if we distribute packages 1–10 in the first local community, 11–30 in the second community and 31–40 in the third community, each individual variety will occur with nearly equal frequency within each community. If growers in the first community take only 9 trial packages instead of 10, distribution in the second community can simply start with trial package 10.
+Kushughulikia suala hili, mbinu ya tricot hutumia programu ya mtandaoni ya ClimMob kupanga chaguo za teknolojia kwa wakulima wanaoshiriki kwa kutumia aina ya juu zaidi ya nasibu: nasibu iliyosawazishwa kwa mfululizo. Hii inamaanisha kwamba vifurushi vya majaribio vina mzunguko uliосаwazishwa wa kila chaguo la teknolojia. Kwa mfano, kama tunasambaza vifurushi 1–10 katika jamii ya kwanza ya eneo, 11–30 katika jamii ya pili na 31–40 katika jamii ya tatu, kila aina moja ya mtu binafsi itatokea kwa mzunguko sawa karibu ndani ya kila jamii. Kama wakulima katika jamii ya kwanza wachukua vifurushi 9 vya majaribio badala ya 10, usambazaji katika jamii ya pili unaweza kuanza tu na kifurushi cha majaribio 10.
 
-**Technology** Using the tricot approach, many agricultural technologies can be tested and innovated. For example: Crop varieties, Fertilizer regimes, Irrigation systems, Pest management strategies, soil management strategies, etc.
-Every tricot project focuses on one technology (for example, ‘fertilizer composition’), but tests a number of different technology options (fertilizer composition 1, fertilizer composition 2, etc.). In the past, for example, tricot has often been used to innovate a certain crop (technology) by testing new crop varieties (technology options). Experimental design terminology would refer to technology as ‘treatment’, and to technology options as ‘levels’. In the context of tricot, we chose to use ‘technology’ and ‘technology options’ for easier understanding.
+**Teknolojia** Kwa kutumia mbinu ya tricot, teknolojia nyingi za kilimo zinaweza kujaribiwa na kubuniwa. Kwa mfano: Aina za mazao, Utaratibu wa mbolea, Mifumo ya umwagiliaji, Mikakati ya udhibiti wa wadudu, mikakati ya usimamizi wa udongo, n.k.
+Kila mradi wa tricot unazingatia teknolojia moja (kwa mfano, 'muundo wa mbolea'), lakini hujaribu chaguo kadhaa tofauti za teknolojia (muundo wa mbolea 1, muundo wa mbolea 2, n.k.). Katika siku za nyuma, kwa mfano, tricot mara nyingi imetumika kubuni zao fulani (teknolojia) kwa kujaribu aina mpya za mazao (chaguo za teknolojia). Istilahi ya muundo wa majaribio ingeirejelea teknolojia kama 'matibabu', na chaguo za teknolojia kama 'viwango'. Katika muktadha wa tricot, tulichagua kutumia 'teknolojia' na 'chaguo za teknolojia' kwa uelewa rahisi zaidi.
 
-**Technology options**
-Each tricot experiment focuses on one agricultural technology (for example, ‘fertilizer composition’), but tests several technology options 
-(fertilizer composition X, fertilizer composition Y, etc.). These technology options should in principle be suitable to local conditions and have the potential to be adopted by some of the farmers.  The researchers select the technology options, and they are recommended to begin a first experiment made up of between 8 to 12 options.
+**Chaguo za teknolojia**
+Kila jaribio la tricot linazingatia teknolojia moja ya kilimo (kwa mfano, 'muundo wa mbolea'), lakini hujaribu chaguo kadhaa za teknolojia
+(muundo wa mbolea X, muundo wa mbolea Y, n.k.). Chaguo hizi za teknolojia zinapaswa kwa kanuni kuwa zinafaa kwa hali za eneo na kuwa na uwezo wa kupitishwa na baadhi ya wakulima. Watafiti huchagua chaguo za teknolojia, na wanapendekeza kuanza jaribio la kwanza linalojumuisha chaguo kati ya 8 hadi 12.
 
-**Trial package**
-A bag given to every participant at the initial workshop. The large bag is marked with a number and a QR code. It contains: (i) three small bags containing material of the different technology options ( marked with ‘A’, ‘B’, and ‘C’); (ii) an observation card; and (iii) an explanatory brochure about the tricot process.
+**Kifurushi cha majaribio**
+Mfuko unaopewa kila mshiriki katika warsha ya awali. Mfuko mkubwa umewekwa alama ya nambari na msimbo wa QR. Unajumuisha: (i) mifuko mitatu midogo yenye nyenzo za chaguo tofauti za teknolojia (iliyowekwa alama za 'A', 'B', na 'C'); (ii) kadi ya uchunguzi; na (iii) kijitabu cha maelezo kuhusu mchakato wa tricot.
 
-**Trial plot**
-For on-farm trials, a small area within or at the margin of the farmer’s production plot, with representative soil conditions. It is divided into three equal parts, for the testing of the three technology options assigned to the farmer.
+**Kiwanja cha majaribio**
+Kwa majaribio ya shambani, eneo dogo ndani au pembezoni mwa kiwanja cha uzalishaji cha mkulima, chenye hali za udongo zinazofaa. Imegawanywa katika sehemu tatu sawa, kwa ajili ya kujaribu chaguo tatu za teknolojia zilizopangiwa mkulima.
 
 **Tricot**
-The word ‘tricot’ is derived from three words: Triadic comparison of technology options. ‘Triadic’ refers to the sets of three technology options that are compared in each trial. In technical jargon, three things define tricot: (1) the use of incomplete blocks of three items (to make the threshold of participation low in terms of farm size and to make it cognitively manageable), (2) the use of ranking as the main way to report observations (to facilitate digital data collection and to make it possible to cultivate a tricot plot with very little training), and (3) the limited control of experimental conditions (following usual technology use practice to maximize external validity).
+Neno 'tricot' limetokana na maneno matatu: Triadic comparison of technology options. 'Triadic' inarejelea seti za chaguo tatu za teknolojia zinazоlinganishwa katika kila jaribio. Katika lugha ya kitaalamu, mambo matatu yanafafanua tricot: (1) matumizi ya blocks zisizo kamili za vitu vitatu (ili kupunguza kizingiti cha ushiriki kwa suala la ukubwa wa shamba na kuifanya iweze kudhibitiwa kiakili), (2) matumizi ya mpangilio kama njia kuu ya kuripoti uchunguzi (ili kurahisisha ukusanyaji wa data ya dijiti na kuwezesha kulima kiwanja cha tricot na mafunzo kidogo sana), na (3) udhibiti mdogo wa hali za majaribio (kufuata mazoea ya kawaida ya matumizi ya teknolojia ili kuongeza uhalali wa nje).
 
-**Tricot trial**
-Test of different technological options, in sets of three, each observed and ranked by a participant. For an on-farm trial, the options are grown and observed in a small designated area of her/his own farm.
+**Jaribio la tricot**
+Upimaji wa chaguo tofauti za teknolojia, katika seti za tatu, kila moja ikichunguzwa na kupangwa na mshiriki. Kwa jaribio la shambani, chaguo hukuzwa na kuchunguzwa katika eneo dogo lililotengwa la shamba lake mwenyewe.
 
-**Tricot experiment**
-A tricot experiment (or tricot project) refers to the whole process of putting the tricot approach into action. That is, engaging a large number of participants in testing a range of technology options in random sub-sets of three technology option per participant.
+**Jaribio la tricot (experiment)**
+Jaribio la tricot (au mradi wa tricot) linarejelea mchakato mzima wa kuweka mbinu ya tricot katika vitendo. Hiyo ni, kushirikisha idadi kubwa ya washiriki katika kujaribu chaguo mbalimbali za teknolojia katika seti ndogo za nasibu za chaguo tatu za teknolojia kwa kila mshiriki.
 
-A tricot experiment, or tricot project consists of many small tricot trials.
-
-
+Jaribio la tricot, au mradi wa tricot lina majaribio mengi madogo ya tricot.

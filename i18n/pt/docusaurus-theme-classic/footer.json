@@ -1,0 +1,42 @@
+{
+  "link.title.Docs": {
+    "message": "Docs",
+    "description": "The title of the footer links column with title=Docs in the footer"
+  },
+  "link.title.Community": {
+    "message": "Comunidade",
+    "description": "The title of the footer links column with title=Community in the footer"
+  },
+  "link.title.More": {
+    "message": "Mais",
+    "description": "The title of the footer links column with title=More in the footer"
+  },
+  "link.item.label.Tutorial": {
+    "message": "Tutorial",
+    "description": "The label of footer link with label=Tutorial linking to /"
+  },
+  "link.item.label.License": {
+    "message": "Licença",
+    "description": "The label of footer link with label=License linking to /license"
+  },
+  "link.item.label.Community Of Practice website": {
+    "message": "Site da Comunidade de Prática",
+    "description": "The label of footer link with label=Community Of Practice website linking to https://community.1000farms.net/"
+  },
+  "link.item.label.ClimMob": {
+    "message": "ClimMob",
+    "description": "The label of footer link with label=ClimMob linking to https://1000farms.climmob.net/"
+  },
+  "link.item.label.Project website": {
+    "message": "Site do projeto",
+    "description": "The label of footer link with label=Project website linking to https://1000farms.net/"
+  },
+  "link.item.label.GitHub": {
+    "message": "GitHub",
+    "description": "The label of footer link with label=GitHub linking to https://github.com/AgrDataSci/documentation"
+  },
+  "copyright": {
+    "message": "Copyright © 2026 1000FARMS. Conteúdo licenciado sob <a href=\"/documentation/license\">CC BY-SA</a>. Desenvolvido com Docusaurus.",
+    "description": "The footer copyright"
+  }
+}

@@ -1,10 +1,8 @@
 {
-  "label": "Execution",
+  "label": "Exécution",
   "position": 6,
   "link": {
     "type": "generated-index",
-    "description": "trial execution."
+    "description": "Exécution de l'essai."
   }
 }
-
-

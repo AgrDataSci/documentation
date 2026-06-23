@@ -84,19 +84,19 @@
     "description": "The generated-index page description for category Appendices in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.Introduction to tricot": {
-    "message": "Introduction to tricot",
+    "message": "Introduction à tricot",
     "description": "The label for category 'Introduction to tricot' in sidebar 'tutorialSidebar'"
   },
   "sidebar.tutorialSidebar.category.Preparation": {
-    "message": "Preparation",
+    "message": "Préparation",
     "description": "The label for category 'Preparation' in sidebar 'tutorialSidebar'"
   },
   "sidebar.tutorialSidebar.category.Design": {
-    "message": "Design",
+    "message": "Conception",
     "description": "The label for category 'Design' in sidebar 'tutorialSidebar'"
   },
   "sidebar.tutorialSidebar.category.Recruitment": {
-    "message": "Recruitment",
+    "message": "Recrutement",
     "description": "The label for category 'Recruitment' in sidebar 'tutorialSidebar'"
   },
   "sidebar.tutorialSidebar.category.Distribution": {
@@ -104,7 +104,7 @@
     "description": "The label for category 'Distribution' in sidebar 'tutorialSidebar'"
   },
   "sidebar.tutorialSidebar.category.Execution": {
-    "message": "Execution",
+    "message": "Exécution",
     "description": "The label for category 'Execution' in sidebar 'tutorialSidebar'"
   },
   "sidebar.tutorialSidebar.category.Observation": {
@@ -116,19 +116,19 @@
     "description": "The label for category 'Compilation' in sidebar 'tutorialSidebar'"
   },
   "sidebar.tutorialSidebar.category.Analysis": {
-    "message": "Analysis",
+    "message": "Analyse",
     "description": "The label for category 'Analysis' in sidebar 'tutorialSidebar'"
   },
   "sidebar.tutorialSidebar.category.Evaluation": {
-    "message": "Evaluation",
+    "message": "Évaluation",
     "description": "The label for category 'Evaluation' in sidebar 'tutorialSidebar'"
   },
   "sidebar.tutorialSidebar.category.Resources and FAQs": {
-    "message": "Resources and FAQs",
+    "message": "Ressources et FAQs",
     "description": "The label for category 'Resources and FAQs' in sidebar 'tutorialSidebar'"
   },
   "sidebar.tutorialSidebar.category.Tricot case studies": {
-    "message": "Tricot case studies",
+    "message": "Études de cas Tricot",
     "description": "The label for category 'Tricot case studies' in sidebar 'tutorialSidebar'"
   }
 }

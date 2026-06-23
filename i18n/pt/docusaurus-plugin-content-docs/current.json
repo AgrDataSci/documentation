@@ -1,0 +1,58 @@
+{
+  "version.label": {
+    "message": "atual",
+    "description": "The label for version current"
+  },
+  "sidebar.tutorialSidebar.category.Introduction to tricot": {
+    "message": "Introdução ao tricot",
+    "description": "The label for category 'Introduction to tricot' in sidebar 'tutorialSidebar'"
+  },
+  "sidebar.tutorialSidebar.category.Preparation": {
+    "message": "Preparação",
+    "description": "The label for category 'Preparation' in sidebar 'tutorialSidebar'"
+  },
+  "sidebar.tutorialSidebar.category.Design": {
+    "message": "Design",
+    "description": "The label for category 'Design' in sidebar 'tutorialSidebar'"
+  },
+  "sidebar.tutorialSidebar.category.Recruitment": {
+    "message": "Recrutamento",
+    "description": "The label for category 'Recruitment' in sidebar 'tutorialSidebar'"
+  },
+  "sidebar.tutorialSidebar.category.Distribution": {
+    "message": "Distribuição",
+    "description": "The label for category 'Distribution' in sidebar 'tutorialSidebar'"
+  },
+  "sidebar.tutorialSidebar.category.Execution": {
+    "message": "Execução",
+    "description": "The label for category 'Execution' in sidebar 'tutorialSidebar'"
+  },
+  "sidebar.tutorialSidebar.category.Observation": {
+    "message": "Observação",
+    "description": "The label for category 'Observation' in sidebar 'tutorialSidebar'"
+  },
+  "sidebar.tutorialSidebar.category.Compilation": {
+    "message": "Compilação",
+    "description": "The label for category 'Compilation' in sidebar 'tutorialSidebar'"
+  },
+  "sidebar.tutorialSidebar.category.Analysis": {
+    "message": "Análise",
+    "description": "The label for category 'Analysis' in sidebar 'tutorialSidebar'"
+  },
+  "sidebar.tutorialSidebar.category.Feedback and dissemination": {
+    "message": "Feedback e disseminação",
+    "description": "The label for category 'Feedback and dissemination' in sidebar 'tutorialSidebar'"
+  },
+  "sidebar.tutorialSidebar.category.Evaluation": {
+    "message": "Avaliação",
+    "description": "The label for category 'Evaluation' in sidebar 'tutorialSidebar'"
+  },
+  "sidebar.tutorialSidebar.category.Resources and FAQs": {
+    "message": "Recursos e perguntas frequentes",
+    "description": "The label for category 'Resources and FAQs' in sidebar 'tutorialSidebar'"
+  },
+  "sidebar.tutorialSidebar.category.Tricot case studies": {
+    "message": "Estudos de caso tricot",
+    "description": "The label for category 'Tricot case studies' in sidebar 'tutorialSidebar'"
+  }
+}

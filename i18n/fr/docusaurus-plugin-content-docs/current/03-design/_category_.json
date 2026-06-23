@@ -1,8 +1,8 @@
 {
-  "label": "Experimental design",
+  "label": "Conception expérimentale",
   "position": 3,
   "link": {
     "type": "generated-index",
-    "description": "Find the testing protocols you need. Learn about target product profiles and how to choose the technologies to test. Target population of environments for site selection. And participant recruitment."
+    "description": "Trouvez les protocoles de test dont vous avez besoin. Apprenez-en davantage sur les profils de produits cibles et sur la façon de choisir les technologies à tester. Population cible d'environnements pour la sélection des sites. Et le recrutement des participants."
   }
 }

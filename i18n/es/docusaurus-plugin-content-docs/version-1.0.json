@@ -4,43 +4,43 @@
     "description": "The label for version 1.0"
   },
   "sidebar.tutorialSidebar.category.Introduction to Tricot": {
-    "message": "Introduction to Tricot",
+    "message": "Introducción a Tricot",
     "description": "The label for category 'Introduction to Tricot' in sidebar 'tutorialSidebar'"
   },
   "sidebar.tutorialSidebar.category.Planning": {
-    "message": "Planning",
+    "message": "Planificación",
     "description": "The label for category 'Planning' in sidebar 'tutorialSidebar'"
   },
   "sidebar.tutorialSidebar.category.Experimental Design": {
-    "message": "Experimental Design",
+    "message": "Diseño Experimental",
     "description": "The label for category 'Experimental Design' in sidebar 'tutorialSidebar'"
   },
   "sidebar.tutorialSidebar.category.Climmob Suite": {
-    "message": "Climmob Suite",
+    "message": "Suite Climmob",
     "description": "The label for category 'Climmob Suite' in sidebar 'tutorialSidebar'"
   },
   "sidebar.tutorialSidebar.category.Implementation": {
-    "message": "Implementation",
+    "message": "Implementación",
     "description": "The label for category 'Implementation' in sidebar 'tutorialSidebar'"
   },
   "sidebar.tutorialSidebar.category.Data Analysis": {
-    "message": "Data Analysis",
+    "message": "Análisis de Datos",
     "description": "The label for category 'Data Analysis' in sidebar 'tutorialSidebar'"
   },
   "sidebar.tutorialSidebar.category.Feedback & Dissemination": {
-    "message": "Feedback & Dissemination",
+    "message": "Retroalimentación y Difusión",
     "description": "The label for category 'Feedback & Dissemination' in sidebar 'tutorialSidebar'"
   },
   "sidebar.tutorialSidebar.category.Good, Bad & Ugly": {
-    "message": "Good, Bad & Ugly",
+    "message": "Lo Bueno, lo Malo y lo Feo",
     "description": "The label for category 'Good, Bad & Ugly' in sidebar 'tutorialSidebar'"
   },
   "sidebar.tutorialSidebar.category.FAQ and Resources": {
-    "message": "FAQ and Resources",
+    "message": "Preguntas Frecuentes y Recursos",
     "description": "The label for category 'FAQ and Resources' in sidebar 'tutorialSidebar'"
   },
   "sidebar.tutorialSidebar.category.Appendices": {
-    "message": "Appendices",
+    "message": "Apéndices",
     "description": "The label for category 'Appendices' in sidebar 'tutorialSidebar'"
   }
 }

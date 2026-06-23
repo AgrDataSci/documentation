@@ -1,30 +1,29 @@
 ---
-title: Advanced data analysis in R
+title: Analyse avancée des données en R
 sidebar_position: 4
 ---
-# Advanced data analysis in R
+# Analyse avancée des données en R
 
 > Kauê de Sousa
 
-This section is intended for users who want to work directly with tricot data in R and explore more advanced and customizable analytical approaches. While standard analyses can be performed through ClimMob or R-Instat, working in R allows full control over data processing, modelling, visualization, and reproducibility.
+Cette section est destinée aux utilisateurs qui souhaitent travailler directement avec les données tricot en R et explorer des approches analytiques plus avancées et personnalisables. Bien que les analyses standard puissent être effectuées via ClimMob ou R-Instat, travailler en R permet un contrôle total sur le traitement des données, la modélisation, la visualisation et la reproductibilité.
 
-The following set of R packages has been developed to support different steps of the tricot data workflow, from data access to advanced statistical modelling. 
+L'ensemble de packages R suivant a été développé pour prendre en charge différentes étapes du flux de travail des données tricot, de l'accès aux données à la modélisation statistique avancée.
 
-**climMobTools:** Provides an API client to download and manage data directly from the ClimMob platform, making it easier to build reproducible analysis pipelines. https://cran.r-project.org/package=ClimMobTools
+**climMobTools :** Fournit un client API pour télécharger et gérer les données directement depuis la plateforme ClimMob, facilitant la création de pipelines d'analyse reproductibles. https://cran.r-project.org/package=ClimMobTools
 
-**gosset:** Offers methods for analysing experimental agricultural data, including tools particularly suited for tricot-style ranking data. It supports data preparation, model fitting, trait prioritization, data synthesis, and visualization. https://cran.r-project.org/package=gosset
+**gosset :** Propose des méthodes pour analyser des données agricoles expérimentales, notamment des outils particulièrement adaptés aux données de classement de type tricot. Il prend en charge la préparation des données, l'ajustement des modèles, la priorisation des traits, la synthèse des données et la visualisation. https://cran.r-project.org/package=gosset
 
-**climatrends:** Supports the analysis of climate trends and agroclimatic indicators, which can be linked to on-farm trial data to better understand environmental drivers of performance. https://cran.r-project.org/package=climatrends
+**climatrends :** Prend en charge l'analyse des tendances climatiques et des indicateurs agroclimatiques, qui peuvent être reliés aux données d'essais en champ pour mieux comprendre les facteurs environnementaux influençant les performances. https://cran.r-project.org/package=climatrends
 
-**chirps:** Provides access to CHIRPS and CHIRTS gridded climate data (rainfall and temperature), enabling integration of daily weather information into tricot analyses. https://cran.r-project.org/package=chirps
+**chirps :** Fournit un accès aux données climatiques maillées CHIRPS et CHIRTS (précipitations et température), permettant l'intégration d'informations météorologiques quotidiennes dans les analyses tricot. https://cran.r-project.org/package=chirps
 
-**PlackettLuce:** Implements the Plackett–Luce model in R, which forms the statistical backbone for analysing ranking data in the tricot approach. https://cran.r-project.org/package=PlackettLuce
+**PlackettLuce :** Implémente le modèle de Plackett–Luce en R, qui constitue le socle statistique pour l'analyse des données de classement dans l'approche tricot. https://cran.r-project.org/package=PlackettLuce
 
-Two introductory case studies are especially recommended.
+Deux études de cas introductives sont particulièrement recommandées.
 
-[Practical example with common beans for trait prioritization and crop performance](https://agrdatasci.github.io/gosset/articles/vignette-1-trait-prioritization-and-crop-performance.html)
+[Exemple pratique avec des haricots communs pour la priorisation des traits et la performance des cultures](https://agrdatasci.github.io/gosset/articles/vignette-1-trait-prioritization-and-crop-performance.html)
 
-[Practical example with gari/eba consumer testing](https://agrdatasci.github.io/gosset/articles/vignette-2-gari-eba-consumer-testing.html)
+[Exemple pratique avec des tests consommateurs de gari/eba](https://agrdatasci.github.io/gosset/articles/vignette-2-gari-eba-consumer-testing.html)
 
-These examples illustrate how tricot data can be analysed in R to connect farmer evaluations, agronomic performance, and breeding decisions within a fully reproducible workflow.
-
+Ces exemples illustrent comment les données tricot peuvent être analysées en R pour relier les évaluations des agriculteurs, les performances agronomiques et les décisions de sélection variétale dans un flux de travail entièrement reproductible.

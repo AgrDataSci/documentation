@@ -4,7 +4,7 @@
     "description": "The title in the navbar"
   },
   "logo.alt": {
-    "message": "1000FARMS logo",
+    "message": "Logo de 1000FARMS",
     "description": "The alt text of navbar logo"
   },
   "item.label.GitHub": {

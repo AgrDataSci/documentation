@@ -1,0 +1,36 @@
+---
+title: Em breve
+sidebar_position: 2
+---
+
+# Em breve
+
+Aqui estão algumas das ferramentas e funcionalidades atualmente em desenvolvimento para apoiar os utilizadores do tricot.
+
+### Curso online de tricot
+
+Este curso online de acesso livre, com múltiplos módulos, contribuirá para a criação de um conjunto de profissionais qualificados na implementação de ensaios em exploração agrícola seguindo a abordagem tricot, conduzindo a uma recolha de dados de alta qualidade, análise e maior compreensão do desempenho das variedades nos ambientes de utilização. Após a conclusão do curso, os participantes receberão um certificado que comprova as competências recém-adquiridas.
+
+
+### Sikia
+
+Sikia, que significa "ouvir" em suaíli, é uma plataforma móvel e web com funcionamento offline-first, concebida para escalar a investigação qualitativa aberta na melhoramento de culturas. Desenvolvida no âmbito do projeto NDIZI financiado pela Fundação Gates, utiliza reconhecimento automático de fala (ASR) e modelos de linguagem-visão (VLMs) para converter entrevistas a agricultores gravadas por enumeradores e imagens de campo em informações estruturadas e acionáveis.
+
+Os métodos tradicionais limitam a escala: entrevistas domiciliares aprofundadas são dispendiosas (+/-170 USD/domicílio) e logisticamente desafiantes; inquéritos por SMS escalam de forma acessível (0,7 USD/respondente), mas carecem de profundidade e nuance. O Sikia complementa as perguntas típicas dos inquéritos ClimMob — "Qual variedade prefere: A, B ou C?" — ao permitir perguntas abertas e mais ricas em escala, como "O que gosta neste produto e porquê?" ou "Que qualidades gostaria numa nova variedade para substituir a atual?" Tais perguntas captam nuances e perceções inesperadas que os formatos predefinidos podem ignorar, provenientes de grupos de agricultores diversificados.
+
+O Sikia envolve enumeradores locais que vivem nas aldeias, pelo que não é necessário deslocação ao campo. Estes locais de confiança utilizam dialetos (para os quais o Sikia foi treinado para transcrição), minimizando o viés para respostas autênticas. Os enumeradores conduzem entrevistas livres; chatbots no dispositivo solicitam esclarecimentos sobre lacunas (por exemplo, "E quanto à variedade X no sabor?"), garantindo completude com formação mínima. Os ensaios na Tanzânia utilizaram pagamentos via M-Pesa para remunerar os enumeradores à distância. Os LLMs extraem sentimentos, características e temas emergentes, mapeando-os para ontologias de melhoradores.
+
+O Sikia foi concebido para se integrar de forma fluida com o ClimMob. Testado em ensaios tricot do 1000FARMS, incluindo feijão na Tanzânia (n=480), o Sikia quantificou preferências por género (mulheres: sabor; homens: rendimento/clima). Os modelos em suaíli estão operacionais e a expansão offline para outras línguas africanas está em curso.
+
+### Aplicação de Registo ClimMob
+
+A Aplicação de Registo ClimMob é uma Aplicação Web Progressiva (PWA) mobile-first para ensaios de avaliação de sementes — funciona em qualquer browser em iOS/Android, sem necessidade de loja de aplicações. Servirá como interface de introdução de dados para a plataforma ClimMob, alimentando as observações dos agricultores para análise e relatórios centralizados.
+
+Funcionalidades principais:
+
+* Leitura de QR — leitura de embalagens de sementes com código para carregar formulários de registo estruturados associados a projetos de ensaio específicos
+* Formulários passo a passo — regista condições de campo, desempenho das plantas, localização GPS e fotografias para três variedades de sementes por embalagem
+* Offline-first — preencha, guarde e submeta sem conectividade; os dados ficam em fila localmente e sincronizam automaticamente quando a ligação é restaurada
+* Ensaios multifase — redigitalize a mesma embalagem na sementeira, a meio da época e na colheita para registar observações específicas de cada fase
+* Gestão de rascunhos + histórico de submissões — reveja entradas anteriores e retome formulários incompletos
+* Temas claro/escuro, alternância de idioma EN/NO — interface simples concebida para utilizadores com baixa literacia tecnológica no campo

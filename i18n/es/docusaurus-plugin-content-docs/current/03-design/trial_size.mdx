@@ -1,107 +1,107 @@
 ---
-title: Trial size
+title: Tamaño del ensayo
 sidebar_position: 3
 ---
 
 import React from 'react';
 import { SampleSizeCalculator, SeedNeedsCalculator } from '@site/src/components/TrialDimensionsCalculators';
 
-# Trial size
+# Tamaño del ensayo
 
 > Joost van Heerwaarden, Marie-Angélique Laporte
 
 <div className="tricot-hero">
   <div className="tricot-hero-links tricot-tabs">
-    <a href="#samplesize" className="tricot-hero-link">🧮 Sample calculator</a>
-    <a href="#seedsize" className="tricot-hero-link">🧮 Seed calculator</a>
+    <a href="#samplesize" className="tricot-hero-link">🧮 Calculadora de muestra</a>
+    <a href="#seedsize" className="tricot-hero-link">🧮 Calculadora de semillas</a>
   </div>
 </div>
 
-### Sample size
+### Tamaño de la muestra
 
-As for any experiment, deciding on appropriate sample size is important when designing tricot trials. Since determining differences in the performance of options is the aim of variety trials, the number of replicates per options (n) determines the statistical power. As can be seen in Figure 1, statistical power increases with n, and a quite substantial number of replicates may be required when differences between options are small, or residual (i.e. random) variation is large.
+Al igual que en cualquier experimento, decidir el tamaño de muestra adecuado es importante al diseñar ensayos tricot. Dado que el objetivo de los ensayos de variedades es determinar las diferencias en el desempeño de las opciones, el número de réplicas por opción (n) determina la potencia estadística. Como se puede observar en la Figura 1, la potencia estadística aumenta con n, y puede requerirse un número bastante considerable de réplicas cuando las diferencias entre opciones son pequeñas o la variación residual (es decir, aleatoria) es grande.
 
-For example, detecting a difference in average yield equal to the 0.7 times the residual standard deviation (i.e. a so-called Cohen’s d of 0.7) with 95% probability would require approximately 30 replicates per option. It is important to note that tricot ranking data contains less information than direct measurements and consequently, about twice as many replicates are needed to achieve equivalent power. Also, rank based estimates of option performance may be unreliable when n is too small and a minimum of 30 replicates should be aimed for.
+Por ejemplo, detectar una diferencia en el rendimiento promedio igual a 0,7 veces la desviación estándar residual (es decir, una d de Cohen de 0,7) con una probabilidad del 95% requeriría aproximadamente 30 réplicas por opción. Es importante señalar que los datos de clasificación tricot contienen menos información que las mediciones directas y, en consecuencia, se necesitan aproximadamente el doble de réplicas para lograr una potencia equivalente. Además, las estimaciones del desempeño de las opciones basadas en rangos pueden ser poco confiables cuando n es demasiado pequeño, por lo que se debe apuntar a un mínimo de 30 réplicas.
 
-Tricot trials are designed to be fully balanced, so once the number of replicates, n, and the number of options (noptions) is decided, it is straightforward to calculate the required resources. The following equations are helpful in this regard.
+Los ensayos tricot están diseñados para estar completamente balanceados, por lo que una vez decidido el número de réplicas, n, y el número de opciones (noptions), es sencillo calcular los recursos necesarios. Las siguientes ecuaciones son útiles a este respecto.
 
-To calculate the number of plots required:
+Para calcular el número de parcelas requeridas:
 
 `Nplots = nfarms × 3 = noptions × n`
 
-To calculate the number of farms required:
+Para calcular el número de fincas requeridas:
 
 `nfarms = (noptions × n)/3`
 
-To calculate the sample size, n, for an existing design:
+Para calcular el tamaño de muestra, n, para un diseño existente:
 
 `n = (nfarms × 3)/ noptions`
 
-### Interactive sample size calculator {#samplesize}
+### Calculadora interactiva de tamaño de muestra {#samplesize}
 
-This calculator assumes that the tricot format is being used (blocks of size 3). It is based on Talsma [-@Talsma2018].
+Esta calculadora asume que se está utilizando el formato tricot (bloques de tamaño 3). Está basada en Talsma [-@Talsma2018].
 
-It calculates how many samples are needed to achieve a certain Cohen’s d (effect size relative to the standard deviation of the technology options tested) with 95% probability. It does not take into account the data return rate. For a single season, a Cohen’s d of between 0.7 and 1.0 is reasonable. For a consumer preference test, a Cohen’s d between 0.2 and 0.5 is recommended.
+Calcula cuántas muestras se necesitan para alcanzar una determinada d de Cohen (tamaño del efecto relativo a la desviación estándar de las opciones tecnológicas evaluadas) con una probabilidad del 95%. No tiene en cuenta la tasa de retorno de datos. Para una sola temporada, una d de Cohen de entre 0,7 y 1,0 es razonable. Para una prueba de preferencia del consumidor, se recomienda una d de Cohen de entre 0,2 y 0,5.
 
 <SampleSizeCalculator />
 
-### Interactive seed needs calculator {#seedsize}
+### Calculadora interactiva de necesidades de semillas {#seedsize}
 
-The calculator assumes that the tricot format is being used (blocks of size 3). The units of the “Seed quantity per plot” are the same as results (for example, kilograms but also number of plants can be used).
+La calculadora asume que se está utilizando el formato tricot (bloques de tamaño 3). Las unidades de "Cantidad de semilla por parcela" son las mismas que los resultados (por ejemplo, kilogramos, pero también se puede utilizar el número de plantas).
 
 <SeedNeedsCalculator />
 
-### Locations
+### Ubicaciones
 
-Tricot trials often cover different geographical or agroecological areas. In such cases, the most important aspects are sample size, balance, representation. As mentioned above, rank-based option performance estimates may be quite unreliable when n &lt; 20. This also applies when differential performance across geographies needs to be estimated (Figure 2) so it is recommended to strive for at least 10-20 replicates per geographical area. For multiple environments, sequentially balanced data implies that pairs of options are compared the same number of times in each environment. This can be achieved by using a resolvable incomplete block (alpha) design, that can be generated by specialised software packages. In practice, the designs produced by ClimMob will be sequentially balanced if the same number of farms are assigned to different locations (Figure 3).
+Los ensayos tricot frecuentemente abarcan diferentes áreas geográficas o agroecológicas. En tales casos, los aspectos más importantes son el tamaño de la muestra, el balance y la representación. Como se mencionó anteriormente, las estimaciones del desempeño de las opciones basadas en rangos pueden ser bastante poco confiables cuando n &lt; 20. Esto también aplica cuando se necesita estimar el desempeño diferencial entre geografías (Figura 2), por lo que se recomienda esforzarse por obtener al menos 10-20 réplicas por área geográfica. Para múltiples entornos, los datos secuencialmente balanceados implican que los pares de opciones se comparan el mismo número de veces en cada entorno. Esto puede lograrse utilizando un diseño de bloques incompletos resolubles (alfa), que puede generarse mediante paquetes de software especializados. En la práctica, los diseños producidos por ClimMob estarán secuencialmente balanceados si se asigna el mismo número de fincas a diferentes ubicaciones (Figura 3).
 
-Finally, achieving good representation of geographical areas requires sampling multiple locations within the target region. A prototype sampling tool has been developed to aid in creating designs and itineraries for such multi-locational experiments (Figure 4). Logistically, it is convenient to sample multiple farmers per location and to allow detection of location specific effects it is recommended to have at least 10 replicates per location. In the example with 20 options and 7 locations shown in Figure 4. This would require visiting 467 farms in total (67 farms per location). An appropriate balance between coverage of target areas and logistical cost is important, which is why the sampling tool will calculate total travel time for the shortest routes between chosen locations.
+Por último, lograr una buena representación de las áreas geográficas requiere muestrear múltiples ubicaciones dentro de la región objetivo. Se ha desarrollado una herramienta de muestreo prototipo para ayudar en la creación de diseños e itinerarios para dichos experimentos multilocales (Figura 4). Desde el punto de vista logístico, es conveniente muestrear múltiples agricultores por ubicación y, para permitir la detección de efectos específicos de la ubicación, se recomienda tener al menos 10 réplicas por ubicación. En el ejemplo con 20 opciones y 7 ubicaciones mostrado en la Figura 4, esto requeriría visitar 467 fincas en total (67 fincas por ubicación). Es importante encontrar un equilibrio adecuado entre la cobertura de las áreas objetivo y el costo logístico, razón por la cual la herramienta de muestreo calculará el tiempo total de viaje para las rutas más cortas entre las ubicaciones elegidas.
 
 ![Figure 1](/img/Geo_fig_1.png)
 
-Figure 1. Simulated statistical power to detect a difference between two options (prop sign), as function of sample size (n) and magnitude of difference (Cohen’s D) for a quantitative trait (red) and for ranking data (red). The grey and blue planes indicate the expected values, assuming ranking data has an effective sample size of half compared to quantitative data.
+Figura 1. Potencia estadística simulada para detectar una diferencia entre dos opciones (prop sign), en función del tamaño de muestra (n) y la magnitud de la diferencia (d de Cohen) para un rasgo cuantitativo (rojo) y para datos de clasificación (rojo). Los planos gris y azul indican los valores esperados, asumiendo que los datos de clasificación tienen un tamaño de muestra efectivo equivalente a la mitad en comparación con los datos cuantitativos.
 
 ![Figure 2](/img/Geo_fig_2.png)
 
-Figure 2. Simulated results demonstrating the effect of sample size on the ability to estimate variation due to option by environment interaction (sigma) using continuous (metric) and ranking data for 3 and 18 replicates per environment (10 environments).
+Figura 2. Resultados simulados que demuestran el efecto del tamaño de muestra sobre la capacidad de estimar la variación debida a la interacción opción por entorno (sigma) utilizando datos continuos (métricos) y de clasificación para 3 y 18 réplicas por entorno (10 entornos).
 
 ![Figure 3](/img/Geo_fig_3.png)
 
-Figure 3. Network graphs showing connectivity and balance in pairwise comparisons for aggregated (left) and disaggregated (right) multi-location data.
+Figura 3. Gráficos de red que muestran la conectividad y el balance en las comparaciones por pares para datos multilocales agregados (izquierda) y desagregados (derecha).
 
 ![Figure 4](/img/Geo_fig_4.png)
 
-Figure 4. Overview of output of the sampling tool prototype showing the most efficient route among locations covering a an agro-ecological zone.
+Figura 4. Resumen de la salida del prototipo de herramienta de muestreo que muestra la ruta más eficiente entre ubicaciones que cubre una zona agroecológica.
 
-A recurrent issue is deciding about plot size and the number of plots (replications). In the literature about crop trials, there are several methods to guide decision making. At the same time, this is not just a question of statistics, but also biological considerations are important. For tricot trials, there are a number of additional considerations related to farmers’ capacities.
+Un problema recurrente es decidir el tamaño de la parcela y el número de parcelas (réplicas). En la literatura sobre ensayos de cultivos, existen varios métodos para orientar la toma de decisiones. Al mismo tiempo, no se trata únicamente de una cuestión estadística, sino que también son importantes las consideraciones biológicas. Para los ensayos tricot, existen una serie de consideraciones adicionales relacionadas con las capacidades de los agricultores.
 
-### Plot size
+### Tamaño de la parcela
 
-Plot sizes should generally be small, for the following reasons.
+Los tamaños de parcela deben ser generalmente pequeños, por las siguientes razones.
 
-- With the same amount of seeds, more farmers can participate. Tricot is about external validity, so capturing the diversity in use contexts is important.
-- Small plots sizes allow farmers with small farms to participate. This makes tricot trials more inclusive and representative.
-- Small plot sizes increase the variation between farms, but do not systematically bias results upwards or downwards (unless edge/border effects play a strong role, see below).
+- Con la misma cantidad de semillas, más agricultores pueden participar. El tricot se centra en la validez externa, por lo que capturar la diversidad en los contextos de uso es importante.
+- Los tamaños de parcela pequeños permiten participar a agricultores con fincas pequeñas. Esto hace que los ensayos tricot sean más inclusivos y representativos.
+- Los tamaños de parcela pequeños aumentan la variación entre fincas, pero no sesgan sistemáticamente los resultados hacia arriba o hacia abajo (a menos que los efectos de borde o límite sean muy importantes, véase más adelante).
 
-Tricot plots should not be too small, however.
+Sin embargo, las parcelas tricot no deben ser demasiado pequeñas.
 
-- Strong edge or border effects should be avoided. This can be avoided by not harvesting border rows.
-- If varieties are also tested for processing or culinary characteristics, plots should produce sufficient volume to allow this.
+- Se deben evitar los efectos de borde o límite pronunciados. Esto se puede evitar no cosechando las filas de borde.
+- Si las variedades también se evalúan por sus características de procesamiento o culinarias, las parcelas deben producir un volumen suficiente para permitirlo.
 
-Some remarks on specific crops:
+Algunas observaciones sobre cultivos específicos:
 
-- For potato, competition effects between plots consisting of single ridges seems unimportant for yield, as stolons rarely extend beyond ridges `Connolly 1993`.
-- For cassava, interplot competition effects have been found to extend beyond the first row `Elias 2018`.
-- For sweetpotato, interplot interaction is thought to be substantial due to above-ground competition `Gruneberg 2019`. For sweetpotato trials, 30 m2 plots with 100 vine cuttings have been recommended for on-farm trials `Gruneberg 2019`. For a tricot trial in Ghana, however, much smaller 6 m2 plots with 20 vine cuttings were used, which is two thirds of the recommended plot size of on-station trials.
+- Para la papa, los efectos de competencia entre parcelas de surcos individuales parecen poco importantes para el rendimiento, ya que los estolones rara vez se extienden más allá de los surcos `Connolly 1993`.
+- Para la yuca, se ha encontrado que los efectos de competencia entre parcelas se extienden más allá de la primera fila `Elias 2018`.
+- Para el camote, se considera que la interacción entre parcelas es sustancial debido a la competencia aérea `Gruneberg 2019`. Para los ensayos de camote, se han recomendado parcelas de 30 m2 con 100 esquejes de tallo para ensayos en campo de agricultores `Gruneberg 2019`. Sin embargo, para un ensayo tricot en Ghana se utilizaron parcelas mucho más pequeñas de 6 m2 con 20 esquejes de tallo, que equivalen a dos tercios del tamaño de parcela recomendado para ensayos en estación.
 
-Plot size is closely related to the number of seeds that is provided to farmers. In grain crops, breeders often provide seeds based on the average weight needed for a unit of land. However, this can be problematic when there are seed size differences between varieties. A small-seeded variety would be represented by more seeds. Consequently, the farmer may decide to increase the plant density of a small-seeded variety or add more planting positions. This could bias yield estimates to favour small-seeded varieties. It is therefore recommendable not to provide the same weight of seed for each variety, but the same number of seeds.
+El tamaño de la parcela está estrechamente relacionado con el número de semillas que se proporcionan a los agricultores. En cultivos de granos, los fitomejoradores a menudo proporcionan semillas basándose en el peso promedio necesario para una unidad de tierra. Sin embargo, esto puede ser problemático cuando existen diferencias en el tamaño de la semilla entre variedades. Una variedad de semilla pequeña estaría representada por más semillas. En consecuencia, el agricultor puede decidir aumentar la densidad de siembra de una variedad de semilla pequeña o agregar más posiciones de siembra. Esto podría sesgar las estimaciones de rendimiento a favor de las variedades de semilla pequeña. Por lo tanto, es recomendable no proporcionar el mismo peso de semilla para cada variedad, sino el mismo número de semillas.
 
-### Number of plots (or farms)
+### Número de parcelas (o fincas)
 
-For a trial with around 12 entries (varieties, lines, etc.) typically 100-200 farms would provide solid results to make recommendations. This means that the trial has a 95% probability of identifying differences (effect sizes) between 0.7 and 1 standard deviations (Cohen’s d). Since trials are done over several seasons, this number will diminish over time. See the interactive sample size calculator below to estimate the number of farms needed.
+Para un ensayo con alrededor de 12 entradas (variedades, líneas, etc.), típicamente entre 100 y 200 fincas proporcionarían resultados sólidos para hacer recomendaciones. Esto significa que el ensayo tiene una probabilidad del 95% de identificar diferencias (tamaños de efecto) de entre 0,7 y 1 desviación estándar (d de Cohen). Dado que los ensayos se realizan durante varias temporadas, este número disminuirá con el tiempo. Consulte la calculadora interactiva de tamaño de muestra a continuación para estimar el número de fincas necesarias.
 
-This is the same order of magnitude that was found in previous on-farm trial work with cereals.
+Este es el mismo orden de magnitud que se encontró en trabajos previos de ensayos en campo de agricultores con cereales.
 
-If the trial covers more agro-ecological environments (to which the set of varieties is expected to respond in different ways), the number of farmers should be proportionally higher. Future studies should provide better guidance regarding optimal trial dimensions.
+Si el ensayo abarca más entornos agroecológicos (a los que se espera que el conjunto de variedades responda de maneras diferentes), el número de agricultores debe ser proporcionalmente mayor. Estudios futuros deberían proporcionar una orientación más precisa sobre las dimensiones óptimas de los ensayos.
 
-## References
+## Referencias

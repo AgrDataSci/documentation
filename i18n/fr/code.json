@@ -287,7 +287,7 @@
     "description": "The unlisted content banner message"
   },
   "theme.colorToggle.ariaLabel.mode.system": {
-    "message": "system mode",
+    "message": "mode système",
     "description": "The name for the system color mode"
   },
   "theme.docs.DocCard.categoryDescription.plurals": {
@@ -295,15 +295,15 @@
     "description": "The default description for a category card in the generated index about how many items this category includes"
   },
   "theme.IconExternalLink.ariaLabel": {
-    "message": "(opens in new tab)",
+    "message": "(ouvre dans un nouvel onglet)",
     "description": "The ARIA label for the external link icon"
   },
   "theme.navbar.mobileDropdown.collapseButton.expandAriaLabel": {
-    "message": "Expand the dropdown",
+    "message": "Développer le menu déroulant",
     "description": "The ARIA label of the button to expand the mobile dropdown navbar item"
   },
   "theme.navbar.mobileDropdown.collapseButton.collapseAriaLabel": {
-    "message": "Collapse the dropdown",
+    "message": "Réduire le menu déroulant",
     "description": "The ARIA label of the button to collapse the mobile dropdown navbar item"
   },
   "theme.SearchBar.seeAll": {
@@ -526,7 +526,7 @@
     "description": "The text for suggested query"
   },
   "theme.SearchModal.noResultsScreen.reportMissingResultsText": {
-    "message": "Vous pensez que cette requête doit donner des résultats ?",
+    "message": "Vous pensez que cette requête doit donner des résultats ?",
     "description": "The text for reporting missing results"
   },
   "theme.SearchModal.noResultsScreen.reportMissingResultsLinkText": {
@@ -542,15 +542,15 @@
     "description": "The title of the page for a blog author"
   },
   "theme.blog.authorsList.pageTitle": {
-    "message": "Authors",
+    "message": "Auteurs",
     "description": "The title of the authors page"
   },
   "theme.blog.authorsList.viewAll": {
-    "message": "View All Authors",
+    "message": "Voir tous les auteurs",
     "description": "The label of the link targeting the blog authors page"
   },
   "theme.blog.author.noPosts": {
-    "message": "This author has not written any posts yet.",
+    "message": "Cet auteur n'a pas encore écrit d'articles.",
     "description": "The text for authors with 0 blog post"
   },
   "theme.contentVisibility.unlistedBanner.title": {
@@ -562,11 +562,11 @@
     "description": "The unlisted content banner message"
   },
   "theme.contentVisibility.draftBanner.title": {
-    "message": "Draft page",
+    "message": "Page brouillon",
     "description": "The draft content banner title"
   },
   "theme.contentVisibility.draftBanner.message": {
-    "message": "This page is a draft. It will only be visible in dev and be excluded from the production build.",
+    "message": "Cette page est un brouillon. Elle ne sera visible qu'en développement et sera exclue de la version de production.",
     "description": "The draft content banner message"
   }
 }

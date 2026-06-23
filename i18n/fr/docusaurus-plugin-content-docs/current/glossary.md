@@ -1,140 +1,136 @@
 ---
-title: Glossary 
+title: Glossaire
 sidebar_position: 3
 ---
 
-# Glossary of Terms
+# Glossaire des termes
 
-**Administrator** is the person or organization who coordinates the tricot project. It’s the project manager. The administrator could be a scientist working at a research institute, or at an NGO, governmental extension service, etc.
-If the administrator is not a scientist, she or he might collaborate with scientists or a research institute to develop the tricot project, and obtain the tested technologies, such as seeds or fertilizer.
-The tasks of the administrator include:
-*	Designing the tricot project using ClimMob software
-*	Recruiting field agents and participants
-*	Training field agents
-*	Preparing trial packages
-*	Organizing initial workshops
-*	Keeping track of growers’ data collection
-*	Analyzing data using the ClimMob software
-* Communicating final results to participants in final workshops (together with field agents)
+**Administrateur** est la personne ou l'organisation qui coordonne le projet tricot. C'est le chef de projet. L'administrateur peut être un scientifique travaillant dans un institut de recherche, dans une ONG, un service de vulgarisation gouvernemental, etc.
+Si l'administrateur n'est pas un scientifique, il ou elle peut collaborer avec des scientifiques ou un institut de recherche pour développer le projet tricot et obtenir les technologies testées, telles que des semences ou des engrais.
+Les tâches de l'administrateur comprennent :
+*	La conception du projet tricot à l'aide du logiciel ClimMob
+*	Le recrutement des agents de terrain et des participants
+*	La formation des agents de terrain
+*	La préparation des paquets d'essai
+*	L'organisation des ateliers initiaux
+*	Le suivi de la collecte de données des agriculteurs
+*	L'analyse des données à l'aide du logiciel ClimMob
+* La communication des résultats finaux aux participants lors des ateliers de clôture (avec les agents de terrain)
 
-**Balancing a trial**
-‘Balancing’ the trial means that all technology options are spread across all the participating villages. Each village will receive packages with 
-consecutive numbers (1, 2, 3, 4, 5, etc.) and not random numbers (3, 11, 9, 23, 1, etc.). If this principle is followed, each of these villages will receive a balanced set and all of the technology options will be tested and evaluated.
+**Équilibrer un essai**
+« Équilibrer » l'essai signifie que toutes les options technologiques sont réparties dans tous les villages participants. Chaque village recevra des paquets avec des numéros consécutifs (1, 2, 3, 4, 5, etc.) et non des numéros aléatoires (3, 11, 9, 23, 1, etc.). Si ce principe est respecté, chacun de ces villages recevra un ensemble équilibré et toutes les options technologiques seront testées et évaluées.
 
 **ClimMob**
-Online software for the design and management of any tricot experiment (www.climmob.net). The database of all tricot projects is stored here. Project implementers also use ClimMob for the analysis of results and the generation of information outputs at the end of the project.
+Logiciel en ligne pour la conception et la gestion de toute expérience tricot (www.climmob.net). La base de données de tous les projets tricot y est stockée. Les responsables de projet utilisent également ClimMob pour l'analyse des résultats et la génération des résultats d'information en fin de projet.
 
-**ClimMobTools** is an open-source statistics toolkit available on the R platform. It enables administrators to further explore and analyze their tricot data. The ‘ClimMobTools’ R package supports more sophisticated data analysis than what is offered through the easy-to-handle ClimMob online software.
-R software (free): https://cran.r-project.org/
-ClimMobTools: https://cran.r-project.org/web/packages/ClimMobTools/index.html
+**ClimMobTools** est une boîte à outils statistiques open source disponible sur la plateforme R. Elle permet aux administrateurs d'explorer et d'analyser plus avant leurs données tricot. Le package R « ClimMobTools » permet une analyse des données plus sophistiquée que ce qui est proposé par le logiciel en ligne ClimMob, facile à utiliser.
+Logiciel R (gratuit) : https://cran.r-project.org/
+ClimMobTools : https://cran.r-project.org/web/packages/ClimMobTools/index.html
 
-**Evaluation criteria**
-The 5 to 10 criteria that will be evaluated within the tricot experiment. These criteria should be chosen in consultation with all stakeholders. 
-For example: Plant height, disease resistance, yield, and others.
+**Critères d'évaluation**
+Les 5 à 10 critères qui seront évalués dans le cadre de l'expérience tricot. Ces critères doivent être choisis en consultation avec toutes les parties prenantes.
+Par exemple : la hauteur des plantes, la résistance aux maladies, le rendement, et autres.
 
-**Explanatory variables**
-For on farm trials, information about meteorology and agronomic management of the trials serves to improve the analysis. The explanatory variables refine the results and help to identify the most suitable variety for the local conditions of every farm. Examples: Use of irrigation, use of fertilization, season was rainier or drier than usual, etc.
+**Variables explicatives**
+Pour les essais en milieu paysan, les informations sur la météorologie et la gestion agronomique des essais permettent d'améliorer l'analyse. Les variables explicatives affinent les résultats et aident à identifier la variété la plus adaptée aux conditions locales de chaque exploitation. Exemples : utilisation de l'irrigation, utilisation de la fertilisation, saison plus pluvieuse ou plus sèche que d'habitude, etc.
 
-**Farmers / participating farmers**
-Women and men who participate in a tricot experiment by managing their own tricot trial and carrying out the observations, marking the observations on the observation card at the appropriate dates, and eventually reporting the observations to the local field agents. Their recruitment should involve considerations of gender, age and other demographic factors, as well as their task related to the technology under evaluation. In some tricot trials, non-farmers participate, based on their role in food processing, trading, retailing or consumption.
+**Agriculteurs / agriculteurs participants**
+Les femmes et les hommes qui participent à une expérience tricot en gérant leur propre essai tricot et en effectuant les observations, en consignant les observations sur la fiche d'observation aux dates appropriées, et en signalant éventuellement les observations aux agents de terrain locaux. Leur recrutement doit tenir compte du genre, de l'âge et d'autres facteurs démographiques, ainsi que de leurs tâches en lien avec la technologie évaluée. Dans certains essais tricot, des non-agriculteurs participent, en fonction de leur rôle dans la transformation, le commerce, la vente au détail ou la consommation des aliments.
 
-**Field agent** is the extension worker, linking the implementer and the participants. A tricot project might employ 20 to 30 field agents. Each field agent can cover a different geographical region and can coordinate 10 to 20 participants. Field agents are vital to a tricot project, as they allow many small trials to take place in different regions at the same time.
-Field agents get trained by the implementer, and in turn pass their knowledge on to the participants. The implementer can also be a field agent. Likewise, a field agent can also participate in the tricot project as an observer.
-*The tasks of field agents include:
-*	Staying in personal contact with participants
-*	Assisting participants with trial cultivation and data collection
-*	Collecting participants’ observations at the end of the trial through personal visits or telephone calls
-*	Passing on participant data to the implementer, using the ODK Collect app
+**Agent de terrain** est le vulgarisateur qui fait le lien entre le responsable de mise en œuvre et les participants. Un projet tricot peut employer 20 à 30 agents de terrain. Chaque agent de terrain peut couvrir une région géographique différente et coordonner 10 à 20 participants. Les agents de terrain sont essentiels à un projet tricot, car ils permettent à de nombreux petits essais de se dérouler simultanément dans différentes régions.
+Les agents de terrain sont formés par le responsable de mise en œuvre et transmettent à leur tour leurs connaissances aux participants. Le responsable de mise en œuvre peut également être agent de terrain. De même, un agent de terrain peut aussi participer au projet tricot en tant qu'observateur.
+*Les tâches des agents de terrain comprennent :
+*	Rester en contact personnel avec les participants
+*	Aider les participants dans la conduite des essais et la collecte des données
+*	Recueillir les observations des participants à la fin de l'essai par des visites personnelles ou des appels téléphoniques
+*	Transmettre les données des participants au responsable de mise en œuvre, en utilisant l'application ODK Collect
 
-**Implementing organization/ project implementers**
-The organization that is in charge of carrying out and monitoring the project. It can be an NGO, a government service, or a research program, among other options. Implementers have the major responsibilities in the project, for example:
-* Training the field agents and participants
-* Distributing the trial packages
-* Carrying out the data analysis once all data is collected and compiled
-* Feeding back the information to the participants via the field agents.
+**Organisation de mise en œuvre / responsables de mise en œuvre**
+L'organisation chargée de la conduite et du suivi du projet. Il peut s'agir d'une ONG, d'un service gouvernemental ou d'un programme de recherche, entre autres options. Les responsables de mise en œuvre assument les principales responsabilités du projet, par exemple :
+* Former les agents de terrain et les participants
+* Distribuer les paquets d'essai
+* Réaliser l'analyse des données une fois que toutes les données sont collectées et compilées
+* Restituer les informations aux participants par l'intermédiaire des agents de terrain.
 
-**Incomplete block design**
-Incomplete block design refers to an experimental setup in which not all treatments occur in one block. In the case of tricot, this means that not all technology options (= treatments) occur in each individual trial (=block). Instead, each participant cultivates or tests just three technology options in her/his trial (for example, three randomly assigned bean varieties), instead of cultivating all technology options included in the tricot project (which could be up to 20 bean varieties). Because many participants each cultivate a trial with a subset of three different technology options, all these individual trials – taken together – cover the testing of all technology options.
+**Plan en blocs incomplets**
+Le plan en blocs incomplets désigne un dispositif expérimental dans lequel tous les traitements ne figurent pas dans un même bloc. Dans le cas de tricot, cela signifie que toutes les options technologiques (= traitements) ne se retrouvent pas dans chaque essai individuel (= bloc). Au lieu de cela, chaque participant cultive ou teste seulement trois options technologiques dans son essai (par exemple, trois variétés de haricots attribuées aléatoirement), plutôt que de cultiver toutes les options technologiques incluses dans le projet tricot (qui pourraient représenter jusqu'à 20 variétés de haricots). Parce que de nombreux participants cultivent chacun un essai avec un sous-ensemble de trois options technologiques différentes, tous ces essais individuels – pris ensemble – couvrent le test de toutes les options technologiques.
 
 ![](/img/incomplete-block.png)
 
-**Infosheet**
-Personalized information output for every participant. It is generated automatically using ClimMob and includes:
-* Names of the three technology options that the participant received and tested
-* Names of the most recommended option for their farm (in the case of on-farm trials)
-* Information about where to obtain more material of the preferred technology option (if applicable).
+**Fiche d'information**
+Résultat d'information personnalisé pour chaque participant. Il est généré automatiquement à l'aide de ClimMob et comprend :
+* Les noms des trois options technologiques que le participant a reçues et testées
+* Les noms de l'option la plus recommandée pour son exploitation (dans le cas des essais en milieu paysan)
+* Des informations sur l'endroit où se procurer davantage de matériel de l'option technologique préférée (le cas échéant).
 
 **ODK Collect**
-ODK stands for ‘Open Data Kit’. ODK Collect is a free app for Android devices that is used to collect and compile data. It completely replaces the need for paper forms, for example during a survey.
+ODK signifie « Open Data Kit ». ODK Collect est une application gratuite pour appareils Android utilisée pour collecter et compiler des données. Elle remplace entièrement le besoin de formulaires papier, par exemple lors d'une enquête.
 
-In a tricot project, the field agents use this app on a mobile devices (smartphone or tablet) to collect the field observation data from participants. Each participant has written down their observations on their own observation card, and ODK Collect offers a simple way to digitize and compile the data from many growers.
+Dans un projet tricot, les agents de terrain utilisent cette application sur des appareils mobiles (smartphone ou tablette) pour collecter les données d'observation de terrain auprès des participants. Chaque participant a consigné ses observations sur sa propre fiche d'observation, et ODK Collect offre un moyen simple de numériser et de compiler les données de nombreux agriculteurs.
 
-The field agents do not need to be connected to the internet when entering data into ODK Collect, for example, when they are out in the field, visiting participants. When a participant observations are entered, ODK Collect will first store the data locally on the field agents’ mobile device. The field agents can upload the data to ClimMob at later points in time, whenever the device can connect to the internet again. ODK Collect then uploads the individual data sets to the ClimMob online software.
+Les agents de terrain n'ont pas besoin d'être connectés à Internet lorsqu'ils saisissent des données dans ODK Collect, par exemple lorsqu'ils sont sur le terrain, en visite chez les participants. Lorsque les observations d'un participant sont saisies, ODK Collect stocke d'abord les données localement sur l'appareil mobile de l'agent de terrain. Les agents de terrain peuvent télécharger les données vers ClimMob ultérieurement, dès que l'appareil peut à nouveau se connecter à Internet. ODK Collect télécharge ensuite les ensembles de données individuels vers le logiciel en ligne ClimMob.
 
-The app can be downloaded for free from the Google Play Store. **Note that the app is available for Android only, not for iOS.**
+L'application peut être téléchargée gratuitement depuis le Google Play Store. **Notez que l'application est disponible uniquement pour Android, pas pour iOS.**
 
-**Observation card**
-Observation cards are used by the participants to record their field observations during different stages of the tricot trial. These paper cards are distributed by the field agents at the initial training event. Over the course of the trial period, the growers fill them out, using a pen.
+**Fiche d'observation**
+Les fiches d'observation sont utilisées par les participants pour enregistrer leurs observations de terrain à différentes étapes de l'essai tricot. Ces fiches papier sont distribuées par les agents de terrain lors de la séance de formation initiale. Au cours de la période d'essai, les agriculteurs les remplissent à l'aide d'un stylo.
 
-Observation cards get designed by the project administrator, adapting a template that is available on ClimMob. Which observations participants need to make, and at what points in time – the observation card includes this information, to help participants collect their data alone. Observation cards require the observations to be entered as comparison data (ranking).
+Les fiches d'observation sont conçues par l'administrateur du projet, en adaptant un modèle disponible sur ClimMob. Les observations que les participants doivent effectuer et à quels moments — la fiche d'observation contient ces informations pour aider les participants à collecter leurs données de manière autonome. Les fiches d'observation exigent que les observations soient saisies sous forme de données comparatives (classement).
 
-**On-farm trial** On-farm trails are tricot experiments conducted on the fields of participants. Participants in this case are farmers, and their role is to test throughout the growing season the three different technologies in their fields.
+**Essai en milieu paysan** Les essais en milieu paysan sont des expériences tricot conduites dans les champs des participants. Les participants dans ce cas sont des agriculteurs, et leur rôle est de tester tout au long de la saison de culture les trois technologies différentes dans leurs champs.
 
-**Plackett-Luce model**
-In a tricot project, ranking data is collected on all participants (either farmers or consumers) with each one of them contributing one ‘partial ranking’. The ClimMob software uses the statistical Plackett-Luce model to combine all these partial rankings into a full picture.
+**Modèle de Plackett-Luce**
+Dans un projet tricot, des données de classement sont collectées auprès de tous les participants (qu'il s'agisse d'agriculteurs ou de consommateurs), chacun contribuant par un « classement partiel ». Le logiciel ClimMob utilise le modèle statistique de Plackett-Luce pour combiner tous ces classements partiels en un tableau d'ensemble.
 
-The image below visualizes an example. Here, three growers each rank their individual set of three technology options (for example, crop varieties). Participant 1, for example, reported that var1 was the best technology option, while var4 was the worst, and var3 took a middle position.
+L'image ci-dessous illustre un exemple. Ici, trois agriculteurs classent chacun leur ensemble individuel de trois options technologiques (par exemple, des variétés de cultures). Le participant 1, par exemple, a indiqué que var1 était la meilleure option technologique, tandis que var4 était la pire, et que var3 occupait une position intermédiaire.
 
-The partial rankings from all participants are then combined, giving the overall ranking. When there are disagreements (for example, some participants find that var3 > var4, but others report that var4 > var3), the Plackett-Luce model determines the most likely overall 
+Les classements partiels de tous les participants sont ensuite combinés pour donner le classement global. En cas de désaccords (par exemple, certains participants estiment que var3 > var4, mais d'autres rapportent que var4 > var3), le modèle de Plackett-Luce détermine l'ordre global le plus probable.
 
 ![](/img/Plackett-Luce.png)
 
-**Randomization**
-The balanced creation of sets of three varieties from the full pool of varieties. The randomization is generated by the ClimMob software and is required to prepare the trial packages.
+**Randomisation**
+La création équilibrée d'ensembles de trois variétés à partir du pool complet de variétés. La randomisation est générée par le logiciel ClimMob et est nécessaire pour préparer les paquets d'essai.
 
-**Ranking**
-Ranking is a way of describing the relationship between two items, for example, one being ‘bigger than’ the other. Ranking data is common, for example, in sports (‘Claire ran faster than Anna’), or in consumer studies (‘Consumers like apples better than pears, and pears better than strawberries’).
+**Classement**
+Le classement est une façon de décrire la relation entre deux éléments, par exemple l'un étant « plus grand que » l'autre. Les données de classement sont courantes, par exemple dans le sport (« Claire a couru plus vite qu'Anna »), ou dans les études sur les consommateurs (« Les consommateurs préfèrent les pommes aux poires, et les poires aux fraises »).
 
-In tricot project, participants observe their technology options and rank these options by different aspects of their performance. Using ranking as a way to collect field observations in on-farm trials has proven successful in a number of studies. There are multiple advantages in asking participants to rank, rather than take exact measurements or give subjective ratings:
+Dans un projet tricot, les participants observent leurs options technologiques et les classent selon différents aspects de leurs performances. L'utilisation du classement comme moyen de collecter des observations de terrain lors d'essais en milieu paysan s'est révélée efficace dans un certain nombre d'études. Il y a plusieurs avantages à demander aux participants de classer plutôt que de prendre des mesures précises ou de donner des évaluations subjectives :
 
-Ranking avoids a drift in the point of reference during the evaluation process, it avoids different interpretations of the scoring scale between participants, and ranking is easy to explain and understand. A disadvantage of ranking is that it does not give an absolute zero, or an absolute scale.
+Le classement évite une dérive du point de référence au cours du processus d'évaluation, il évite différentes interprétations de l'échelle de notation entre les participants, et le classement est facile à expliquer et à comprendre. Un inconvénient du classement est qu'il ne fournit pas de zéro absolu ni d'échelle absolue.
 
-In a race, two athletes might cross the finish line at the exact same time. In a tricot trial, a participant might observe two different bean varieties without noticing any difference in growth. However, the observation cards only allow field observations to be entered as ranks – ties are not possible. Even though it might be tough to spot the difference – we encourage participants to take another look. Surely, there is some small difference.
+Dans une course, deux athlètes peuvent franchir la ligne d'arrivée exactement au même moment. Dans un essai tricot, un participant peut observer deux variétés de haricots différentes sans remarquer de différence de croissance. Cependant, les fiches d'observation ne permettent de saisir les observations de terrain que sous forme de classements — les ex-æquo ne sont pas possibles. Même si cela peut être difficile de distinguer une différence, nous encourageons les participants à regarder à nouveau. Il y a sûrement une petite différence.
 
-ClimMob analyzes ranking data using the statistical Plackett-Luce model.
+ClimMob analyse les données de classement à l'aide du modèle statistique de Plackett-Luce.
 
-**Researchers**
-Experts studying or using the agricultural technology under evaluation. They select the technology options to be included in the project and supply experimental material for each technology option to the implementing organization.
+**Chercheurs**
+Experts qui étudient ou utilisent la technologie agricole faisant l'objet de l'évaluation. Ils sélectionnent les options technologiques à inclure dans le projet et fournissent le matériel expérimental pour chaque option technologique à l'organisation de mise en œuvre.
 
-**Sequentially balanced randomization**
-‘Random’ means that there is no obvious pattern or predictability in the way items are ordered. Simple randomization is the process of putting anything in a random order.
+**Randomisation séquentiellement équilibrée**
+« Aléatoire » signifie qu'il n'y a pas de schéma évident ni de prévisibilité dans la façon dont les éléments sont ordonnés. La randomisation simple est le processus consistant à mettre quoi que ce soit dans un ordre aléatoire.
 
-In a tricot experiment, growers receive trial packages that contain a random sub-set of three technology options. For example, if the tricot focus technology is ‘bean varieties’, every participating grower receives a set of three bean varieties, which are randomly picked from the total pool of bean varieties included in the project. Experience shows that a small share of growers tends to drop out of a tricot project, for different reasons. This is not a problem at the level of the entire project. At the local level, however, this can lead to an imbalance. If technology options are distributed by simple randomization only, some technology options can be rare or absent in a certain community.
+Dans une expérience tricot, les agriculteurs reçoivent des paquets d'essai contenant un sous-ensemble aléatoire de trois options technologiques. Par exemple, si la technologie d'intérêt du tricot est « les variétés de haricots », chaque agriculteur participant reçoit un ensemble de trois variétés de haricots, choisies aléatoirement dans le pool total de variétés de haricots incluses dans le projet. L'expérience montre qu'une petite proportion d'agriculteurs tend à abandonner un projet tricot, pour différentes raisons. Cela ne pose pas de problème au niveau de l'ensemble du projet. Au niveau local, cependant, cela peut entraîner un déséquilibre. Si les options technologiques sont distribuées par simple randomisation seulement, certaines options technologiques peuvent être rares ou absentes dans une certaine communauté.
 
-To address this issue, the tricot approach uses the ClimMob online software to assign technology options to participating growers using an advanced form of randomization: sequentially balanced randomization. This means that trial packages contain a balanced frequency of each technology option. For example, if we distribute packages 1–10 in the first local community, 11–30 in the second community and 31–40 in the third community, each individual variety will occur with nearly equal frequency within each community. If growers in the first community take only 9 trial packages instead of 10, distribution in the second community can simply start with trial package 10.
+Pour remédier à ce problème, l'approche tricot utilise le logiciel en ligne ClimMob pour attribuer des options technologiques aux agriculteurs participants en utilisant une forme avancée de randomisation : la randomisation séquentiellement équilibrée. Cela signifie que les paquets d'essai contiennent une fréquence équilibrée de chaque option technologique. Par exemple, si nous distribuons les paquets 1–10 dans la première communauté locale, 11–30 dans la deuxième communauté et 31–40 dans la troisième communauté, chaque variété individuelle apparaîtra avec une fréquence presque égale dans chaque communauté. Si les agriculteurs de la première communauté ne prennent que 9 paquets d'essai au lieu de 10, la distribution dans la deuxième communauté peut simplement commencer avec le paquet d'essai 10.
 
-**Technology** Using the tricot approach, many agricultural technologies can be tested and innovated. For example: Crop varieties, Fertilizer regimes, Irrigation systems, Pest management strategies, soil management strategies, etc.
-Every tricot project focuses on one technology (for example, ‘fertilizer composition’), but tests a number of different technology options (fertilizer composition 1, fertilizer composition 2, etc.). In the past, for example, tricot has often been used to innovate a certain crop (technology) by testing new crop varieties (technology options). Experimental design terminology would refer to technology as ‘treatment’, and to technology options as ‘levels’. In the context of tricot, we chose to use ‘technology’ and ‘technology options’ for easier understanding.
+**Technologie** En utilisant l'approche tricot, de nombreuses technologies agricoles peuvent être testées et améliorées. Par exemple : les variétés de cultures, les régimes de fertilisation, les systèmes d'irrigation, les stratégies de gestion des ravageurs, les stratégies de gestion des sols, etc.
+Chaque projet tricot se concentre sur une technologie (par exemple, « la composition des engrais »), mais teste un certain nombre d'options technologiques différentes (composition d'engrais 1, composition d'engrais 2, etc.). Dans le passé, par exemple, tricot a souvent été utilisé pour innover une certaine culture (technologie) en testant de nouvelles variétés de cultures (options technologiques). La terminologie de la conception expérimentale désignerait la technologie comme « traitement » et les options technologiques comme « niveaux ». Dans le contexte de tricot, nous avons choisi d'utiliser « technologie » et « options technologiques » pour une meilleure compréhension.
 
-**Technology options**
-Each tricot experiment focuses on one agricultural technology (for example, ‘fertilizer composition’), but tests several technology options 
-(fertilizer composition X, fertilizer composition Y, etc.). These technology options should in principle be suitable to local conditions and have the potential to be adopted by some of the farmers.  The researchers select the technology options, and they are recommended to begin a first experiment made up of between 8 to 12 options.
+**Options technologiques**
+Chaque expérience tricot se concentre sur une technologie agricole (par exemple, « la composition des engrais »), mais teste plusieurs options technologiques (composition d'engrais X, composition d'engrais Y, etc.). Ces options technologiques doivent en principe être adaptées aux conditions locales et avoir le potentiel d'être adoptées par certains agriculteurs. Les chercheurs sélectionnent les options technologiques, et il leur est recommandé de commencer une première expérience comprenant entre 8 et 12 options.
 
-**Trial package**
-A bag given to every participant at the initial workshop. The large bag is marked with a number and a QR code. It contains: (i) three small bags containing material of the different technology options ( marked with ‘A’, ‘B’, and ‘C’); (ii) an observation card; and (iii) an explanatory brochure about the tricot process.
+**Paquet d'essai**
+Un sachet remis à chaque participant lors de l'atelier initial. Le grand sachet est marqué d'un numéro et d'un code QR. Il contient : (i) trois petits sachets contenant le matériel des différentes options technologiques (marqués « A », « B » et « C ») ; (ii) une fiche d'observation ; et (iii) une brochure explicative sur le processus tricot.
 
-**Trial plot**
-For on-farm trials, a small area within or at the margin of the farmer’s production plot, with representative soil conditions. It is divided into three equal parts, for the testing of the three technology options assigned to the farmer.
+**Parcelle d'essai**
+Pour les essais en milieu paysan, une petite surface à l'intérieur ou en bordure de la parcelle de production de l'agriculteur, présentant des conditions de sol représentatives. Elle est divisée en trois parties égales, pour le test des trois options technologiques attribuées à l'agriculteur.
 
 **Tricot**
-The word ‘tricot’ is derived from three words: Triadic comparison of technology options. ‘Triadic’ refers to the sets of three technology options that are compared in each trial. In technical jargon, three things define tricot: (1) the use of incomplete blocks of three items (to make the threshold of participation low in terms of farm size and to make it cognitively manageable), (2) the use of ranking as the main way to report observations (to facilitate digital data collection and to make it possible to cultivate a tricot plot with very little training), and (3) the limited control of experimental conditions (following usual technology use practice to maximize external validity).
+Le mot « tricot » est dérivé de trois mots : Triadic comparison of technology options (comparaison triadique des options technologiques). « Triadique » fait référence aux ensembles de trois options technologiques comparées dans chaque essai. En jargon technique, trois éléments définissent tricot : (1) l'utilisation de blocs incomplets de trois éléments (pour maintenir un seuil de participation bas en termes de superficie agricole et pour le rendre cognitivement gérable), (2) l'utilisation du classement comme principal moyen de rapporter les observations (pour faciliter la collecte numérique des données et permettre de cultiver une parcelle tricot avec très peu de formation), et (3) le contrôle limité des conditions expérimentales (suivant les pratiques d'utilisation habituelles de la technologie pour maximiser la validité externe).
 
-**Tricot trial**
-Test of different technological options, in sets of three, each observed and ranked by a participant. For an on-farm trial, the options are grown and observed in a small designated area of her/his own farm.
+**Essai tricot**
+Test de différentes options technologiques, par ensembles de trois, chacune observée et classée par un participant. Pour un essai en milieu paysan, les options sont cultivées et observées dans une petite zone désignée de sa propre exploitation.
 
-**Tricot experiment**
-A tricot experiment (or tricot project) refers to the whole process of putting the tricot approach into action. That is, engaging a large number of participants in testing a range of technology options in random sub-sets of three technology option per participant.
+**Expérience tricot**
+Une expérience tricot (ou projet tricot) désigne l'ensemble du processus de mise en œuvre de l'approche tricot. C'est-à-dire engager un grand nombre de participants dans le test d'une gamme d'options technologiques en sous-ensembles aléatoires de trois options technologiques par participant.
 
-A tricot experiment, or tricot project consists of many small tricot trials.
-
-
+Une expérience tricot, ou projet tricot, est composée de nombreux petits essais tricot.

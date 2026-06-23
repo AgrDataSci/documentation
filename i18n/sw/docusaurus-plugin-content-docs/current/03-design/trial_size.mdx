@@ -1,107 +1,107 @@
 ---
-title: Trial size
+title: Ukubwa wa jaribio
 sidebar_position: 3
 ---
 
 import React from 'react';
 import { SampleSizeCalculator, SeedNeedsCalculator } from '@site/src/components/TrialDimensionsCalculators';
 
-# Trial size
+# Ukubwa wa jaribio
 
 > Joost van Heerwaarden, Marie-Angélique Laporte
 
 <div className="tricot-hero">
   <div className="tricot-hero-links tricot-tabs">
-    <a href="#samplesize" className="tricot-hero-link">🧮 Sample calculator</a>
-    <a href="#seedsize" className="tricot-hero-link">🧮 Seed calculator</a>
+    <a href="#samplesize" className="tricot-hero-link">🧮 Kikokotoo cha sampuli</a>
+    <a href="#seedsize" className="tricot-hero-link">🧮 Kikokotoo cha mbegu</a>
   </div>
 </div>
 
-### Sample size
+### Ukubwa wa sampuli
 
-As for any experiment, deciding on appropriate sample size is important when designing tricot trials. Since determining differences in the performance of options is the aim of variety trials, the number of replicates per options (n) determines the statistical power. As can be seen in Figure 1, statistical power increases with n, and a quite substantial number of replicates may be required when differences between options are small, or residual (i.e. random) variation is large.
+Kama ilivyo kwa majaribio yoyote, kuamua ukubwa wa sampuli unaofaa ni muhimu wakati wa kubuni majaribio ya tricot. Kwa kuwa lengo la majaribio ya aina za mazao ni kugundua tofauti katika utendaji wa chaguzi, idadi ya nakala kwa kila chaguo (n) inaamua nguvu ya takwimu. Kama inavyoonekana katika Kielelezo 1, nguvu ya takwimu huongezeka kadri n inavyoongezeka, na idadi kubwa ya nakala inaweza kuhitajika wakati tofauti kati ya chaguzi ni ndogo, au tofauti ya nasibu (yaani, ya bahati) ni kubwa.
 
-For example, detecting a difference in average yield equal to the 0.7 times the residual standard deviation (i.e. a so-called Cohen’s d of 0.7) with 95% probability would require approximately 30 replicates per option. It is important to note that tricot ranking data contains less information than direct measurements and consequently, about twice as many replicates are needed to achieve equivalent power. Also, rank based estimates of option performance may be unreliable when n is too small and a minimum of 30 replicates should be aimed for.
+Kwa mfano, kugundua tofauti ya wastani wa mavuno sawa na mara 0.7 ya kiwango cha kawaida cha tofauti ya nasibu (yaani, kinachojulikana kama Cohen's d ya 0.7) kwa uwezekano wa 95% kungehitaji nakala takriban 30 kwa kila chaguo. Ni muhimu kutambua kwamba data ya upangaji wa tricot ina taarifa chache kuliko vipimo vya moja kwa moja, na kwa hivyo, nakala mara mbili zaidi zinahitajika ili kufikia nguvu sawa. Pia, makadirio ya utendaji wa chaguo yanayotegemea mpangilio yanaweza kuwa yasiyotegemewa wakati n ni ndogo sana, na angalau nakala 30 zinapaswa kulenga.
 
-Tricot trials are designed to be fully balanced, so once the number of replicates, n, and the number of options (noptions) is decided, it is straightforward to calculate the required resources. The following equations are helpful in this regard.
+Majaribio ya tricot yameundwa kuwa na usawa kamili, kwa hivyo mara idadi ya nakala, n, na idadi ya chaguzi (noptions) inapochaguliwa, ni rahisi kuhesabu rasilimali zinazohitajika. Mlingano ufuatao ni wa msaada katika hili.
 
-To calculate the number of plots required:
+Kuhesabu idadi ya viwanja vinavyohitajika:
 
 `Nplots = nfarms × 3 = noptions × n`
 
-To calculate the number of farms required:
+Kuhesabu idadi ya mashamba yanayohitajika:
 
 `nfarms = (noptions × n)/3`
 
-To calculate the sample size, n, for an existing design:
+Kuhesabu ukubwa wa sampuli, n, kwa muundo uliopo:
 
 `n = (nfarms × 3)/ noptions`
 
-### Interactive sample size calculator {#samplesize}
+### Kikokotoo cha ukubwa wa sampuli kinachoingiliana {#samplesize}
 
-This calculator assumes that the tricot format is being used (blocks of size 3). It is based on Talsma [-@Talsma2018].
+Kikokotoo hiki kinachukulia kuwa muundo wa tricot unatumika (vizuizi vya ukubwa 3). Kinategemea Talsma [-@Talsma2018].
 
-It calculates how many samples are needed to achieve a certain Cohen’s d (effect size relative to the standard deviation of the technology options tested) with 95% probability. It does not take into account the data return rate. For a single season, a Cohen’s d of between 0.7 and 1.0 is reasonable. For a consumer preference test, a Cohen’s d between 0.2 and 0.5 is recommended.
+Kinakokotoa sampuli ngapi zinahitajika ili kufikia Cohen's d fulani (ukubwa wa athari kuhusiana na kiwango cha kawaida cha chaguzi za teknolojia zilizojaribiwa) kwa uwezekano wa 95%. Haizingatii kiwango cha urudishaji wa data. Kwa msimu mmoja, Cohen's d kati ya 0.7 na 1.0 ni ya kuridhisha. Kwa mtihani wa mapendekezo ya watumiaji, Cohen's d kati ya 0.2 na 0.5 inapendekezwa.
 
 <SampleSizeCalculator />
 
-### Interactive seed needs calculator {#seedsize}
+### Kikokotoo cha mahitaji ya mbegu kinachoingiliana {#seedsize}
 
-The calculator assumes that the tricot format is being used (blocks of size 3). The units of the “Seed quantity per plot” are the same as results (for example, kilograms but also number of plants can be used).
+Kikokotoo kinachukulia kuwa muundo wa tricot unatumika (vizuizi vya ukubwa 3). Vitengo vya "Kiasi cha mbegu kwa kila kiwanja" ni sawa na matokeo (kwa mfano, kilogramu lakini pia idadi ya mimea inaweza kutumika).
 
 <SeedNeedsCalculator />
 
-### Locations
+### Maeneo
 
-Tricot trials often cover different geographical or agroecological areas. In such cases, the most important aspects are sample size, balance, representation. As mentioned above, rank-based option performance estimates may be quite unreliable when n &lt; 20. This also applies when differential performance across geographies needs to be estimated (Figure 2) so it is recommended to strive for at least 10-20 replicates per geographical area. For multiple environments, sequentially balanced data implies that pairs of options are compared the same number of times in each environment. This can be achieved by using a resolvable incomplete block (alpha) design, that can be generated by specialised software packages. In practice, the designs produced by ClimMob will be sequentially balanced if the same number of farms are assigned to different locations (Figure 3).
+Majaribio ya tricot mara nyingi yanashughulikia maeneo tofauti ya kijiografia au kiikolojia. Katika hali kama hizo, mambo muhimu zaidi ni ukubwa wa sampuli, usawa, na uwakilishi. Kama ilivyotajwa hapo juu, makadirio ya utendaji wa chaguo yanayotegemea mpangilio yanaweza kuwa yasiyotegemewa sana wakati n &lt; 20. Hii pia inatumika wakati utendaji tofauti katika maeneo tofauti ya kijiografia unahitajika kukadiriwa (Kielelezo 2), kwa hivyo inashauriwa kujaribu kufikia angalau nakala 10-20 kwa kila eneo la kijiografia. Kwa mazingira mengi, data yenye usawa wa mfululizo inamaanisha kuwa jozi za chaguzi zinalinganishwa idadi sawa ya mara katika kila mazingira. Hii inaweza kufikiwa kwa kutumia muundo wa kizuizi kisichokamilika (alpha) kinachoweza kutatuliwa, ambacho kinaweza kuzalishwa na programu maalum. Kwa vitendo, miundo inayozalishwa na ClimMob itakuwa na usawa wa mfululizo ikiwa idadi sawa ya mashamba itapangiwa maeneo tofauti (Kielelezo 3).
 
-Finally, achieving good representation of geographical areas requires sampling multiple locations within the target region. A prototype sampling tool has been developed to aid in creating designs and itineraries for such multi-locational experiments (Figure 4). Logistically, it is convenient to sample multiple farmers per location and to allow detection of location specific effects it is recommended to have at least 10 replicates per location. In the example with 20 options and 7 locations shown in Figure 4. This would require visiting 467 farms in total (67 farms per location). An appropriate balance between coverage of target areas and logistical cost is important, which is why the sampling tool will calculate total travel time for the shortest routes between chosen locations.
+Hatimaye, kufikia uwakilishi mzuri wa maeneo ya kijiografia kunahitaji kusampuli maeneo mengi ndani ya eneo lengwa. Chombo cha sampuli cha mfano kimezalishwa kusaidia katika kuunda miundo na njia za majaribio kama hayo ya maeneo mengi (Kielelezo 4). Kwa upande wa uendeshaji, ni rahisi kusampuli wakulima wengi kwa kila eneo na ili kuwezesha kugundua athari maalum za eneo inashauriwa kuwa na angalau nakala 10 kwa kila eneo. Katika mfano unaooonyesha chaguzi 20 na maeneo 7 ulioonyeshwa katika Kielelezo 4. Hii ingehitaji kutembelea mashamba 467 jumla (mashamba 67 kwa kila eneo). Usawa unaofaa kati ya ushughulikaji wa maeneo lengwa na gharama za uendeshaji ni muhimu, ndiyo maana chombo cha sampuli kitakokotoa muda wa jumla wa usafiri kwa njia fupi zaidi kati ya maeneo yaliyochaguliwa.
 
-![Figure 1](/img/Geo_fig_1.png)
+![Kielelezo 1](/img/Geo_fig_1.png)
 
-Figure 1. Simulated statistical power to detect a difference between two options (prop sign), as function of sample size (n) and magnitude of difference (Cohen’s D) for a quantitative trait (red) and for ranking data (red). The grey and blue planes indicate the expected values, assuming ranking data has an effective sample size of half compared to quantitative data.
+Kielelezo 1. Nguvu ya takwimu iliyoigwa kugundua tofauti kati ya chaguzi mbili (prop sign), kama chaguo la ukubwa wa sampuli (n) na ukubwa wa tofauti (Cohen's D) kwa sifa ya kiasi (nyekundu) na kwa data ya mpangilio (nyekundu). Ndege za kijivu na bluu zinaonyesha thamani zinazotarajiwa, zikichukulia kuwa data ya mpangilio ina ukubwa wa sampuli wa ufanisi wa nusu ikilinganishwa na data ya kiasi.
 
-![Figure 2](/img/Geo_fig_2.png)
+![Kielelezo 2](/img/Geo_fig_2.png)
 
-Figure 2. Simulated results demonstrating the effect of sample size on the ability to estimate variation due to option by environment interaction (sigma) using continuous (metric) and ranking data for 3 and 18 replicates per environment (10 environments).
+Kielelezo 2. Matokeo yaliyoigwa yanayoonyesha athari ya ukubwa wa sampuli kwenye uwezo wa kukadiri tofauti inayotokana na mwingiliano wa chaguo na mazingira (sigma) kwa kutumia data inayoendelea (ya kipimo) na ya mpangilio kwa nakala 3 na 18 kwa kila mazingira (mazingira 10).
 
-![Figure 3](/img/Geo_fig_3.png)
+![Kielelezo 3](/img/Geo_fig_3.png)
 
-Figure 3. Network graphs showing connectivity and balance in pairwise comparisons for aggregated (left) and disaggregated (right) multi-location data.
+Kielelezo 3. Grafu za mtandao zinazoonyesha muunganiko na usawa katika ulinganisho wa jozi kwa data ya maeneo mengi iliyounganishwa (kushoto) na iliyogawanywa (kulia).
 
-![Figure 4](/img/Geo_fig_4.png)
+![Kielelezo 4](/img/Geo_fig_4.png)
 
-Figure 4. Overview of output of the sampling tool prototype showing the most efficient route among locations covering a an agro-ecological zone.
+Kielelezo 4. Muhtasari wa matokeo ya mfano wa chombo cha sampuli unaoonyesha njia bora zaidi kati ya maeneo yanayoshughulikia eneo la kiikolojia.
 
-A recurrent issue is deciding about plot size and the number of plots (replications). In the literature about crop trials, there are several methods to guide decision making. At the same time, this is not just a question of statistics, but also biological considerations are important. For tricot trials, there are a number of additional considerations related to farmers’ capacities.
+Tatizo linalojirudia ni kuamua kuhusu ukubwa wa kiwanja na idadi ya viwanja (nakala). Katika fasihi kuhusu majaribio ya mazao, kuna njia kadhaa za kuongoza maamuzi. Wakati huo huo, hii si swali la takwimu tu, bali mazingatio ya kibiolojia pia ni muhimu. Kwa majaribio ya tricot, kuna mazingatio kadhaa ya ziada yanayohusiana na uwezo wa wakulima.
 
-### Plot size
+### Ukubwa wa kiwanja
 
-Plot sizes should generally be small, for the following reasons.
+Ukubwa wa viwanja kwa ujumla unapaswa kuwa mdogo, kwa sababu zifuatazo.
 
-- With the same amount of seeds, more farmers can participate. Tricot is about external validity, so capturing the diversity in use contexts is important.
-- Small plots sizes allow farmers with small farms to participate. This makes tricot trials more inclusive and representative.
-- Small plot sizes increase the variation between farms, but do not systematically bias results upwards or downwards (unless edge/border effects play a strong role, see below).
+- Kwa kiasi sawa cha mbegu, wakulima wengi zaidi wanaweza kushiriki. Tricot inahusu uhalali wa nje, kwa hivyo kunasa utofauti katika muktadha wa matumizi ni muhimu.
+- Ukubwa mdogo wa viwanja unaruhusu wakulima wenye mashamba madogo kushiriki. Hii inafanya majaribio ya tricot kuwa ya kujumuisha zaidi na ya uwakilishi.
+- Ukubwa mdogo wa viwanja huongeza tofauti kati ya mashamba, lakini hauzuii matokeo kwenda juu au chini kwa utaratibu (isipokuwa athari za mipaka/pembeni zina jukumu kubwa, angalia hapa chini).
 
-Tricot plots should not be too small, however.
+Hata hivyo, viwanja vya tricot havipaswi kuwa vidogo sana.
 
-- Strong edge or border effects should be avoided. This can be avoided by not harvesting border rows.
-- If varieties are also tested for processing or culinary characteristics, plots should produce sufficient volume to allow this.
+- Athari kali za mipaka au pembeni zinapaswa kuepukwa. Hii inaweza kuepukwa kwa kutoharvest safu za mipaka.
+- Ikiwa aina za mazao pia zinajaribiwa kwa sifa za usindikaji au upishi, viwanja vinapaswa kuzalisha kiasi cha kutosha kuruhusu hili.
 
-Some remarks on specific crops:
+Baadhi ya maelezo kuhusu mazao maalum:
 
-- For potato, competition effects between plots consisting of single ridges seems unimportant for yield, as stolons rarely extend beyond ridges `Connolly 1993`.
-- For cassava, interplot competition effects have been found to extend beyond the first row `Elias 2018`.
-- For sweetpotato, interplot interaction is thought to be substantial due to above-ground competition `Gruneberg 2019`. For sweetpotato trials, 30 m2 plots with 100 vine cuttings have been recommended for on-farm trials `Gruneberg 2019`. For a tricot trial in Ghana, however, much smaller 6 m2 plots with 20 vine cuttings were used, which is two thirds of the recommended plot size of on-station trials.
+- Kwa viazi, athari za ushindani kati ya viwanja vinavyojumuisha matuta moja inaonekana kutokuwa muhimu kwa mavuno, kwani stoloni mara chache huenea zaidi ya matuta `Connolly 1993`.
+- Kwa muhogo, athari za ushindani kati ya viwanja zimegunduliwa kuenea zaidi ya safu ya kwanza `Elias 2018`.
+- Kwa viazi vitamu, mwingiliano wa kati ya viwanja unachukuliwa kuwa mkubwa kutokana na ushindani wa juu ya ardhi `Gruneberg 2019`. Kwa majaribio ya viazi vitamu, viwanja vya m2 30 vyenye kata 100 za mzabibu vimependekezwa kwa majaribio ya shambani `Gruneberg 2019`. Hata hivyo, kwa jaribio la tricot nchini Ghana, viwanja vidogo zaidi vya m2 6 vyenye kata 20 za mzabibu vilitumika, ambavyo ni theluthi mbili ya ukubwa wa kiwanja uliopendekezwa wa majaribio ya stesheni.
 
-Plot size is closely related to the number of seeds that is provided to farmers. In grain crops, breeders often provide seeds based on the average weight needed for a unit of land. However, this can be problematic when there are seed size differences between varieties. A small-seeded variety would be represented by more seeds. Consequently, the farmer may decide to increase the plant density of a small-seeded variety or add more planting positions. This could bias yield estimates to favour small-seeded varieties. It is therefore recommendable not to provide the same weight of seed for each variety, but the same number of seeds.
+Ukubwa wa kiwanja unahusiana kwa karibu na idadi ya mbegu zinazotolewa kwa wakulima. Katika mazao ya nafaka, wafugaji wa mimea mara nyingi hutoa mbegu kulingana na uzito wa wastani unaohitajika kwa kipande cha ardhi. Hata hivyo, hii inaweza kuwa tatizo wakati kuna tofauti za ukubwa wa mbegu kati ya aina. Aina yenye mbegu ndogo itawakilishwa na mbegu zaidi. Kwa hivyo, mkulima anaweza kuamua kuongeza msongamano wa mimea ya aina yenye mbegu ndogo au kuongeza nafasi zaidi za upanzi. Hii inaweza kupotosha makadirio ya mavuno kupendelea aina zenye mbegu ndogo. Kwa hivyo inashauriwa kutotoa uzito sawa wa mbegu kwa kila aina, bali idadi sawa ya mbegu.
 
-### Number of plots (or farms)
+### Idadi ya viwanja (au mashamba)
 
-For a trial with around 12 entries (varieties, lines, etc.) typically 100-200 farms would provide solid results to make recommendations. This means that the trial has a 95% probability of identifying differences (effect sizes) between 0.7 and 1 standard deviations (Cohen’s d). Since trials are done over several seasons, this number will diminish over time. See the interactive sample size calculator below to estimate the number of farms needed.
+Kwa jaribio lenye takriban ingizo 12 (aina, mistari, n.k.) kawaida mashamba 100-200 yangetoa matokeo imara kufanya mapendekezo. Hii inamaanisha kwamba jaribio lina uwezekano wa 95% wa kutambua tofauti (ukubwa wa athari) kati ya viwango 0.7 na 1 ya kiwango cha kawaida (Cohen's d). Kwa kuwa majaribio yanafanywa katika misimu kadhaa, idadi hii itapungua baada ya muda. Angalia kikokotoo cha ukubwa wa sampuli kinachoingiliana hapa chini ili kukokotoa idadi ya mashamba yanayohitajika.
 
-This is the same order of magnitude that was found in previous on-farm trial work with cereals.
+Hii iko katika kiwango sawa cha ukubwa kilichopatikana katika kazi ya awali ya majaribio ya shambani na nafaka.
 
-If the trial covers more agro-ecological environments (to which the set of varieties is expected to respond in different ways), the number of farmers should be proportionally higher. Future studies should provide better guidance regarding optimal trial dimensions.
+Ikiwa jaribio linashughulikia mazingira zaidi ya kiikolojia (ambayo seti ya aina inatarajiwa kujibu kwa njia tofauti), idadi ya wakulima inapaswa kuwa kubwa zaidi sawia. Masomo ya baadaye yanapaswa kutoa mwongozo bora zaidi kuhusu vipimo bora vya jaribio.
 
-## References
+## Marejeo

@@ -1,10 +1,8 @@
 {
-  "label": "Execution",
+  "label": "Utekelezaji",
   "position": 6,
   "link": {
     "type": "generated-index",
-    "description": "trial execution."
+    "description": "utekelezaji wa jaribio."
   }
 }
-
-

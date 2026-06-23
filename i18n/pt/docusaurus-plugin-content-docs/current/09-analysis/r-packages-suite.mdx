@@ -1,0 +1,29 @@
+---
+title: Análise avançada de dados em R
+sidebar_position: 4
+---
+# Análise avançada de dados em R
+
+> Kauê de Sousa
+
+Esta secção destina-se a utilizadores que pretendem trabalhar diretamente com dados tricot em R e explorar abordagens analíticas mais avançadas e personalizáveis. Embora as análises padrão possam ser realizadas através do ClimMob ou do R-Instat, trabalhar em R permite um controlo total sobre o processamento de dados, modelação, visualização e reprodutibilidade.
+
+O conjunto de pacotes R apresentado a seguir foi desenvolvido para apoiar as diferentes etapas do fluxo de trabalho com dados tricot, desde o acesso aos dados até à modelação estatística avançada.
+
+**climMobTools:** Fornece um cliente de API para descarregar e gerir dados diretamente da plataforma ClimMob, facilitando a construção de pipelines de análise reprodutíveis. https://cran.r-project.org/package=ClimMobTools
+
+**gosset:** Oferece métodos para analisar dados agrícolas experimentais, incluindo ferramentas especialmente adequadas para dados de classificação no estilo tricot. Suporta a preparação de dados, ajuste de modelos, priorização de características, síntese de dados e visualização. https://cran.r-project.org/package=gosset
+
+**climatrends:** Apoia a análise de tendências climáticas e indicadores agroclimáticos, que podem ser associados a dados de ensaios em campo para melhor compreender os fatores ambientais que influenciam o desempenho. https://cran.r-project.org/package=climatrends
+
+**chirps:** Fornece acesso a dados climáticos em grelha do CHIRPS e CHIRTS (precipitação e temperatura), permitindo a integração de informação meteorológica diária nas análises tricot. https://cran.r-project.org/package=chirps
+
+**PlackettLuce:** Implementa o modelo de Plackett–Luce em R, que constitui a base estatística para a análise de dados de classificação na abordagem tricot. https://cran.r-project.org/package=PlackettLuce
+
+Recomenda-se especialmente dois estudos de caso introdutórios.
+
+[Exemplo prático com feijão comum para priorização de características e desempenho da cultura](https://agrdatasci.github.io/gosset/articles/vignette-1-trait-prioritization-and-crop-performance.html)
+
+[Exemplo prático com teste de consumo de gari/eba](https://agrdatasci.github.io/gosset/articles/vignette-2-gari-eba-consumer-testing.html)
+
+Estes exemplos ilustram como os dados tricot podem ser analisados em R para ligar as avaliações dos agricultores, o desempenho agronómico e as decisões de melhoramento no âmbito de um fluxo de trabalho totalmente reprodutível.
