@@ -51,9 +51,9 @@
     "message": "Cadre analytique. Aperçu des modèles statistiques (par ex., Plackett-Luce, Bradley-Terry). Outils pour analyser les données de classement. Visualisation. Intégration avec d'autres ensembles de données (agroclimatiques, pédologiques et socio-économiques). Études de cas.",
     "description": "The generated-index page description for category Data analysis in sidebar tutorialSidebar"
   },
-   "sidebar.tutorialSidebar.category.Feedback and dissemination": {
+  "sidebar.tutorialSidebar.category.Feedback and dissemination": {
     "message": "Retour d'information et diffusion",
-    "description": "The label for category Feedback and dissemination in sidebar tutorialSidebar"
+    "description": "The label for category 'Feedback and dissemination' in sidebar 'tutorialSidebar'"
   },
   "sidebar.tutorialSidebar.category.Feedback and dissemination.link.generated-index.description": {
     "message": "Session de retour avec les participants. Suivi et rapport.",
@@ -82,5 +82,53 @@
   "sidebar.tutorialSidebar.category.Appendices.link.generated-index.description": {
     "message": "Documents supplémentaires",
     "description": "The generated-index page description for category Appendices in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Introduction to tricot": {
+    "message": "Introduction to tricot",
+    "description": "The label for category 'Introduction to tricot' in sidebar 'tutorialSidebar'"
+  },
+  "sidebar.tutorialSidebar.category.Preparation": {
+    "message": "Preparation",
+    "description": "The label for category 'Preparation' in sidebar 'tutorialSidebar'"
+  },
+  "sidebar.tutorialSidebar.category.Design": {
+    "message": "Design",
+    "description": "The label for category 'Design' in sidebar 'tutorialSidebar'"
+  },
+  "sidebar.tutorialSidebar.category.Recruitment": {
+    "message": "Recruitment",
+    "description": "The label for category 'Recruitment' in sidebar 'tutorialSidebar'"
+  },
+  "sidebar.tutorialSidebar.category.Distribution": {
+    "message": "Distribution",
+    "description": "The label for category 'Distribution' in sidebar 'tutorialSidebar'"
+  },
+  "sidebar.tutorialSidebar.category.Execution": {
+    "message": "Execution",
+    "description": "The label for category 'Execution' in sidebar 'tutorialSidebar'"
+  },
+  "sidebar.tutorialSidebar.category.Observation": {
+    "message": "Observation",
+    "description": "The label for category 'Observation' in sidebar 'tutorialSidebar'"
+  },
+  "sidebar.tutorialSidebar.category.Compilation": {
+    "message": "Compilation",
+    "description": "The label for category 'Compilation' in sidebar 'tutorialSidebar'"
+  },
+  "sidebar.tutorialSidebar.category.Analysis": {
+    "message": "Analysis",
+    "description": "The label for category 'Analysis' in sidebar 'tutorialSidebar'"
+  },
+  "sidebar.tutorialSidebar.category.Evaluation": {
+    "message": "Evaluation",
+    "description": "The label for category 'Evaluation' in sidebar 'tutorialSidebar'"
+  },
+  "sidebar.tutorialSidebar.category.Resources and FAQs": {
+    "message": "Resources and FAQs",
+    "description": "The label for category 'Resources and FAQs' in sidebar 'tutorialSidebar'"
+  },
+  "sidebar.tutorialSidebar.category.Tricot case studies": {
+    "message": "Tricot case studies",
+    "description": "The label for category 'Tricot case studies' in sidebar 'tutorialSidebar'"
   }
 }

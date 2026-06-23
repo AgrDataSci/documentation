@@ -1,8 +1,0 @@
-{
-  "label": "ClimMob suite",
-  "position": 4,
-  "link": {
-    "type": "generated-index",
-    "description": "Design your trial on ClimMob. Filling the experiment metadata. Technologies metadata. Data collection (ODK, Enketo, Excel, etc.), dealing with data submission conflicts. The full ClimMob manual. Data validation. Data sharing. Ethics and privacy."
-  }
-}
