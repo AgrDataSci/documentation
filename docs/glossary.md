@@ -160,8 +160,6 @@ The word ‘tricot’ is derived from three words: Triadic comparison of technol
 Test of different technological options, in sets of three, each observed and ranked by a participant. For an on-farm trial, the options are grown and observed in a small designated area of her/his own farm.
 
 **Tricot experiment**
-A tricot experiment (or tricot project) refers to the whole process of putting the tricot approach into action. That is, engaging a large number of participants in testing a range of technology options in random sub-sets of three technology option per participant.
-
-A tricot experiment, or tricot project consists of many small tricot trials.
+A tricot experiment (or tricot project) refers to the whole process of putting the tricot approach into action. That is, engaging a large number of participants in testing a range of technology options in random sub-sets of three technology option per participant. A tricot experiment, or tricot project consists of many small tricot trials.
 
 
