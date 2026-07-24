@@ -1,0 +1,97 @@
+---
+title: Shareable data
+sidebar_position: 3
+---
+# Shareable data
+
+> Sofía Acuña, Marilyn Manrow, Brandon Madriz
+
+## Shareable data functionality in ClimMob
+
+ClimMob’s Shareable data functionality helps you prepare datasets for collaboration, reporting, and sharing while reducing the exposure of participants’ Personally Identifiable Information (PII) and other confidential data.
+
+When sharing datasets across organizations, collaborators, or public repositories, certain types of information may require additional protection. ClimMob allows you to identify confidential information and apply privacy-preserving methods before exporting shareable datasets.
+
+These methods help reduce the exposure of personally identifiable, sensitive, strategic, or institutionally restricted information while preserving the usability of the data for analysis and collaboration.
+
+### Defining confidential information
+
+Before configuring privacy-preserving methods in ClimMob, you should determine whether the information collected could expose participants, organizations, collaborators, or research activities if shared publicly or across institutions.
+
+Confidential information may include Personally Identifiable Information (PII), sensitive responses, exact geographic locations, contact information, production data, or information that your organization considers strategically or institutionally restricted. The level of confidentiality required may vary depending on the objectives of your project, institutional policies, collaboration agreements, or local data protection regulations.
+
+### Configuring confidential information in ClimMob
+
+When creating or editing your own questions in the Library, you can define whether the question contains confidential information.
+
+### Confidential information switch
+
+* **Enabled (On):** Indicates that the question contains confidential information. Once enabled, you must select a privacy-preserving method appropriate for that question type. 
+* **Disable (Off):** Indicates that the question does not require additional privacy protection and the data will be exported normally.
+
+### Privacy-preserving methods
+
+ClimMob provides multiple privacy-preserving methods depending on the question type and the type of information being protected.
+
+**1. Pseudonymization** 
+Used for text-based questions, pseudonymization replaces identifying information with coded identifiers.
+
+**How it works:** You define a customizable replacement pattern using brackets, such as *Farmer-{}*.During export, the system automatically generates unique identifiers for each participant.
+
+Example: Instead of exporting *Maria Rodriguez*, the dataset may display *Farmer-1*.
+
+**2. Binning**
+
+Used for numerical questions, binning protects sensitive quantitative information such as yield, income, or production values by grouping exact values into ranges. 
+
+**How it works:** Instead of exporting precise values, the system groups the data into intervals or “bins.” You define a Lower Bound, Upper Bound and Interval size.
+
+**Example:** Instead of exporting *452 kg*, the exported data may display *[400 – 500]*.
+
+**3. Removal** 
+
+Used for any question type, this method completely removes the answer from exported datasets.
+
+**How it works:** The system completely excludes the answer from exported datasets.
+
+**Example:** Confidential information such as phone numbers, personal identifiers, or highly confidential responses can be omitted entirely from shared exports.
+
+**4. Noise** 
+
+Used for location questions, noise protects geographic privacy by randomizing exact coordinates.
+
+**How it works:** The system modifies the displayed location by placing the point at a randomized position near the original coordinates.
+
+**Example:** Instead of revealing the exact GPS location of a participant’s farm, the exported dataset displays an approximate nearby location.
+
+**5. Month-year**
+
+Used for date questions, this method reduces the precision of temporal information by removing the exact day from exported dates.
+
+**How it works:** The system converts complete dates into a simplified month-year format.
+
+**Example:** Instead of exporting 2026-04-18, the exported data may display 2026-04.
+
+## Downloading project data
+
+Once you have configured the privacy settings for your questions, you can easily download either the original dataset or a privacy-protected version directly from your project dashboard.
+
+### Locating the Downloads section
+
+Dataset downloads are available directly from the Participant Registration and Trial Data Collection Moment monitoring sections within the Project Overview page. Expand the corresponding section to access statistics, collected data, and available downloads for each stage of the trial 
+
+### Available download options and formats
+
+For every dataset, the platform allows you to choose between two data types depending on your audience, both available for instant download in either **CSV (.csv)** or **Excel (.xlsx)** formats:
+
+* **Raw data (CSV / XLSX):** Contains the complete, unaltered, original dataset as collected by your field agents. This is ideal for internal analysis, deep auditing, and data validation.
+* **Shareable data (CSV / XLSX):** Automatically applies the privacy-preservedmethods configured in your project settings, scrubbing sensitive participant information and institutional confidential data. This is perfect for sharing with external collaborators, partners, or publishing to the wider research community.
+
+## Legacy Projects
+
+The ClimMob team is making Shareable Data versions available for legacy projects. For projects created using SOPs (Standard Operating Procedures), the corresponding privacy-preserving methods have been applied automatically.
+
+For individual legacy projects, privacy-preserving methods have only been automatically applied to GPS-type questions. As a result, some older projects may require additional anonymization before they are ready for sharing.
+
+If your Shareable Data file is not fully anonymized, please contact the ClimMob support team at [climmob@mrbotcr.com](climmob@mrbotcr.com). We will review your project and help configure the appropriate privacy-preserving methods for the required questions. 
+
